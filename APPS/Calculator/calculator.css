@@ -1,0 +1,32 @@
+/* 
+calculator.css
+Description: A Simple Basic Calculator for Smith-Pad
+Written by Senal Bulumulle 
+*/ 
+@import "../src/UI.css";
+body{
+background-color:black;
+color:white;
+}
+
+input{
+    font-size:50px;
+    font-style: bold;
+    background-color:rgba(255, 255, 255, 0.29);
+    color:white;
+    border:none;
+}
+
+/* Media Queries */ 
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
