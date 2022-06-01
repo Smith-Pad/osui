@@ -1,1 +1,1 @@
-electron index.js
+electron index.js --no-sandbox
