@@ -35,6 +35,12 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > node.js
 
+> plasma
+
+> gnome
+
+> lxqt
+
 
 
 
@@ -58,6 +64,13 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > node.js
 
+> plasma
+
+> gnome
+
+> lxqt
+
+
 
 
 ## Installation 
@@ -78,6 +91,13 @@ Smith-Pad-OS-Shell based on various of dependencies
 > `sudo pacman -S npm`
 
 > `sudo pacman -S nodejs`
+
+> `sudo pacman -S plasma`
+
+> `sudo pacman -S gnome`
+
+> `sudo pacman -S lxqt`
+
 
 
 ## Notes 
