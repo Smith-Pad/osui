@@ -3,6 +3,7 @@
 ## 
 ################################################################
 
+rm -R * 
 
 git clone https://github.com/Smith-Pad/Smith-Pad
 
