@@ -32,10 +32,10 @@
                 <fontsize70></fontsize70>
                 <fontsize60>Menu</fontsize60>
                 <?php include "src/avakasaya/space2.php"?>
-                <a href="EXTERNAL_ROUTE_APPS /web-browser.php" class="button">Web Browser</a>
-                <a href="EXTERNAL_ROUTE_APPS /file-manager.php" class="button">File Manager</a>
-                <a href="EXTERNAL_ROUTE_APPS /terminal.php" class="button ">Terminal</a> 
-                <a href="EXTERNAL_ROUTE_APPS /lxqt-config.php" class="button">System-Settings</a>            
+                <a href="EXTERNAL_ROUTE_APPS/web-browser.php" class="button">Web Browser</a>
+                <a href="EXTERNAL_ROUTE_APPS/file-manager.php" class="button">File Manager</a>
+                <a href="EXTERNAL_ROUTE_APPS/terminal.php" class="button ">Terminal</a> 
+                <a href="EXTERNAL_ROUTE_APPS/lxqt-config.php" class="button">System-Settings</a>            
                 <?php include "src/avakasaya/space7.php"?> 
         </div>
 
