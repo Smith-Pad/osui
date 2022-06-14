@@ -10,3 +10,4 @@
 <a href="./Subjects/Subjects.php" class="button">Subjects</a>
 <a href="./APPS/Clock/index.php" class="button">Clock Mode</a>
 <a href="applications-menu.php" class="button">Applications</a>
+<a href="test-menu.php" class="button">Test-Menu</a>
