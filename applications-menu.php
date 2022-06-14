@@ -36,6 +36,7 @@
                 <a href="EXTERNAL_ROUTE_APPS/file-manager.php" class="button">File Manager</a>
                 <a href="EXTERNAL_ROUTE_APPS/terminal.php" class="button ">Terminal</a> 
                 <a href="EXTERNAL_ROUTE_APPS/lxqt-config.php" class="button">System-Settings</a>            
+                <a href="EXTERNAL_ROUTE_APPS/test.php" class="TEST BUTTON"</p>
                 <?php include "src/avakasaya/space7.php"?> 
         </div>
 
