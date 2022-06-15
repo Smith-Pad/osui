@@ -23,4 +23,5 @@ cd External-Apps-Launcher
 rm -rf .git/
 cd ..
 git add External-Apps-Launcher
-git commit -m "Merged from [https://www.github.com/Smith-Pad/External-Apps-Launc
+git commit -m "Merged from [https://www.github.com/Smith-Pad/External-Apps-Launcher]"
+git push origin main
