@@ -11,3 +11,4 @@
 <a href="./APPS/Clock/index.php" class="button">Clock Mode</a>
 <a href="applications-menu.php" class="button">Applications</a>
 <a href="http://localhost:4000" class="button">Test-Menu</a>
+<a href="External-Apps-Launcher/index.php" class="button">Test-Menu Another</a>
