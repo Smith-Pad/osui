@@ -102,12 +102,12 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 ## Notes 
 
-> Make sure you have given all ROOT PRIVLEGES to the system, so that PHP 
+> Make sure you have given all ROOT PRIVILEGES to the system, so that PHP 
 > will have the ability to control Hardware Power, such as shutting down, 
 > or restarting. 
 
 
-> Do to this, please run this command: 
+> To do this, please run this command: 
 
 `sudo sh give-root.sh`
 
