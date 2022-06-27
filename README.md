@@ -37,8 +37,6 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > plasma
 
-> gnome
-
 > lxqt
 
 
@@ -66,8 +64,6 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > plasma
 
-> gnome
-
 > lxqt
 
 
@@ -94,8 +90,6 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > `sudo pacman -S plasma`
 
-> `sudo pacman -S gnome`
-
 > `sudo pacman -S lxqt`
 
 
@@ -119,3 +113,8 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 
 ```
+
+
+# TODO: 
+
+> Find out why PHP doesn't open External Apps even with root permissions via /etc/sudoers
