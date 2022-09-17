@@ -1,5 +1,16 @@
 # Smith-Pad-OS-Shell
-Smith-Pad-OS-Shell based on various of dependencies 
+Smith-Pad-OS-Shell based on various of dependencies.
+
+
+## NOTE: 
+
+> Recent decisions has stated. 
+
+> This repository may or may not be deleted, since the other version 
+> of Smith-Pad-OS-Shell is in the Smith-Pad/Smith-Pad. And it is
+> probably better than having separate repositories. 
+
+> Let's see how it goes.... 
 
 
 
