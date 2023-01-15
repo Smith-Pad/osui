@@ -1,8 +1,0 @@
-{
-  "name": "shell",
-  "version": "1.0.0",
-  "description": "Smith-Pad-OS-Shell",
-  "main": "main.js",
-  "author": "Smith-Pad",
-  "license": "non"
-}
