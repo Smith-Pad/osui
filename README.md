@@ -1,3 +1,7 @@
-# OSUI (formally Smith-Pad-OS-Shell)
+# OSUI
 
-Documentation and more coming soon.
+<img src="screenshot.png"></img>
+
+#### Introduction
+
+> OSUI is a web interface for the Smith-Pad ecosystem
