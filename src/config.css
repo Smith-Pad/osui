@@ -1,0 +1,68 @@
+/************************************************************************
+ *      config.css
+ *
+ ************************************************************************/
+ @import url('../../FOIL-UI.css');
+
+ body{
+        background-color:rgb(165, 148, 103);
+ }
+
+ .FOIL-navigation-bar-regular {
+        background-color: rgb(25, 25, 25);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: white;
+ }
+
+ .FOIL-button-regular-no-shadow {
+         background-color:rgb(165, 148, 103);
+         color:rgb(0, 0, 0);
+         padding: 20px 80px 20px 40px;
+         border-bottom-left-radius: 10px;
+         border-bottom-right-radius: 10px;
+         border-radius: 20px;
+         transition-duration: 0.5s;
+ }
+ 
+ .FOIL-button-regular-no-shadow:hover {
+         background-color:rgb(199, 143, 40);
+         color: white;
+         padding: 50px 50px 50px 50px;
+         border-radius: 20px;
+         transition-duration: 0.5s;
+ }
+ 
+ 
+ .FOIL-button-regular-no-shadow:active {
+         background-color:rgb(255, 0, 0);
+         color: white;
+         padding: 50px 50px 500px 50px;
+         border-radius: 20px;
+         transition-duration: 1s;
+ }
+ 
+ .FOIL-layout-regular {
+        background: linear-gradient(12deg, #3d4348, #3d4348);
+        border-radius: 10px;
+        color: white;
+}
+ 
+ .FOIL-layout-regular-no-shadow {
+         background-color: rgb(25, 25, 25);
+         border-radius: 10px 10px 20px 30px;
+         color: rgb(114, 114, 114);
+         padding: 40px 40px 40px 40px;
+         transition-duration: 1s;
+ }
+ 
+ 
+ 
+ .FOIL-layout-regular-no-shadow:hover {
+         background-color:black;
+         color: white;
+         padding: 200px 200px 200px 200px;
+         border-radius: 20px;
+         transition-duration: 0.5s;
+ 
+ }
