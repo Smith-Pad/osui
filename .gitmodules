@@ -1,0 +1,3 @@
+[submodule "osui-framework"]
+	path = osui-framework
+	url = https://github.com/Smith-Pad/osui-framework
