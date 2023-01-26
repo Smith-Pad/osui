@@ -1,5 +1,9 @@
 # CHANGELOG 
 
+# v.1.2.0
+- Changed layout padding from 40px (ALL) to 200px (ALL)
+
+
 # v.1.1.1
 - Created CHANGELOG.md
 
