@@ -3,7 +3,7 @@
 # v.1.2.0
 - Changed layout padding from 40px (ALL) to 200px (ALL)
 - Removed For loop for adjusting layouts in Home Screen [System_Files/system.global.include.content.php]
-
+- Added Blank Buttons in the Home Screen. 
 
 # v.1.1.1
 - Created CHANGELOG.md

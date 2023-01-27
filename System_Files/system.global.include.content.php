@@ -6,6 +6,11 @@ function content() {
         print('<center> <FOIL-font-size-60> <div id="time_service"></div> </FOIL-font-size-60> </center>');
         print('<script src="src/FOIL-time.js"></script>');
         print('<center><FOIL-font-size-40> Menu </FOIL-font-size-40></center>');
+        print('<center>');
+        print('<a href="#" class="FOIL-button-regular-no-shadow"></a>');
+        print('<a href="#" class="FOIL-button-regular-no-shadow"></a>');
+        print('<a href="#" class="FOIL-button-regular-no-shadow"></a>');
+        print("</center>");
 }
 content();
 ?>
