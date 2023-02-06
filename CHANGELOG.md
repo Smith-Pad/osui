@@ -11,7 +11,8 @@
 - Named buttons in the Home Screen. 
 
 - Created Views Folder
-- 
+
+- Created [src/position-text.css]
 
 
 # v1.2.0
