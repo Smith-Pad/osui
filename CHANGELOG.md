@@ -8,6 +8,9 @@
 `<a href="#" class="button" style="padding 20px 20px 20px 20px">hello</a>`
 
 
+- Named buttons in the Home Screen. 
+
+
 
 # v1.2.0
 - Changed layout padding from 40px (ALL) to 200px (ALL)
