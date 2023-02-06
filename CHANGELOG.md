@@ -14,6 +14,8 @@
 
 - Created [src/position-text.css]
 
+- Created Subjects View in [Views/Subjects]
+
 
 # v1.2.0
 - Changed layout padding from 40px (ALL) to 200px (ALL)

@@ -9,7 +9,7 @@ function content() {
         print('<center>');
         print('<a href="#" class="FOIL-button-regular-no-shadow">Settings</a>');
         print('<a href="#" class="FOIL-button-regular-no-shadow">Apps</a>');
-        print('<a href="#" class="FOIL-button-regular-no-shadow">Subjects</a>');
+        print('<a href="./Views/Subjects/index.php" class="FOIL-button-regular-no-shadow">Subjects</a>');
         print("</center>");
 }
 content();
