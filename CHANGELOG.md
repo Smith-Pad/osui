@@ -10,6 +10,8 @@
 
 - Named buttons in the Home Screen. 
 
+- Created Views Folder
+- 
 
 
 # v1.2.0
