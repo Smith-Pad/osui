@@ -1,11 +1,20 @@
 # CHANGELOG 
 
-# v.1.2.0
+# v1.3.0
+- Allow button padding to be set only in HTML syntax without wrapping in the src/config.css file
+
+**Example**:
+
+`<a href="#" class="button" style="padding 20px 20px 20px 20px">hello</a>`
+
+
+
+# v1.2.0
 - Changed layout padding from 40px (ALL) to 200px (ALL)
 - Removed For loop for adjusting layouts in Home Screen [System_Files/system.global.include.content.php]
 - Added Blank Buttons in the Home Screen. 
 
-# v.1.1.1
+# v1.1.1
 - Created CHANGELOG.md
 
 
