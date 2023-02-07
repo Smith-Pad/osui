@@ -16,6 +16,8 @@
 
 - Created Subjects View in [Views/Subjects]
 
+- Created Applications View in [Views/Applications-Menu]
+
 
 # v1.2.0
 - Changed layout padding from 40px (ALL) to 200px (ALL)
