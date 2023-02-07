@@ -18,6 +18,8 @@
 
 - Created Applications View in [Views/Applications-Menu]
 
+- Updated Docs in [Views/README.txt]
+
 
 # v1.2.0
 - Changed layout padding from 40px (ALL) to 200px (ALL)
