@@ -9,3 +9,5 @@ List
 |
 |
 |----Subjects
+|
+|----Applications-Menu
