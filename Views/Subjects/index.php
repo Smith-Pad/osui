@@ -19,7 +19,7 @@
         <div class="space"></div>
         <div class="space"></div>
         <center>
-        <a href="#" class="FOIL-button-regular-no-shadow"></a>
+        <a href="#" class="FOIL-button-regular-no-shadow">Math</a>
         <a href="#" class="FOIL-button-regular-no-shadow"></a>
         <a href="#" class="FOIL-button-regular-no-shadow"></a>
         <a href="#" class="FOIL-button-regular-no-shadow"></a>

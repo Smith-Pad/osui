@@ -20,6 +20,8 @@
 
 - Updated Docs in [Views/README.txt]
 
+- Named button: [Math] in the Subjects View [Views/Subjects/index.php]
+
 
 # v1.2.0
 - Changed layout padding from 40px (ALL) to 200px (ALL)
