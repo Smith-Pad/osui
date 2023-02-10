@@ -22,6 +22,8 @@
 
 - Named button: [Math] in the Subjects View [Views/Subjects/index.php]
 
+- Added UI.css in [src/UI.css]. (The classic UI.css is back)
+
 
 # v1.2.0
 - Changed layout padding from 40px (ALL) to 200px (ALL)
