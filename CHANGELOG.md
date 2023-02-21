@@ -1,5 +1,8 @@
 # CHANGELOG 
 
+# v1.3.1
+- Disabled the ability to view the applications menu in the OSUI interface via button press for now...
+
 # v1.3.0
 - Allow button padding to be set only in HTML syntax without wrapping in the src/config.css file
 
