@@ -22,7 +22,7 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           prerelease: false
-          title: "v1.2.0"
+          title: "v1.3.0"
           files: |
             LICENSE.txt
             *.jar
