@@ -10,7 +10,17 @@ function content() {
         print('<a href="#" class="FOIL-button-regular-no-shadow">Settings</a>');
         print('<a href="#" class="FOIL-button-regular-no-shadow">Apps</a>');
         print('<a href="./Views/Subjects/index.php" class="FOIL-button-regular-no-shadow">Subjects</a>');
-        print("</center>");
+        
+
+
+        print('<form method="post">');
+        print('<button type="submit" name="" class="FOIL-button-regular-no-shadow"></button>');
+        print('</form>');
+        print('</div>');
+        
+        if(isset($_POST[''])) {
+            shell_exec('');
+        }
 }
 content();
 ?>
