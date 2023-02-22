@@ -1,6 +1,8 @@
 # CHANGELOG 
 
 # v1.3.1
+- Added the same for the Shutdown Restart and Sleep, but for other functionality in the homescreen
+
 - Disabled the ability to view the applications menu in the OSUI interface via button press for now...
 
 # v1.3.0
