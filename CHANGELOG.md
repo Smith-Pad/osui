@@ -1,6 +1,11 @@
 # CHANGELOG 
 
 # v1.3.1
+- Used nwg-launchers command: `nwggrid` allowing users to find applications and open them with a 
+press of a button in the home-screen.
+
+> https://github.com/nwg-piotr/nwg-launchers
+
 - Added the same for the Shutdown Restart and Sleep, but for other functionality in the homescreen
 
 - Disabled the ability to view the applications menu in the OSUI interface via button press for now...
