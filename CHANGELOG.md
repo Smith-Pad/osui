@@ -2,6 +2,8 @@
 
 # v1.3.1
 
+- Made the homescreen buttons aligned to the center
+
 - Made the homescreen align to the left
 
 - Added npm modules: `npm install xterm`
