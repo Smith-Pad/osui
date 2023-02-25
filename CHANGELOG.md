@@ -2,6 +2,8 @@
 
 # v1.3.1
 
+- Made the homescreen align to the left
+
 - Added npm modules: `npm install xterm`
 
 - Used nwg-launchers command: `nwggrid` allowing users to find applications and open them with a 
