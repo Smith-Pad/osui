@@ -1,6 +1,9 @@
 # CHANGELOG 
 
 # v1.3.1
+
+- Added npm modules: `npm install xterm`
+
 - Used nwg-launchers command: `nwggrid` allowing users to find applications and open them with a 
 press of a button in the home-screen.
 
