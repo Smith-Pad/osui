@@ -15,3 +15,5 @@
 # If you want to use XFCE config tools...
 #
 #xfce-mcs-manager &
+
+chromium --kiosk localhost:3000 --no-sandbox
