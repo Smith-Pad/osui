@@ -2,7 +2,9 @@
 
 # v1.3.1
 
-- Added xsessions/OSUI.desktop directory
+- Added [systemd/admin-interface.service] directory
+
+- Added [xsessions/OSUI.desktop[] directory
 
 - Added the openbox config folder
 
