@@ -2,6 +2,8 @@
 
 # v1.3.1
 
+- Created shell script [INSTALL] to install OSUI Desktop Environment
+
 - Added [sbin/admin-interface.sh] directory
 
 - Added [systemd/admin-interface.service] directory
