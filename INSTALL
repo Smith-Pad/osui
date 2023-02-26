@@ -8,84 +8,19 @@
 
 
 
-## This is where add the XSession Config
-function firstStep()
-{
-	echo """
-	[Desktop Entry]
-	Name=OSUI
-	Comment=OSUI DESKTOP ENVIRONMENT
-	Exec=/usr/bin/openbox-session
-	"""
-}
+cd /var/                                                ## Change to the /var directory 
+git clone https://github.com/Smith-Pad/osui/            ## This is where we clone the repository.
+cd osui                                                 ## Change the Directory to osu
+cp openbox /etc/xdg/                                    ## Copy the openbox config to /etc/xdg/
+cd systemd/                                             ## Go to the systemd directory
+cp -R admin-interface.service /etc/systemd/system       ## Copy the systemd service to /etc/systemd/system
+cd ..
+cd sbin/                                                ## Go to the sbin directory
+cp -R admin-interface.sh /usr/sbin                      ## Copy the script to /usr/sbin
+sudo systemctl enable admin-interface.service           ## Enable the service 
+echo """
+#################################################################
+#              /!\ IT IS BEST TO REBOOT YOUR SYSTEM
+#################################################################
 
-
-## Add the openbox configs
-function secondStep()
-{
-	rm -rf /etc/xdg/openbox/autostart
-
-
-
-	echo """
-	#########################################################################
-	#	This config is generated from the installation script
-	#########################################################################
-	flatpak run com.github.Eloston.UngoogledChromium
-	""" >> /etc/xdg/openbox/autostart
-}
-
-
-## Add systemd configs
-function thirdStep()
-{
-	touch /etc/systemd/system/osui.service
-
-
-	echo """
-[Unit]
-Description=This starts PHP to show the OSUI Interface.
-
-[Service]
-ExecStart=/bin/bash /usr/sbin/osui.sh
-
-[Install]
-WantedBy=multi-user.target
-	""" >> /etc/systemd/system/osui.service
-
-}
-
-
-## Add systemd configs
-function fourthStep()
-{
-	touch /usr/sbin/osui.sh
-
-
-	echo """
-cd /var/osui/
-php -S localhost:3000
-	""" >> /usr/sbin/osui.sh
-
-}
-
-
-function fifthStep()
-{
-	systemctl enable osui.service
-}
-
-
-function sixthStep()
-{
-	echo """
-	Your system is going to reboot in 10 seconds
-	"""
-	sleep 10
-}
-
-
-
-firstStep
-secondStep
-thirdStep
+"""
