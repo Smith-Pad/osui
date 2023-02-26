@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=OSUI
+Comment=OSUI Desktop Environment
+Exec=openbox-session
+Type=Application

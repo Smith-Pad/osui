@@ -2,6 +2,10 @@
 
 # v1.3.1
 
+- Added xsessions/OSUI.desktop directory
+
+- Added the openbox config folder
+
 - Made the homescreen buttons aligned to the center
 
 - Made the homescreen align to the left
@@ -61,6 +65,6 @@ press of a button in the home-screen.
 
 
 
-# v.1.0.0
+# v1.0.0
 
 - Initial Release
