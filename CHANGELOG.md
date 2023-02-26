@@ -2,6 +2,8 @@
 
 # v1.3.1
 
+- Added [sbin/admin-interface.sh] directory
+
 - Added [systemd/admin-interface.service] directory
 
 - Added [xsessions/OSUI.desktop[] directory
