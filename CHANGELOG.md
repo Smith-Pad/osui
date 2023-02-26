@@ -2,6 +2,8 @@
 
 # v1.3.1
 
+- Added [chromium --kiosk localhost:3000 --no-sandbox] in [openbox/autostart]
+
 - Created shell script [INSTALL] to install OSUI Desktop Environment
 
 - Added [sbin/admin-interface.sh] directory
