@@ -2,6 +2,8 @@
 
 # v1.3.1
 
+- Removed Node Modules
+
 - Added [chromium --kiosk localhost:3000 --no-sandbox] in [openbox/autostart]
 
 - Created shell script [INSTALL] to install OSUI Desktop Environment
