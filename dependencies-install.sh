@@ -1,0 +1,6 @@
+## dependencies-install.sh
+
+pip install flask
+pip install opencv-python
+pip install sh 
+pip install mediapipe
