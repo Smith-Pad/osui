@@ -16,3 +16,4 @@ This branch is used to converting the codebase from PHP to Python with the Flask
 	- opencv-python
 	- sh
 	- mediapipe
+	- SpeechRecognition

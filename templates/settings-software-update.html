@@ -15,7 +15,8 @@
 <body>
         <div class="FOIL-font-styles sans-serif">
                 <div class="FOIL-navigation-bar-regular">
-                        <h1> Smith Pad </h1>
+                        <h1> Settings </h1>
+                        <h2> Software Update </h2>
                 </div>
 
                 <div class="FOIL-layout-regular-no-shadow">
@@ -25,16 +26,17 @@
 
 
                         <script src="static/FOIL-time.js"></script>
-                        <FOIL-font-size-40> Menu </FOIL-font-size-40>
-                        <ul></ul>
+                        <FOIL-font-size-40> Software Update </FOIL-font-size-40>
                         <p align="center">
+                        <pre>{{ software_update_service_output }}</pre>
 
-                                <!-- When the user presses the apps button, it will proceed to go to the apps launcher-->
-                                <a href="#" class="FOIL-button-regular-no-shadow">{{apps_button}}</a>
-                                <!-- When the user presses the settings button, then it will proceed to go to the settings view-->
-                                <a href="{{ url_for('settings_screen') }}" class="FOIL-button-regular-no-shadow">{{settings_button}}</a>
-                                <!-- When the user presses the subjects button, then it will proceed to go to the subjects view -->
-                                <a href="#" class="FOIL-button-regular-no-shadow">{{subjects_button}}</a>
+                        <!-- After the user clicks on the update button, it will proceed to 
+                             to make use of the 'pkexec' to prompt the user to enter the 
+                             password 
+                        --> 
+                        <form method="get" action="/software_update_service">
+                                <button type="submit" class="FOIL-button-regular-no-shadow">Update</button>
+                        </form>
                         </p>
                 </div>
 </body>
