@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, Markup
 import speech_recognition as sr
 import sh
 
@@ -7,13 +7,26 @@ import sh
 app = Flask(__name__)
 
 
+
+
+
+
 @app.route('/', methods=['POST', 'GET'])
 def home_screen():
+
+
+
     apps_button = 'Apps'
     settings_button = 'Settings'
     subjects_button = 'Subjects'
 
     return render_template('index.html',apps_button=apps_button, settings_button=settings_button, subjects_button=subjects_button,)
+
+
+
+
+
+
 
 
 @app.route('/settings_screen', methods=['POST', 'GET'])
@@ -26,16 +39,14 @@ def settings_screen():
 
 
 
-@app.route('/settings_screen_themes_screen', methods=['POST', 'GET'])
-def settings_screen_themes_screen():
-    return render_template('settings-theme-settings.html')
+
+
 
 
 
 @app.route('/settings_screen_software_update_screen', methods=['POST', 'GET'])
 def settings_screen_software_update_screen():
-        return render_template('settings-software-update.html')
-
+        return render_template('settings-software-update.html') 
 
 
 @app.route("/software_update_service")
