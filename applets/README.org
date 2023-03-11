@@ -1,1 +1,6 @@
 #+TITLE: Applets 
+
+* List of Applets 
+
+
+- Update Manager 
