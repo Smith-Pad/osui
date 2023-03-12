@@ -15,5 +15,20 @@ Flask Framework just to see.... mmm....
 	- sh
 	- mediapipe
 	- SpeechRecognition
+	- python-xlib
+
 
 ** Installation
+
+~pip install flask~
+
+~pip install opencv-python~
+
+~pip install sh~
+
+~pip install mediapipe~
+
+~pip install SpeechRecognition~
+
+~pip install python-xlib~
+
