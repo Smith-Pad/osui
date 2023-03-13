@@ -1,4 +1,4 @@
-from flask import Flask, render_template, Markup
+from flask import Flask, render_template, Markup, request, jsonify
 import speech_recognition as sr
 import sh
 import os
