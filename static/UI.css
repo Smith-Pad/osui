@@ -401,14 +401,24 @@ Contents of Subclasses {
   ***********************************************************************/
 
 
- .status-bar {
-         background-color: transparent;
-         color: #fff;
-         padding: 3px 16px;
-         display: grid;
-         grid-template-columns: repeat(2, 10fr) repeat(3, 1fr);
-         align-items: center;
- }
+  .status-bar {
+        background-color: transparent;
+        color: #fff;
+        padding: 3px 16px;
+        display: grid;
+        grid-template-columns: repeat(2, 10fr) repeat(3, 1fr);
+        align-items: center;
+        transition-duration: 0.5s;
+
+}
+
+.status-bar:hover {
+        background-color: rgb(64, 64, 64);
+        border-radius: 10px;
+        margin-bottom: 100px;
+        transform: scale(0.999);
+        padding: 16px 32px;
+}
 
  .status-bar-button {
         background-color: black;
@@ -417,11 +427,11 @@ Contents of Subclasses {
         border-style: none;
         padding: 10px;
         border-radius: 10px;
-        transition-duration: 1s;
         
  }
 
  .status-bar-button:hover {
+        transition-duration: 0.5s;
         background-color: green;
  }
 
