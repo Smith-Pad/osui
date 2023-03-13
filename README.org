@@ -32,3 +32,23 @@ Flask Framework just to see.... mmm....
 
 ~pip install python-xlib~
 
+
+
+** What's in the backend?
+
+*** Adjusting Sound Volume
+For adjusting the volume in the status bar, it uses PulseAudio ~pactl~
+
+
+**** Decreasing Sound Volume
+
+#+BEGIN_SRC shell
+pactl set-sink-volume @DEFAULT_SINK@ -10%
+#+END_SRC
+
+
+**** Increasing Sound Volume
+
+#+BEGIN_SRC shell
+pactl set-sink-volume @DEFAULT_SINK@ +10%
+#+END_SRC
