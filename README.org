@@ -8,6 +8,10 @@ Flask Framework just to see.... mmm....
 
 
 ** Dependencies: 
+*** Possibility?
+- Budgie Desktop Environment
+
+** Official Dependencies
 
 - python-pip
 	- flask
