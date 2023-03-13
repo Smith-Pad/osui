@@ -14,10 +14,6 @@
 
 <body>
         <div class="FOIL-font-styles sans-serif">
-                <div class="FOIL-navigation-bar-regular">
-                        <h1> Settings </h1>
-                </div>
-
                 <div class="FOIL-layout-regular-no-shadow">
                         <FOIL-font-size-60>
                                 <div id="time_service"></div>
@@ -28,7 +24,8 @@
                         <FOIL-font-size-40> Settings </FOIL-font-size-40>
                         <ul></ul>
                         <p align="center">
-                                <a href="{{ url_for('settings_screen_software_update_screen') }}" class="FOIL-button-regular-no-shadow">{{software_update_button}}</a>
+                                <a href="{{ url_for('settings_screen_software_update_screen') }}"
+                                        class="FOIL-button-regular-no-shadow">{{software_update_button}}</a>
                                 <a href="#" class="FOIL-button-regular-no-shadow">{{about_system_button}}</a>
                         </p>
                 </div>

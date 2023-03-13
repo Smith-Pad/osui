@@ -14,10 +14,6 @@
 
 <body>
         <div class="FOIL-font-styles sans-serif">
-                <div class="FOIL-navigation-bar-regular">
-                        <h1> Settings </h1>
-                        <h2> Software Update </h2>
-                </div>
 
                 <div class="FOIL-layout-regular-no-shadow">
                         <FOIL-font-size-60>
@@ -30,13 +26,7 @@
                         <p align="center">
                         <pre>{{ software_update_service_output }}</pre>
 
-                        <!-- After the user clicks on the update button, it will proceed to 
-                             to make use of the 'pkexec' to prompt the user to enter the 
-                             password 
-                        --> 
-                        <form method="get" action="/software_update_service">
-                                <button type="submit" class="FOIL-button-regular-no-shadow">Update</button>
-                        </form>
+                        <button class="FOIL-button-regular-no-shadow"></button> 
                         </p>
                 </div>
 </body>

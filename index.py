@@ -2,6 +2,9 @@ from flask import Flask, render_template, Markup
 import speech_recognition as sr
 import sh
 import os
+import gi 
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gio, Gtk
 
 
 app = Flask(__name__)
@@ -24,9 +27,14 @@ def home_screen():
                           subjects_button=subjects_button,)
 
 
+"""
+This is where the apps is listed here. 
 
+"""
 
-
+@app.route('/apps_screen', methods=['POST', 'GET'])
+def apps_screen(): 
+        return render_template('apps-main.html')
 
 
 

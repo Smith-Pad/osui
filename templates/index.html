@@ -14,6 +14,16 @@
 
 <body>
         <div class="FOIL-font-styles sans-serif">
+                <div class="status-bar">
+                        <div class="status-bar-left-column">
+                                <div class="status-item"><div id="time_service"></div><script src="static/FOIL-time.js"></script></div>
+                        </div>
+                        <div class="status-bar-right-column">
+                                <div class="status-item"><button class="status-bar-button">Volume Dn</button></div>
+                                <div class="status-item"><button class="status-bar-button">Vol Up</button></div>
+                                <div class="status-item"><button class="status-bar-button">Hello world</button></div>
+                        </div>
+                </div>
                 <div class="FOIL-navigation-bar-regular">
                         <h1> Smith Pad </h1>
                 </div>
@@ -30,9 +40,14 @@
                         <p align="center">
 
                                 <!-- When the user presses the apps button, it will proceed to go to the apps launcher-->
-                                <a href="#" class="FOIL-button-regular-no-shadow">{{apps_button}}</a>
+                                <a href="{{ url_for('apps_screen') }}"
+                                        class="FOIL-button-regular-no-shadow">{{apps_button}}</a>
+
                                 <!-- When the user presses the settings button, then it will proceed to go to the settings view-->
-                                <a href="{{ url_for('settings_screen') }}" class="FOIL-button-regular-no-shadow">{{settings_button}}</a>
+                                <a href="{{ url_for('settings_screen') }}"
+                                        class="FOIL-button-regular-no-shadow">{{settings_button}}</a>
+
+
                                 <!-- When the user presses the subjects button, then it will proceed to go to the subjects view -->
                                 <a href="#" class="FOIL-button-regular-no-shadow">{{subjects_button}}</a>
                         </p>
