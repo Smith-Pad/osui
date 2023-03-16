@@ -13,16 +13,16 @@ Flask Framework just to see....mmm....
 
 ** Official Dependencies
 
-- python-pip-install-install
+- python-pip
 	- flask
 	- opencv-python
 	- sh
 	- mediapipe
-	- SpeechRe-install-installcognition
+	- SpeechRecognition
 	- python-xlib
 
 
-** Inst-install-installallation
+** Installation
 
 For the python dependencies, here are the list of dependencies that
 are needed for the installation of the OSUI Desktop Environment
