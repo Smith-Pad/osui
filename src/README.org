@@ -11,23 +11,20 @@ Inside the hardware control, here are the list of script Components
 and description of what each of them does. 
 
 
-*** Home Screen 
+
 
 #+BEGIN_SRC txt
-Home-Screen 
+Hardware Control
 {
+        display-brightness-control {
+                home_screen_display_brightness_rocker_down.sh
+                home_screen_display_brightness_rocker_up.sh
+        }
 
-        Volume-Control {
-                home_screen_volume_rocker_up.sh
+        volume-control {
                 home_screen_volume_rocker_down.sh
+                home_screen_volume_rocker_up.sh
                 home_screen_volume_rocker_mute.sh
         }
-        
-        Display-Brightness-Control {
-                home_screen_display_brightness_rocker_up.sh
-                home_screen_display_brightness_rocker_down.sh
-        }
-
-        
 }
 #+END_SRC
