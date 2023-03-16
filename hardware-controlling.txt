@@ -29,7 +29,8 @@ Home Screen Components
 -------------------------------------------------------------------------
 1.2 home_screen_display_brightness                                      |
 -------------------------------------------------------------------------
-    Control Center allows the ability to adjust 
+    Control Center allows the ability to adjust display brightness via 
+    the OSUI Desktop Environment
 
     1. Adjusting Display Brightness up 
 
