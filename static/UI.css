@@ -402,8 +402,6 @@ Contents of Subclasses {
 
 
   .status-bar {
-        background-color: transparent;
-        color: #fff;
         padding: 3px 16px;
         display: grid;
         grid-template-columns: repeat(2, 10fr) repeat(3, 1fr);

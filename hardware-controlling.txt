@@ -1,0 +1,29 @@
+"""
+Home Screen Components 
+
+1. Hardware Control 
+
+-------------------------------------------------------------------------
+1.2 home_screen_volume_rocker                                           |
+-------------------------------------------------------------------------
+    This is what it is used for. 
+
+    1. Adjusting volume up 
+
+    2. Adjusting Volume Down
+
+    3. Muting Volume 
+-------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------
+1.2 home_screen_display_brightness                                      |
+-------------------------------------------------------------------------
+    Control Center allows the ability to adjust 
+
+    1. Adjusting Display Brightness up 
+
+    2. Adjusting Display Brightness Down
+-------------------------------------------------------------------------
+
+"""
