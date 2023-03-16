@@ -44,6 +44,15 @@ def settings_screen_software_update_screen():
 """
 
 
+"""
+-----------------------------------------------------
+User presses the volume down, volume up or volume down via 
+the status-bar in the OSUI interface. 
+
+-----------------------------------------------------
+"""
+
+
 ## When the user presses the volume up button in the frontend, in the backend, 
 ## it uses the pactl command to dynamically increase the audio volume. After 
 ## the pactl command completes the running process, then it will dynamically 
