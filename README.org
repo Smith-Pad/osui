@@ -68,3 +68,36 @@ pactl set-sink-volume @DEFAULT_SINK@ -10%
 #+BEGIN_SRC shell
 pactl set-sink-volume @DEFAULT_SINK@ +10%
 #+END_SRC
+
+
+
+** What's in the src folder? 
+
+*** Hardware Control
+Scripts that are used in the backend, allowing the ability to fully
+control the hardware via the OSUI Interface.
+
+
+**** Inside Hardware Control
+
+Inside the hardware control, here are the list of script Components
+and description of what each of them does. 
+
+
+
+
+#+BEGIN_SRC txt
+Hardware Control
+{
+        display-brightness-control {
+                home_screen_display_brightness_rocker_down.sh
+                home_screen_display_brightness_rocker_up.sh
+        }
+
+        volume-control {
+                home_screen_volume_rocker_down.sh
+                home_screen_volume_rocker_up.sh
+                home_screen_volume_rocker_mute.sh
+        }
+}
+#+END_SRC
