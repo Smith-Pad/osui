@@ -36,21 +36,6 @@ def settings_screen_software_update_screen():
     return render_template('settings-software-update.html')
 
 
-"""
-            -----------------------------------------------------------------
-                                Home Screen Backend Scripts
-            -----------------------------------------------------------------
-
-"""
-
-
-"""
------------------------------------------------------
-User presses the volume down, volume up or volume down via 
-the status-bar in the OSUI interface. 
-
------------------------------------------------------
-"""
 
 
 ## When the user presses the volume up button in the frontend, in the backend, 
@@ -64,10 +49,9 @@ def home_screen_volume_rocker_up():
     return home_screen()
 
 
-## When the user presses the volume down button in the frontend, in the backend, 
-## it uses the pactl command to dynamically decrease the audio volume. After 
-## the pactl command completes the running process, then it will dynamically 
-## route back to the home-screen. 
+## When the user presses the volume down button in the frontend, in
+## the backend, it uses the pactl command to dynamically decrease the
+## audio volume. 
 
 @app.route('/home_screen_volume_rocker_down', methods=['POST'])
 def home_screen_volume_rocker_down():
@@ -76,10 +60,9 @@ def home_screen_volume_rocker_down():
 
 
 
-## When the user presses the volume mute button in the frontend, in the backend, 
-## it uses the pactl command to dynamically mute the audio volume. After 
-## the pactl command completes the running process, then it will dynamically 
-## route back to the home-screen. 
+## When the user presses the volume mute button in the frontend, in
+## the backend, it uses the pactl command to dynamically decrease the
+## audio volume
 
 @app.route('/home_screen_volume_rocker_mute', methods=['POST'])
 def home_screen_volume_rocker_mute():
