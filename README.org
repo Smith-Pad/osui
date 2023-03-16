@@ -3,7 +3,7 @@
 ** Experiment with Flask 
 
 This branch is used to converting the codebase from PHP to Python with the 
-Flask Framework just to see.... mmm....
+Flask Framework just to see....mmm....
 
 
 
@@ -13,28 +13,40 @@ Flask Framework just to see.... mmm....
 
 ** Official Dependencies
 
-- python-pip
+- python-pip-install-install
 	- flask
 	- opencv-python
 	- sh
 	- mediapipe
-	- SpeechRecognition
+	- SpeechRe-install-installcognition
 	- python-xlib
 
 
-** Installation
+** Inst-install-installallation
 
-~pip install flask~
+For the python dependencies, here are the list of dependencies that
+are needed for the installation of the OSUI Desktop Environment
 
-~pip install opencv-python~
+- ~pip install flask~
 
-~pip install sh~
+- ~pip install opencv-python~
 
-~pip install mediapipe~
+- ~pip install sh~
 
-~pip install SpeechRecognition~
+- ~pip install mediapipe~
 
-~pip install python-xlib~
+- ~pip install SpeechRecognition~
+
+- ~pip install python-xlib~
+
+  
+However, if you want it to make it faster, it is recommended to run
+the ~dependencies-install.sh~ script
+
+#+BEGIN_SRC shell
+sh dependencies-install.sh
+#+END_SRC
+
 
 
 
