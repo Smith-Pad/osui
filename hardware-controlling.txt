@@ -1,3 +1,13 @@
+Hardware Controlling 
+---------------------
+
+This is used in the backend to control hardware via the OSUI Interface. 
+
+
+These are just notes and will be removed before merging to the development/stable 
+branches. 
+
+
 """
 Home Screen Components 
 
