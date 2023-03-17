@@ -18,7 +18,8 @@
         overflow-y: auto;
         overflow-x: hidden;
         -webkit-perspective: 1px;
-        perspective: 1px
+        perspective: 1px;
+        background: #100e16;
 }
  
 
@@ -76,3 +77,51 @@
         margin-right: 10px;
 }
 
+
+
+
+
+/**************************************
+ *      FOIL-UI Related
+ *
+ /* *********************************** */
+
+ .FOIL-navigation-bar-regular {
+        background-color: transparent;
+}
+
+.FOIL-button-regular-no-shadow {
+        border-radius: 10px;
+        margin-right: 100px;
+        padding: 15px 85px 15px 85px;
+        background: #241f31;
+        box-shadow:  20px 20px 60px #1a1623, -20px -20px 60px #2e283f;
+}
+
+.FOIL-button-regular-no-shadow:hover {
+        padding: 50px 50px 50px 50px;
+        border-radius: 20px;
+        transition-duration: 0.5s;
+}
+
+
+.FOIL-button-regular-no-shadow:active {
+        padding: 50px 50px 500px 50px;
+        border-radius: 20px;
+        transition-duration: 1s;
+}
+
+.FOIL-layout-regular-no-shadow {
+        transition-duration: 0.5s;
+        transform-origin: center center;
+}
+
+.FOIL-layout-regular-no-shadow:hover {
+        background-color: black;
+        margin-bottom: 100px;
+        border-radius: 100px;
+        transition-duration: 0.5s;
+        transform: scale(1.2);
+}
+
+FOIL-font-size-40{color: white;}
