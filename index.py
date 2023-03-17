@@ -36,6 +36,20 @@ def settings_screen_software_update_screen():
     return render_template('settings-software-update.html')
 
 
+"""
+-----------------------------------------------------------------
+                Home Screen Backend Scripts
+-----------------------------------------------------------------
+"""
+
+
+"""
+-------------------------------------------------------------
+User presses the volume down, volume up or volume down via 
+the status-bar in the OSUI interface. 
+
+-------------------------------------------------------------
+"""
 
 
 ## When the user presses the volume up button in the frontend, in the backend, 
@@ -45,7 +59,7 @@ def settings_screen_software_update_screen():
 
 @app.route('/home_screen_volume_rocker_up', methods=['POST'])
 def home_screen_volume_rocker_up():
-    os.system('sh src/hardware-control/home-screen/volume-control/home_screen_volume_rocker_up.sh')
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
     return home_screen()
 
 
@@ -55,19 +69,25 @@ def home_screen_volume_rocker_up():
 
 @app.route('/home_screen_volume_rocker_down', methods=['POST'])
 def home_screen_volume_rocker_down():
-    os.system('sh src/hardware-control/home-screen/volume-control/home_screen_volume_rocker_down.sh')
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
     return home_screen()
 
 
 
 ## When the user presses the volume mute button in the frontend, in
-## the backend, it uses the pactl command to dynamically decrease the
-## audio volume
+## the backend, it uses the amixer command to dynamically decrease the
+## audio volume. 
+
 
 @app.route('/home_screen_volume_rocker_mute', methods=['POST'])
 def home_screen_volume_rocker_mute():
-    os.system('sh src/hardware-control/home-screen/volume-control/home_screen_volume_rocker_mute.sh')
+    SOUND_OUTPUT = subprocess.check_output(['amixer', 'get', 'Master'])
+    if b'[off]' in SOUND_OUTPUT:
+        os.system('amixer sset Master unmute')
+    else:
+        os.system('amixer sset Master mute')
     return home_screen()
+
 
 
 if __name__ == '__main__':
