@@ -3,20 +3,22 @@
  *
  ************************************************************************/
 @import url('../../FOIL-UI.css');
-
+ 
 body {
-        background-color: rgb(53, 53, 53);
+        background: #100e16;
         color: white;
 }
 
 .FOIL-navigation-bar-regular {
-
+        background-color: transparent;
 }
 
 .FOIL-button-regular-no-shadow {
-        background-color: transparent;
-        border-radius: 20px;
-        transition-duration: 0.5s;
+        border-radius: 10px;
+        margin-right: 100px;
+        padding: 15px 85px 15px 85px;
+        background: #241f31;
+        box-shadow:  20px 20px 60px #1a1623, -20px -20px 60px #2e283f;
 }
 
 .FOIL-button-regular-no-shadow:hover {
