@@ -7,7 +7,7 @@
 
  Now called OSUI Framework. Classic Smith-Pad UI Framework
  for the Smith:-Pad Web Interface but now modern with 
- latest components for OSUI.
+ latest components for OSUI. Mixing in with FOIL-UI
 
 
  */
@@ -22,40 +22,57 @@
 }
  
 
- .status-bar:hover {
-        background-color: rgb(64, 64, 64);
+/**************************************
+ *      OSUI Framework Related
+ *
+ /* *********************************** */
+
+
+.status-bar {
+        padding: 3px 16px;
+        display: grid;
+        grid-template-columns: repeat(2, 10fr) repeat(3, 1fr);
+        align-items: center;
+        transition-duration: 0.5s;
+
+}
+
+.status-bar:hover {
+        background-color: rgb(0, 0, 0);
         border-radius: 10px;
         margin-bottom: 100px;
         transform: scale(0.999);
         padding: 16px 32px;
 }
 
- .status-bar-button {
-        background-color: black;
+.status-bar-button {
+        background-color: #241f31;
         text-decoration: none;
         color: white;
         border-style: none;
         padding: 10px;
         border-radius: 10px;
-        
- }
+        box-shadow:  20px 20px 60px #1a1623, -20px -20px 60px #2e283f;
+        margin-right: 100px;
+}
 
- .status-bar-button:hover {
+.status-bar-button:hover {
         transition-duration: 0.5s;
         background-color: green;
- }
+}
 
- .status-bar-left-column {
-         display: flex;
-         justify-content: flex-start;
- }
+.status-bar-left-column {
+        display: flex;
+        justify-content: flex-start;
+}
 
- .status-bar-right-column {
-         display: flex;
-         justify-content: flex-end;
- }
+.status-bar-right-column {
+        display: flex;
+        justify-content: flex-end;
+}
 
- .status-item {
-         font-size: 16px;
-         margin-right: 10px;
- }
+.status-item {
+        font-size: 16px;
+        margin-right: 10px;
+}
+
