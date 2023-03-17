@@ -14,3 +14,40 @@
 
  
 
+ .status-bar:hover {
+        background-color: rgb(64, 64, 64);
+        border-radius: 10px;
+        margin-bottom: 100px;
+        transform: scale(0.999);
+        padding: 16px 32px;
+}
+
+ .status-bar-button {
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        border-style: none;
+        padding: 10px;
+        border-radius: 10px;
+        
+ }
+
+ .status-bar-button:hover {
+        transition-duration: 0.5s;
+        background-color: green;
+ }
+
+ .status-bar-left-column {
+         display: flex;
+         justify-content: flex-start;
+ }
+
+ .status-bar-right-column {
+         display: flex;
+         justify-content: flex-end;
+ }
+
+ .status-item {
+         font-size: 16px;
+         margin-right: 10px;
+ }
