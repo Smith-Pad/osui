@@ -75,7 +75,7 @@ def subjects_screen():
 ## When the user presses the volume up button in the frontend, in the backend, 
 ## it uses the pactl command to dynamically increase the audio volume. After 
 ## the pactl command completes the running process, then it will dynamically 
-## route back to the home-screen. 
+## route back to the to the current view.  
 
 @app.route('/home_screen_volume_rocker_up', methods=['POST'])
 def home_screen_volume_rocker_up():
@@ -111,6 +111,95 @@ def home_screen_volume_rocker_mute():
 
 
 
+"""
+-------------------------------------------------------------
+                Status-Bar: VOLUME ROCKERS
+                APPS MENU
+-------------------------------------------------------------
+"""
+
+
+## When the user presses the volume up button in the frontend, in the backend, 
+## it uses the pactl command to dynamically increase the audio volume. After 
+## the pactl command completes the running process, then it will dynamically 
+## route back to the to the current view.  
+
+@app.route('/apps_screen_volume_rocker_up', methods=['POST'])
+def apps_screen_volume_rocker_up():
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+    return apps_screen()
+
+
+## When the user presses the volume down button in the frontend, in
+## the backend, it uses the pactl command to dynamically decrease the
+## audio volume. 
+
+@app.route('/apps_screen_volume_rocker_down', methods=['POST'])
+def apps_screen_volume_rocker_down():
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
+    return apps_screen()
+
+
+
+## When the user presses the volume mute button in the frontend, in
+## the backend, it uses the amixer command to dynamically decrease the
+## audio volume. 
+
+
+@app.route('/apps_screen_volume_rocker_mute', methods=['POST'])
+def apps_screen_volume_rocker_mute():
+    SOUND_OUTPUT = subprocess.check_output(['amixer', 'get', 'Master'])
+    if b'[off]' in SOUND_OUTPUT:
+        os.system('amixer sset Master unmute')
+    else:
+        os.system('amixer sset Master mute')
+    return apps_screen()
+
+
+
+"""
+-------------------------------------------------------------
+                Status-Bar: VOLUME ROCKERS
+                SETTINGS MAIN
+-------------------------------------------------------------
+"""
+
+
+## When the user presses the volume up button in the frontend, in the backend, 
+## it uses the pactl command to dynamically increase the audio volume. After 
+## the pactl command completes the running process, then it will dynamically 
+## route back to the to the current view.  
+
+@app.route('/apps_screen_volume_rocker_up', methods=['POST'])
+def apps_screen_volume_rocker_up():
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+    return apps_screen()
+
+
+## When the user presses the volume down button in the frontend, in
+## the backend, it uses the pactl command to dynamically decrease the
+## audio volume. 
+
+@app.route('/apps_screen_volume_rocker_down', methods=['POST'])
+def apps_screen_volume_rocker_down():
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
+    return apps_screen()
+
+
+
+## When the user presses the volume mute button in the frontend, in
+## the backend, it uses the amixer command to dynamically decrease the
+## audio volume. 
+
+
+@app.route('/apps_screen_volume_rocker_mute', methods=['POST'])
+def apps_screen_volume_rocker_mute():
+    SOUND_OUTPUT = subprocess.check_output(['amixer', 'get', 'Master'])
+    if b'[off]' in SOUND_OUTPUT:
+        os.system('amixer sset Master unmute')
+    else:
+        os.system('amixer sset Master mute')
+    return apps_screen()
 
 
 
