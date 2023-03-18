@@ -36,18 +36,23 @@ def settings_screen_software_update_screen():
     return render_template('settings-software-update.html')
 
 
+
+
+@app.route('/subjects_screen', methods=['POST', 'GET'])
+def subjects_screen():
+        return render_template('subjects-main.html')
+
+
 """
 -----------------------------------------------------------------
                 Home Screen Backend Scripts
 -----------------------------------------------------------------
 """
 
-
 """
 -------------------------------------------------------------
-User presses the volume down, volume up or volume down via 
-the status-bar in the OSUI interface. 
-
+                Status-Bar: VOLUME ROCKERS
+                HOME SCREEN
 -------------------------------------------------------------
 """
 
