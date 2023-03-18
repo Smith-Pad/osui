@@ -45,6 +45,7 @@
         margin-bottom: 100px;
         transform: scale(0.999);
         padding: 16px 32px;
+        box-shadow:  200px 200px 600px #685b86, -200px -200px 600px #8272ac;
 }
 
 .status-bar-button {
@@ -100,9 +101,11 @@
 }
 
 .FOIL-button-regular-no-shadow:hover {
-        padding: 50px 50px 50px 50px;
-        border-radius: 20px;
-        transition-duration: 0.5s;
+        border-radius: 10px;
+        margin-right: 100px;
+        padding: 15px 85px 15px 85px;
+        background: #241f31;
+        box-shadow:  200px 200px 600px #9080b6, -200px -200px 600px #8272ac;
 }
 
 
@@ -118,11 +121,12 @@
 }
 
 .FOIL-layout-regular-no-shadow:hover {
-        background-color: black;
+        background-color: transparent;
         margin-bottom: 100px;
         border-radius: 100px;
         transition-duration: 0.5s;
         transform: scale(1.2);
+        box-shadow:  200px 200px 600px #3b3547, -200px -200px 600px #383346;
 }
 
 FOIL-font-size-40{color: white;}
