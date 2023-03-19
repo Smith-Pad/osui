@@ -67,7 +67,14 @@ def subjects_screen():
 """
 -------------------------------------------------------------
                 Status-Bar: VOLUME ROCKERS
-                HOME SCREEN
+
+██   ██  ██████  ███    ███ ███████     ███████  ██████ ██████  ███████ ███████ ███    ██ 
+██   ██ ██    ██ ████  ████ ██          ██      ██      ██   ██ ██      ██      ████   ██ 
+███████ ██    ██ ██ ████ ██ █████       ███████ ██      ██████  █████   █████   ██ ██  ██ 
+██   ██ ██    ██ ██  ██  ██ ██               ██ ██      ██   ██ ██      ██      ██  ██ ██ 
+██   ██  ██████  ██      ██ ███████     ███████  ██████ ██   ██ ███████ ███████ ██   ████ 
+                                                                                          
+                                                                                          
 -------------------------------------------------------------
 """
 
@@ -114,7 +121,14 @@ def home_screen_volume_rocker_mute():
 """
 -------------------------------------------------------------
                 Status-Bar: VOLUME ROCKERS
-                APPS MENU
+
+ █████  ██████  ██████  ███████     ███████  ██████ ██████  ███████ ███████ ███    ██ 
+██   ██ ██   ██ ██   ██ ██          ██      ██      ██   ██ ██      ██      ████   ██ 
+███████ ██████  ██████  ███████     ███████ ██      ██████  █████   █████   ██ ██  ██ 
+██   ██ ██      ██           ██          ██ ██      ██   ██ ██      ██      ██  ██ ██ 
+██   ██ ██      ██      ███████     ███████  ██████ ██   ██ ███████ ███████ ██   ████ 
+                                                                                      
+                                                                                      
 -------------------------------------------------------------
 """
 
@@ -160,7 +174,14 @@ def apps_screen_volume_rocker_mute():
 """
 -------------------------------------------------------------
                 Status-Bar: VOLUME ROCKERS
-                SETTINGS MAIN
+                
+███████ ███████ ████████ ████████ ██ ███    ██  ██████  ███████     ███████  ██████ ██████  ███████ ███████ ███    ██ 
+██      ██         ██       ██    ██ ████   ██ ██       ██          ██      ██      ██   ██ ██      ██      ████   ██ 
+███████ █████      ██       ██    ██ ██ ██  ██ ██   ███ ███████     ███████ ██      ██████  █████   █████   ██ ██  ██ 
+     ██ ██         ██       ██    ██ ██  ██ ██ ██    ██      ██          ██ ██      ██   ██ ██      ██      ██  ██ ██ 
+███████ ███████    ██       ██    ██ ██   ████  ██████  ███████     ███████  ██████ ██   ██ ███████ ███████ ██   ████ 
+                                                                                                                      
+                                                                                                                      
 -------------------------------------------------------------
 """
 
@@ -170,20 +191,20 @@ def apps_screen_volume_rocker_mute():
 ## the pactl command completes the running process, then it will dynamically 
 ## route back to the to the current view.  
 
-@app.route('/apps_screen_volume_rocker_up', methods=['POST'])
-def apps_screen_volume_rocker_up():
+@app.route('/settings_screen_volume_rocker_up', methods=['POST'])
+def settings_screen_volume_rocker_up():
     os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
-    return apps_screen()
+    return settings_screen()
 
 
 ## When the user presses the volume down button in the frontend, in
 ## the backend, it uses the pactl command to dynamically decrease the
 ## audio volume. 
 
-@app.route('/apps_screen_volume_rocker_down', methods=['POST'])
-def apps_screen_volume_rocker_down():
+@app.route('/settings_screen_volume_rocker_down', methods=['POST'])
+def settings_screen_volume_rocker_down():
     os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
-    return apps_screen()
+    return settings_screen()
 
 
 
@@ -192,14 +213,14 @@ def apps_screen_volume_rocker_down():
 ## audio volume. 
 
 
-@app.route('/apps_screen_volume_rocker_mute', methods=['POST'])
-def apps_screen_volume_rocker_mute():
+@app.route('/settings_screen_volume_rocker_mute', methods=['POST'])
+def settings_screen_volume_rocker_mute():
     SOUND_OUTPUT = subprocess.check_output(['amixer', 'get', 'Master'])
     if b'[off]' in SOUND_OUTPUT:
         os.system('amixer sset Master unmute')
     else:
         os.system('amixer sset Master mute')
-    return apps_screen()
+    return settings_screen()
 
 
 
