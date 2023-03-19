@@ -13,7 +13,9 @@ def home_screen():
     settings_button = 'Settings'
     subjects_button = 'Subjects'
 
-    return render_template('index.html', apps_button=apps_button,settings_button=settings_button,subjects_button=subjects_button,)
+    return render_template('index.html', apps_button=apps_button,
+                                         settings_button=settings_button,
+                                         subjects_button=subjects_button,)
     
 
 @app.route('/apps_screen', methods=['POST', 'GET'])
@@ -27,7 +29,9 @@ def settings_screen():
     software_update_button = 'Software Update'
     about_system_button = 'About System'
 
-    return render_template('settings-main.html', themes_button=themes_button,software_update_button=software_update_button,about_system_button=about_system_button)
+    return render_template('settings-main.html', themes_button=themes_button,
+                                                 software_update_button=software_update_button,
+                                                 about_system_button=about_system_button)
 
 
 @app.route('/settings_screen_software_update_screen', methods=['POST', 'GET'])
@@ -44,6 +48,51 @@ def subjects_screen():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## This is where the backend scripts go through
+
+
+
+@app.route('/home_screen_volume_rocker_up', methods=['POST'])
+def home_screen_volume_rocker_up():
+        os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+        return home_screen()
+
+
+
+@app.route('/home_screen_volume_rocker_down', methods=['POST'])
+def home_screen_volume_rocker_down():
+        os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
+        return home_screen()
+
+
+@app.route('/home_screen_volume_rocker_mute_unmute', methods=['POST'])
+def home_screen_volume_rocker_mute():
+        if b'[off]' in SOUND_OUTPUT:
+                os.system('amixer sset Master unmute')
+        return home_screen()
+
+
+        
 if __name__ == '__main__':
 
     app.run(debug=True, port=3000)

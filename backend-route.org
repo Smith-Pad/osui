@@ -1,0 +1,41 @@
+#+TITLE: Backend Route
+
+
+* Introduction:
+Here are some notes on the backend routes.
+
+
+
+
+
+* Status Bar Rockers
+
+Status Bar Rockers on the OSUI interface allows the user
+the ability to adjust settings for the device with a
+touch of a button.
+
+Here are the parameters for the status bar for each of the views.
+
+
+** Home Screen
+
+*** ~home_screen_volume_rocker_up~
+Allows the user to increase the volume
+
+*** ~home_screen_volume_rocker_down~
+Allows the user to decrease the volume
+
+*** ~home_screen_volume_mute_unmute~
+Allows the user to mute or unmute the volume
+
+
+** Apps Screen
+
+*** ~apps_screen_volume_rocker_up~
+Allows the user to increase the volume
+
+*** ~apps_screen_volume_rocker_down~
+Allows the user to decrease the volume
+
+*** ~apps_screen_volume_rocker_mute_unmute~
+Allows the user to mute or unmute the volume

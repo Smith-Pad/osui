@@ -1,0 +1,62 @@
+#+TITLE: Notes
+
+* volume.py
+
+#+BEGIN_SRC python
+import os
+import subprocess
+
+def volume_up():
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+
+def volume_down():
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
+
+def volume_mute():
+    sound_output = subprocess.check_output(['amixer', 'get', 'Master'])
+    if b'[off]' in sound_output:
+        os.system('amixer sset Master unmute')
+    else:
+        os.system('amixer sset Master mute')
+
+#+END_SRC
+
+
+
+* home.py
+
+#+BEGIN_SRC python
+from flask import render_template
+
+def home_screen():
+    return render_template('home.html')
+
+#+END_SRC
+
+
+
+
+* app.py
+#+BEGIN_SRC python
+from flask import Flask, request, render_template
+from volume import volume_up, volume_down, volume_mute
+from home import home_screen
+
+app = Flask(__name__)
+
+@app.route('/home_screen_volume_rocker_up', methods=['POST'])
+def home_screen_volume_rocker_up():
+    volume_up()
+    return home_screen()
+
+@app.route('/home_screen_volume_rocker_down', methods=['POST'])
+def home_screen_volume_rocker_down():
+    volume_down()
+    return home_screen()
+
+@app.route('/home_screen_volume_rocker_mute', methods=['POST'])
+def home_screen_volume_rocker_mute():
+    volume_mute()
+    return home_screen()
+
+#+END_SRC
