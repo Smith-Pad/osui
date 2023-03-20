@@ -7,6 +7,12 @@ import subprocess
 
 app = Flask(__name__)
 
+"""
+--------------
+Frontend Route
+--------------
+"""
+
 @app.route('/', methods=['POST', 'GET'])
 def home_screen():
     apps_button = 'Apps'
@@ -54,21 +60,27 @@ def subjects_screen():
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+"""
+--------------
+Backend Route
+--------------
+"""
 
 ## This is where the backend scripts go through
+
+
+
+
+
+## Home Screen
+
+
+
+# <div class="status-bar-right-column">
+#         <div class="status-item"><form action="/home_screen_volume_rocker_up" method="post"><button type="submit" class="status-bar-button">Volume Up</button></form></div>
+#         <div class="status-item"><form action="/home_screen_volume_rocker_down" method="post"><button type="submit" class="status-bar-button">Volume Down</button></form></div>
+#         <div class="status-item"><form action="/home_screen_volume_rocker_mute_unmute" method="post"><button type="submit" class="status-bar-button">Volume Mute</button></form></div>
+# </div>
 
 
 
@@ -90,6 +102,92 @@ def home_screen_volume_rocker_mute():
         if b'[off]' in SOUND_OUTPUT:
                 os.system('amixer sset Master unmute')
         return home_screen()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Apps Screen
+
+
+# <div class="status-bar-right-column">
+#         <div class="status-item"><form action="/apps_screen_volume_rocker_up" method="post"><button type="submit" class="status-bar-button">Volume Up</button></form></div>
+#         <div class="status-item"><form action="/apps_screen_volume_rocker_down" method="post"><button type="submit" class="status-bar-button">Volume Down</button></form></div>
+#         <div class="status-item"><form action="/apps_screen_volume_rocker_mute_unmute" method="post"><button type="submit" class="status-bar-button">Volume Mute</button></form></div>
+# </div>
+
+@app.route('/apps_screen_volume_rocker_up', methods=['POST'])
+def apps_screen_volume_rocker_up():
+        os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+        return apps_screen()
+
+
+
+@app.route('/apps_screen_volume_rocker_down', methods=['POST'])
+def apps_screen_volume_rocker_down():
+        os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
+        return apps_screen()
+
+
+@app.route('/apps_screen_volume_rocker_mute_unmute', methods=['POST'])
+def apps_screen_volume_rocker_mute():
+        if b'[off]' in SOUND_OUTPUT:
+                os.system('amixer sset Master unmute')
+        return apps_screen()
+
+
+
+
+
+
+## Settings Screen 
+
+
+# <div class="status-bar-right-column">
+#         <div class="status-item"><form action="/settings_screen_volume_rocker_up" method="post"><button type="submit" class="status-bar-button">Volume Up</button></form></div>
+#         <div class="status-item"><form action="/settings_screen_volume_rocker_down" method="post"><button type="submit" class="status-bar-button">Volume Down</button></form></div>
+#         <div class="status-item"><form action="/settings_screen_volume_rocker_mute_unmute" method="post"><button type="submit" class="status-bar-button">Volume Mute</button></form></div>
+# </div>
+
+
+
+
+@app.route('/settings_screen_volume_rocker_up', methods=['POST'])
+def settings_screen_volume_rocker_up():
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+    return settings_screen()
+
+
+    
+
+
+
+@app.route('/settings_screen_volume_rocker_down', methods=['POST'])
+def settings_screen_volume_rocker_down():
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
+    return settings_screen()
+
+
+
+
+
+@app.route('/settings_screen_volume_rocker_mute_unmute', methods=['POST'])
+def settings_screen_volume_rocker_mute():
+    SOUND_OUTPUT = subprocess.check_output(['amixer', 'get', 'Master'])
+    if b'[off]' in SOUND_OUTPUT:
+        os.system('amixer sset Master unmute')
+    else:
+        os.system('amixer sset Master mute')
+    return settings_screen()
 
 
         
