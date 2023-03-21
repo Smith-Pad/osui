@@ -25,13 +25,13 @@ Allows the user to increase the volume
 *** ~home_screen_volume_rocker_down~
 Allows the user to decrease the volume
 
-*** ~home_screen_volume_mute_unmute~
+*** ~home_screen_volume_rocker_mute_unmute~
 Allows the user to mute or unmute the volume
 
 
 ** Apps Screen
 
-*** ~apps_screen_volume_rocker_up~
+*** ~apps__volume_rocker_up~
 Allows the user to increase the volume
 
 *** ~apps_screen_volume_rocker_down~
@@ -39,3 +39,22 @@ Allows the user to decrease the volume
 
 *** ~apps_screen_volume_rocker_mute_unmute~
 Allows the user to mute or unmute the volume
+
+
+
+
+** Settings screen
+
+*** ~settings_screen_volume_rocker_up~
+Allows the user to increase the volume
+
+*** ~settings_screen_volume_rocker_down~
+Allows the user to decrease the volume
+
+*** ~settings_screen_volume_rocker-mute_ummute~
+Allows the user to mute or unmute the volume
+
+
+
+
+
