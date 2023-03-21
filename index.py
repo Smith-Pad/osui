@@ -75,6 +75,8 @@ Backend Route
 ## Home Screen
 
 
+## This is where the volume rockers which are located in the top right corners go to. 
+
 
 # <div class="status-bar-right-column">
 #         <div class="status-item"><form action="/home_screen_volume_rocker_up" method="post"><button type="submit" class="status-bar-button">Volume Up</button></form></div>
@@ -119,6 +121,9 @@ def home_screen_volume_rocker_mute():
 ## Apps Screen
 
 
+## This is where the volume rockers which are located in the top right corners go to.
+
+
 # <div class="status-bar-right-column">
 #         <div class="status-item"><form action="/apps_screen_volume_rocker_up" method="post"><button type="submit" class="status-bar-button">Volume Up</button></form></div>
 #         <div class="status-item"><form action="/apps_screen_volume_rocker_down" method="post"><button type="submit" class="status-bar-button">Volume Down</button></form></div>
@@ -150,6 +155,8 @@ def apps_screen_volume_rocker_mute():
 
 
 ## Settings Screen 
+
+## This is where the volume rockers which are located in the top right corners go to.
 
 
 # <div class="status-bar-right-column">
