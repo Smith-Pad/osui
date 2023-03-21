@@ -7,8 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="static/FOIL-UI.css" type="text/css">
-        <link rel="stylesheet" href="static/position-text.css" type="text/css"> 
+        <link rel="stylesheet" href="static/position-text.css" type="text/css">
         <link rel="stylesheet" href="static/UI-new.css" type="text/css">
+        <link rel="stylesheet" href="static/FOIL-Bar.css" type="text/css">
 
 </head>
 
@@ -16,12 +17,26 @@
         <div class="FOIL-font-styles sans-serif">
                 <div class="status-bar">
                         <div class="status-bar-left-column">
-                                <div class="status-item"><div id="time_service"></div><script src="static/FOIL-time.js"></script></div>
+                                <div class="status-item">
+                                        <div id="time_service"></div>
+                                        <script src="static/FOIL-time.js"></script>
+                                </div>
                         </div>
                         <div class="status-bar-right-column">
-                                <div class="status-item"><form action="/home_screen_volume_rocker_up" method="post"><button type="submit" class="status-bar-button">Volume Up</button></form></div>
-                                <div class="status-item"><form action="/home_screen_volume_rocker_down" method="post"><button type="submit" class="status-bar-button">Volume Down</button></form></div>
-                                <div class="status-item"><form action="/home_screen_volume_rocker_mute_unmute" method="post"><button type="submit" class="status-bar-button">Volume Mute</button></form></div>
+                                <div class="status-item">
+                                        <form action="/home_screen_volume_rocker_up" method="post"><button type="submit"
+                                                        class="status-bar-button">Volume Up</button></form>
+                                </div>
+                                <div class="status-item">
+                                        <form action="/home_screen_volume_rocker_down" method="post"><button
+                                                        type="submit" class="status-bar-button">Volume Down</button>
+                                        </form>
+                                </div>
+                                <div class="status-item">
+                                        <form action="/home_screen_volume_rocker_mute_unmute" method="post"><button
+                                                        type="submit" class="status-bar-button">Volume Mute</button>
+                                        </form>
+                                </div>
                         </div>
                 </div>
                 <div class="FOIL-navigation-bar-regular">
@@ -60,7 +75,7 @@
 
 
                         <script src="static/FOIL-time.js"></script>
-                        <FOIL-font-size-40> Menu </FOIL-font-size-40>                        
+                        <FOIL-font-size-40> Menu </FOIL-font-size-40>
                         <ul></ul>
                         <p align="center">
 
@@ -77,6 +92,40 @@
                                 <a href="#" class="FOIL-button-regular-no-shadow">{{subjects_button}}</a>
                         </p>
                 </div>
+
+
+
+                <div id="settings" class="activate">
+                        <div class="settings">
+                                <h1>Settings </h1>
+
+                                <a class="settingsclose" href="#">&times;</a>
+
+
+                                <h4> Power Options</h4>
+                                <a href="./Power/reboot.php"
+                                        class="button-no-animate-mode button curve button small button orange">Restart</a>
+
+
+
+                                <a href="./Power/shutdown.php"
+                                        class="button-no-animate-mode button curve button small button orange">Shutdown</a>
+                                <h4> Software Update </h4>
+
+                                <a href="./Update-Tool/index.php"
+                                        class="button-no-animate-mode button curve button small button orange">Update
+                                        Smith Pad</a>
+
+
+                                <div class="space"></div>
+                                <div class="space"></div>
+
+                                <div class="space"></div>
+                        </div>
+
+                </div>
+        </div>
+        </div>
 </body>
 
 </html>
