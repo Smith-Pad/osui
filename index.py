@@ -89,7 +89,7 @@ Status Bar
 
 @app.route('/home_screen_volume_rocker_up', methods=['POST'])
 def home_screen_volume_rocker_up():
-        os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+        os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')d
         return home_screen()
 
 
