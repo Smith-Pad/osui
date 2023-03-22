@@ -4,4 +4,6 @@ import sh
 import os
 import subprocess
 
-print("hello world")
+def get_output():
+    output = "hello world"
+    return output
