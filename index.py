@@ -91,7 +91,7 @@ Backend Route
 
 @app.route('/home_screen_volume_rocker_up', methods=['POST'])
 def home_screen_volume_rocker_up():
-        os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')d
+        os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
         return home_screen()
 
 
