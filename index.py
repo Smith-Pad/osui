@@ -11,7 +11,9 @@ app = Flask(__name__)
 
 """
 --------------
-Frontend Route
+Frontend Routes
+
+This is where the frontend routes are used for displaying content
 --------------
 """
 
