@@ -1,16 +1,5 @@
 * OSUI
 
-** Experiment with Flask 
-
-This branch is used to converting the codebase from PHP to Python with the 
-Flask Framework just to see....mmm....
-
-
-
-** Dependencies: 
-*** Possibility?
-- Budgie Desktop Environment
-
 ** Official Dependencies
 
 - python-pip
@@ -48,6 +37,15 @@ sh dependencies-install.sh
 #+END_SRC
 
 
+** Usage:
+
+#+BEGIN_SRC python
+from flask import Flask, Response, render_template, Markup, request, jsonify
+import speech_recognition as sr
+import sh
+import os
+import subprocess
+#+END_SRC
 
 
 ** What's in the backend?
