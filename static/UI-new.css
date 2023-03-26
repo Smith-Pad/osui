@@ -39,14 +39,23 @@
 
 }
 
-.status-bar:hover {
-        background-color: rgb(0, 0, 0);
-        border-radius: 10px;
-        margin-bottom: 100px;
-        transform: scale(0.999);
-        padding: 16px 32px;
-        box-shadow:  200px 200px 600px #685b86, -200px -200px 600px #8272ac;
-}
+/*******************************************************************************************************
+ * FIXME: 
+ * 		- This is commented for now, until we figure out how to prevent bouncy like effect
+ * 		  when the user clicks or taps on the status bar button elements. 
+ *
+ *******************************************************************************************************/
+
+/* .status-bar:hover { */
+        /* background-color: rgb(0, 0, 0); */
+        /* border-radius: 10px; */
+        /* margin-bottom: 100px; */
+        /* transform: scale(0.999); */
+        /* padding: 16px 32px; */
+        /* box-shadow:  200px 200px 600px #685b86, -200px -200px 600px #8272ac; */
+/* } */
+
+
 
 .status-bar-button {
         background-color: #241f31;
