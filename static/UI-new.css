@@ -129,13 +129,21 @@
         transform-origin: center center;
 }
 
-.FOIL-layout-regular-no-shadow:hover {
+
+/*******************************************************************************************************
+ * FIXME: 
+ * 		- This is commented for now, until we figure out how to prevent the hover effect from 
+ *                overlapping a FOIL-bar popup. 
+ *
+ *******************************************************************************************************/
+
+/* .FOIL-layout-regular-no-shadow:hover {
         background-color: transparent;
         margin-bottom: 100px;
         border-radius: 100px;
         transition-duration: 0.5s;
         transform: scale(1.2);
         box-shadow:  200px 200px 600px #3b3547, -200px -200px 600px #383346;
-}
+} */
 
 FOIL-font-size-40{color: white;}
