@@ -9,3 +9,34 @@
  ********************************************************************************/
 
 
+/**
+ * This global function allows the ability to tell:
+ * "Hey, I want to increase, decrease or completely mute the audio volume"
+ */
+
+function VOLUME_CONTROLLER() {
+        function VOLUME_UP() {
+                document.getElementById('volume-up').addEventListener('click', function () {
+                        var requestVolumeUp  = new XMLHttpRequest();
+                        requestVolumeUp.open('POST', '/home_screen_volume_rocker_up');
+                        requestVolumeUp.send();
+                });
+        }
+        VOLUME_UP();
+
+
+        function VOLUME_DOWN() {
+                document.getElementById('volume-down').addEventListener('click', function () {
+                        var requestVolumeDown  = new XMLHttpRequest();
+                        requestVolumeDown.open('POST', '/home_screen_volume_rocker_down');
+                        requestVolumeDown.send();
+                });
+        }
+        VOLUME_DOWN();
+        
+
+}
+
+VOLUME_CONTROLLER();
+
+
