@@ -15,24 +15,24 @@
  */
 
 function VOLUME_CONTROLLER() {
-        function VOLUME_UP() {
+        function volumeUp() {
                 document.getElementById('volume-up').addEventListener('click', function () {
                         var requestVolumeUp  = new XMLHttpRequest();
                         requestVolumeUp.open('POST', '/home_screen_volume_rocker_up');
                         requestVolumeUp.send();
                 });
         }
-        VOLUME_UP();
+        volumeUp();
 
 
-        function VOLUME_DOWN() {
+        function volumeDown() {
                 document.getElementById('volume-down').addEventListener('click', function () {
                         var requestVolumeDown  = new XMLHttpRequest();
                         requestVolumeDown.open('POST', '/home_screen_volume_rocker_down');
                         requestVolumeDown.send();
                 });
         }
-        VOLUME_DOWN();
+        volumeDown();
         
 
 }
