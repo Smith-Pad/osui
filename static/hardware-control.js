@@ -9,10 +9,9 @@
  ********************************************************************************/
 
 
-/**
- * This global function allows the ability to tell:
- * "Hey, I want to increase, decrease or completely mute the audio volume"
- */
+
+// This global function allows the ability to tell: 
+// "Hey, I want to increase, decrease or completely mute the audio volume"
 
 function VOLUME_CONTROLLER() {
         function volumeUp() {
