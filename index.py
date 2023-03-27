@@ -74,110 +74,34 @@ def subjects_screen():
 
 
 
-"""
--------------------------------------------------------------
--                     Backend Routes 
--------------------------------------------------------------
-"""
+
+
+@app.route('/volume_rocker_up', methods=['POST'])
+def volume_rocker_up():
+        os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+        return home_screen()
 
 
 
+@app.route('/volume_rocker_down', methods=['POST'])
+def volume_rocker_down():
+        os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
+        return home_screen()
 
 
-
-
-class HOME_BACKEND(): 
-
-        @app.route('/home_screen_volume_rocker_up', methods=['POST'])
-        def home_screen_volume_rocker_up():
-                os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
-                return home_screen()
-
-
-
-        @app.route('/home_screen_volume_rocker_down', methods=['POST'])
-        def home_screen_volume_rocker_down():
-                os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
-                return home_screen()
-
-
-        @app.route('/home_screen_volume_rocker_mute_unmute', methods=['POST'])
-        def home_screen_volume_rocker_mute():
-                if b'[off]' in SOUND_OUTPUT:
-                        os.system('amixer sset Master unmute')
-                return home_screen()
-
-HOME_BACKEND()
-
-
-
-
-
-
-
-
-
-
-
-
-
-class APPS_BACKEND():
-        @app.route('/apps_screen_volume_rocker_up', methods=['POST'])
-        def apps_screen_volume_rocker_up():
-                os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
-                return apps_screen()
-
-
-
-        @app.route('/apps_screen_volume_rocker_down', methods=['POST'])
-        def apps_screen_volume_rocker_down():
-                os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
-                return apps_screen()
-
-
-        @app.route('/apps_screen_volume_rocker_mute_unmute', methods=['POST'])
-        def apps_screen_volume_rocker_mute():
-                if b'[off]' in SOUND_OUTPUT:
-                        os.system('amixer sset Master unmute')
-                return apps_screen()
-APPS_BACKEND()
-
-
-
-
-
-
-
-class SETTINGS_BACKEND():
-        @app.route('/settings_screen_volume_rocker_up', methods=['POST'])
-        def settings_screen_volume_rocker_up():
-            os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
-            return settings_screen()
-
-
-            
-
-
-
-        @app.route('/settings_screen_volume_rocker_down', methods=['POST'])
-        def settings_screen_volume_rocker_down():
-            os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
-            return settings_screen()
-
-
-
-
-
-        @app.route('/settings_screen_volume_rocker_mute_unmute', methods=['POST'])
-        def settings_screen_volume_rocker_mute():
-            SOUND_OUTPUT = subprocess.check_output(['amixer', 'get', 'Master'])
-            if b'[off]' in SOUND_OUTPUT:
+@app.route('/volume_rocker_mute_unmute', methods=['POST'])
+def volume_rocker_mute_unmute():
+        if b'[off]' in SOUND_OUTPUT:
                 os.system('amixer sset Master unmute')
-            else:
-                os.system('amixer sset Master mute')
-            return settings_screen()
+        return home_screen()
 
-SETTINGS_BACKEND()
+
+
+
+
+
+
+
 
 
         
