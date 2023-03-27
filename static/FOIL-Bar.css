@@ -4,8 +4,7 @@
  | |_  | | | || | | |        |  _ \  / _` || '__|
  |  _| | |_| || | | |___     | |_) || (_| || |   
  |_|    \___/|___||_____|    |____/  \__,_||_| .css
-                                            Build: Smith Pad  Home-Screen
-
+                                            Build: Smith Pad  (9pxwTqgH)
 */
 
 @import './background.css';
@@ -27,22 +26,23 @@
 
 .activate:target {
         visibility: visible;
-        opacity: 1;
+        opacity: 1; 
 }
 
-.settings {
+.controls {
         margin: 2px auto;
         padding: 20px;
-        background-color: white;
+        background-color: rgb(58, 58, 58);
         background-position: right;
         background-repeat: no-repeat, repeat;
         border-radius: 5px;
         width: auto;
         position: center;
-        color: black;
+        color: white;
+        text-align:center;
 }
 
-.settings .close {
+.controls .close {
         position: absolute;
         top: 20px;
         right: 30px;
@@ -53,9 +53,9 @@
         transition-duration: 0.2s;
 }
 
-.settingsclose {
+.controlsclose {
         position: absolute;
-        top: 20px;
+        top: 20px;/*  */
         right: 30px;
         font-size: 58px;
         font-weight: 500;
@@ -63,86 +63,7 @@
         color: red;
 }
 
-.settings .content {
-        max-height: 30%;
-        width: 30%;
-        overflow: auto;
-}
-
-
-
-
-.lights {
-        margin: 20px auto;
-        padding: 20px;
-        background-color: white;
-        background-position: right;
-        background-repeat: no-repeat, repeat;
-        border-radius: 5px;
-        width: auto;
-        position: center;
-        color: black;
-
-}
-
-.lights .close {
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        font-size: 58px;
-        font-weight: 500;
-        text-decoration: none;
-        color: red;
-        transition-duration: 0.2s;
-}
-
-.lightsclose {
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        font-size: 58px;
-        font-weight: 500;
-        text-decoration: none;
-        color: red;
-}
-
-
-.Workstations {
-        margin: 20px auto;
-        padding: 20px;
-        background-color: white;
-        background-position: right;
-        background-repeat: no-repeat, repeat;
-        border-radius: 5px;
-        width: auto;
-        position: center;
-        color: black;
-
-}
-
-.Workstations .close {
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        font-size: 58px;
-        font-weight: 500;
-        text-decoration: none;
-        color: red;
-        transition-duration: 0.2s;
-}
-
-.Workstationsclose {
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        font-size: 58px;
-        font-weight: 500;
-        text-decoration: none;
-        color: red;
-}
-
-
-.settings .content {
+.controls .content {
         max-height: 30%;
         width: 30%;
         overflow: auto;
@@ -227,17 +148,5 @@
         border-radius: 5px;
         font-size: 30px;
         position: center;
-
-}
-
-
-
-
-.layout {
-
-        color: white;
-        padding: 10em 1em;
-        position: relative;
-        z-index: 2;
 
 }
