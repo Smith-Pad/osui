@@ -17,7 +17,7 @@ function VOLUME_CONTROLLER() {
         function volumeUp() {
                 document.getElementById('volume-up').addEventListener('click', function () {
                         var requestVolumeUp  = new XMLHttpRequest();
-                        requestVolumeUp.open('POST', '/home_screen_volume_rocker_up');
+                        requestVolumeUp.open('POST', '/volume_rocker_up');
                         requestVolumeUp.send();
                 });
         }
@@ -27,7 +27,7 @@ function VOLUME_CONTROLLER() {
         function volumeDown() {
                 document.getElementById('volume-down').addEventListener('click', function () {
                         var requestVolumeDown  = new XMLHttpRequest();
-                        requestVolumeDown.open('POST', '/home_screen_volume_rocker_down');
+                        requestVolumeDown.open('POST', '/volume_rocker_down');
                         requestVolumeDown.send();
                 });
         }
