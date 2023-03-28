@@ -22,7 +22,7 @@ function VOLUME_CONTROLLER() {
                         requestVolumeUp.open('POST', '/volume_rocker_up');
                         requestVolumeUp.send();
                 });
-        } 
+        }
 
 
         
