@@ -79,21 +79,18 @@ def subjects_screen():
 @app.route('/volume_rocker_up', methods=['POST'])
 def volume_rocker_up():
         os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
-        return home_screen()
 
 
 
 @app.route('/volume_rocker_down', methods=['POST'])
 def volume_rocker_down():
         os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
-        return home_screen()
 
 
 @app.route('/volume_rocker_mute_unmute', methods=['POST'])
 def volume_rocker_mute_unmute():
         if b'[off]' in SOUND_OUTPUT:
                 os.system('amixer sset Master unmute')
-        return home_screen()
 
 
 
