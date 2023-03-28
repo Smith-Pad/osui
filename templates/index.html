@@ -22,6 +22,10 @@
                                         <script src="static/FOIL-time.js"></script>
                                 </div>
 
+                                <div class="status-bar-item">
+                                        <a href="#controls" class="status-bar-button">Controls</a>
+                                </div>
+
                                 
                         </div>
                         <div class="status-bar-right-column">
@@ -29,10 +33,6 @@
                                         <button id="volume-up" class="status-bar-button">Volume Up</button>
                                         <button id="volume-down" class="status-bar-button">Volume Down</button>
                                         <script src="static/hardware-control.js"></script>
-                                </div>
-
-                                <div class="status-bar-item">
-                                        {% include 'System_Files/system_ui_control_center.html' %}
                                 </div>
                         </div>
                 </div>
@@ -90,6 +90,8 @@
                         </p>
                 </div>
 
+
+                {% include 'System_Files/system_ui_control_center.html' %}
 
         </div>
         </div>
