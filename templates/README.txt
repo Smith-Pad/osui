@@ -24,4 +24,4 @@ SETTINGS MENU
 INCLUDE
 -------------------
 
-system_ui_control_center.html
+System_Files/system_ui_control_center.html
