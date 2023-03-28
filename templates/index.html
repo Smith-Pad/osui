@@ -22,15 +22,17 @@
                                         <script src="static/FOIL-time.js"></script>
                                 </div>
 
-                                <div class="status-item">
-                                        <a href="#controls" class="status-bar-button">Controls</a>
-                                </div>
+                                
                         </div>
                         <div class="status-bar-right-column">
                                 <div class="status-bar-item">
                                         <button id="volume-up" class="status-bar-button">Volume Up</button>
                                         <button id="volume-down" class="status-bar-button">Volume Down</button>
                                         <script src="static/hardware-control.js"></script>
+                                </div>
+
+                                <div class="status-bar-item">
+                                        {% include 'system_ui_control_center.html' %}
                                 </div>
                         </div>
                 </div>
@@ -89,25 +91,6 @@
                 </div>
 
 
-
-                <div id="controls" class="activate">
-                        <div class="controls">
-                                <h1>Controls </h1>
-
-                                <a class="controlsclose" href="#">&times;</a>
-
-
-                                <h4> -</h4>
-                                <h4> - </h4>
-
-
-                                <div class="space"></div>
-                                <div class="space"></div>
-
-                                <div class="space"></div>
-                        </div>
-
-                </div>
         </div>
         </div>
 </body>
