@@ -12,8 +12,6 @@
 
 function VOLUME_CONTROLLER() {
 
-
-
         function volumeUp() {
                 document.getElementById('volume-up').addEventListener('click', function () {
                         var requestVolumeUp  = new XMLHttpRequest();
