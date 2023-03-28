@@ -18,3 +18,10 @@ SETTINGS MENU
 3. settings-main.html
 4. settings-software-update.html
 5. settings-about-system.html
+
+
+-------------------
+INCLUDE
+-------------------
+
+system_ui_control_center.html
