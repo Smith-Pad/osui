@@ -8,7 +8,9 @@
  * prevents that happening
  ********************************************************************************/
 
-
+/**
+ * Set the audio volume up or down. 
+ */
 function volume_up() {
         var requestVolume  = new XMLHttpRequest();
         requestVolume.open('POST', '/volume_rocker_up');
@@ -25,3 +27,26 @@ function volume_down() {
 
 volume_up();
 volume_down();
+
+
+
+/**
+ * Set the display brightness up or down
+ */
+
+function brightness_up() {
+        var requestBrightness = new XMLHttpRequest(); 
+        requestBrightness.open('POST', '/brightness_rocker_up');
+        requestBrightness.send();
+}
+
+
+function brightness_down() {
+        var requestBrightness = new XMLHttpRequest();
+        requestBrightness.open('POST', '/brightness_rocker_down');
+        requestBrightness.send();
+}
+
+
+brightness_up();
+brightness_down();
