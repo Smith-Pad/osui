@@ -66,3 +66,21 @@ pactl set-sink-volume @DEFAULT_SINK@ -10%
 #+BEGIN_SRC shell
 pactl set-sink-volume @DEFAULT_SINK@ +10%
 #+END_SRC
+
+
+*** Adjusting Sound Volume
+For adjusting the volume, in the backend, it uses BrightnessCTL ~brightnessctl~
+
+
+**** Decreasing Display Brightness
+
+#+BEGIN_SRC shell
+brightnessctl set 10%-
+#+END_SRC
+
+
+**** Increasing Display Brightness
+
+#+BEGIN_SRC shell
+brightnessctl set +10%
+#+END_SRC
