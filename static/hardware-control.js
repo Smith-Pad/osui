@@ -10,40 +10,18 @@
 
 
 
-function VOLUME_CONTROLLER() {
 
-        function volumeUp() {
-                document.getElementById('volume-up').addEventListener('click', function () {
-                        var requestVolumeUp  = new XMLHttpRequest();
-
-                        /**
-                         * See the index.py
-                         */
-                        requestVolumeUp.open('POST', '/volume_rocker_up');
-                        requestVolumeUp.send();
-                });
-        }
+document.getElementById('volume-up').addEventListener('click', function () {
+        var requestVolume  = new XMLHttpRequest();
+        requestVolume.open('POST', '/volume_rocker_up');
+        requestVolume.send();
+});
 
 
-        
-
-        function volumeDown() {
-                document.getElementById('volume-down').addEventListener('click', function () {
-                        var requestVolumeDown  = new XMLHttpRequest();
-
-                        /**
-                         * See the index.py
-                         */
-                        requestVolumeDown.open('POST', '/volume_rocker_down');
-
-                        requestVolumeDown.send();
-                });
-        }
 
 
-        volumeUp();
-        volumeDown();
-
-}
-
-VOLUME_CONTROLLER();
+document.getElementById('volume-down').addEventListener('click', function () {
+        var requestVolume  = new XMLHttpRequest();
+        requestVolume.open('POST', '/volume_rocker_down');
+        requestVolume.send();
+});
