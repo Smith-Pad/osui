@@ -9,19 +9,19 @@
  ********************************************************************************/
 
 
-
-
-document.getElementById('volume-up').addEventListener('click', function () {
+function volume_up() {
         var requestVolume  = new XMLHttpRequest();
         requestVolume.open('POST', '/volume_rocker_up');
         requestVolume.send();
-});
+
+}
 
 
-
-
-document.getElementById('volume-down').addEventListener('click', function () {
-        var requestVolume  = new XMLHttpRequest();
-        requestVolume.open('POST', '/volume_rocker_down');
+function volume_down() {
+        var requestVolume  = new XMLHttpRequest(); 
+        requestVolume.open('POST', '/volume_rocker_down')
         requestVolume.send();
-});
+}
+
+volume_up();
+volume_down();
