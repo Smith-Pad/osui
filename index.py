@@ -91,7 +91,12 @@ def volume_rocker_mute_unmute():
 
 
 
-
+## This is used when the user chooses desktop mode. 
+## Once the user chooses desktop mode, then it will start the GNOME session. 
+@app.route('/desktop_mode', methods=['POST'])
+def desktop_mode():                                     
+    os.system('dbus-run-session -- gnome-shell --nested --wayland')
+    
         
 if __name__ == '__main__':
 
