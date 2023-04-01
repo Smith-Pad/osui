@@ -1,4 +1,5 @@
 * OSUI
+Introduction Later...
 
 ** Official Dependencies
 
@@ -10,6 +11,24 @@
 	- SpeechRecognition
 	- python-xlib
 
+** Developing OSUI
+
+Here are the instructions to prepare on development on OSUI.
+
+*** Recommended Platforms to develop OSUI
+
+- Ubuntu LTS/Latest +
+
+  Ubuntu LTS/Latest is generally a recommended distribution that can be used for developing
+  OSUI, however limited features are presented at the moment. Such as the software updating
+  with pacman in the backend controlled by frontend.
+
+  Here are the dependencies to install
+
+  #+BEGIN_SRC shell
+   sudo apt install python3
+   sudo apt install python3-pip
+  #+END_SRC
 
 ** Installation
 
