@@ -30,6 +30,24 @@ Here are the instructions to prepare on development on OSUI.
    sudo apt install python3-pip
   #+END_SRC
 
+- Arch based Distributions +
+
+  Arch based Distributions is the most recommended way to develop OSUI, since all the features
+  of OSUI are only compatible to Arch Linux based distributions.
+
+  Here are the dependencies and requirements to install.
+
+  #+BEGIN_SRC shell
+  sudo pacman -S python
+  #+END_SRC
+
+  **NOTE: Most arch based distributions should come with the latest version of python**
+
+  #+BEGIN_SRC shell
+  sudo pacman -S python-pip
+  #+END_SRC
+
+
 ** Installation
 
 For the python dependencies, here are the list of dependencies that
