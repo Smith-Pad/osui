@@ -16,7 +16,6 @@ Introduction Later...
 Here are the instructions to prepare on development on OSUI.
 
 *** Recommended Platforms to develop OSUI
-
 - Ubuntu LTS/Latest +
 
   Ubuntu LTS/Latest is generally a recommended distribution that can be used for developing
@@ -46,6 +45,99 @@ Here are the instructions to prepare on development on OSUI.
   #+BEGIN_SRC shell
   sudo pacman -S python-pip
   #+END_SRC
+
+*** Better way to test out Smith-Pad's OSUI Desktop Environment
+
+The better way to test out Smith-Pad's OSUI Desktop Environment and testing out the "full"
+functionalities of the desktop environment is to use containers, preferably using a program
+called distrobox, which is available in most distributions.
+
+**** Installing Distrobox
+
+***** On Ubuntu/Debian based distros
+
+#+BEGIN_SRC shell
+sudo apt install podman
+#+END_SRC
+
+#+BEGIN_SRC shell
+git clone https://github.com/89luca89/distrobox
+cd distrobox
+sh ./install
+#+END_SRC
+
+***** On Arch Based Distros
+
+#+BEGIN_SRC shell
+sudo pacman -S podman
+#+END_SRC
+
+#+BEGIN_SRC shell
+git clone https://github.com/89luca89/distrobox
+cd distrobox
+sh ./install
+#+END_SRC
+
+
+***** On Fedora based Distros
+
+#+BEGIN_SRC shell
+sudo dnf install podman
+#+END_SRC
+
+#+BEGIN_SRC shell
+git clone https://github.com/89luca89/distrobox
+cd distrobox
+sh ./install
+#+END_SRC
+
+
+**** Creating an Arch Linux Container
+
+Here is how you create an Arch Linux Container.
+
+
+#+BEGIN_SRC shell
+distrobox create -i docker.io/archlinux:latest --init --name <name of container>
+#+END_SRC
+
+Then you enter in to the container you just created. :w
+
+#+BEGIN_SRC shell
+distrobox enter <name of container>
+#+END_SRC
+
+
+Then use the pacman command to make sure packages have been updated.
+
+#+BEGIN_SRC shell
+sudo pacman -Syyu
+#+END_SRC
+
+After that, use the pacman command to install the Python Pip Package Manager
+
+#+BEGIN_SRC shell
+sudo pacman -S python-pip
+#+END_SRC
+
+After that, use the pacman command to install git.
+
+#+BEGIN_SRC shell
+sudo pacman -S git
+#+END_SRC
+
+After that, run this script to install python dependencies that are needed for
+running OSUI.
+
+#+BEGIN_SRC shell
+sh dependencies-install.sh
+#+END_SRC
+
+And then finally run python
+
+#+BEGIN_SRC shell
+python index.py
+#+END_SRC
 
 
 ** Installation
@@ -121,3 +213,8 @@ brightnessctl set 10%-
 #+BEGIN_SRC shell
 brightnessctl set +10%
 #+END_SRC
+
+
+** Sources:
+
+https://github.com/89luca89/distrobox
