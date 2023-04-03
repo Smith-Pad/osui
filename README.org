@@ -50,7 +50,8 @@ Here are the instructions to prepare on development on OSUI.
 
 The better way to test out Smith-Pad's OSUI Desktop Environment and testing out the "full"
 functionalities of the desktop environment is to use containers, preferably using a program
-called distrobox, which is available in most distributions.
+called distrobox, which is available in most distributions. However, running in a container
+does not allow hardware control from frontend. 
 
 **** Installing Distrobox
 
