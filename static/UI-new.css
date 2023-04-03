@@ -13,91 +13,91 @@
  */
  
  body {
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        overflow-y: auto;
-        overflow-x: hidden;
-        -webkit-perspective: 1px;
-        perspective: 1px;
-        background: #100e16;
-        color: white;
+                                                                        font-family: Arial, Helvetica, sans-serif;
+                                                                        margin: 0;
+                                                                        overflow-y: auto;
+                                                                        overflow-x: hidden;
+                                                                        -webkit-perspective: 1px;
+                                                                        perspective: 1px;
+                                                                        background: #100e16;
+                                                                        color: white;
 }
 
 
 
 .status-bar {
-        padding: 3px 16px;
-        display: grid;
-        grid-template-columns: repeat(2, 10fr) repeat(3, 1fr);
-        align-items: center;
-        transition-duration: 0.5s;
+                                                                        padding: 3px 16px;
+                                                                        display: grid;
+                                                                        grid-template-columns: repeat(2, 10fr) repeat(3, 1fr);
+                                                                        align-items: center;
+                                                                        transition-duration: 0.5s;
 
 }
 
 
 
 .status-bar-button {
-        background-color: #241f31;
-        text-decoration: none;
-        color: white;
-        border-style: none;
-        padding: 10px;
-        border-radius: 10px;
-        box-shadow:  20px 20px 60px #1a1623, -20px -20px 60px #2e283f;
-        margin-right: 100px;
+                                                                        background-color: #241f31;
+                                                                        text-decoration: none;
+                                                                        color: white;
+                                                                        border-style: none;
+                                                                        padding: 10px;
+                                                                        border-radius: 10px;
+                                                                        box-shadow:  20px 20px 60px #1a1623, -20px -20px 60px #2e283f;
+                                                                        margin-right: 100px;
 }
 
 .status-bar-button:hover {
-        transition-duration: 0.5s;
-        background-color: green;
+                                                                        transition-duration: 0.5s;
+                                                                        background-color: green;
 }
 
 .status-bar-left-column {
-        display: flex;
-        justify-content: flex-start;
+                                                                        display: flex;
+                                                                        justify-content: flex-start;
 }
 
 .status-bar-right-column {
-        display: flex;
-        justify-content: flex-end;
+                                                                        display: flex;
+                                                                        justify-content: flex-end;
 }
 
 .status-item {
-        font-size: 16px;
-        margin-right: 10px;
+                                                                        font-size: 16px;
+                                                                        margin-right: 10px;
 }
 
  .FOIL-navigation-bar-regular {
-        background-color: transparent;
+                                                                        background-color: transparent;
 }
 
 .FOIL-button-regular-no-shadow {
-        border-radius: 10px;
-        margin-right: 100px;
-        padding: 15px 85px 15px 85px;
-        background: #241f31;
-        box-shadow:  20px 20px 60px #1a1623, -20px -20px 60px #2e283f;
+                                                                        border-radius: 10px;
+                                                                        margin-right: 100px;
+                                                                        padding: 15px 85px 15px 85px;
+                                                                        background: #241f31;
+                                                                        box-shadow:  20px 20px 60px #1a1623, -20px -20px 60px #2e283f;
 }
 
 .FOIL-button-regular-no-shadow:hover {
-        border-radius: 10px;
-        margin-right: 100px;
-        padding: 15px 85px 15px 85px;
-        background: #241f31;
-        box-shadow:  200px 200px 600px #9080b6, -200px -200px 600px #8272ac;
+                                                                        border-radius: 10px;
+                                                                        margin-right: 100px;
+                                                                        padding: 15px 85px 15px 85px;
+                                                                        background: #241f31;
+                                                                        box-shadow:  200px 200px 600px #9080b6, -200px -200px 600px #8272ac;
 }
 
 
 .FOIL-button-regular-no-shadow:active {
-        padding: 50px 50px 500px 50px;
-        border-radius: 20px;
-        transition-duration: 1s;
+                                                                        padding: 50px 50px 500px 50px;
+                                                                        border-radius: 20px;
+                                                                        transition-duration: 1s;
 }
 
 .FOIL-layout-regular-no-shadow {
-        transition-duration: 0.5s;
-        transform-origin: center center;
+                                                                        transition-duration: 0.5s;
+                                                                        transform-origin: center center;
 }
 
 
-FOIL-font-size-40{color: white;}
+                                        FOIL-font-size-40{color: white;}
