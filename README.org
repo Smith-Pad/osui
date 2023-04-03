@@ -141,6 +141,10 @@ python index.py
 #+END_SRC
 
 
+#+BEGIN_SRC shell
+http://localhost:3000 or http://127.0.0.1:3000
+#+END_SRC
+
 ** Installation
 
 For the python dependencies, here are the list of dependencies that
