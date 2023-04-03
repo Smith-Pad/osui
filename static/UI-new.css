@@ -22,12 +22,7 @@
         background: #100e16;
         color: white;
 }
- 
 
-/**************************************
- *      OSUI Framework Related
- *
- /* *********************************** */
 
 
 .status-bar {
@@ -38,22 +33,6 @@
         transition-duration: 0.5s;
 
 }
-
-/*******************************************************************************************************
- * FIXME: 
- * 		- This is commented for now, until we figure out how to prevent bouncy like effect
- * 		  when the user clicks or taps on the status bar button elements. 
- *
- *******************************************************************************************************/
-
-/* .status-bar:hover { */
-        /* background-color: rgb(0, 0, 0); */
-        /* border-radius: 10px; */
-        /* margin-bottom: 100px; */
-        /* transform: scale(0.999); */
-        /* padding: 16px 32px; */
-        /* box-shadow:  200px 200px 600px #685b86, -200px -200px 600px #8272ac; */
-/* } */
 
 
 
@@ -88,15 +67,6 @@
         margin-right: 10px;
 }
 
-
-
-
-
-/**************************************
- *      FOIL-UI Related
- *
- /* *********************************** */
-
  .FOIL-navigation-bar-regular {
         background-color: transparent;
 }
@@ -129,21 +99,5 @@
         transform-origin: center center;
 }
 
-
-/*******************************************************************************************************
- * FIXME: 
- * 		- This is commented for now, until we figure out how to prevent the hover effect from 
- *                overlapping a FOIL-bar popup. 
- *
- *******************************************************************************************************/
-
-/* .FOIL-layout-regular-no-shadow:hover {
-        background-color: transparent;
-        margin-bottom: 100px;
-        border-radius: 100px;
-        transition-duration: 0.5s;
-        transform: scale(1.2);
-        box-shadow:  200px 200px 600px #3b3547, -200px -200px 600px #383346;
-} */
 
 FOIL-font-size-40{color: white;}
