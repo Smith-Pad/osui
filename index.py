@@ -37,10 +37,24 @@ class FRONTEND_MAIN_VIEW():
                                                  subjects_button=subjects_button,)
             
 
+
+        """
+        Apps Screen
+        -----------
+        TODO: 
+    
+        """
+
         @app.route('/apps_screen', methods=['POST', 'GET'])
         def apps_screen():
             return render_template('apps-main.html')
 
+
+        """
+        For the settings screen, users be presented with features, followed by the user clicking on the buttons, 
+        such as Changing Themes, Software Updates, and About the System. 
+
+        """
 
         @app.route('/settings_screen', methods=['POST', 'GET'])
         def settings_screen():
@@ -53,10 +67,23 @@ class FRONTEND_MAIN_VIEW():
                                                          about_system_button=about_system_button)
 
 
+
+        """
+        For the software update screen, in the backend it uses the pacman package manager to dynamically update 
+        packages on Arch Linux distros like Smith-Pad-OS or other arch based distributions. 
+        """
+
         @app.route('/settings_screen_software_update_screen', methods=['POST', 'GET'])
         def settings_screen_software_update_screen():
             return render_template('settings-software-update.html')
 
+
+        """
+        Subjects Screen
+        ------------------
+
+        TODO: 
+        """
 
 
 
