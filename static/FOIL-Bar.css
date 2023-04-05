@@ -32,7 +32,7 @@
 .controls {
         margin: 2px auto;
         padding: 20px;
-        background-color: rgb(32, 32, 32);
+        background-color: rgb(58, 58, 58);
         background-position: right;
         background-repeat: no-repeat, repeat;
         border-radius: 5px;
@@ -43,6 +43,7 @@
 .controls .close {
         position: absolute;
         top: 20px;
+	background-color: red;
         right: 30px;
         font-size: 58px;
         font-weight: 500;

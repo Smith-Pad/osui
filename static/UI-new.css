@@ -83,7 +83,9 @@ body {
                                                                         border-radius: 10px;
                                                                         margin-right: 100px;
                                                                         padding: 15px 85px 15px 85px;
-                                                                        background: #ffffff;
+                                                                        background: rgb(247, 149, 2);
+                                                                        color: rgb(0, 0, 0);
+                                                                        font-size: 16px;
                                                                         box-shadow:  200px 200px 600px #9080b6, -200px -200px 600px #8272ac;
 }
 
