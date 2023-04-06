@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="static/position-text.css" type="text/css"> 
         <link rel="stylesheet" href="static/UI-new.css" type="text/css">
         <link rel="stylesheet" href="static/FOIL-Bar.css" type="text/css">
-
+        
 
 
 </head>
@@ -27,15 +27,19 @@
                                 <div class="status-item">
                                         <a href="{{ url_for('home_screen') }}" class="status-bar-button">Back</a>
                                 </div>
+
+                                <div class="status-item">
+                                        <a href="#controls" class="status-bar-button">Controls</a>
+                                </div>
                         </div>
                         <div class="status-bar-right-column">
                                 <div class="status-bar-item">
-                                        <button id="volume-up" class="status-bar-button">Volume Up</button>
-                                        <button id="volume-down" class="status-bar-button">Volume Down</button>
+                                        <button onclick="volume_up()" class="status-bar-button">Volume Up </button>
+                                        <button onclick="volume_down()" class="status-bar-button">Volume Down </button>
                                         <script src="static/hardware-control.js"></script>
                                 </div>
                         </div>
-                </div>
+                </div> 
 
 
                 <div class="space"></div>
@@ -75,9 +79,9 @@
                         <FOIL-font-size-40> Subjects </FOIL-font-size-40>
                         <ul></ul>
                         <p align="center">
-                                <!-- <a href="{{ url_for('') }}" class="FOIL-button-regular-no-shadow">{{}}</a> -->
                         </p>
                 </div>
+
 
                 {% include 'System_Files/system_ui_control_center.html' %}
 
