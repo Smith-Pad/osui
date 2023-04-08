@@ -67,6 +67,96 @@ body {
                                                                         margin-right: 10px;
 }
 
+
+
+/*****************************************************************************************************
+ *                                     OSUI Experimental Buttons
+ *****************************************************************************************************/
+
+ /** Home Icon **/
+
+ .osui-circle-button-home-icon {
+                                                                        border-radius: 50%;
+                                                                        width: 50px;
+                                                                        height: 50px;
+                                                                        background-color: #3b3b3b;
+                                                                        color: white;
+                                                                        border: none;
+                                                                        text-align: center;
+                                                                        font-size: 16px;
+                                                                        cursor: pointer;
+                                                                        position: relative;
+}
+
+.osui-circle-button-home-icon::after {
+                                                                        content: "☖";
+                                                                        position: absolute;
+                                                                        top: 50%;
+                                                                        left: 50%;
+                                                                        transform: translate(-50%, -50%);
+                                                                        font-size: 24px;
+}
+
+
+
+/** Left Arrow **/
+
+ .osui-circle-button-left-arrow {
+                                                                        border-radius: 50%;
+                                                                        width: 50px;
+                                                                        height: 50px;
+                                                                        background-color: #3b3b3b;
+                                                                        color: white;
+                                                                        border: none;
+                                                                        text-align: center;
+                                                                        font-size: 16px;
+                                                                        cursor: pointer;
+                                                                        position: relative;
+}
+
+.osui-circle-button-left-arrow::after {
+                                                                        content: "←";
+                                                                        position: absolute;
+                                                                        top: 50%;
+                                                                        left: 50%;
+                                                                        transform: translate(-50%, -50%);
+                                                                        font-size: 24px;
+}
+
+
+
+
+
+
+ /** Right Arrow  **/
+.osui-circle-button-right-arrow {
+                                                                        border-radius: 50%;
+                                                                        width: 50px;
+                                                                        height: 50px;
+                                                                        background-color: #3b3b3b;
+                                                                        color: white;
+                                                                        border: none;
+                                                                        text-align: center;
+                                                                        font-size: 16px;
+                                                                        cursor: pointer;
+                                                                        position: relative;
+}
+
+.osui-circle-button-right-arrow::after {
+                                                                        content: "→";
+                                                                        position: absolute;
+                                                                        top: 50%;
+                                                                        left: 50%;
+                                                                        transform: translate(-50%, -50%);
+                                                                        font-size: 24px;
+}
+
+
+
+/*****************************************************************************************************
+ *                                     FOIL-UI-Components       
+ *****************************************************************************************************/
+
 .FOIL-navigation-bar-regular {
                                                                         background-color: transparent;
 }
