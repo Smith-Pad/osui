@@ -23,15 +23,15 @@
                                 </div>
 
                                 <div class="status-bar-item">
-                                        <a href="#controls" class="status-bar-button">Controls</a>
+                                        <a href="#controls" class="osui-button-small">Controls</a>
                                 </div>
 
                                 
                         </div>
                         <div class="status-bar-right-column">
                                 <div class="status-bar-item">
-                                        <button onclick="volume_up()" class="status-bar-button">Volume Up </button>
-                                        <button onclick="volume_down()" class="status-bar-button">Volume Down </button>
+                                        <button onclick="volume_up()" class="osui-button-small">Volume Up </button>
+                                        <button onclick="volume_down()" class="osui-button-small">Volume Down </button>
                                         <script src="static/hardware-control.js"></script>
                                 </div>
                         </div>
@@ -78,19 +78,19 @@
 
                                 <!-- When the user presses the apps button, it will proceed to go to the apps launcher-->
                                 <a href="{{ url_for('apps_screen') }}"
-                                        class="FOIL-button-regular-no-shadow">{{apps_button}}</a>
+                                        class="osui-button">{{apps_button}}</a>
 
                                 <!-- When the user presses the settings button, then it will proceed to go to the settings view-->
                                 <a href="{{ url_for('settings_screen') }}"
-                                        class="FOIL-button-regular-no-shadow">{{settings_button}}</a>
+                                        class="osui-button">{{settings_button}}</a>
 
 
                                 <!-- When the user presses the subjects button, then it will proceed to go to the subjects view -->
-                                <a href="{{ url_for('subjects_screen') }}" class="FOIL-button-regular-no-shadow">{{subjects_button}}</a>
+                                <a href="{{ url_for('subjects_screen') }}" class="osui-button">{{subjects_button}}</a>
 
                                 
                                 <!-- When the user presses the button it will launch the GNOME session of desktop mode.-->
-                                <button id="desktop_mode" class="FOIL-button-regular-no-shadow">Desktop Mode</button>
+                                <button id="desktop_mode" class="osui-button">Desktop Mode</button>
                                 <script src="static/desktop-mode.js"></script>
                         </p>
                 </div>

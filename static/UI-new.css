@@ -72,6 +72,49 @@ body {
 /*****************************************************************************************************
  *                                     OSUI Experimental Buttons
  *****************************************************************************************************/
+ .osui-button-small {
+        border: none;
+        padding: 9px 14px;
+        font-size: 18px;
+        color: white;
+        background-color: #3b3b3b;
+        box-shadow: 0px 5px 0px #333333;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration:none;
+        transition-duration: 0.2s;
+}
+
+/**
+* @doc
+*
+* When the user hovers over the small button, then the user will be presented with the duplicated
+* element 20 pixels down with the white color indicating that they are hovering on the 
+* button.  
+*
+*/
+
+.osui-button-small:hover {
+        box-shadow: 0px 20px 0px #ffffff;
+}
+
+
+
+/**
+* @doc
+*
+* When the user clicks or taps on the small button, then the user will be presented with the 
+* duplicated element 80 pixels down with the green color indicating that they are clicking
+* or tapping on the button. 
+*/
+
+
+.osui-button-small:active {
+        box-shadow: 0px 70px 0px #08b34f;
+}
+
+
+
 .osui-button {
                                                                         border: none;
                                                                         padding: 12px 24px;
