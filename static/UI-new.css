@@ -73,17 +73,17 @@ body {
  *                                     OSUI Experimental Buttons
  *****************************************************************************************************/
  .osui-button-small {
-        border: none;
-        padding: 9px 14px;
-        font-size: 18px;
-        color: white;
-        background-color: #3b3b3b;
-        box-shadow: 0px 5px 0px #333333;
-        border-radius: 8px;
-        cursor: pointer;
-        text-decoration:none;
-        transition-duration: 0.2s;
-}
+                                                                        border: none;
+                                                                        padding: 9px 14px;
+                                                                        font-size: 18px;
+                                                                        color: white;
+                                                                        background-color: #3b3b3b;
+                                                                        box-shadow: 0px 5px 0px #333333;
+                                                                        border-radius: 8px;
+                                                                        cursor: pointer;
+                                                                        text-decoration:none;
+                                                                        transition-duration: 0.2s;
+                                                                }
 
 /**
 * @doc
@@ -95,7 +95,7 @@ body {
 */
 
 .osui-button-small:hover {
-        box-shadow: 0px 20px 0px #ffffff;
+                                                                        box-shadow: 0px 20px 0px #ffffff;
 }
 
 
@@ -110,7 +110,7 @@ body {
 
 
 .osui-button-small:active {
-        box-shadow: 0px 70px 0px #08b34f;
+                                                                        box-shadow: 0px 70px 0px #08b34f;
 }
 
 
