@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="static/FOIL-UI.css" type="text/css">
-        <link rel="stylesheet" href="static/position-text.css" type="text/css"> 
+        <link rel="stylesheet" href="static/position-text.css" type="text/css">
         <link rel="stylesheet" href="static/UI-new.css" type="text/css">
         <link rel="stylesheet" href="static/FOIL-Bar.css" type="text/css">
 
@@ -65,22 +65,22 @@
 
 
 
-                <div class="FOIL-layout-regular-no-shadow">
-                        <FOIL-font-size-60>
-                                <div id="time_service"></div>
-                        </FOIL-font-size-60>
+
+                <FOIL-font-size-60>
+                        <div id="time_service"></div>
+                </FOIL-font-size-60>
 
 
-                        <script src="static/FOIL-time.js"></script>
-                        <FOIL-font-size-40> Software Update </FOIL-font-size-40>
-                        <p align="center">
-                        <pre>{{ software_update_service_output }}</pre>
+                <script src="static/FOIL-time.js"></script>
+                <FOIL-font-size-40> Software Update </FOIL-font-size-40>
+                <p align="center">
+                <pre>{{ software_update_service_output }}</pre>
 
-                        <center> <button class="osui-button"></button></center>
-                        </p>
-                </div>
+                <center> <button class="osui-button"></button></center>
+                </p>
+        </div>
 
-                {% include 'System_Files/system_ui_control_center.html' %}
+        {% include 'System_Files/system_ui_control_center.html' %}
 
 </body>
 
