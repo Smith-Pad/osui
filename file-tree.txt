@@ -1,0 +1,43 @@
+├── backend-route.org
+├── dependencies-install.sh
+├── documentation-src
+│   └── home-screen.png
+├── index.py
+├── README.org
+├── run-interface.sh
+├── src
+│   ├── hardware-control
+│   │   ├── display-brightness-control
+│   │   │   ├── display_brightness_rocker_down.sh
+│   │   │   ├── display_brightness_rocker_up.sh
+│   │   │   └── README.txt
+│   │   ├── README.txt
+│   │   └── volume-control
+│   │       ├── README.txt
+│   │       ├── volume_rocker_down.sh
+│   │       ├── volume_rocker_mute.sh
+│   │       └── volume_rocker_up.sh
+│   └── README.org
+├── static
+│   ├── Color-Schemes
+│   ├── desktop-mode.js
+│   ├── FOIL-Bar.css
+│   ├── FOIL-time.js
+│   ├── FOIL-UI.css
+│   ├── hardware-control.js
+│   ├── position-text.css
+│   ├── README.txt
+│   ├── UI.css
+│   └── UI-new.css
+├── templates
+│   ├── apps-main.html
+│   ├── index.html
+│   ├── README.txt
+│   ├── settings-about-system.html
+│   ├── settings-main.html
+│   ├── settings-software-update.html
+│   ├── subjects-main.html
+│   └── System_Files
+│       ├── README.org
+│       └── system_ui_control_center.html
+└── test-run.html
