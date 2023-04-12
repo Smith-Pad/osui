@@ -1,0 +1,172 @@
+<link rel="stylesheet" href="./src/layouts.css" type="text/css">
+<link rel="stylesheet" href="./src/position-text.css" type="text/css">
+<link rel="stylesheet" href="./src/UI.css" type="text/css">
+<link rel="stylesheet" href="./index.css" type="text/css">
+<link rel="stylesheet" href="./background.css" type="text/css">
+<link rel="stylesheet" href="./dependencies.css" type="text/css">
+<style>
+  body {
+    overflow: none;
+    /* Turns off Scrolling :hidden */
+    color: white;
+    background: #000000;
+
+  }
+
+  .box {
+    padding: 16px 56px;
+    background-color: transparent 20%;
+    color: white;
+  }
+
+  blink {
+    animation: 0.5s infinite blink_effect; /* Change Animation Seconds of the blink */ 
+  }
+
+  @-webkit-keyframes blink_effect {
+    0% {
+      visibility: hidden;
+    }
+
+    50% {
+      visibility: hidden;
+    }
+
+    100% {
+      visibility: visible;
+      font-size: 900px;
+    }
+  }
+
+  @keyframes blink_effect {
+    0% {
+      visibility: hidden;
+
+    }
+
+    50% {
+      visibility: hidden;
+
+    }
+
+    100% {
+      visibility: visible;
+
+    }
+
+  }
+
+  fontcolorRED{
+    animation: 1s infinite red_blink;
+
+  }
+
+  @-webkit-keyframes red_blink {
+    0% {
+      visibility: hidden;
+    }
+
+    50% {
+      visibility: hidden;
+    }
+
+    100% {
+      visibility: visible;
+   
+    }
+  }
+
+  @keyframes red_blink {
+    0% {
+      visibility: hidden;
+
+    }
+
+    50% {
+      visibility: hidden;
+
+    }
+
+    100% {
+      visibility: visible;
+
+    }
+
+  }
+
+
+
+  
+</style>
+
+
+
+
+<div class="bar">
+  <a href="./2.html" class="button small button is-red button-no-animate-mode">Back &#8656;</a>
+  <a href="./index.html" class="button small button is-red button-no-animate-mode">Home &#9750;</a>
+  <a href="./4.html" class="button small button is-red button-no-animate-mode">Next &rArr;</a>
+  <a href="#" class="button"onClick="Calculator=window.open( '../../../../../Smith-Pad/APPS/calculator.html','Calculator', 'width=600,height=1000'); return false;">Launch Calculator</a>
+
+</div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="indicator is-off">
+
+
+
+  <center>
+    <!-- Shows a Example Number.  -->
+    <fontsize200>
+      <blink>2</blink> <fontcolorRED>1</fontcolorRED>, 0 0 0
+    </fontsize200>
+
+  </center>
+
+  <!-- Shows the description of what it is doing -->
+
+  <div class="indicator is-off">
+    <h3 align="center">
+      <fontsize20> 
+        In this example, the ten thousand places are blinking so fast, indicating to call the thousands place.
+        <ul></ul>
+        The Thousands place that has been called to is highlighted in Red and blinking very slowly.
+        <ul></ul>
+        Then If the number is lower than 5 like in this example, 1, which is lower than 5, keep the same number, and then this is the result
+      </fontsize20>
+      <ul> </ul>
+      <div class="space"></div> <div class="space"></div> <div class="space"></div> <div class="space"></div> <div class="space"></div> 
+      <fontsize20> 
+        To round 21,000 in the ten thousand places, we have to underline the 2 and circle the 1,
+        <ul> </ul>
+        And Remember, when 4 is below, keep the number,
+        <ul> </ul>
+        And the result will be this:
+      </fontsize20>
+    </h3>
+
+  </div>
+
+
+  <center>
+    <!-- Shows a Example Number.  -->
+    <fontsize100>
+      2 0, 0 0 0
+    </fontsize100>
+
+  </center>
