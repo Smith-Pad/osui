@@ -95,21 +95,21 @@ FRONTEND_MAIN_VIEW()
 
 
 
+def VOLUME_ROCKERS():
+        @app.route('/volume_rocker_up', methods=['POST'])
+        def volume_rocker_up():
+                os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
 
-@app.route('/volume_rocker_up', methods=['POST'])
-def volume_rocker_up():
-        os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+        @app.route('/volume_rocker_down', methods=['POST'])
+        def volume_rocker_down():
+                os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
 
-@app.route('/volume_rocker_down', methods=['POST'])
-def volume_rocker_down():
-        os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
+        @app.route('/volume_rocker_mute_unmute', methods=['POST'])
+        def volume_rocker_mute_unmute():
+                if b'[off]' in SOUND_OUTPUT:
+                        os.system('amixer sset Master unmute')
 
-@app.route('/volume_rocker_mute_unmute', methods=['POST'])
-def volume_rocker_mute_unmute():
-        if b'[off]' in SOUND_OUTPUT:
-                os.system('amixer sset Master unmute')
-
-
+VOLUME_ROCKERS()
 
 ## This is used when the user chooses desktop mode. 
 ## Once the user chooses desktop mode, then it will start the GNOME session. 
