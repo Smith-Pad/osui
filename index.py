@@ -26,6 +26,15 @@ import subprocess
 app = Flask(__name__)
 
 
+## So, since Smith-Pad in general was originally based on php, why 
+## since we are not entirely ditching php, so why not use it with 
+## integration with flask?....
+
+class initOG():
+        os.system('cd Subjects/ && nohup php -S localhost:4000 & ')
+initOG()
+
+
 """
 -------------------------
 Frontend 
