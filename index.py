@@ -25,6 +25,14 @@ import subprocess
 
 app = Flask(__name__)
 
+
+"""
+-------------------------
+Frontend 
+--------------------------
+
+"""
+
 class FRONTEND_MAIN_VIEW():  
         @app.route('/', methods=['POST', 'GET'])
         def home_screen():
@@ -94,6 +102,12 @@ class FRONTEND_MAIN_VIEW():
 FRONTEND_MAIN_VIEW()
 
 
+
+"""
+-----------
+Backend
+-----------
+"""
 class BACKEND():
 
         def VOLUME_ROCKERS():
