@@ -30,6 +30,10 @@ input[type=text] {
                                                                         font-size: 18px;
 }
 
+pre {
+                                                                        animation-name: pre_animation;
+}
+
 
 
 .status-bar {
