@@ -32,6 +32,9 @@ input[type=text] {
 
 pre {
                                                                         animation-name: pre_animation;
+                                                                        color: white;
+                                                                        animation-duration: 0.5s;
+                                                                        padding: 16px 32px;
 }
 
 

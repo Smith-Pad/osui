@@ -33,7 +33,7 @@ app = Flask(__name__)
 class initOG():
         os.system('cd Subjects/ && nohup php -S localhost:4000 & ')
 initOG()
-
+ 
 
 """
 -------------------------

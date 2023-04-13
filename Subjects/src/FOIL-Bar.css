@@ -1,0 +1,237 @@
+/* 
+  _____  ___  ___  _          ____               
+ |  ___|/ _ \|_ _|| |        | __ )   __ _  _ __ 
+ | |_  | | | || | | |        |  _ \  / _` || '__|
+ |  _| | |_| || | | |___     | |_) || (_| || |   
+ |_|    \___/|___||_____|    |____/  \__,_||_| .css
+                                            Build: Smith Pad  Home-Screen
+
+*/
+
+@import './background.css';
+
+
+/* A One-Page Interface using popups similar to a desktop user interface */
+/* FOIL BAR is mostly used on Smith Pad */
+
+/* Triggers the Popup box */
+.activate {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.activate:target {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+.settings {
+  margin: 2px auto;
+  padding: 20px;
+  background-color:white;
+  background-position:right; 
+  background-repeat: no-repeat, repeat;
+  border-radius: 5px;
+  width: auto;
+  position: center;
+  color: black;
+}
+
+.settings .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 58px;
+  font-weight: 500;
+  text-decoration: none;
+  color: red;
+  transition-duration: 0.2s;
+}
+.settingsclose{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 58px;
+  font-weight: 500;
+  text-decoration: none;
+  color: red;
+}
+.settings .content {
+  max-height: 30%;
+  width: 30%;
+  overflow: auto;
+}
+
+
+
+
+.lights {
+  margin: 20px auto;
+  padding: 20px;
+  background-color:white;
+  background-position:right; 
+  background-repeat: no-repeat, repeat;
+  border-radius: 5px;
+  width: auto;
+  position: center;
+  color: black;
+  
+}
+
+.lights .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 58px;
+  font-weight: 500;
+  text-decoration: none;
+  color: red;
+  transition-duration: 0.2s;
+}
+
+.lightsclose{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 58px;
+  font-weight: 500;
+  text-decoration: none;
+  color: red;
+}
+
+
+.Workstations {
+  margin: 20px auto;
+  padding: 20px;
+  background-color:white;
+  background-position:right; 
+  background-repeat: no-repeat, repeat;
+  border-radius: 5px;
+  width: auto;
+  position: center;
+  color: black;
+  
+}
+
+.Workstations .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 58px;
+  font-weight: 500;
+  text-decoration: none;
+  color: red;
+  transition-duration: 0.2s;
+}
+
+.Workstationsclose{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 58px;
+  font-weight: 500;
+  text-decoration: none;
+  color: red;
+}
+
+
+.settings .content {
+  max-height: 30%;
+  width: 30%;
+  overflow: auto;
+}
+
+
+
+
+/* Button Features. */
+
+.button{
+  background-color:black;
+  padding:10px 32px;
+  color:white;
+  border:none;
+  font-size:16px;
+  text-decoration: none;
+  
+  margin-right: 15px;
+  
+  }
+  .button:hover{
+    background-color:rgb(9, 172, 0);
+    color:white;
+    font-size:16px;
+    transition-duration:0.2s;
+  }
+  .button:active{
+    background-color:orange;
+    color:white;
+    transition-duration:0.2s;
+  }
+  
+  
+  /* Button colors */
+  .button.red{
+    background-color:rgba(255, 0, 0, 0.359);
+  }
+  
+  
+  .button.yellow{
+    background-color:rgb(255, 174, 0);
+  }
+  
+  
+  .button.orange{
+    background-color:rgb(255, 98, 0);
+    color:white;
+    
+  }
+  
+  
+  .button.white{
+    background-color:red;
+    color:white;
+  
+  }
+  
+  
+  .button.curve{
+      border-radius:100px;
+  
+  }
+  
+  
+  .button.small{
+      padding:7px 8px;
+      color:white;
+  }
+  
+  
+  
+  .button.small.curve{
+      border-radius:5px;
+      font-size:16px;
+      position:center;
+  }
+  .button.large.curve{
+    border-radius:5px;
+    font-size:30px;
+    position:center;
+  
+  }
+  
+  
+  
+  
+  .layout{
+  
+      color:white;
+      padding:10em 1em;
+      position:relative;
+      z-index:2;
+  
+  }
