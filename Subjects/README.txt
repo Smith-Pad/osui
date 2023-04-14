@@ -21,3 +21,11 @@ static-UI.css
 ----------------
 
 UI.css is the original, but modernized. 
+
+
+
+
+
+
+TODO: 
+- Math Folder => Change Path to global
