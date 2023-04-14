@@ -28,4 +28,4 @@ UI.css is the original, but modernized.
 
 
 TODO: 
-- Math Folder => Change Path to global
+- Math Folder => Change Path to global [index.css]
