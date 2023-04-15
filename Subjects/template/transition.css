@@ -1,0 +1,57 @@
+/* Transitions */
+
+@keyframes top{
+    from{
+ 
+     padding:1999px 200px;
+  
+    }
+    to{
+      margin-right:0%;
+  
+    }
+  }
+  
+  @keyframes slidethree{
+    from{
+     padding-top: 1999px 200px;
+  
+    }
+    to{
+      margin:top:0%;
+  
+    }
+  }
+  
+  @keyframes slidefour{
+    from{
+     padding-top: 1999px 200px;
+  
+    }
+    to{
+      margin:top:0%;
+  
+    }
+  }
+  
+
+  @keyframes indicatoranimate{
+    from{
+    margin-top:100%;
+    }
+    to{
+      margin:top:0%;
+  
+    }
+  }
+  
+  @keyframes textNoOverlap{
+    from{
+      margin-top:100%;
+
+    }
+    to{
+      
+      
+    }
+  }
