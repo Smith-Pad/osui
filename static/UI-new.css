@@ -333,3 +333,86 @@ pre {
 
 
                                         FOIL-font-size-40{color: white;}
+
+
+
+/**
+ *      Original styling 
+ *
+ */
+
+ fontsize10 {
+        font-size: 10;
+}
+
+fontsize20 {
+        font-size: 20;
+}
+
+fontsize30 {
+        font-size: 30;
+}
+
+fontsize40 {
+        font-size: 40;
+}
+
+fontsize50 {
+        font-size: 50;
+}
+
+fontsize60 {
+        font-size: 60;
+}
+
+fontsize70 {
+        font-size: 70;
+}
+
+fontsize80 {
+        font-size: 80;
+}
+
+fontsize90 {
+        font-size: 90;
+}
+
+fontsize100 {
+        font-size: 100;
+}
+
+fontsize200 {
+        font-size: 200;
+}
+
+fontsize300 {
+        font-size: 300;
+}
+
+fontsize400 {
+        font-size: 400;
+}
+
+fontsize500 {
+        font-size: 500;
+}
+
+fontsize600 {
+        font-size: 600;
+}
+
+fontsize700 {
+        font-size: 700;
+}
+
+fontsize800 {
+        font-size: 800;
+}
+
+fontsize900 {
+        font-size: 900;
+}
+
+fontsize1000 {
+        font-size: 1000;
+}

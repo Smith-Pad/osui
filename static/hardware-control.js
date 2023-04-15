@@ -18,6 +18,32 @@ function volume_up() {
 
 }
 
+<<<<<<< Updated upstream
+=======
+function VOLUME_CONTROLLER() {
+
+        function volumeUp() {
+                document.getElementById('volume-up').addEventListener('click', function () {
+                        var requestVolumeUp  = new XMLHttpRequest();
+
+                        /**
+                         * See the index.py
+                         */
+                        requestVolumeUp.open('POST', '/volume_rocker_up');
+                        requestVolumeUp.send();
+                });
+
+                document.getElementById('controls-volume-up').addEventListener('click', function () {
+                        var requestControlsVolumeUp  = new XMLHttpRequest();
+
+                        /**
+                         * See the index.py
+                         */
+                        requestControlsVolumeUp.open('POST', '/controls_volume_rocker_up');
+                        requestControlsVolumeUp.send();
+                });
+        }
+>>>>>>> Stashed changes
 
 function volume_down() {
         var requestVolume  = new XMLHttpRequest(); 
