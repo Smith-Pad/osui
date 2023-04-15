@@ -384,6 +384,7 @@ Contents of Subclasses {
          background-color: black;
          padding: 16px 43px;
          border: none;
+         border-radius: 100px;
          color: white;
          font-size: 18px;
          text-decoration: none;
@@ -612,6 +613,11 @@ Contents of Subclasses {
 
 
  }
+
+
+ /****************************************************
+  *     New OSUI Components
+  *****************************************************/
 
  /* Table */
  table,

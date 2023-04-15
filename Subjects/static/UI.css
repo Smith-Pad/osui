@@ -12,118 +12,118 @@
 
  */
  body {
-         font-family: Arial, Helvetica, sans-serif;
-         margin: 0;
-         overflow-y: auto;
-         overflow-x: hidden;
-         -webkit-perspective: 1px;
-         perspective: 1px
+                                                        font-family: Arial, Helvetica, sans-serif;
+                                                        margin: 0;
+                                                        overflow-y: auto;
+                                                        overflow-x: hidden;
+                                                        -webkit-perspective: 1px;
+                                                        perspective: 1px
  }
 
  /*********************************
         Font-Sizes
 **********************************/
  fontsize10 {
-         font-size: 10;
+                                                        font-size: 10;
  }
 
  fontsize20 {
-         font-size: 20;
+                                                        font-size: 20;
  }
 
  fontsize30 {
-         font-size: 30;
+                                                        font-size: 30;
  }
 
  fontsize40 {
-         font-size: 40;
+                                                        font-size: 40;
  }
 
  fontsize50 {
-         font-size: 50;
+                                                        font-size: 50;
  }
 
  fontsize60 {
-         font-size: 60;
+                                                        font-size: 60;
  }
 
  fontsize70 {
-         font-size: 70;
+                                                        font-size: 70;
  }
 
  fontsize80 {
-         font-size: 80;
+                                                        font-size: 80;
  }
 
  fontsize90 {
-         font-size: 90;
+                                                        font-size: 90;
  }
 
  fontsize100 {
-         font-size: 100;
+                                                        font-size: 100;
  }
 
  fontsize200 {
-         font-size: 200;
+                                                        font-size: 200;
  }
 
  fontsize300 {
-         font-size: 300;
+                                                        font-size: 300;
  }
 
  fontsize400 {
-         font-size: 400;
+                                                        font-size: 400;
  }
 
  fontsize500 {
-         font-size: 500;
+                                                        font-size: 500;
  }
 
  fontsize600 {
-         font-size: 600;
+                                                        font-size: 600;
  }
 
  fontsize700 {
-         font-size: 700;
+                                                        font-size: 700;
  }
 
  fontsize800 {
-         font-size: 800;
+                                                        font-size: 800;
  }
 
  fontsize900 {
-         font-size: 900;
+                                                        font-size: 900;
  }
 
  fontsize1000 {
-         font-size: 1000;
+                                                        font-size: 1000;
  }
 
  /********************************
         Font-COLOR
 ********************************/
  fontcolorRED {
-         color: red;
+                                                        color: red;
  }
 
  fontcolorORANGE {
-         color: orange;
+                                                        color: orange;
  }
 
  fontcolorYELLOW {
-         color: yellow;
+                                                        color: yellow;
  }
 
  fontcolorBLUE {
-         color: blue;
+                                                        color: blue;
  }
 
  fontcolorWHITE {
-         color: white;
+                                                        color: white;
  }
 
  fontcolorBLACK {
-         color: black;
+                                                        color: black;
  }
 
 
@@ -139,29 +139,29 @@
 
  /* Keyframes */
  @keyframes layouts {
-         from {
-                 padding: 30em 1em;
-         }
+                                                        from {
+                                                                padding: 30em 1em;
+                                                        }
 
-         to {
-                 padding: auto;
-         }
+                                                        to {
+                                                                padding: auto;
+                                                        }
  }
 
  @keyframes foil-buttons-effect {
-         from {
+                                                        from {
 
-                 font-size: 500%;
+                                                                font-size: 500%;
 
-         }
+                                                        }
  }
 
  @keyframes foil-buttons-no-animate-effect {
-         from {
-                 padding: 100px 100px;
+                                                        from {
+                                                                padding: 100px 100px;
 
 
-         }
+                                                        }
  }
 
 
@@ -172,14 +172,14 @@
 /*******************************************/
 
  .layout {
-         background-color: rgb(95, 95, 95);
-         color: white;
-         padding: 10em 1em;
-         position: relative;
-         z-index: 2;
+                                                        background-color: rgb(95, 95, 95);
+                                                        color: white;
+                                                        padding: 10em 1em;
+                                                        position: relative;
+                                                        z-index: 2;
 
-         animation-name: layouts;
-         animation-duration: 2s;
+                                                        animation-name: layouts;
+                                                        animation-duration: 2s;
 
 
  }
@@ -188,65 +188,46 @@
 
  /* No Animation */
  .get-no-layout-indicator-side-round {
-         background-color: rgb(95, 95, 95);
-         color: white;
-         padding: 1px 1em;
-         border-radius: 10px;
+                                                        background-color: rgb(95, 95, 95);
+                                                        color: white;
+                                                        padding: 1px 1em;
+                                                        border-radius: 10px;
 
  }
 
 
  /* With Animations */
  .layout.side-round {
-         border-radius: 10px;
-         height: 10vh;
+                                                        border-radius: 10px;
+                                                        height: 10vh;
 
  }
 
  .layout.side-round.indicator {
-         height: 10vh;
+                                                        height: 10vh;
 
  }
 
  .layout.indicator-side-round {
-         padding: 1px 1em;
-         border-radius: 10px;
+                                                        padding: 1px 1em;
+                                                        border-radius: 10px;
  }
 
- /********************************************
-    Subclasses for Layouts
-Contents of Subclasses {
-
-- Regular Layout Subclasses 
-- Layout Side Round Subclasses
-- Layout Side Round Indicator
-- Layout Indicator Side Round
-}
-/*******************************************/
-
-
-
-
-
-
- /********************************************              
-              Regular Layout Subclasses
-  /*******************************************/
 
  .layout.color-is-red {
-         background-color: rgb(179, 0, 0);
+                                                        background-color: rgb(179, 0, 0);
  }
 
  .layout.color-is-orange {
-         background-color: rgb(230, 84, 0);
+                                                        background-color: rgb(230, 84, 0);
  }
 
  .layout.color-is-blue {
-         background-color: rgb(4, 95, 170);
+                                                        background-color: rgb(4, 95, 170);
  }
 
  .layout.color-is-green {
-         background-color: rgb(0, 156, 0);
+                                                        background-color: rgb(0, 156, 0);
  }
 
  /********************************************             
@@ -254,19 +235,19 @@ Contents of Subclasses {
   /*******************************************/
 
  .layout.side-round.color-is-red {
-         background-color: rgb(179, 0, 0);
+                                                        background-color: rgb(179, 0, 0);
  }
 
  .layout.side-round.color-is-orange {
-         background-color: rgb(230, 84, 0);
+                                                        background-color: rgb(230, 84, 0);
  }
 
  .layout.side-round.color-is-blue {
-         background-color: rgb(4, 95, 170);
+                                                        background-color: rgb(4, 95, 170);
  }
 
  .layout.side-round.color-is-green {
-         background-color: rgb(0, 156, 0);
+                                                        background-color: rgb(0, 156, 0);
  }
 
 
@@ -276,19 +257,19 @@ Contents of Subclasses {
 
 
  .layout.side-round.indicator.color-is-red {
-         background-color: rgb(179, 0, 0);
+                                                        background-color: rgb(179, 0, 0);
  }
 
  .layout.side-round.indicator.color-is-orange {
-         background-color: rgb(230, 84, 0);
+                                                        background-color: rgb(230, 84, 0);
  }
 
  .layout.side-round.indicator.color-is-blue {
-         background-color: rgb(4, 95, 170);
+                                                        background-color: rgb(4, 95, 170);
  }
 
  .layout.side-round.indicator.color-is-green {
-         background-color: rgb(0, 156, 0);
+                                                        background-color: rgb(0, 156, 0);
  }
 
 
@@ -297,19 +278,19 @@ Contents of Subclasses {
 /*******************************************/
 
  .layout.indicator-side-round.color-is-red {
-         background-color: rgb(179, 0, 0);
+                                                        background-color: rgb(179, 0, 0);
  }
 
  .layout.indicator-side-round.color-is-orange {
-         background-color: rgb(230, 84, 0);
+                                                        background-color: rgb(230, 84, 0);
  }
 
  .layout.indicator-side-round.color-is-blue {
-         background-color: rgb(4, 95, 170);
+                                                        background-color: rgb(4, 95, 170);
  }
 
  .layout.indicator-side-round.color-is-green {
-         background-color: rgb(0, 156, 0);
+                                                        background-color: rgb(0, 156, 0);
  }
 
 
@@ -319,13 +300,13 @@ Contents of Subclasses {
  /*******************************************/
 
  .layout.animate-sunset-theme {
-         /*background: linear-gradient(190deg, #341801, #9f3b02, #963600, #bf4500, #e15100, #000000, #000000, #000000);*/
-         background: linear-gradient(190deg, #030000, #160200, #290300, #3d0400, #500600, #640700, #770900, #8b0a00, #9f0c00, #b20d00);
-         background-size: 1600% 1600%;
+                                                        /*background: linear-gradient(190deg, #341801, #9f3b02, #963600, #bf4500, #e15100, #000000, #000000, #000000);*/
+                                                        background: linear-gradient(190deg, #030000, #160200, #290300, #3d0400, #500600, #640700, #770900, #8b0a00, #9f0c00, #b20d00);
+                                                        background-size: 1600% 1600%;
 
-         -webkit-animation: Sunset-Theme 17s ease infinite;
-         -moz-animation: Sunset-Theme 17s ease infinite;
-         animation: Sunset-Theme 17s ease infinite;
+                                                        -webkit-animation: Sunset-Theme 17s ease infinite;
+                                                        -moz-animation: Sunset-Theme 17s ease infinite;
+                                                        animation: Sunset-Theme 17s ease infinite;
  }
 
 
@@ -336,45 +317,45 @@ Contents of Subclasses {
         Keyframes List 
 ****************************************/
  @-webkit-keyframes Sunset-Theme {
-         0% {
-                 background-position: 94% 0%
-         }
+                                                        0% {
+                                                                background-position: 94% 0%
+                                                        }
 
-         50% {
-                 background-position: 7% 100%
-         }
+                                                        50% {
+                                                                background-position: 7% 100%
+                                                        }
 
-         100% {
-                 background-position: 94% 0%
-         }
+                                                        100% {
+                                                                background-position: 94% 0%
+                                                        }
  }
 
  @-moz-keyframes Sunset-Theme {
-         0% {
-                 background-position: 94% 0%
-         }
+                                                        0% {
+                                                                background-position: 94% 0%
+                                                        }
 
-         50% {
-                 background-position: 7% 100%
-         }
+                                                        50% {
+                                                                background-position: 7% 100%
+                                                        }
 
-         100% {
-                 background-position: 94% 0%
-         }
+                                                        100% {
+                                                                background-position: 94% 0%
+                                                        }
  }
 
  @keyframes Sunset-Theme {
-         0% {
-                 background-position: 94% 0%
-         }
+                                                        0% {
+                                                                background-position: 94% 0%
+                                                        }
 
-         50% {
-                 background-position: 7% 100%
-         }
+                                                        50% {
+                                                                background-position: 7% 100%
+                                                        }
 
-         100% {
-                 background-position: 94% 0%
-         }
+                                                        100% {
+                                                                background-position: 94% 0%
+                                                        }
  }
 
 
@@ -383,15 +364,15 @@ Contents of Subclasses {
 
 
  .button {
-         background-color: rgb(255, 255, 255);
-         padding: 16px 43px;
-         border: none;
-         color: white;
-         font-size: 18px;
-         text-decoration: none;
-         animation-name: foil-buttons-effect;
-         animation-duration: 2s;
-         margin: 20px;
+                                                        background-color: rgb(255, 255, 255);
+                                                        padding: 16px 43px;
+                                                        border: none;
+                                                        color: white;
+                                                        font-size: 18px;
+                                                        text-decoration: none;
+                                                        animation-name: foil-buttons-effect;
+                                                        animation-duration: 2s;
+                                                        margin: 20px;
 
  }
 
@@ -402,51 +383,51 @@ Contents of Subclasses {
 
 
  .status-bar {
-         padding: 3px 16px;
-         display: grid;
-         grid-template-columns: repeat(2, 10fr) repeat(3, 1fr);
-         align-items: center;
-         transition-duration: 0.5s;
+                                                        padding: 3px 16px;
+                                                        display: grid;
+                                                        grid-template-columns: repeat(2, 10fr) repeat(3, 1fr);
+                                                        align-items: center;
+                                                        transition-duration: 0.5s;
 
  }
 
  .status-bar:hover {
-         background-color: rgb(0, 0, 0);
-         border-radius: 10px;
-         margin-bottom: 100px;
-         transform: scale(0.999);
-         padding: 16px 32px;
+                                                        background-color: rgb(0, 0, 0);
+                                                        border-radius: 10px;
+                                                        margin-bottom: 100px;
+                                                        transform: scale(0.999);
+                                                        padding: 16px 32px;
  }
 
  .status-bar-button {
-         background-color: #241f31;
-         text-decoration: none;
-         color: white;
-         border-style: none;
-         padding: 10px;
-         border-radius: 10px;
-         box-shadow: 20px 20px 60px #1a1623, -20px -20px 60px #2e283f;
-         margin-right: 100px;
+                                                        background-color: #241f31;
+                                                        text-decoration: none;
+                                                        color: white;
+                                                        border-style: none;
+                                                        padding: 10px;
+                                                        border-radius: 10px;
+                                                        box-shadow: 20px 20px 60px #1a1623, -20px -20px 60px #2e283f;
+                                                        margin-right: 100px;
  }
 
  .status-bar-button:hover {
-         transition-duration: 0.5s;
-         background-color: green;
+                                                        transition-duration: 0.5s;
+                                                        background-color: green;
  }
 
  .status-bar-left-column {
-         display: flex;
-         justify-content: flex-start;
+                                                        display: flex;
+                                                        justify-content: flex-start;
  }
 
  .status-bar-right-column {
-         display: flex;
-         justify-content: flex-end;
+                                                        display: flex;
+                                                        justify-content: flex-end;
  }
 
  .status-item {
-         font-size: 16px;
-         margin-right: 10px;
+                                                        font-size: 16px;
+                                                        margin-right: 10px;
  }
 
 
