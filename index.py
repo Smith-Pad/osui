@@ -85,6 +85,7 @@ class FRONTEND_MAIN_VIEW():
 
 
 
+
         """
         For the software update screen, in the backend it uses the pacman package manager to dynamically update 
         packages on Arch Linux distros like Smith-Pad-OS or other arch based distributions. 
