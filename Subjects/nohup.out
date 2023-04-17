@@ -1017,3 +1017,289 @@
 [Mon Apr 17 10:29:33 2023] 127.0.0.1:58408 Closing
 [Mon Apr 17 10:29:33 2023] 127.0.0.1:58412 Closing
 [Mon Apr 17 10:29:33 2023] 127.0.0.1:58428 Closing
+[Mon Apr 17 11:43:47 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:4000) started
+[Mon Apr 17 11:43:48 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41708 Accepted
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41708 [200]: GET /Subjects.html
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41708 Closing
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41720 Accepted
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41726 Accepted
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41730 Accepted
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41742 Accepted
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41720 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41726 [200]: GET /src/UI.css
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41730 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41720 Closing
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41730 Closing
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41726 Closing
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41742 [200]: GET /src/layouts.css
+[Mon Apr 17 11:44:46 2023] 127.0.0.1:41742 Closing
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41746 Accepted
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41746 [200]: GET /Subjects.html
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41746 Closing
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41756 Accepted
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41756 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41756 Closing
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41772 Accepted
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41784 Accepted
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41796 Accepted
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41772 [200]: GET /src/UI.css
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41784 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41784 Closing
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41772 Closing
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41796 [200]: GET /src/layouts.css
+[Mon Apr 17 11:44:48 2023] 127.0.0.1:41796 Closing
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35248 Accepted
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35248 [200]: GET /Subjects.html
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35248 Closing
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35252 Accepted
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35254 Accepted
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35268 Accepted
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35282 Accepted
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35252 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35254 [200]: GET /src/UI.css
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35252 Closing
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35268 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35268 Closing
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35254 Closing
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35282 [200]: GET /src/layouts.css
+[Mon Apr 17 11:54:25 2023] 127.0.0.1:35282 Closing
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45884 Accepted
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45884 [200]: GET /Math/Math-Menu.html
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45884 Closing
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45898 Accepted
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45900 Accepted
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45902 Accepted
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45906 Accepted
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45898 [200]: GET /Math/index.css
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45900 [200]: GET /src/layouts.css
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45898 Closing
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45900 Closing
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45902 [200]: GET /src/position-text.css
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45902 Closing
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45906 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:54:35 2023] 127.0.0.1:45906 Closing
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45914 Accepted
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45914 [200]: GET /Math/Numbers/Whole%20Numbers/index.html
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45914 Closing
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45928 Accepted
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45936 Accepted
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45946 Accepted
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45952 Accepted
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45956 Accepted
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45964 Accepted
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45928 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45936 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45946 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45928 Closing
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45936 Closing
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45946 Closing
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45952 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45956 [404]: GET /Math/Numbers/Whole%20Numbers/bar.senal - No such file or directory
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45956 Closing
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45964 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45952 Closing
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45964 Closing
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45974 Accepted
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45974 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Mon Apr 17 11:54:40 2023] 127.0.0.1:45974 Closing
+[Mon Apr 17 11:54:49 2023] 127.0.0.1:54754 Accepted
+[Mon Apr 17 11:54:49 2023] 127.0.0.1:54754 [200]: GET /Math/Numbers/Whole%20Numbers/1.html
+[Mon Apr 17 11:54:49 2023] 127.0.0.1:54754 Closing
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54764 Accepted
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54766 Accepted
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54772 Accepted
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54780 Accepted
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54764 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54766 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54764 Closing
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54766 Closing
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54772 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54772 Closing
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54780 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54780 Closing
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54790 Accepted
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54802 Accepted
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54790 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54802 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54790 Closing
+[Mon Apr 17 11:54:50 2023] 127.0.0.1:54802 Closing
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37074 Accepted
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37074 [200]: GET /Math/Numbers/Whole%20Numbers/2.html
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37074 Closing
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37088 Accepted
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37094 Accepted
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37096 Accepted
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37110 Accepted
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37124 Accepted
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37088 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37094 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37088 Closing
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37094 Closing
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37096 [200]: GET /Math/Numbers/Whole%20Numbers/src/UI.css
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37096 Closing
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37110 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37124 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37110 Closing
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37124 Closing
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37134 Accepted
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37142 Accepted
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37134 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37142 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37134 Closing
+[Mon Apr 17 11:54:54 2023] 127.0.0.1:37142 Closing
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37144 Accepted
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37144 [200]: GET /Math/Numbers/Whole%20Numbers/3.html
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37144 Closing
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37158 Accepted
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37164 Accepted
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37172 Accepted
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37184 Accepted
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37186 Accepted
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37158 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37164 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37172 [200]: GET /Math/Numbers/Whole%20Numbers/src/UI.css
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37184 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37158 Closing
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37164 Closing
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37172 Closing
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37184 Closing
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37186 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37186 Closing
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37188 Accepted
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37202 Accepted
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37188 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37202 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37188 Closing
+[Mon Apr 17 11:54:57 2023] 127.0.0.1:37202 Closing
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53748 Accepted
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53748 [200]: GET /Math/Numbers/Whole%20Numbers/4.html
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53748 Closing
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53760 Accepted
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53772 Accepted
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53782 Accepted
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53794 Accepted
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53798 Accepted
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53804 Accepted
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53760 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53772 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53760 Closing
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53782 [200]: GET /Math/Numbers/Whole%20Numbers/src/UI.css
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53772 Closing
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53782 Closing
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53794 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53798 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53794 Closing
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53804 [404]: GET /Math/Numbers/Whole%20Numbers/bar.senal - No such file or directory
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53804 Closing
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53798 Closing
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53812 Accepted
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53822 Accepted
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53812 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53822 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53812 Closing
+[Mon Apr 17 11:55:24 2023] 127.0.0.1:53822 Closing
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53838 Accepted
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53838 [200]: GET /Math/Numbers/Whole%20Numbers/5.html
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53838 Closing
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53844 Accepted
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53858 Accepted
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53872 Accepted
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53888 Accepted
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53896 Accepted
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53844 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53858 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53844 Closing
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53858 Closing
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53872 [200]: GET /Math/Numbers/Whole%20Numbers/src/UI.css
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53872 Closing
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53888 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53896 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53888 Closing
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53896 Closing
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53904 Accepted
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53914 Accepted
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53904 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53914 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53904 Closing
+[Mon Apr 17 11:55:26 2023] 127.0.0.1:53914 Closing
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53928 Accepted
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53928 [200]: GET /Math/Numbers/Whole%20Numbers/6.html
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53928 Closing
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53936 Accepted
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53952 Accepted
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53956 Accepted
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53968 Accepted
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53972 Accepted
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53936 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53952 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53936 Closing
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53956 [200]: GET /Math/Numbers/Whole%20Numbers/src/UI.css
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53952 Closing
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53956 Closing
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53968 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53972 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53968 Closing
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53972 Closing
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53980 Accepted
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53986 Accepted
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53980 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53986 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53980 Closing
+[Mon Apr 17 11:55:30 2023] 127.0.0.1:53986 Closing
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:53992 Accepted
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:53992 [200]: GET /Math/Numbers/Whole%20Numbers/index.html
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:53992 Closing
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54008 Accepted
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54010 Accepted
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54012 Accepted
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54024 Accepted
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54038 Accepted
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54048 Accepted
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54008 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54010 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54008 Closing
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54010 Closing
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54012 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54012 Closing
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54024 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54038 [404]: GET /Math/Numbers/Whole%20Numbers/bar.senal - No such file or directory
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54038 Closing
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54048 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54024 Closing
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54048 Closing
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54064 Accepted
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54064 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Mon Apr 17 11:55:32 2023] 127.0.0.1:54064 Closing
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56898 Accepted
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56898 [200]: GET /Math/Math-Menu.html
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56898 Closing
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56904 Accepted
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56914 Accepted
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56922 Accepted
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56932 Accepted
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56904 [200]: GET /Math/index.css
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56914 [200]: GET /src/layouts.css
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56922 [200]: GET /src/position-text.css
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56904 Closing
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56914 Closing
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56922 Closing
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56932 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:55:41 2023] 127.0.0.1:56932 Closing
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33268 Accepted
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33268 [200]: GET /Subjects.html
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33268 Closing
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33274 Accepted
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33286 Accepted
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33290 Accepted
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33298 Accepted
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33274 [200]: GET /static/UI-new.css
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33286 [200]: GET /src/UI.css
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33290 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33290 Closing
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33298 [200]: GET /src/layouts.css
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33274 Closing
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33286 Closing
+[Mon Apr 17 11:55:44 2023] 127.0.0.1:33298 Closing
+[Mon Apr 17 12:27:40 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:4000) started
+[Mon Apr 17 12:27:41 2023] Failed to listen on localhost:4000 (reason: Address already in use)

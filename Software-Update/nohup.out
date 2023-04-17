@@ -2589,3 +2589,417 @@ Unknown command verb shutdown.
 [Mon Apr 17 10:47:10 2023] 127.0.0.1:58576 Closing
 [Mon Apr 17 10:47:10 2023] 127.0.0.1:58592 [200]: POST /update_packages
 [Mon Apr 17 10:47:10 2023] 127.0.0.1:58592 Closing
+[Mon Apr 17 11:43:47 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:2000) started
+[Mon Apr 17 11:43:48 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56214 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56214 [200]: GET /
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56214 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56230 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56234 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56238 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56242 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56256 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56270 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56230 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56234 [200]: GET /src/position-text.css
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56230 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56238 [200]: GET /src/UI-new.css
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56234 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56238 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56242 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56256 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56270 [200]: GET /src/hardware-control.js
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56242 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56256 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56270 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56274 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56274 [200]: GET /src/package-management.js
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56274 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56290 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56290 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56290 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56296 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56310 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56314 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56318 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56324 Accepted
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56296 [200]: POST /volume_rocker_up
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56296 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56310 [200]: POST /volume_rocker_down
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56310 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56314 [200]: POST /brightness_rocker_up
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56314 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56318 [200]: POST /brightness_rocker_down
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56318 Closing
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56324 [200]: POST /update_packages
+[Mon Apr 17 11:44:52 2023] 127.0.0.1:56324 Closing
+[Mon Apr 17 11:44:54 2023] 127.0.0.1:56338 Accepted
+[107 11:44:54.415493] Ignoring invalid config line: :     font_family      Operator Mono Book
+[107 11:44:54.415535] Ignoring invalid config line: :     bold_font        Operator Mono Medium
+[107 11:44:54.415546] Ignoring invalid config line: :     italic_font      Operator Mono Book Italic
+[107 11:44:54.415557] Ignoring invalid config line: :     bold_italic_font Operator Mono Medium Italic
+[107 11:44:54.415607] Ignoring invalid config line: :     $ kitty + list-fonts --psnames | grep Fira
+[107 11:44:54.415618] Ignoring invalid config line: :     Fira Code
+[107 11:44:54.415628] Ignoring invalid config line: :     Fira Code Bold (FiraCode-Bold)
+[107 11:44:54.415638] Ignoring invalid config line: :     Fira Code Light (FiraCode-Light)
+[107 11:44:54.415647] Ignoring invalid config line: :     Fira Code Medium (FiraCode-Medium)
+[107 11:44:54.415658] Ignoring invalid config line: :     Fira Code Regular (FiraCode-Regular)
+[107 11:44:54.415668] Ignoring invalid config line: :     Fira Code Retina (FiraCode-Retina)
+[107 11:44:54.594915] Failed to enable transparency. This happens when your desktop environment does not support compositing.
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56338 [200]: POST /
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56338 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56350 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56360 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56362 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56376 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56384 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56394 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56350 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56360 [200]: GET /src/position-text.css
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56350 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56360 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56362 [200]: GET /src/UI-new.css
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56362 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56376 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56376 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56384 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56394 [200]: GET /src/hardware-control.js
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56384 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56394 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56404 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56404 [200]: GET /src/package-management.js
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56404 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56410 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56410 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56410 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56424 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56434 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56440 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56452 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56458 Accepted
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56424 [200]: POST /volume_rocker_up
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56424 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56434 [200]: POST /volume_rocker_down
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56434 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56440 [200]: POST /brightness_rocker_up
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56440 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56452 [200]: POST /brightness_rocker_down
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56452 Closing
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56458 [200]: POST /update_packages
+[Mon Apr 17 11:45:00 2023] 127.0.0.1:56458 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38318 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38318 [200]: GET /
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38318 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38320 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38336 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38352 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38360 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38362 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38374 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38320 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38336 [200]: GET /src/position-text.css
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38320 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38336 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38352 [200]: GET /src/UI-new.css
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38352 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38360 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38362 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38374 [200]: GET /src/hardware-control.js
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38360 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38362 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38374 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38382 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38382 [200]: GET /src/package-management.js
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38382 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38392 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38392 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38392 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38398 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38412 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38416 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38432 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38398 [200]: POST /volume_rocker_up
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38398 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38446 Accepted
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38412 [200]: POST /volume_rocker_down
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38412 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38416 [200]: POST /brightness_rocker_up
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38416 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38432 [200]: POST /brightness_rocker_down
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38432 Closing
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38446 [200]: POST /update_packages
+[Mon Apr 17 11:46:07 2023] 127.0.0.1:38446 Closing
+[Mon Apr 17 11:46:08 2023] 127.0.0.1:38448 Accepted
+[107 11:46:08.104571] Ignoring invalid config line: :     font_family      Operator Mono Book
+[107 11:46:08.104611] Ignoring invalid config line: :     bold_font        Operator Mono Medium
+[107 11:46:08.104622] Ignoring invalid config line: :     italic_font      Operator Mono Book Italic
+[107 11:46:08.104642] Ignoring invalid config line: :     bold_italic_font Operator Mono Medium Italic
+[107 11:46:08.104693] Ignoring invalid config line: :     $ kitty + list-fonts --psnames | grep Fira
+[107 11:46:08.104703] Ignoring invalid config line: :     Fira Code
+[107 11:46:08.104713] Ignoring invalid config line: :     Fira Code Bold (FiraCode-Bold)
+[107 11:46:08.104722] Ignoring invalid config line: :     Fira Code Light (FiraCode-Light)
+[107 11:46:08.104732] Ignoring invalid config line: :     Fira Code Medium (FiraCode-Medium)
+[107 11:46:08.104742] Ignoring invalid config line: :     Fira Code Regular (FiraCode-Regular)
+[107 11:46:08.104751] Ignoring invalid config line: :     Fira Code Retina (FiraCode-Retina)
+[107 11:46:08.290084] Failed to enable transparency. This happens when your desktop environment does not support compositing.
+sudo: unable to read password: Input/output error
+sudo: a password is required
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:38448 [200]: POST /
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:38448 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:56282 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:56298 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:56282 [200]: GET /
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:56282 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:56310 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:56298 [200]: GET /
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:56298 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:48664 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:56310 [200]: GET /
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:56310 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:48664 [200]: GET /
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:48664 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58332 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58346 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58360 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58332 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58346 [200]: GET /src/position-text.css
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58360 [200]: GET /src/UI-new.css
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58332 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58346 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58360 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58362 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58362 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58362 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58374 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58374 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58374 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58384 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58384 [200]: GET /src/hardware-control.js
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58384 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58386 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58392 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58386 [200]: GET /src/package-management.js
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58392 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58386 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58392 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58400 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58408 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58418 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58428 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58440 Accepted
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58400 [200]: POST /volume_rocker_up
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58400 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58408 [200]: POST /volume_rocker_down
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58408 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58418 [200]: POST /brightness_rocker_up
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58418 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58428 [200]: POST /brightness_rocker_down
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58428 Closing
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58440 [200]: POST /update_packages
+[Mon Apr 17 12:27:36 2023] 127.0.0.1:58440 Closing
+[Mon Apr 17 12:27:40 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Mon Apr 17 12:27:41 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60182 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60182 [200]: GET /
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60182 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60186 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60202 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60208 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60220 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60232 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60240 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60186 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60202 [200]: GET /src/position-text.css
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60208 [200]: GET /src/UI-new.css
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60220 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60232 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60240 [200]: GET /src/hardware-control.js
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60186 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60202 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60208 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60220 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60232 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60240 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60250 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60250 [200]: GET /src/package-management.js
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60250 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60262 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60262 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60262 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60278 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60292 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60308 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60320 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60328 Accepted
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60278 [200]: POST /volume_rocker_up
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60278 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60292 [200]: POST /volume_rocker_down
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60292 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60308 [200]: POST /brightness_rocker_up
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60308 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60320 [200]: POST /brightness_rocker_down
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60320 Closing
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60328 [200]: POST /update_packages
+[Mon Apr 17 12:27:42 2023] 127.0.0.1:60328 Closing
+[Mon Apr 17 12:27:43 2023] 127.0.0.1:60344 Accepted
+[107 12:27:43.952921] Ignoring invalid config line: :     font_family      Operator Mono Book
+[107 12:27:43.952965] Ignoring invalid config line: :     bold_font        Operator Mono Medium
+[107 12:27:43.952976] Ignoring invalid config line: :     italic_font      Operator Mono Book Italic
+[107 12:27:43.952986] Ignoring invalid config line: :     bold_italic_font Operator Mono Medium Italic
+[107 12:27:43.953035] Ignoring invalid config line: :     $ kitty + list-fonts --psnames | grep Fira
+[107 12:27:43.953045] Ignoring invalid config line: :     Fira Code
+[107 12:27:43.953055] Ignoring invalid config line: :     Fira Code Bold (FiraCode-Bold)
+[107 12:27:43.953065] Ignoring invalid config line: :     Fira Code Light (FiraCode-Light)
+[107 12:27:43.953075] Ignoring invalid config line: :     Fira Code Medium (FiraCode-Medium)
+[107 12:27:43.953085] Ignoring invalid config line: :     Fira Code Regular (FiraCode-Regular)
+[107 12:27:43.953095] Ignoring invalid config line: :     Fira Code Retina (FiraCode-Retina)
+[107 12:27:44.136381] Failed to enable transparency. This happens when your desktop environment does not support compositing.
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60344 [200]: POST /
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60344 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60358 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60370 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60382 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60398 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60402 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60414 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60358 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60370 [200]: GET /src/position-text.css
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60358 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60370 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60382 [200]: GET /src/UI-new.css
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60382 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60398 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60398 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60402 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60414 [200]: GET /src/hardware-control.js
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60402 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60414 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60428 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60428 [200]: GET /src/package-management.js
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60428 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60434 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60434 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60434 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60438 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60452 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60460 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60468 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60470 Accepted
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60438 [200]: POST /volume_rocker_up
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60438 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60452 [200]: POST /volume_rocker_down
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60452 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60460 [200]: POST /brightness_rocker_up
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60460 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60468 [200]: POST /brightness_rocker_down
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60468 Closing
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60470 [200]: POST /update_packages
+[Mon Apr 17 12:27:45 2023] 127.0.0.1:60470 Closing
+[Mon Apr 17 12:27:46 2023] 127.0.0.1:60472 Accepted
+[107 12:27:46.957560] Ignoring invalid config line: :     font_family      Operator Mono Book
+[107 12:27:46.957604] Ignoring invalid config line: :     bold_font        Operator Mono Medium
+[107 12:27:46.957614] Ignoring invalid config line: :     italic_font      Operator Mono Book Italic
+[107 12:27:46.957624] Ignoring invalid config line: :     bold_italic_font Operator Mono Medium Italic
+[107 12:27:46.957676] Ignoring invalid config line: :     $ kitty + list-fonts --psnames | grep Fira
+[107 12:27:46.957687] Ignoring invalid config line: :     Fira Code
+[107 12:27:46.957697] Ignoring invalid config line: :     Fira Code Bold (FiraCode-Bold)
+[107 12:27:46.957706] Ignoring invalid config line: :     Fira Code Light (FiraCode-Light)
+[107 12:27:46.957716] Ignoring invalid config line: :     Fira Code Medium (FiraCode-Medium)
+[107 12:27:46.957726] Ignoring invalid config line: :     Fira Code Regular (FiraCode-Regular)
+[107 12:27:46.957736] Ignoring invalid config line: :     Fira Code Retina (FiraCode-Retina)
+[107 12:27:47.139717] Failed to enable transparency. This happens when your desktop environment does not support compositing.
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60472 [200]: POST /
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60472 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60482 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60490 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60496 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60508 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60512 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60524 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60482 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60490 [200]: GET /src/position-text.css
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60496 [200]: GET /src/UI-new.css
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60482 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60490 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60496 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60508 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60508 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60512 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60512 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60524 [200]: GET /src/hardware-control.js
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60524 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60538 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60538 [200]: GET /src/package-management.js
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60538 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60550 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60550 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60550 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60558 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60562 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60566 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60568 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60558 [200]: POST /volume_rocker_up
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60558 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60584 Accepted
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60562 [200]: POST /volume_rocker_down
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60562 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60566 [200]: POST /brightness_rocker_up
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60566 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60568 [200]: POST /brightness_rocker_down
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60568 Closing
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60584 [200]: POST /update_packages
+[Mon Apr 17 12:27:47 2023] 127.0.0.1:60584 Closing
+[Mon Apr 17 12:27:49 2023] 127.0.0.1:60594 Accepted
+[107 12:27:49.086389] Ignoring invalid config line: :     font_family      Operator Mono Book
+[107 12:27:49.086432] Ignoring invalid config line: :     bold_font        Operator Mono Medium
+[107 12:27:49.086442] Ignoring invalid config line: :     italic_font      Operator Mono Book Italic
+[107 12:27:49.086452] Ignoring invalid config line: :     bold_italic_font Operator Mono Medium Italic
+[107 12:27:49.086502] Ignoring invalid config line: :     $ kitty + list-fonts --psnames | grep Fira
+[107 12:27:49.086513] Ignoring invalid config line: :     Fira Code
+[107 12:27:49.086523] Ignoring invalid config line: :     Fira Code Bold (FiraCode-Bold)
+[107 12:27:49.086533] Ignoring invalid config line: :     Fira Code Light (FiraCode-Light)
+[107 12:27:49.086543] Ignoring invalid config line: :     Fira Code Medium (FiraCode-Medium)
+[107 12:27:49.086552] Ignoring invalid config line: :     Fira Code Regular (FiraCode-Regular)
+[107 12:27:49.086562] Ignoring invalid config line: :     Fira Code Retina (FiraCode-Retina)
+[107 12:27:49.265193] Failed to enable transparency. This happens when your desktop environment does not support compositing.
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60594 [200]: POST /
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60594 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60604 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60620 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60630 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60644 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60646 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60662 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60604 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60620 [200]: GET /src/position-text.css
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60604 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60620 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60630 [200]: GET /src/UI-new.css
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60644 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60630 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60644 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60646 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60646 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60662 [200]: GET /src/hardware-control.js
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60662 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60670 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60670 [200]: GET /src/package-management.js
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60670 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60684 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60684 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60684 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60688 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60698 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60712 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60724 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60730 Accepted
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60688 [200]: POST /volume_rocker_up
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60688 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60698 [200]: POST /volume_rocker_down
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60698 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60712 [200]: POST /brightness_rocker_up
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60712 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60724 [200]: POST /brightness_rocker_down
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60724 Closing
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60730 [200]: POST /update_packages
+[Mon Apr 17 12:27:51 2023] 127.0.0.1:60730 Closing
