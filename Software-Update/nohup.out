@@ -1,0 +1,2591 @@
+[Sun Apr 16 18:23:31 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:2000) started
+[Sun Apr 16 18:23:36 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:2000) started
+[Sun Apr 16 18:23:54 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:2000) started
+[Sun Apr 16 18:23:55 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Sun Apr 16 18:37:20 2023] 127.0.0.1:47938 Accepted
+[Sun Apr 16 18:37:20 2023] 127.0.0.1:47938 [200]: GET /
+[Sun Apr 16 18:37:20 2023] 127.0.0.1:47938 Closing
+[Sun Apr 16 18:37:20 2023] 127.0.0.1:47944 Accepted
+[Sun Apr 16 18:37:20 2023] 127.0.0.1:47944 [404]: GET /static/FOIL-UI.css - No such file or directory
+[Sun Apr 16 18:37:20 2023] 127.0.0.1:47944 Closing
+[Sun Apr 16 18:37:20 2023] 127.0.0.1:47948 Accepted
+[Sun Apr 16 18:37:20 2023] 127.0.0.1:47948 [404]: GET /favicon.ico - No such file or directory
+[Sun Apr 16 18:37:20 2023] 127.0.0.1:47948 Closing
+[Sun Apr 16 18:37:27 2023] 127.0.0.1:44872 Accepted
+[Sun Apr 16 18:37:27 2023] 127.0.0.1:44872 [200]: GET /
+[Sun Apr 16 18:37:27 2023] 127.0.0.1:44872 Closing
+[Sun Apr 16 18:37:27 2023] 127.0.0.1:44884 Accepted
+[Sun Apr 16 18:37:27 2023] 127.0.0.1:44884 [404]: GET /static/FOIL-UI.css - No such file or directory
+[Sun Apr 16 18:37:27 2023] 127.0.0.1:44884 Closing
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49652 Accepted
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49652 [200]: GET /
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49652 Closing
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49668 Accepted
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49668 [404]: GET /static/FOIL-UI.css - No such file or directory
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49668 Closing
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49674 Accepted
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49674 [200]: GET /
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49674 Closing
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49678 Accepted
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49678 [404]: GET /static/FOIL-UI.css - No such file or directory
+[Sun Apr 16 18:37:40 2023] 127.0.0.1:49678 Closing
+[Sun Apr 16 18:37:53 2023] 127.0.0.1:41982 Accepted
+[Sun Apr 16 18:37:53 2023] 127.0.0.1:41982 [200]: GET /
+[Sun Apr 16 18:37:53 2023] 127.0.0.1:41982 Closing
+[Sun Apr 16 18:37:53 2023] 127.0.0.1:41990 Accepted
+[Sun Apr 16 18:37:53 2023] 127.0.0.1:41990 [404]: GET /static/UI-new.css - No such file or directory
+[Sun Apr 16 18:37:53 2023] 127.0.0.1:41990 Closing
+[Sun Apr 16 18:38:05 2023] 127.0.0.1:59976 Accepted
+[Sun Apr 16 18:38:05 2023] 127.0.0.1:59976 [200]: GET /
+[Sun Apr 16 18:38:05 2023] 127.0.0.1:59976 Closing
+[Sun Apr 16 18:38:05 2023] 127.0.0.1:59978 Accepted
+[Sun Apr 16 18:38:06 2023] 127.0.0.1:59978 [404]: GET /static/FOIL-UI.css - No such file or directory
+[Sun Apr 16 18:38:06 2023] 127.0.0.1:59978 Closing
+[Sun Apr 16 19:07:43 2023] 127.0.0.1:38172 Accepted
+[Sun Apr 16 19:07:43 2023] 127.0.0.1:38172 [200]: GET /
+[Sun Apr 16 19:07:43 2023] 127.0.0.1:38172 Closing
+[Sun Apr 16 19:07:43 2023] 127.0.0.1:38178 Accepted
+[Sun Apr 16 19:07:43 2023] 127.0.0.1:38178 [404]: GET /static/UI-new.css - No such file or directory
+[Sun Apr 16 19:07:43 2023] 127.0.0.1:38178 Closing
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38194 Accepted
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38194 [200]: GET /
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38194 Closing
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38210 Accepted
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38210 [404]: GET /static/UI-new.css - No such file or directory
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38210 Closing
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38222 Accepted
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38222 [200]: GET /
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38222 Closing
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38228 Accepted
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38228 [404]: GET /static/UI-new.css - No such file or directory
+[Sun Apr 16 19:07:44 2023] 127.0.0.1:38228 Closing
+[Sun Apr 16 19:07:59 2023] 127.0.0.1:43746 Accepted
+[Sun Apr 16 19:07:59 2023] 127.0.0.1:43746 [200]: GET /
+[Sun Apr 16 19:07:59 2023] 127.0.0.1:43746 Closing
+[Sun Apr 16 19:07:59 2023] 127.0.0.1:43762 Accepted
+[Sun Apr 16 19:07:59 2023] 127.0.0.1:43762 [404]: GET /static/UI-new.css - No such file or directory
+[Sun Apr 16 19:07:59 2023] 127.0.0.1:43762 Closing
+[Sun Apr 16 19:08:50 2023] 127.0.0.1:53826 Accepted
+[Sun Apr 16 19:08:50 2023] 127.0.0.1:53826 [200]: GET /
+[Sun Apr 16 19:08:50 2023] 127.0.0.1:53826 Closing
+[Sun Apr 16 19:08:50 2023] 127.0.0.1:53838 Accepted
+[Sun Apr 16 19:08:50 2023] 127.0.0.1:53838 [404]: GET /src/UI-new.css - No such file or directory
+[Sun Apr 16 19:08:50 2023] 127.0.0.1:53838 Closing
+[Sun Apr 16 19:08:56 2023] 127.0.0.1:49790 Accepted
+[Sun Apr 16 19:08:56 2023] 127.0.0.1:49790 [200]: GET /
+[Sun Apr 16 19:08:56 2023] 127.0.0.1:49790 Closing
+[Sun Apr 16 19:08:56 2023] 127.0.0.1:49800 Accepted
+[Sun Apr 16 19:08:56 2023] 127.0.0.1:49800 [404]: GET /src/FOIL-UI.css - No such file or directory
+[Sun Apr 16 19:08:56 2023] 127.0.0.1:49800 Closing
+[Sun Apr 16 19:33:48 2023] 127.0.0.1:51308 Accepted
+[Sun Apr 16 19:33:48 2023] 127.0.0.1:51308 [200]: GET /
+[Sun Apr 16 19:33:48 2023] 127.0.0.1:51308 Closing
+[Sun Apr 16 19:33:48 2023] 127.0.0.1:51312 Accepted
+[Sun Apr 16 19:33:48 2023] 127.0.0.1:51312 [200]: GET /src/FOIL-UI.css
+[Sun Apr 16 19:33:48 2023] 127.0.0.1:51312 Closing
+[Sun Apr 16 19:45:51 2023] 127.0.0.1:44190 Accepted
+[Sun Apr 16 19:45:51 2023] 127.0.0.1:44190 [200]: GET /
+[Sun Apr 16 19:45:51 2023] 127.0.0.1:44190 Closing
+[Sun Apr 16 19:45:51 2023] 127.0.0.1:44202 Accepted
+[Sun Apr 16 19:45:51 2023] 127.0.0.1:44202 [200]: GET /src/FOIL-UI.css
+[Sun Apr 16 19:45:51 2023] 127.0.0.1:44202 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38730 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38730 [200]: GET /
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38730 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38742 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38758 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38774 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38788 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38804 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38808 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38742 [200]: GET /src/FOIL-UI.css
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38758 [200]: GET /src/position-text.css
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38774 [200]: GET /src/UI-new.css
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38788 [200]: GET /src/FOIL-Bar.css
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38742 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38758 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38774 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38788 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38804 [200]: GET /src/FOIL-time.js
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38804 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38808 [200]: GET /src/hardware-control.js
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38808 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38822 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38822 [200]: GET /src/package-management.js
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38822 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38826 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38826 [404]: GET /src/background.css - No such file or directory
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38826 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38828 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38830 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38834 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38848 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38858 Accepted
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38828 [200]: POST /volume_rocker_up
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38828 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38830 [200]: POST /volume_rocker_down
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38830 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38834 [200]: POST /brightness_rocker_up
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38834 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38848 [200]: POST /brightness_rocker_down
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38848 Closing
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38858 [200]: POST /update_packages
+[Sun Apr 16 20:41:16 2023] 127.0.0.1:38858 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38864 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38864 [200]: GET /%7B%7B%20url_for('home_screen')%20%7D%7D
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38864 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38866 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38878 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38894 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38904 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38920 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38926 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38866 [200]: GET /src/FOIL-UI.css
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38866 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38878 [200]: GET /src/position-text.css
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38894 [200]: GET /src/UI-new.css
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38904 [200]: GET /src/FOIL-Bar.css
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38878 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38894 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38904 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38920 [200]: GET /src/FOIL-time.js
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38926 [200]: GET /src/hardware-control.js
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38942 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38920 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38926 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38942 [200]: GET /src/package-management.js
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38942 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38950 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38950 [404]: GET /src/background.css - No such file or directory
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38950 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38958 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38960 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38966 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38968 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38974 Accepted
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38958 [200]: POST /volume_rocker_up
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38958 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38960 [200]: POST /volume_rocker_down
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38960 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38966 [200]: POST /brightness_rocker_up
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38966 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38968 [200]: POST /brightness_rocker_down
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38968 Closing
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38974 [200]: POST /update_packages
+[Sun Apr 16 20:41:22 2023] 127.0.0.1:38974 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46656 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46656 [200]: GET /%7B%7B%20url_for('home_screen')%20%7D%7D
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46656 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46662 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46670 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46684 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46688 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46700 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46716 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46662 [200]: GET /src/FOIL-UI.css
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46670 [200]: GET /src/position-text.css
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46684 [200]: GET /src/UI-new.css
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46688 [200]: GET /src/FOIL-Bar.css
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46700 [200]: GET /src/FOIL-time.js
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46716 [200]: GET /src/hardware-control.js
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46662 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46670 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46684 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46688 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46700 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46716 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46724 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46724 [200]: GET /src/package-management.js
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46724 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46730 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46730 [404]: GET /src/background.css - No such file or directory
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46730 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46734 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46738 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46740 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46744 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46750 Accepted
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46734 [200]: POST /volume_rocker_up
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46734 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46738 [200]: POST /volume_rocker_down
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46738 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46740 [200]: POST /brightness_rocker_up
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46740 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46744 [200]: POST /brightness_rocker_down
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46744 Closing
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46750 [200]: POST /update_packages
+[Sun Apr 16 20:41:41 2023] 127.0.0.1:46750 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46756 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46756 [200]: GET /%7B%7B%20url_for('home_screen')%20%7D%7D
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46756 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46768 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46772 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46778 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46780 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46796 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46806 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46768 [200]: GET /src/FOIL-UI.css
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46772 [200]: GET /src/position-text.css
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46768 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46772 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46778 [200]: GET /src/UI-new.css
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46780 [200]: GET /src/FOIL-Bar.css
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46778 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46780 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46796 [200]: GET /src/FOIL-time.js
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46796 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46806 [200]: GET /src/hardware-control.js
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46806 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46810 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46810 [200]: GET /src/package-management.js
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46810 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46814 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46814 [404]: GET /src/background.css - No such file or directory
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46814 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46822 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46826 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46838 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46854 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46822 [200]: POST /volume_rocker_up
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46822 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46858 Accepted
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46826 [200]: POST /volume_rocker_down
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46826 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46838 [200]: POST /brightness_rocker_up
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46838 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46854 [200]: POST /brightness_rocker_down
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46854 Closing
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46858 [200]: POST /update_packages
+[Sun Apr 16 20:41:43 2023] 127.0.0.1:46858 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46874 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46874 [200]: GET /%7B%7B%20url_for('home_screen')%20%7D%7D
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46874 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46878 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46882 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46886 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46896 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46904 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46914 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46878 [200]: GET /src/FOIL-UI.css
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46882 [200]: GET /src/position-text.css
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46886 [200]: GET /src/UI-new.css
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46896 [200]: GET /src/FOIL-Bar.css
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46878 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46882 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46886 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46896 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46904 [200]: GET /src/FOIL-time.js
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46914 [200]: GET /src/hardware-control.js
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46904 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46914 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46920 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46920 [200]: GET /src/package-management.js
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46920 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46934 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46934 [404]: GET /src/background.css - No such file or directory
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46934 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46936 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46946 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46950 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46962 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46978 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46936 [200]: POST /volume_rocker_up
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46936 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46946 [200]: POST /volume_rocker_down
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46946 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46950 [200]: POST /brightness_rocker_up
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46950 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46962 [200]: POST /brightness_rocker_down
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46962 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46978 [200]: POST /update_packages
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46978 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46982 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46982 [200]: GET /%7B%7B%20url_for('home_screen')%20%7D%7D
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46982 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46984 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46986 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46988 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47004 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47006 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47018 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46984 [200]: GET /src/FOIL-UI.css
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46986 [200]: GET /src/position-text.css
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46984 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46986 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46988 [200]: GET /src/UI-new.css
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:46988 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47004 [200]: GET /src/FOIL-Bar.css
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47004 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47006 [200]: GET /src/FOIL-time.js
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47018 [200]: GET /src/hardware-control.js
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47006 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47018 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47020 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47020 [200]: GET /src/package-management.js
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47020 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47026 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47026 [404]: GET /src/background.css - No such file or directory
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47026 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47036 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47052 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47058 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47068 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47080 Accepted
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47036 [200]: POST /volume_rocker_up
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47036 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47052 [200]: POST /volume_rocker_down
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47052 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47058 [200]: POST /brightness_rocker_up
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47058 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47068 [200]: POST /brightness_rocker_down
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47068 Closing
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47080 [200]: POST /update_packages
+[Sun Apr 16 20:41:44 2023] 127.0.0.1:47080 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35380 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35380 [200]: GET /
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35380 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35394 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35398 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35410 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35418 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35430 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35436 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35394 [200]: GET /src/FOIL-UI.css
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35398 [200]: GET /src/position-text.css
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35410 [200]: GET /src/UI-new.css
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35418 [200]: GET /src/FOIL-Bar.css
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35430 [200]: GET /src/FOIL-time.js
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35394 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35398 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35410 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35418 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35430 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35436 [200]: GET /src/hardware-control.js
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35436 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35442 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35442 [200]: GET /src/package-management.js
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35442 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35448 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35448 [404]: GET /src/background.css - No such file or directory
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35448 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35456 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35458 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35468 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35482 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35486 Accepted
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35456 [200]: POST /volume_rocker_up
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35456 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35458 [200]: POST /volume_rocker_down
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35458 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35468 [200]: POST /brightness_rocker_up
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35468 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35482 [200]: POST /brightness_rocker_down
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35482 Closing
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35486 [200]: POST /update_packages
+[Sun Apr 16 20:53:54 2023] 127.0.0.1:35486 Closing
+[Mon Apr 17 08:09:55 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:2000) started
+[Mon Apr 17 08:09:55 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Mon Apr 17 08:25:42 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:2000) started
+[Mon Apr 17 08:25:42 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49936 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49936 [200]: GET /
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49936 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49942 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49946 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49948 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49962 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49974 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49986 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49942 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49946 [200]: GET /src/position-text.css
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49948 [200]: GET /src/UI-new.css
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49962 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49974 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49942 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49946 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49948 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49962 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49974 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49986 [200]: GET /src/hardware-control.js
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49986 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49998 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49998 [200]: GET /src/package-management.js
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:49998 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50002 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50002 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50002 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50016 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50030 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50036 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50038 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50042 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50016 [200]: POST /volume_rocker_up
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50016 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50030 [200]: POST /volume_rocker_down
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50030 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50036 [200]: POST /brightness_rocker_up
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50036 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50038 [200]: POST /brightness_rocker_down
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50038 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50042 [200]: POST /update_packages
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50042 Closing
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50056 Accepted
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50056 [404]: GET /favicon.ico - No such file or directory
+[Mon Apr 17 08:37:36 2023] 127.0.0.1:50056 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40956 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40956 [200]: GET /
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40956 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40958 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40962 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40964 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40970 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40984 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40998 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40958 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40962 [200]: GET /src/position-text.css
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40964 [200]: GET /src/UI-new.css
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40970 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40958 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40962 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40964 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40970 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40984 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40984 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40998 [200]: GET /src/hardware-control.js
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:40998 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41014 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41014 [200]: GET /src/package-management.js
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41014 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41026 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41026 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41026 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41038 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41042 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41048 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41062 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41068 Accepted
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41038 [200]: POST /volume_rocker_up
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41038 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41042 [200]: POST /volume_rocker_down
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41042 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41048 [200]: POST /brightness_rocker_up
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41048 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41062 [200]: POST /brightness_rocker_down
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41062 Closing
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41068 [200]: POST /update_packages
+[Mon Apr 17 08:45:18 2023] 127.0.0.1:41068 Closing
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56174 Accepted
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56174 [200]: GET /
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56174 Closing
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56176 Accepted
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56192 Accepted
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56204 Accepted
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56218 Accepted
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56230 Accepted
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56232 Accepted
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56176 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56192 [200]: GET /src/position-text.css
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56204 [200]: GET /src/UI-new.css
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56218 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56176 Closing
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56192 Closing
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56204 Closing
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56218 Closing
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56230 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56230 Closing
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56232 [200]: GET /src/hardware-control.js
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56232 Closing
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56236 Accepted
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56236 [200]: GET /src/package-management.js
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56236 Closing
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56244 Accepted
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56244 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 08:46:40 2023] 127.0.0.1:56244 Closing
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56252 Accepted
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56254 Accepted
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56270 Accepted
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56282 Accepted
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56298 Accepted
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56252 [200]: POST /volume_rocker_up
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56252 Closing
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56254 [200]: POST /volume_rocker_down
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56254 Closing
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56270 [200]: POST /brightness_rocker_up
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56270 Closing
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56282 [200]: POST /brightness_rocker_down
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56282 Closing
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56298 [200]: POST /update_packages
+[Mon Apr 17 08:46:41 2023] 127.0.0.1:56298 Closing
+[Mon Apr 17 09:21:36 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:2000) started
+[Mon Apr 17 09:21:36 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:44994 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:44994 [200]: GET /
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:44994 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45002 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45004 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45012 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45018 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45034 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45036 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45002 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45004 [200]: GET /src/position-text.css
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45002 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45004 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45012 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45012 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45018 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45018 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45034 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45036 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45034 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45036 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45048 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45048 [200]: GET /src/package-management.js
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45048 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45052 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45052 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45052 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45060 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45072 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45078 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45092 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45060 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45060 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45100 Accepted
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45072 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45072 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45078 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45078 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45092 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45092 Closing
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45100 [200]: POST /update_packages
+[Mon Apr 17 09:21:39 2023] 127.0.0.1:45100 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45116 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45116 [200]: GET /
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45116 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45124 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45134 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45144 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45156 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45170 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45182 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45124 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45124 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45134 [200]: GET /src/position-text.css
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45134 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45144 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45144 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45156 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45170 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45156 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45170 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45182 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45182 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45190 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45190 [200]: GET /src/package-management.js
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45190 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45194 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45194 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45194 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45210 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45224 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45226 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45242 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45246 Accepted
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45210 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45210 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45224 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45224 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45226 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45226 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45242 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45242 Closing
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45246 [200]: POST /update_packages
+[Mon Apr 17 09:21:42 2023] 127.0.0.1:45246 Closing
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:45256 Accepted
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:45256 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:45256 Closing
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:38022 Accepted
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:38022 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:38022 Closing
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:38026 Accepted
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:38026 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:38026 Closing
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:38036 Accepted
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:38036 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:45 2023] 127.0.0.1:38036 Closing
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38052 Accepted
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38052 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38052 Closing
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38064 Accepted
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38064 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38064 Closing
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38070 Accepted
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38070 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38070 Closing
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38078 Accepted
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38078 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38078 Closing
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38088 Accepted
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38088 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38088 Closing
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38104 Accepted
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38104 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:46 2023] 127.0.0.1:38104 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38110 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38110 [200]: GET /
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38110 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38118 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38128 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38130 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38132 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38140 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38146 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38118 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38128 [200]: GET /src/position-text.css
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38118 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38128 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38130 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38130 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38132 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38140 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38146 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38132 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38140 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38146 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38160 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38160 [200]: GET /src/package-management.js
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38160 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38162 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38162 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38162 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38164 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38170 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38186 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38200 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38202 Accepted
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38164 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38164 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38170 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38170 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38186 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38186 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38200 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38200 Closing
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38202 [200]: POST /update_packages
+[Mon Apr 17 09:21:48 2023] 127.0.0.1:38202 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56454 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56454 [200]: GET /
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56454 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56464 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56468 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56478 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56480 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56482 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56490 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56464 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56468 [200]: GET /src/position-text.css
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56478 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56464 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56468 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56478 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56480 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56482 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56480 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56482 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56490 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56490 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56506 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56506 [200]: GET /src/package-management.js
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56506 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56514 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56514 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56514 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56520 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56534 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56546 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56554 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56556 Accepted
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56520 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56520 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56534 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56534 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56546 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56546 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56554 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56554 Closing
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56556 [200]: POST /update_packages
+[Mon Apr 17 09:26:05 2023] 127.0.0.1:56556 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58100 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58100 [200]: GET /
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58100 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58108 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58112 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58120 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58132 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58142 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58156 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58108 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58112 [200]: GET /src/position-text.css
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58120 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58132 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58108 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58112 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58120 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58132 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58142 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58156 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58142 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58156 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58168 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58168 [200]: GET /src/package-management.js
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58168 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58184 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58184 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58184 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58200 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58210 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58216 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58220 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58200 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58200 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58226 Accepted
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58210 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58210 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58216 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58216 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58220 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58220 Closing
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58226 [200]: POST /update_packages
+[Mon Apr 17 09:26:59 2023] 127.0.0.1:58226 Closing
+[Mon Apr 17 09:34:58 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:2000) started
+[Mon Apr 17 09:34:58 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40430 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40430 [200]: GET /
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40430 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40440 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40452 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40460 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40476 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40480 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40484 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40440 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40452 [200]: GET /src/position-text.css
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40460 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40476 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40440 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40452 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40460 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40476 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40480 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40480 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40484 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40484 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40488 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40488 [200]: GET /src/package-management.js
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40488 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40490 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40490 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40490 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40498 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40504 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40516 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40524 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40540 Accepted
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40498 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40498 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40504 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40504 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40516 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40516 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40524 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40524 Closing
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40540 [200]: POST /update_packages
+[Mon Apr 17 09:34:58 2023] 127.0.0.1:40540 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40550 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40550 [200]: GET /
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40550 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40554 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40566 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40568 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40584 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40600 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40616 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40554 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40566 [200]: GET /src/position-text.css
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40568 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40584 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40600 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40616 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40554 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40566 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40568 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40584 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40600 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40616 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40624 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40624 [200]: GET /src/package-management.js
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40624 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40638 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40638 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40638 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40648 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40654 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40670 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40686 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40690 Accepted
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40648 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40648 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40654 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40654 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40670 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40670 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40686 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40686 Closing
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40690 [200]: POST /update_packages
+[Mon Apr 17 09:34:59 2023] 127.0.0.1:40690 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52170 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52170 [200]: GET /
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52170 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52174 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52182 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52186 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52196 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52208 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52214 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52174 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52182 [200]: GET /src/position-text.css
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52174 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52182 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52186 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52186 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52196 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52208 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52214 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52196 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52208 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52214 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52224 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52224 [200]: GET /src/package-management.js
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52224 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52234 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52234 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52234 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52238 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52248 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52258 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52264 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52278 Accepted
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52238 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52238 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52248 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52248 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52258 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52258 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52264 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52264 Closing
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52278 [200]: POST /update_packages
+[Mon Apr 17 09:35:14 2023] 127.0.0.1:52278 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51482 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51482 [200]: GET /
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51482 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51498 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51514 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51528 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51534 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51546 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51560 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51498 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51514 [200]: GET /src/position-text.css
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51528 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51498 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51514 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51528 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51534 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51546 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51560 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51534 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51546 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51560 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51562 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51562 [200]: GET /src/package-management.js
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51562 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51574 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51574 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51574 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51584 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51586 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51594 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51606 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51610 Accepted
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51584 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51584 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51586 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51586 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51594 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51594 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51606 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51606 Closing
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51610 [200]: POST /update_packages
+[Mon Apr 17 09:35:33 2023] 127.0.0.1:51610 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34602 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34602 [200]: GET /
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34602 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34616 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34630 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34646 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34652 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34666 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34670 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34616 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34630 [200]: GET /src/position-text.css
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34646 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34652 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34616 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34630 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34646 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34652 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34666 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34670 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34666 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34670 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34672 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34672 [200]: GET /src/package-management.js
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34672 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34688 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34688 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34688 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34696 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34712 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34714 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34724 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34726 Accepted
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34696 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34696 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34712 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34712 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34714 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34714 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34724 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34724 Closing
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34726 [200]: POST /update_packages
+[Mon Apr 17 09:35:39 2023] 127.0.0.1:34726 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55026 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55026 [200]: GET /
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55026 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55040 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55046 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55048 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55056 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55062 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55064 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55040 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55046 [200]: GET /src/position-text.css
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55040 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55046 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55048 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55056 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55062 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55064 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55048 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55056 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55062 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55064 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55070 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55070 [200]: GET /src/package-management.js
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55070 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55086 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55086 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55086 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55102 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55108 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55110 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55120 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55132 Accepted
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55102 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55102 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55108 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55108 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55110 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55110 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55120 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55120 Closing
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55132 [200]: POST /update_packages
+[Mon Apr 17 09:41:27 2023] 127.0.0.1:55132 Closing
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:58988 Accepted
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59000 Accepted
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59012 Accepted
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59024 Accepted
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59030 Accepted
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:58988 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:58988 Closing
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59000 [200]: GET /src/position-text.css
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59012 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59024 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59030 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59030 Closing
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59000 Closing
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59012 Closing
+[Mon Apr 17 09:41:46 2023] 127.0.0.1:59024 Closing
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45564 Accepted
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45564 [200]: GET /
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45564 Closing
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45574 Accepted
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45580 Accepted
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45588 Accepted
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45594 Accepted
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45602 Accepted
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45574 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45574 Closing
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45580 [200]: GET /src/position-text.css
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45588 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45594 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45580 Closing
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45588 Closing
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45594 Closing
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45602 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45602 Closing
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45608 Accepted
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45608 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:42:48 2023] 127.0.0.1:45608 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44320 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44320 [200]: GET /
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44320 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44322 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44324 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44328 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44340 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44352 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44322 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44324 [200]: GET /src/position-text.css
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44328 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44340 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44352 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44322 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44324 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44328 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44340 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44352 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44366 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44366 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44366 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44370 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44370 [200]: GET /
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44370 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44386 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44400 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44408 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44424 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44426 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44386 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44400 [200]: GET /src/position-text.css
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44408 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44386 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44400 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44408 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44424 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44426 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44424 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44426 Closing
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44440 Accepted
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44440 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:42:58 2023] 127.0.0.1:44440 Closing
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44450 Accepted
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44450 [200]: GET /
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44450 Closing
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44458 Accepted
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44462 Accepted
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44464 Accepted
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44474 Accepted
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44490 Accepted
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44458 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44462 [200]: GET /src/position-text.css
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44464 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44474 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44458 Closing
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44462 Closing
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44464 Closing
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44474 Closing
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44490 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44490 Closing
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44504 Accepted
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44504 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:43:00 2023] 127.0.0.1:44504 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44516 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44516 [200]: GET /
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44516 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44526 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44530 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44544 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44560 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44564 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44568 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44526 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44530 [200]: GET /src/position-text.css
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44544 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44560 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44564 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44568 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44526 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44530 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44544 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44560 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44564 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44568 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44580 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44580 [200]: GET /src/package-management.js
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44580 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44582 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44582 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44582 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44596 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44602 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44616 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44628 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44634 Accepted
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44596 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44596 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44602 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44602 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44616 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44616 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44628 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44628 Closing
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44634 [200]: POST /update_packages
+[Mon Apr 17 09:43:01 2023] 127.0.0.1:44634 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40258 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40258 [200]: GET /
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40258 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40270 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40272 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40288 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40300 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40308 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40316 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40270 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40272 [200]: GET /src/position-text.css
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40270 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40272 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40288 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40288 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40300 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40308 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40300 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40308 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40316 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40316 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40332 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40332 [200]: GET /src/package-management.js
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40332 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40344 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40344 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40344 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40356 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40360 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40364 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40372 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40380 Accepted
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40356 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40356 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40360 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40360 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40364 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40364 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40372 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40372 Closing
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40380 [200]: POST /update_packages
+[Mon Apr 17 09:44:25 2023] 127.0.0.1:40380 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40562 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40562 [200]: GET /
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40562 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40576 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40586 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40596 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40604 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40616 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40576 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40628 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40576 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40586 [200]: GET /src/position-text.css
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40596 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40586 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40596 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40604 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40616 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40604 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40616 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40628 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40628 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40636 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40636 [200]: GET /src/package-management.js
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40636 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40652 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40652 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40652 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40658 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40674 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40682 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40690 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40706 Accepted
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40658 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40658 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40674 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40674 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40682 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40682 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40690 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40690 Closing
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40706 [200]: POST /update_packages
+[Mon Apr 17 09:44:33 2023] 127.0.0.1:40706 Closing
+[Mon Apr 17 09:47:45 2023] PHP 8.1.2-1ubuntu2.11 Development Server (http://localhost:2000) started
+[Mon Apr 17 09:47:46 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47852 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47852 [200]: GET /
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47852 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47858 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47872 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47882 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47898 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47902 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47906 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47858 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47872 [200]: GET /src/position-text.css
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47858 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47872 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47882 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47882 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47898 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47898 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47902 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47906 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47902 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47906 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47922 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47922 [200]: GET /src/package-management.js
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47922 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47924 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47924 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47924 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47934 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47936 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47940 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47944 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47934 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47934 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47956 Accepted
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47936 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47936 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47940 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47940 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47944 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47944 Closing
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47956 [200]: POST /update_packages
+[Mon Apr 17 09:47:50 2023] 127.0.0.1:47956 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:47970 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:47970 [200]: GET /
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:47970 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:47986 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:47996 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48012 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48024 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48034 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48044 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:47986 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:47996 [200]: GET /src/position-text.css
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48012 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48024 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:47986 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:47996 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48012 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48024 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48034 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48044 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48034 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48044 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48058 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48074 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48058 [200]: GET /src/package-management.js
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48074 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48074 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48058 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48090 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48100 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48116 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48128 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48134 Accepted
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48090 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48090 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48100 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48100 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48116 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48116 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48128 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48128 Closing
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48134 [200]: POST /update_packages
+[Mon Apr 17 09:47:52 2023] 127.0.0.1:48134 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50868 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50868 [200]: GET /
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50868 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50872 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50880 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50882 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50884 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50888 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50890 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50872 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50880 [200]: GET /src/position-text.css
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50882 [200]: GET /src/UI-new.css
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50884 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50872 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50880 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50882 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50884 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50888 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50890 [200]: GET /src/hardware-control.js
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50888 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50896 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50890 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50896 [200]: GET /src/package-management.js
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50896 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50902 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50902 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50902 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50916 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50928 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50930 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50940 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50946 Accepted
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50916 [200]: POST /volume_rocker_up
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50916 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50928 [200]: POST /volume_rocker_down
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50928 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50930 [200]: POST /brightness_rocker_up
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50930 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50940 [200]: POST /brightness_rocker_down
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50940 Closing
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50946 [200]: POST /update_packages
+[Mon Apr 17 09:50:25 2023] 127.0.0.1:50946 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56686 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56686 [200]: GET /
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56686 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56698 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56710 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56724 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56738 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56754 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56762 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56698 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56710 [200]: GET /src/position-text.css
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56724 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56698 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56710 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56724 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56738 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56754 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56762 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56738 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56754 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56762 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56766 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56766 [200]: GET /src/package-management.js
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56766 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56778 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56778 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56778 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56794 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56798 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56812 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56824 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56840 Accepted
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56794 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56794 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56798 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56798 Closing
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56812 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:12:23 2023] 127.0.0.1:56812 Closing
+[Mon Apr 17 10:12:24 2023] 127.0.0.1:56824 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:12:24 2023] 127.0.0.1:56824 Closing
+[Mon Apr 17 10:12:24 2023] 127.0.0.1:56840 [200]: POST /update_packages
+[Mon Apr 17 10:12:24 2023] 127.0.0.1:56840 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54962 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54962 [200]: GET /
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54962 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54976 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54992 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54994 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55010 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55018 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55028 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54976 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54976 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54992 [200]: GET /src/position-text.css
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54994 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54992 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:54994 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55010 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55018 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55010 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55018 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55028 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55028 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55044 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55044 [200]: GET /src/package-management.js
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55044 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55054 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55054 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55054 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55058 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55068 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55076 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55090 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55094 Accepted
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55058 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55058 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55068 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55068 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55076 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55076 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55090 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55090 Closing
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55094 [200]: POST /update_packages
+[Mon Apr 17 10:12:29 2023] 127.0.0.1:55094 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45202 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45202 [200]: GET /
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45202 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45204 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45210 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45222 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45236 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45248 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45252 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45204 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45210 [200]: GET /src/position-text.css
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45222 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45204 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45210 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45222 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45236 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45248 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45252 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45236 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45248 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45252 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45260 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45260 [200]: GET /src/package-management.js
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45260 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45268 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45268 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45268 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45276 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45282 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45298 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45312 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45314 Accepted
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45276 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45276 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45282 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45282 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45298 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45298 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45312 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45312 Closing
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45314 [200]: POST /update_packages
+[Mon Apr 17 10:12:40 2023] 127.0.0.1:45314 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44722 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44722 [200]: GET /
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44722 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44726 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44730 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44746 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44754 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44768 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44770 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44726 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44730 [200]: GET /src/position-text.css
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44746 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44726 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44730 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44746 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44754 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44768 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44770 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44754 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44768 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44770 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44776 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44776 [200]: GET /src/package-management.js
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44776 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44782 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44782 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44782 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44790 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44800 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44802 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44814 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44830 Accepted
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44790 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44790 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44800 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44800 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44802 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44802 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44814 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44814 Closing
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44830 [200]: POST /update_packages
+[Mon Apr 17 10:31:11 2023] 127.0.0.1:44830 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50600 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50600 [200]: GET /
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50600 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50610 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50612 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50628 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50644 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50646 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50648 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50610 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50612 [200]: GET /src/position-text.css
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50610 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50612 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50628 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50628 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50644 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50646 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50644 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50648 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50646 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50648 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50658 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50658 [200]: GET /src/package-management.js
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50658 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50668 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50668 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50668 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50674 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50684 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50694 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50708 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50716 Accepted
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50674 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50674 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50684 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50684 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50694 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50694 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50708 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50708 Closing
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50716 [200]: POST /update_packages
+[Mon Apr 17 10:33:28 2023] 127.0.0.1:50716 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50724 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50724 [200]: GET /
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50724 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50738 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50746 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50758 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50768 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50776 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50778 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50738 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50746 [200]: GET /src/position-text.css
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50738 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50746 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50758 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50758 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50768 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50776 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50778 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50768 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50776 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50778 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50780 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50780 [200]: GET /src/package-management.js
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50780 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50784 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50784 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50784 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50788 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50792 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50802 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50812 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50816 Accepted
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50788 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50788 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50792 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50792 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50802 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50802 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50812 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50812 Closing
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50816 [200]: POST /update_packages
+[Mon Apr 17 10:33:32 2023] 127.0.0.1:50816 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34936 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34936 [200]: GET /
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34936 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34950 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34954 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34964 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34968 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34970 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34972 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34950 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34954 [200]: GET /src/position-text.css
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34964 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34968 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34950 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34954 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34964 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34968 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34970 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34970 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34972 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34972 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34974 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34974 [200]: GET /src/package-management.js
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34974 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34988 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34988 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34988 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34996 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35000 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35012 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35026 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35040 Accepted
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34996 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:34996 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35000 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35000 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35012 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35012 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35026 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35026 Closing
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35040 [200]: POST /update_packages
+[Mon Apr 17 10:34:06 2023] 127.0.0.1:35040 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46024 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46024 [200]: GET /
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46024 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46034 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46038 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46052 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46054 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46058 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46074 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46034 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46038 [200]: GET /src/position-text.css
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46034 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46038 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46052 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46052 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46054 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46058 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46054 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46058 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46074 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46074 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46084 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46084 [200]: GET /src/package-management.js
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46084 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46088 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46088 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46088 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46104 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46106 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46118 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46130 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46104 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46104 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46136 Accepted
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46106 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46106 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46118 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46118 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46130 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46130 Closing
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46136 [200]: POST /update_packages
+[Mon Apr 17 10:34:25 2023] 127.0.0.1:46136 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60850 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60850 [200]: GET /
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60850 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60862 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60870 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60872 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60888 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60894 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60904 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60862 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60870 [200]: GET /src/position-text.css
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60872 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60862 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60870 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60872 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60888 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60888 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60894 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60894 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60904 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60904 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60914 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60914 [200]: GET /src/package-management.js
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60914 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60926 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60926 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60926 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60942 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60946 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60960 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60976 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60988 Accepted
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60942 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60942 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60946 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60946 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60960 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60960 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60976 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60976 Closing
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60988 [200]: POST /update_packages
+[Mon Apr 17 10:36:25 2023] 127.0.0.1:60988 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35834 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35834 [200]: GET /
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35834 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35836 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35848 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35858 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35868 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35880 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35894 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35836 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35848 [200]: GET /src/position-text.css
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35858 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35868 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35880 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35894 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35836 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35848 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35858 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35868 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35880 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35894 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35908 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35908 [200]: GET /src/package-management.js
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35908 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35910 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35910 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35910 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35916 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35918 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35920 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35932 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35944 Accepted
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35916 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35916 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35918 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35918 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35920 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35920 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35932 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35932 Closing
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35944 [200]: POST /update_packages
+[Mon Apr 17 10:36:38 2023] 127.0.0.1:35944 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36238 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36238 [200]: GET /
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36238 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36240 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36248 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36264 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36272 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36284 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36292 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36240 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36248 [200]: GET /src/position-text.css
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36264 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36240 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36248 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36264 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36272 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36284 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36272 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36284 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36292 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36292 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36306 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36306 [200]: GET /src/package-management.js
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36306 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36322 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36322 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36322 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36334 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36344 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36352 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36360 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36370 Accepted
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36334 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36334 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36344 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36344 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36352 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36352 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36360 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36360 Closing
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36370 [200]: POST /update_packages
+[Mon Apr 17 10:38:22 2023] 127.0.0.1:36370 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36372 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36372 [200]: POST /
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36372 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36384 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36392 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36384 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36392 [200]: GET /src/position-text.css
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36384 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36392 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36398 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36400 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36410 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36422 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36428 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36398 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36400 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36398 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36400 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36410 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36410 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36422 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36422 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36428 [200]: GET /src/package-management.js
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36428 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36438 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36438 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36438 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36454 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36458 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36470 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36474 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36478 Accepted
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36454 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36454 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36458 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36458 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36470 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36470 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36474 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36474 Closing
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36478 [200]: POST /update_packages
+[Mon Apr 17 10:38:24 2023] 127.0.0.1:36478 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36484 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36484 [200]: POST /
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36484 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36500 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36510 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36526 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36538 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36550 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36562 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36500 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36510 [200]: GET /src/position-text.css
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36500 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36510 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36526 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36526 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36538 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36538 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36550 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36562 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36550 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36562 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36578 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36578 [200]: GET /src/package-management.js
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36578 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36592 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36592 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36592 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36608 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36624 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36638 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36644 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36646 Accepted
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36608 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36608 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36624 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36624 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36638 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36638 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36644 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36644 Closing
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36646 [200]: POST /update_packages
+[Mon Apr 17 10:38:25 2023] 127.0.0.1:36646 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55334 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55334 [200]: POST /
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55334 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55350 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55354 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55358 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55362 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55370 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55378 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55350 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55354 [200]: GET /src/position-text.css
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55358 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55362 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55350 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55354 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55358 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55362 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55370 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55378 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55370 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55378 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55380 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55380 [200]: GET /src/package-management.js
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55380 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55390 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55390 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55390 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55392 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55396 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55408 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55420 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55426 Accepted
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55392 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55392 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55396 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55396 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55408 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55408 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55420 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55420 Closing
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55426 [200]: POST /update_packages
+[Mon Apr 17 10:38:34 2023] 127.0.0.1:55426 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52754 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52754 [200]: GET /
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52754 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52770 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52780 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52786 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52788 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52796 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52808 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52770 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52780 [200]: GET /src/position-text.css
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52770 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52780 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52786 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52786 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52788 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52796 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52788 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52796 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52808 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52808 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52818 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52818 [200]: GET /src/package-management.js
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52818 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52832 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52832 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52832 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52836 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52838 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52850 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52852 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52862 Accepted
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52836 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52836 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52838 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52838 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52850 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52850 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52852 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52852 Closing
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52862 [200]: POST /update_packages
+[Mon Apr 17 10:40:39 2023] 127.0.0.1:52862 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52872 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52872 [200]: POST /
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52872 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52886 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52900 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52914 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52922 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52924 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52928 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52886 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52900 [200]: GET /src/position-text.css
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52914 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52922 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52886 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52900 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52914 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52922 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52924 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52928 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52924 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52928 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52936 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52948 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52936 [200]: GET /src/package-management.js
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52948 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52936 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52948 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52960 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52968 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52984 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52994 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:53002 Accepted
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52960 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52960 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52968 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52968 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52984 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52984 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52994 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:52994 Closing
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:53002 [200]: POST /update_packages
+[Mon Apr 17 10:40:40 2023] 127.0.0.1:53002 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60612 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60612 [200]: GET /
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60612 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60614 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60622 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60634 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60648 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60654 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60658 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60614 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60622 [200]: GET /src/position-text.css
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60634 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60614 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60622 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60634 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60648 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60654 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60648 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60654 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60658 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60658 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60664 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60664 [200]: GET /src/package-management.js
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60664 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60666 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60666 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60666 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60670 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60672 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60682 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60698 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60712 Accepted
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60670 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60670 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60672 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60672 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60682 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60682 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60698 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60698 Closing
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60712 [200]: POST /update_packages
+[Mon Apr 17 10:42:40 2023] 127.0.0.1:60712 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60722 Accepted
+Unknown command verb shutdown.
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60722 [200]: POST /
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60722 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60730 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60732 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60736 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60742 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60744 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60748 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60730 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60732 [200]: GET /src/position-text.css
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60736 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60742 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60744 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60730 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60732 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60736 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60742 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60744 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60748 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60748 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60750 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60750 [200]: GET /src/package-management.js
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60750 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60758 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60758 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60758 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60770 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60786 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60794 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60804 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60816 Accepted
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60770 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60770 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60786 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60786 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60794 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60794 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60804 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60804 Closing
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60816 [200]: POST /update_packages
+[Mon Apr 17 10:42:41 2023] 127.0.0.1:60816 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60826 Accepted
+Unknown command verb shutdown.
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60826 [200]: POST /
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60826 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60834 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60846 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60852 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60866 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60874 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60878 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60834 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60846 [200]: GET /src/position-text.css
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60834 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60846 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60852 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60852 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60866 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60866 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60874 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60878 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60874 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60878 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60886 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60886 [200]: GET /src/package-management.js
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60886 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60890 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60890 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60890 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60898 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60900 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60910 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60926 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60940 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60898 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60898 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60900 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60900 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60910 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60910 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60926 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60926 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60940 [200]: POST /update_packages
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60940 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60944 Accepted
+Unknown command verb shutdown.
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60944 [200]: POST /
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60944 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60956 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60960 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60970 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60982 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60998 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32778 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60956 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60960 [200]: GET /src/position-text.css
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60970 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60982 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60998 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32778 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60956 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60960 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60970 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60982 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:60998 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32778 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32780 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32780 [200]: GET /src/package-management.js
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32780 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32792 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32792 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32792 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32800 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32814 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32816 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32832 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32846 Accepted
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32800 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32800 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32814 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32814 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32816 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32816 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32832 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32832 Closing
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32846 [200]: POST /update_packages
+[Mon Apr 17 10:42:42 2023] 127.0.0.1:32846 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32852 Accepted
+Unknown command verb shutdown.
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32852 [200]: POST /
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32852 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32868 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32880 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32894 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32900 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32904 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32908 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32868 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32880 [200]: GET /src/position-text.css
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32868 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32894 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32880 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32894 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32900 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32904 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32900 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32904 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32908 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32908 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32916 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32916 [200]: GET /src/package-management.js
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32916 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32924 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32924 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32924 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32940 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32956 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32958 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32968 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32974 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32940 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32940 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32956 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32956 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32958 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32958 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32968 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32968 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32974 [200]: POST /update_packages
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32974 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32988 Accepted
+Unknown command verb shutdown.
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32988 [200]: POST /
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32988 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32998 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33008 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33014 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33016 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33020 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33030 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32998 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33008 [200]: GET /src/position-text.css
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:32998 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33008 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33014 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33016 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33014 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33016 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33020 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33020 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33030 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33030 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33032 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33032 [200]: GET /src/package-management.js
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33032 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33038 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33038 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33038 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33042 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33048 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33056 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33072 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33074 Accepted
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33042 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33042 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33048 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33048 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33056 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33056 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33072 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33072 Closing
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33074 [200]: POST /update_packages
+[Mon Apr 17 10:42:43 2023] 127.0.0.1:33074 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36516 Accepted
+Unknown command verb shutdown.
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36516 [200]: POST /
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36516 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36518 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36522 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36530 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36544 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36546 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36548 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36518 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36522 [200]: GET /src/position-text.css
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36518 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36522 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36530 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36530 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36544 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36544 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36546 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36546 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36548 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36548 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36552 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36552 [200]: GET /src/package-management.js
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36552 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36568 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36568 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36568 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36584 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36590 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36600 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36612 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36614 Accepted
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36584 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36584 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36590 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36590 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36600 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36600 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36612 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36612 Closing
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36614 [200]: POST /update_packages
+[Mon Apr 17 10:42:57 2023] 127.0.0.1:36614 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45542 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45542 [200]: GET /
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45542 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45544 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45552 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45562 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45572 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45576 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45578 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45544 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45552 [200]: GET /src/position-text.css
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45544 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45552 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45562 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45572 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45576 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45578 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45562 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45572 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45576 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45578 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45594 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45594 [200]: GET /src/package-management.js
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45594 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45606 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45606 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45606 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45608 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45616 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45630 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45638 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45648 Accepted
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45608 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45608 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45616 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45616 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45630 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45630 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45638 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45638 Closing
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45648 [200]: POST /update_packages
+[Mon Apr 17 10:43:40 2023] 127.0.0.1:45648 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57542 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57542 [200]: POST /
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57542 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57556 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57570 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57574 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57576 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57580 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57584 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57556 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57570 [200]: GET /src/position-text.css
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57556 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57570 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57574 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57574 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57576 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57576 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57580 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57580 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57584 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57584 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57598 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57598 [200]: GET /src/package-management.js
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57598 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57602 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57602 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57602 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57616 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57622 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57630 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57636 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57638 Accepted
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57616 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57616 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57622 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57622 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57630 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57630 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57636 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57636 Closing
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57638 [200]: POST /update_packages
+[Mon Apr 17 10:43:48 2023] 127.0.0.1:57638 Closing
+[Mon Apr 17 10:45:34 2023] 127.0.0.1:41646 Accepted
+[Mon Apr 17 10:45:34 2023] 127.0.0.1:41646 [200]: GET /
+[Mon Apr 17 10:45:34 2023] 127.0.0.1:41646 Closing
+[Mon Apr 17 10:45:34 2023] 127.0.0.1:41662 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41676 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41680 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41690 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41698 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41710 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41662 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41676 [200]: GET /src/position-text.css
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41662 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41676 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41680 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41690 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41680 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41690 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41698 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41698 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41710 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41710 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41726 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41726 [200]: GET /src/package-management.js
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41726 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41728 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41728 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41728 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41742 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41752 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41764 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41768 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41742 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41742 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41780 Accepted
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41752 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41752 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41764 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41764 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41768 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41768 Closing
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41780 [200]: POST /update_packages
+[Mon Apr 17 10:45:35 2023] 127.0.0.1:41780 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39294 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39294 [200]: GET /
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39294 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39308 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39308 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39308 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39322 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39334 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39344 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39354 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39364 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39322 [200]: GET /src/position-text.css
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39334 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39372 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39322 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39334 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39344 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39354 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39364 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39344 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39354 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39364 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39372 [200]: GET /src/package-management.js
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39372 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39378 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39378 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39378 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39382 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39384 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39394 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39408 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39420 Accepted
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39382 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39382 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39384 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39384 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39394 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39394 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39408 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39408 Closing
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39420 [200]: POST /update_packages
+[Mon Apr 17 10:45:51 2023] 127.0.0.1:39420 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60928 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60928 [200]: GET /
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60928 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60934 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60946 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60950 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60962 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60978 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60986 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60934 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60946 [200]: GET /src/position-text.css
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60934 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60946 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60950 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60950 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60962 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60962 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60978 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60978 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60986 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60986 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60988 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60988 [200]: GET /src/package-management.js
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:60988 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32772 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32772 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32772 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32788 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32798 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32804 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32818 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32822 Accepted
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32788 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32788 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32798 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32798 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32804 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32804 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32818 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32818 Closing
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32822 [200]: POST /update_packages
+[Mon Apr 17 10:46:03 2023] 127.0.0.1:32822 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58438 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58438 [200]: GET /
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58438 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58446 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58458 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58470 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58486 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58496 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58508 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58446 [200]: GET /src/FOIL-UI.css
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58458 [200]: GET /src/position-text.css
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58446 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58458 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58470 [200]: GET /src/UI-new.css
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58470 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58486 [200]: GET /src/FOIL-Bar.css
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58486 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58496 [200]: GET /src/FOIL-time.js
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58508 [200]: GET /src/hardware-control.js
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58496 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58508 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58522 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58522 [200]: GET /src/package-management.js
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58522 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58536 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58536 [404]: GET /src/background.css - No such file or directory
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58536 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58544 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58558 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58564 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58576 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58592 Accepted
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58544 [200]: POST /volume_rocker_up
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58544 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58558 [200]: POST /volume_rocker_down
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58558 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58564 [200]: POST /brightness_rocker_up
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58564 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58576 [200]: POST /brightness_rocker_down
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58576 Closing
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58592 [200]: POST /update_packages
+[Mon Apr 17 10:47:10 2023] 127.0.0.1:58592 Closing
