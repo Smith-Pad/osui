@@ -1,0 +1,30 @@
+#+TITLE: src
+
+* Hardware Control
+Scripts that are used in the backend, allowing the ability to fully
+control the hardware via the OSUI Interface.
+
+
+** Inside Hardware Control
+
+Inside the hardware control, here are the list of script Components
+and description of what each of them does. 
+
+
+
+
+#+BEGIN_SRC txt
+Hardware Control
+{
+        display-brightness-control {
+                display_brightness_rocker_down.sh
+                display_brightness_rocker_up.sh
+        }
+
+        volume-control {
+                volume_rocker_down.sh
+                volume_rocker_up.sh
+                volume_rocker_mute.sh
+        }
+}
+#+END_SRC

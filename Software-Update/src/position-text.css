@@ -1,0 +1,74 @@
+
+/* 
+
+
+
+  _____ ___ ___ _       _   _ ___
+ |  ___/ _ \_ _| |     | | | |_ _|
+ | |_ | | | | || |     | | | || |
+ |   || |_| | || |___  | |_| || |
+ |_|   \___/___|_____|  \___/|___  Framework Library
+ Position System. Senal's Position System allows you to 
+
+ By Senal Bulumulle 
+
+ /*  */
+/* Position */
+.center {
+        text-align: center;
+        border: 3px solid /* ONLY ON DEBUG */transparent;
+      }
+      
+      /* Position */
+      .left {
+        text-align: left;
+        border: 3px solid /* ONLY ON DEBUG */transparent ;
+      }
+      
+      /* Position */
+      .space {
+        text-align: left;
+        border: 3px solid /* ONLY ON DEBUG */transparent;
+      }
+      
+      /* INSTRUCTIONS
+      
+      
+      
+      1. To center object, call 
+          <div class="center"> 
+      
+      
+          </div>
+      
+      2. To right object, call 
+          <div class="right">
+      
+      
+          </div>
+      
+      3. To left object, call
+          <div class="left">
+      
+          </div>
+      
+      
+      4. To space object, call and repeat to move text to top to bottom 
+      before putting html data code in. For example
+      
+          <div class="space"></div> 
+          <div class="space"></div> 
+          <div class="space"></div> 
+          <div class="space"></div> 
+          <div class="space"></div> 
+          <div class="space"></div> 
+          <div class="space"></div> 
+          <div class="space"></div> 
+          <div class="space"></div> 
+          <div class="space"></div> 
+          
+      */
+      
+      
+      
+      
