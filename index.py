@@ -31,7 +31,8 @@ app = Flask(__name__)
 ## integration with flask?....
 
 class initOG():
-        os.system('cd Subjects/ && nohup php -S localhost:4000 & ')
+        os.system('cd Subjects/ && nohup php -S localhost:4000 & ')                     ## Subjects Feature
+        os.system('cd Software-Update/ && nohup php -S localhost:2000 &')               ## Software Update Feature
 initOG()
 
 
@@ -85,15 +86,6 @@ class FRONTEND_MAIN_VIEW():
 
 
 
-
-        """
-        For the software update screen, in the backend it uses the pacman package manager to dynamically update 
-        packages on Arch Linux distros like Smith-Pad-OS or other arch based distributions. 
-        """
-
-        @app.route('/settings_screen_software_update_screen', methods=['POST', 'GET'])
-        def settings_screen_software_update_screen():
-            return render_template('settings-software-update.html')
 
 
         """
