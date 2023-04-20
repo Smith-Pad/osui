@@ -79,7 +79,6 @@
         <div class="space"></div>
         <div class="space"></div>
         <div class="space"></div>
-        <FOIL-font-size-20> {{Hello}} </FOIL-font-size-20>
         <div class="space"></div>
         <div class="space"></div>
         <div class="space"></div>
