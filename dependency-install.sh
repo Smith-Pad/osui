@@ -81,6 +81,7 @@ function package_manager_Ubuntu_python_pip_package_manager() {
 function package_manager_Fedora() {
 	sudo dnf install python3-pip
 	sudo dnf install php
+	sudo dnf install kitty
 }
 
 function package_manager_Fedora_python_pip_package_manager() {
@@ -92,7 +93,11 @@ function package_manager_Fedora_python_pip_package_manager() {
 
 
 function configure_Fedora() {
-
-}
+        sudo dnf install -y git
+        sudo dnf install -y curl
+        sudo dnf install -y unzip
+        sudo dnf install -y gcc-c++
+        sudo dnf install -y lib
+}       
 
 check
