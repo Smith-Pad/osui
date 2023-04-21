@@ -78,7 +78,7 @@ function package_manager_Ubuntu_python_pip_package_manager() {
 
 
 function package_manager_Fedora() {
-	sudo dnf install python3
+	sudo dnf install python3-pip
 	sudo dnf install php
 }
 
