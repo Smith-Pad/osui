@@ -52,18 +52,25 @@ function check() {
 }
 
 
+##############################################################
+##		openSUSE
+##############################################################
+
 
 function package_manager_openSUSE() {
 	sudo zypper install python310-pip
 	sudo zypper install php8-cli
 }
-
 function package_manager_openSUSE_python_pip_package_manager() {
 	pip3.10 install flask
 	pip3.10 install speechrecognition
 	pip3.10 install sh
 }
 
+
+##############################################################
+##		Ubuntu
+##############################################################
 
 function package_manager_Ubuntu() {
 	sudo apt install python3-pip
@@ -77,21 +84,22 @@ function package_manager_Ubuntu_python_pip_package_manager() {
 }
 
 
+##############################################################
+##		Fedora
+##############################################################
+
 
 function package_manager_Fedora() {
 	sudo dnf install python3-pip
 	sudo dnf install php
 	sudo dnf install kitty
 }
-
 function package_manager_Fedora_python_pip_package_manager() {
 	pip3 install flask
 	pip3 install speechrecognition
 	pip3 install sh
         pip3 install cefpython3
 }
-
-
 function configure_Fedora() {
         sudo dnf install -y git
         sudo dnf install -y curl
