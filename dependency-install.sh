@@ -40,8 +40,8 @@ function check() {
 	fi
 
         if cat /etc/os-release|grep Ubuntu &> /dev/null; then 
-		package_manager_openSUSE
-		package_manager_openSUSE_python_pip_package_manager
+		package_manager_Ubuntu
+		package_manager_Ubuntu_python_pip_package_manager
 	fi    
 
         if cat /etc/os-release|grep Fedora &> /dev/null; then 
