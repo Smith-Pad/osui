@@ -73,8 +73,8 @@ function package_manager_openSUSE_python_pip_package_manager() {
 ##############################################################
 
 function package_manager_Ubuntu() {
-	sudo apt install python3-pip
-	sudo apt install php8-cli
+	sudo apt install python3-pip -y
+	sudo apt install php -y 
 }
 
 function package_manager_Ubuntu_python_pip_package_manager() {
