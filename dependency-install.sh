@@ -47,6 +47,7 @@ function check() {
         if cat /etc/os-release|grep Fedora &> /dev/null; then 
 		package_manager_Fedora
 		package_manager_Fedora_python_pip_package_manager
+                configure_Fedora
 	fi        
 }
 
@@ -86,6 +87,12 @@ function package_manager_Fedora_python_pip_package_manager() {
 	pip3 install flask
 	pip3 install speechrecognition
 	pip3 install sh
+        pip3 install cefpython3
+}
+
+
+function configure_Fedora() {
+
 }
 
 check
