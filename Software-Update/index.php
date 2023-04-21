@@ -98,12 +98,9 @@
 
             <?php
 
-            // When the user presses the update packages button, then in the backend, it will use the polkit to 
-            // ask the user to enter an adminstrator password. In the backend, it will use the kitty terminal 
-            // to do it. 
-
-            // TODO: 
-            // - When an adminstrator puts a password make sudo not remember
+            // When the user presses the update packages button, then in the backend, then it will 
+            // open kitty and prompt the adminstrator to enter the password before proceeding to 
+            // update or upgrade packages for various distributions that OSUI detects.
 		
             if(isset($_POST['UpdatePackages'])) {
                     shell_exec('kitty sudo pacman -Syyu --noconfirm');
