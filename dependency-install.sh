@@ -38,6 +38,16 @@ function check() {
 		package_manager_openSUSE
 		package_manager_openSUSE_python_pip_package_manager
 	fi
+
+        if cat /etc/os-release|grep Ubuntu &> /dev/null; then 
+		package_manager_openSUSE
+		package_manager_openSUSE_python_pip_package_manager
+	fi    
+
+        if cat /etc/os-release|grep Fedora &> /dev/null; then 
+		package_manager_Fedora
+		package_manager_Fedora_python_pip_package_manager
+	fi        
 }
 
 
@@ -51,6 +61,31 @@ function package_manager_openSUSE_python_pip_package_manager() {
 	pip3.10 install flask
 	pip3.10 install speechrecognition
 	pip3.10 install sh
+}
+
+
+function package_manager_Ubuntu() {
+	sudo apt install python3-pip
+	sudo apt install php8-cli
+}
+
+function package_manager_Ubuntu_python_pip_package_manager() {
+	pip3 install flask
+	pip3 install speechrecognition
+	pip3 install sh
+}
+
+
+
+function package_manager_Fedora() {
+	sudo dnf install python3
+	sudo dnf install php
+}
+
+function package_manager_Fedora_python_pip_package_manager() {
+	pip3 install flask
+	pip3 install speechrecognition
+	pip3 install sh
 }
 
 check
