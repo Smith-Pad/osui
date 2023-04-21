@@ -103,7 +103,7 @@
             // update or upgrade packages for various distributions that OSUI detects.
 		
             if(isset($_POST['UpdatePackages'])) {
-                    shell_exec('kitty sudo pacman -Syyu --noconfirm');
+                    shell_exec('kitty sh updater.sh');
             }
 
             ?>
