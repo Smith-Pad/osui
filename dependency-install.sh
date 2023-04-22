@@ -42,6 +42,7 @@ function check() {
         if cat /etc/os-release|grep Fedora &> /dev/null; then 
 		package_manager_Fedora
 		package_manager_Fedora_python_pip_package_manager
+                configure_Fedora
 	fi        
 
         if cat /etc/os-release|grep Manjaro &> /dev/null; then 
