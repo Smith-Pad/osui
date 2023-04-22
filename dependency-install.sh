@@ -53,18 +53,6 @@ function check() {
 		package_manager_Rocky_Linux
 		package_manager_Rocky_Linux_python_pip_package_manager
 	fi   
-
-        # else {
-        #         clear
-        #         echo """
-        #         #####################################################################
-        #         #       DEPENDENCY INSTALL IS NOT COMPATIBLE FOR THE CURRENT
-        #         #       DISTRIBUTION THAT YOU ARE USING AT THE MOMENT. 
-        #         #
-        #         #####################################################################
-
-        #         """
-        # }
 }
 
 
