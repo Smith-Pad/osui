@@ -84,11 +84,10 @@ function package_manager_Fedora_python_pip_package_manager() {
         pip3 install cefpython3
 }
 function configure_Fedora() {
-        sudo dnf install -y git
-        sudo dnf install -y curl
-        sudo dnf install -y unzip
-        sudo dnf install -y gcc-c++
-        sudo dnf install -y lib
+        sudo dnf install -y git ninja-build glibc-devel glibc-static libstdc++-static libX11-devel libXScrnSaver-devel libXtst-devel libXcursor-devel libXrandr-devel libXcomposite-devel libXdamage-devel libXt-devel mesa-libGL-devel mesa-libEGL-devel glib2-devel gobject-introspection-devel gtk3-devel
+        git clone --recurse-submodules https://github.com/Eloston/ungoogled-chromium.git
+        cd ungoogled-chromium/src
+        ./configure
 }         
 
 
