@@ -78,9 +78,9 @@ function package_manager_Ubuntu() {
 }
 
 function package_manager_Ubuntu_python_pip_package_manager() {
-	pip3 install flask
-	pip3 install speechrecognition
-	pip3 install sh
+	pip install flask
+	pip install speechrecognition
+	pip install sh
 }
 
 
