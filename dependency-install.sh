@@ -62,7 +62,6 @@ function package_manager_openSUSE() {
 	sudo zypper install php8-cli
 }
 function package_manager_openSUSE_python_pip_package_manager() {
-        exit
 	pip3.10 install flask
 	pip3.10 install speechrecognition
 	pip3.10 install sh
@@ -79,7 +78,6 @@ function package_manager_Ubuntu() {
 }
 
 function package_manager_Ubuntu_python_pip_package_manager() {
-        exit
 	pip install flask
 	pip install speechrecognition
 	pip install sh
@@ -97,7 +95,6 @@ function package_manager_Fedora() {
 	sudo dnf install kitty
 }
 function package_manager_Fedora_python_pip_package_manager() {
-	exit
         pip3 install flask
 	pip3 install speechrecognition
 	pip3 install sh
