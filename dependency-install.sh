@@ -47,13 +47,11 @@ function check() {
         if cat /etc/os-release|grep Fedora &> /dev/null; then 
 		package_manager_Fedora
 		package_manager_Fedora_python_pip_package_manager
-                configure_Fedora
 	fi        
 
         if cat /etc/os-release|grep Rocky Linux &> /dev/null; then 
 		package_manager_Rocky_Linux
 		package_manager_Rocky_Linux_python_pip_package_manager
-                configure_Fedora
 	fi   
 }
 
