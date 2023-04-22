@@ -44,9 +44,9 @@ function check() {
 		package_manager_Fedora_python_pip_package_manager
 	fi        
 
-        if cat /etc/os-release|grep Rocky Linux &> /dev/null; then 
-		package_manager_Rocky_Linux
-		package_manager_Rocky_Linux_python_pip_package_manager
+        if cat /etc/os-release|grep Manjaro &> /dev/null; then 
+		package_manager_Manjaro
+		package_manager_Manjaro_python_pip_package_manager
 	fi   
 }
 
@@ -89,35 +89,25 @@ function configure_Fedora() {
         sudo dnf install -y unzip
         sudo dnf install -y gcc-c++
         sudo dnf install -y lib
-}      
+}         
 
 
 
 ##############################################################
-##		Rocky Linux
+##		Manjaro Linux
 ##############################################################
 
-function package_manager_Rocky_Linux() {
-	sudo dnf install python3-pip
-	sudo dnf install php
-	sudo dnf install kitty
+function package_manager_Manjaro() {
+	sudo pacman -S install python3-pip --noconfirm
+	sudo pacman -S install php --noconfirm
+	sudo pacman -S python3  --noconfirm                
 }
-function package_manager_Rocky_Linux_python_pip_package_manager() {
+function package_manager_Manjaro_python_pip_package_manager() {
         pip3 install flask
 	pip3 install speechrecognition
 	pip3 install sh
         pip3 install cefpython3
 }
-function configure_Rocky_Linux() {
-        sudo dnf install -y git
-        sudo dnf install -y curl
-        sudo dnf install -y unzip
-        sudo dnf install -y gcc-c++
-        sudo dnf install -y lib
-}      
-
-
-
 
 
 
