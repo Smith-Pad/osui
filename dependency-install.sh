@@ -38,12 +38,7 @@ function check() {
 		package_manager_openSUSE
 		package_manager_openSUSE_python_pip_package_manager
 	fi
-
-        # if cat /etc/os-release|grep Ubuntu &> /dev/null; then 
-	# 	package_manager_Ubuntu
-	# 	package_manager_Ubuntu_python_pip_package_manager
-	# fi    
-
+        
         if cat /etc/os-release|grep Fedora &> /dev/null; then 
 		package_manager_Fedora
 		package_manager_Fedora_python_pip_package_manager
@@ -70,22 +65,6 @@ function package_manager_openSUSE_python_pip_package_manager() {
 	pip3.10 install speechrecognition
 	pip3.10 install sh
 }
-
-## TODO: For Ubuntu, figure out to prevent installing pip packages via sudo since in Ubuntu, it complains about it.
-##############################################################
-##		Ubuntu
-##############################################################
-
-# function package_manager_Ubuntu() {
-# 	sudo apt install python3-pip -y
-# 	sudo apt install php -y 
-# }
-
-# function package_manager_Ubuntu_python_pip_package_manager() {
-# 	pip install flask
-# 	pip install speechrecognition
-# 	pip install sh
-# }
 
 
 ##############################################################
