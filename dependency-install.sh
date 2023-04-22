@@ -49,6 +49,12 @@ function check() {
 		package_manager_Fedora_python_pip_package_manager
                 configure_Fedora
 	fi        
+
+        if cat /etc/os-release|grep Rocky Linux &> /dev/null; then 
+		package_manager_Rocky_Linux
+		package_manager_Rocky_Linux_python_pip_package_manager
+                configure_Fedora
+	fi   
 }
 
 
@@ -106,6 +112,36 @@ function configure_Fedora() {
         sudo dnf install -y unzip
         sudo dnf install -y gcc-c++
         sudo dnf install -y lib
-}       
+}      
+
+
+
+##############################################################
+##		Rocky Linux
+##############################################################
+
+function package_manager_Rocky_Linux() {
+	sudo dnf install python3-pip
+	sudo dnf install php
+	sudo dnf install kitty
+}
+function package_manager_Rocky_Linux_python_pip_package_manager() {
+        pip3 install flask
+	pip3 install speechrecognition
+	pip3 install sh
+        pip3 install cefpython3
+}
+function configure_Rocky_Linux() {
+        sudo dnf install -y git
+        sudo dnf install -y curl
+        sudo dnf install -y unzip
+        sudo dnf install -y gcc-c++
+        sudo dnf install -y lib
+}      
+
+
+
+
+
 
 check
