@@ -90,3 +90,26 @@
 [Fri Apr 21 12:11:36 2023] PHP 8.1.18 Development Server (http://localhost:4000) started
 [Fri Apr 21 12:11:36 2023] Failed to listen on localhost:4000 (reason: Address already in use)
 [Fri Apr 21 13:01:33 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Sun Apr 23 17:04:03 2023] PHP 8.2.5 Development Server (http://localhost:4000) started
+[Sun Apr 23 17:04:03 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Sun Apr 23 17:04:13 2023] [::1]:59686 Accepted
+[Sun Apr 23 17:04:13 2023] [::1]:59686 [200]: GET /Subjects.html
+[Sun Apr 23 17:04:13 2023] [::1]:59686 Closing
+[Sun Apr 23 17:04:13 2023] [::1]:59688 Accepted
+[Sun Apr 23 17:04:13 2023] [::1]:59688 [200]: GET /static/UI-new.css
+[Sun Apr 23 17:04:13 2023] [::1]:59702 Accepted
+[Sun Apr 23 17:04:13 2023] [::1]:59688 Closing
+[Sun Apr 23 17:04:13 2023] [::1]:59702 [200]: GET /src/UI.css
+[Sun Apr 23 17:04:13 2023] [::1]:59708 Accepted
+[Sun Apr 23 17:04:13 2023] [::1]:59702 Closing
+[Sun Apr 23 17:04:13 2023] [::1]:59708 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Sun Apr 23 17:04:13 2023] [::1]:59708 Closing
+[Sun Apr 23 17:04:13 2023] [::1]:59722 Accepted
+[Sun Apr 23 17:04:13 2023] [::1]:59722 [200]: GET /src/layouts.css
+[Sun Apr 23 17:04:13 2023] [::1]:59722 Closing
+[Sun Apr 23 17:04:13 2023] [::1]:59736 Accepted
+[Sun Apr 23 17:04:13 2023] [::1]:59736 [200]: GET /src/position-text.css
+[Sun Apr 23 17:04:13 2023] [::1]:59736 Closing
+[Sun Apr 23 17:04:13 2023] [::1]:59738 Accepted
+[Sun Apr 23 17:04:13 2023] [::1]:59738 [404]: GET /favicon.ico - No such file or directory
+[Sun Apr 23 17:04:13 2023] [::1]:59738 Closing
