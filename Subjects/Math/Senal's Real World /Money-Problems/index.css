@@ -1,0 +1,21 @@
+/* Index.css */
+/* Style for the Cover Image */
+.cover-text {
+        background-color: black;
+        color: white;
+        padding: 16px 32px;
+        margin: 10px;
+        animation: cover_animator_2 2s;
+}
+
+.cover-image {
+        animation: cover_animator_1 2s;
+}
+
+.contents-text {
+        background-color: black;
+        color: white;
+        padding: 16px 32px;
+        margin: 10px;
+        animation: contents_animator_1 2s;
+}

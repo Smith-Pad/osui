@@ -1,0 +1,42 @@
+/* Animation Data.css */
+@keyframes cover_animator_1 {
+  from {
+    transform: translateX(200%);
+    background-color:red;
+
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes cover_animator_2 {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes contents_animator_1 {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes contents_animator_2 {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
