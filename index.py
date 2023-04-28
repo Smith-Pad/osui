@@ -36,109 +36,72 @@ class initOG():
 initOG()
 
 
-"""
--------------------------
-Frontend 
---------------------------
-
-"""
-
-class FRONTEND_MAIN_VIEW():  
+class HOME_SCREEN_VIEW():
         @app.route('/', methods=['POST', 'GET'])
         def home_screen():
-            apps_button = 'Apps'
-            settings_button = 'Settings'
-            subjects_button = 'Subjects'
+                apps_button = 'Apps'
+                settings_button = 'Settings'
+                subjects_button = 'Subjects'
 
-            return render_template('index.html', apps_button=apps_button,
-                                                 settings_button=settings_button,
-                                                 subjects_button=subjects_button,)
-            
+                return render_template('index.html', apps_button=apps_button,
+                                                        settings_button=settings_button,
+                                                        subjects_button=subjects_button,)
+
+HOME_SCREEN_VIEW()
 
 
-        """
-        Apps Screen
-        -----------
-        TODO: 
-    
-        """
-
+class APPS_SCREEN_VIEW():
         @app.route('/apps_screen', methods=['POST', 'GET'])
         def apps_screen():
-            return render_template('apps-main.html')
+                return render_template('apps-main.html')
+
+APPS_SCREEN_VIEW()
 
 
-        """
-        For the settings screen, users be presented with features, followed by the user clicking on the buttons, 
-        such as Changing Themes, Software Updates, and About the System. 
-
-        """
-
+class SETTINGS_SCREEN_VIEW():
         @app.route('/settings_screen', methods=['POST', 'GET'])
         def settings_screen():
-            themes_button = 'Themes'
-            software_update_button = 'Software Update'
-            about_system_button = 'About System'
+                themes_button = 'Themes'
+                software_update_button = 'Software Update'
+                about_system_button = 'About System'
 
-            return render_template('settings-main.html', themes_button=themes_button,
-                                                         software_update_button=software_update_button,
-                                                         about_system_button=about_system_button)
-
-
-
+                return render_template('settings-main.html', themes_button=themes_button,
+                                                                software_update_button=software_update_button,
+                                                                about_system_button=about_system_button)
+SETTINGS_SCREEN_VIEW()
 
 
-        """
-        Subjects Screen
-        ------------------
-
-        TODO: 
-        """
-
-
-
+class SUBJECTS_SCREEN():
         @app.route('/subjects_screen', methods=['POST', 'GET'])
         def subjects_screen():
                 return render_template('subjects-main.html')
-
-FRONTEND_MAIN_VIEW()
+SUBJECTS_SCREEN()
 
 
 
 """
------------
-Backend
------------
+BACKEND STUFF
+
 """
-class BACKEND():
-
-        def VOLUME_ROCKERS():
-                @app.route('/volume_rocker_up', methods=['POST'])
-                def volume_rocker_up():
-                        os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
-
-                @app.route('/volume_rocker_down', methods=['POST'])
-                def volume_rocker_down():
-                        os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
-
-                @app.route('/volume_rocker_mute_unmute', methods=['POST'])
-                def volume_rocker_mute_unmute():
-                        if b'[off]' in SOUND_OUTPUT:
-                                os.system('amixer sset Master unmute')
-
-        VOLUME_ROCKERS()
 
 
-        def DESKTOP_MODE():
-                ## This is used when the user chooses desktop mode. 
-                ## Once the user chooses desktop mode, then it will start the GNOME session. 
-                @app.route('/desktop_mode', methods=['POST'])
-                def desktop_mode():                                     
-                        os.system('dbus-run-session -- gnome-shell --nested --wayland')
 
-        DESKTOP_MODE()
 
-BACKEND()
+def VOLUME_ROCKERS():
+        @app.route('/volume_rocker_up', methods=['POST'])
+        def volume_rocker_up():
+                os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+
+        @app.route('/volume_rocker_down', methods=['POST'])
+        def volume_rocker_down():
+                os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
+
+        @app.route('/volume_rocker_mute_unmute', methods=['POST'])
+        def volume_rocker_mute_unmute():
+                if b'[off]' in SOUND_OUTPUT:
+                        os.system('amixer sset Master unmute')
+
+VOLUME_ROCKERS()
 
 
     
