@@ -4,3 +4,10 @@
 
 - system_ui_control_center.html
 - README.org
+
+
+- System_Files/system_ui_control_center.html
+- System_Files/system_ui_global_middle_center__title_parameter--[Menu].html
+- System_Files/system_ui_global_smithpad_logo_text_main_screen.html
+- System_Files/system_ui_home_screen_buttons.html
+- System_Files/system_ui_status_bar.html
