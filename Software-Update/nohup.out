@@ -2,3 +2,306 @@
 [Sun Apr 23 17:04:03 2023] Failed to listen on localhost:2000 (reason: Address already in use)
 [Wed Apr 26 18:32:38 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
 [Wed Apr 26 18:32:39 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:01:27 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Fri Apr 28 08:01:27 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:05:05 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Fri Apr 28 08:05:05 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:05:18 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Fri Apr 28 08:05:18 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:05:32 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Fri Apr 28 08:05:32 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:07:01 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Fri Apr 28 08:07:01 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:07:26 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Fri Apr 28 08:07:26 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:07:45 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Fri Apr 28 08:07:45 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:07:59 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Fri Apr 28 08:07:59 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:26:32 2023] [::1]:38862 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38862 [200]: GET /
+[Fri Apr 28 08:26:32 2023] [::1]:38862 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38870 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38872 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38888 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38896 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38898 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38904 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38870 [200]: GET /src/FOIL-UI.css
+[Fri Apr 28 08:26:32 2023] [::1]:38872 [200]: GET /src/position-text.css
+[Fri Apr 28 08:26:32 2023] [::1]:38888 [200]: GET /src/UI-new.css
+[Fri Apr 28 08:26:32 2023] [::1]:38870 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38896 [200]: GET /src/FOIL-Bar.css
+[Fri Apr 28 08:26:32 2023] [::1]:38898 [200]: GET /src/FOIL-time.js
+[Fri Apr 28 08:26:32 2023] [::1]:38904 [200]: GET /src/hardware-control.js
+[Fri Apr 28 08:26:32 2023] [::1]:38872 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38888 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38896 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38898 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38904 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38906 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38906 [200]: GET /src/package-management.js
+[Fri Apr 28 08:26:32 2023] [::1]:38906 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38912 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38912 [404]: GET /src/background.css - No such file or directory
+[Fri Apr 28 08:26:32 2023] [::1]:38912 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38918 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38920 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38926 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38918 [200]: POST /volume_rocker_up
+[Fri Apr 28 08:26:32 2023] [::1]:38918 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38936 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38952 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38920 [200]: POST /volume_rocker_down
+[Fri Apr 28 08:26:32 2023] [::1]:38920 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38936 [200]: POST /brightness_rocker_down
+[Fri Apr 28 08:26:32 2023] [::1]:38936 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38926 [200]: POST /brightness_rocker_up
+[Fri Apr 28 08:26:32 2023] [::1]:38926 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38952 [200]: POST /update_packages
+[Fri Apr 28 08:26:32 2023] [::1]:38952 Closing
+[Fri Apr 28 08:26:32 2023] [::1]:38966 Accepted
+[Fri Apr 28 08:26:32 2023] [::1]:38966 [404]: GET /favicon.ico - No such file or directory
+[Fri Apr 28 08:26:32 2023] [::1]:38966 Closing
+[Fri Apr 28 08:27:50 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:28:15 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Fri Apr 28 08:28:15 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:29:31 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:30:11 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:31:01 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:32:17 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:32:29 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:32:34 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:32:59 2023] [::1]:47722 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47722 [200]: GET /
+[Fri Apr 28 08:32:59 2023] [::1]:47722 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47724 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47736 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47744 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47748 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47752 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47764 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47724 [200]: GET /src/FOIL-UI.css
+[Fri Apr 28 08:32:59 2023] [::1]:47736 [200]: GET /src/position-text.css
+[Fri Apr 28 08:32:59 2023] [::1]:47724 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47744 [200]: GET /src/UI-new.css
+[Fri Apr 28 08:32:59 2023] [::1]:47736 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47744 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47748 [200]: GET /src/FOIL-Bar.css
+[Fri Apr 28 08:32:59 2023] [::1]:47752 [200]: GET /src/FOIL-time.js
+[Fri Apr 28 08:32:59 2023] [::1]:47748 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47752 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47764 [200]: GET /src/hardware-control.js
+[Fri Apr 28 08:32:59 2023] [::1]:47764 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47772 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47772 [200]: GET /src/package-management.js
+[Fri Apr 28 08:32:59 2023] [::1]:47772 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47788 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47788 [404]: GET /src/background.css - No such file or directory
+[Fri Apr 28 08:32:59 2023] [::1]:47788 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47804 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47814 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47824 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47832 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47804 [200]: POST /volume_rocker_up
+[Fri Apr 28 08:32:59 2023] [::1]:47804 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47814 [200]: POST /volume_rocker_down
+[Fri Apr 28 08:32:59 2023] [::1]:47814 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47824 [200]: POST /brightness_rocker_up
+[Fri Apr 28 08:32:59 2023] [::1]:47824 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47832 [200]: POST /brightness_rocker_down
+[Fri Apr 28 08:32:59 2023] [::1]:47832 Closing
+[Fri Apr 28 08:32:59 2023] [::1]:47840 Accepted
+[Fri Apr 28 08:32:59 2023] [::1]:47840 [200]: POST /update_packages
+[Fri Apr 28 08:32:59 2023] [::1]:47840 Closing
+[Fri Apr 28 08:33:46 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:33:47 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:33:56 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Fri Apr 28 08:33:56 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:35:15 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:35:26 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:35:45 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:42:38 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:42:49 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:43:00 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:43:00 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:50:58 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:51:53 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:51:54 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:51:57 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:52:22 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:52:23 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:52:29 2023] [::1]:34218 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34218 [200]: GET /
+[Fri Apr 28 08:52:29 2023] [::1]:34218 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34228 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34238 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34248 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34252 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34266 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34282 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34228 [200]: GET /src/FOIL-UI.css
+[Fri Apr 28 08:52:29 2023] [::1]:34238 [200]: GET /src/position-text.css
+[Fri Apr 28 08:52:29 2023] [::1]:34228 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34238 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34248 [200]: GET /src/UI-new.css
+[Fri Apr 28 08:52:29 2023] [::1]:34248 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34252 [200]: GET /src/FOIL-Bar.css
+[Fri Apr 28 08:52:29 2023] [::1]:34266 [200]: GET /src/FOIL-time.js
+[Fri Apr 28 08:52:29 2023] [::1]:34282 [200]: GET /src/hardware-control.js
+[Fri Apr 28 08:52:29 2023] [::1]:34298 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34252 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34266 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34282 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34298 [200]: GET /src/package-management.js
+[Fri Apr 28 08:52:29 2023] [::1]:34298 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34304 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34304 [404]: GET /src/background.css - No such file or directory
+[Fri Apr 28 08:52:29 2023] [::1]:34304 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34318 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34334 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34346 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34348 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34318 [200]: POST /volume_rocker_up
+[Fri Apr 28 08:52:29 2023] [::1]:34318 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34354 Accepted
+[Fri Apr 28 08:52:29 2023] [::1]:34334 [200]: POST /volume_rocker_down
+[Fri Apr 28 08:52:29 2023] [::1]:34334 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34346 [200]: POST /brightness_rocker_up
+[Fri Apr 28 08:52:29 2023] [::1]:34346 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34348 [200]: POST /brightness_rocker_down
+[Fri Apr 28 08:52:29 2023] [::1]:34348 Closing
+[Fri Apr 28 08:52:29 2023] [::1]:34354 [200]: POST /update_packages
+[Fri Apr 28 08:52:29 2023] [::1]:34354 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34356 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34356 [200]: GET /
+[Fri Apr 28 08:52:34 2023] [::1]:34356 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34370 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34376 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34386 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34388 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34398 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34406 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34370 [200]: GET /src/FOIL-UI.css
+[Fri Apr 28 08:52:34 2023] [::1]:34376 [200]: GET /src/position-text.css
+[Fri Apr 28 08:52:34 2023] [::1]:34370 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34386 [200]: GET /src/UI-new.css
+[Fri Apr 28 08:52:34 2023] [::1]:34376 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34386 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34388 [200]: GET /src/FOIL-Bar.css
+[Fri Apr 28 08:52:34 2023] [::1]:34388 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34398 [200]: GET /src/FOIL-time.js
+[Fri Apr 28 08:52:34 2023] [::1]:34406 [200]: GET /src/hardware-control.js
+[Fri Apr 28 08:52:34 2023] [::1]:34398 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34406 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34422 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34422 [200]: GET /src/package-management.js
+[Fri Apr 28 08:52:34 2023] [::1]:34422 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34428 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34428 [404]: GET /src/background.css - No such file or directory
+[Fri Apr 28 08:52:34 2023] [::1]:34428 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34432 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34438 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34444 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34460 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34474 Accepted
+[Fri Apr 28 08:52:34 2023] [::1]:34432 [200]: POST /volume_rocker_up
+[Fri Apr 28 08:52:34 2023] [::1]:34432 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34438 [200]: POST /volume_rocker_down
+[Fri Apr 28 08:52:34 2023] [::1]:34438 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34444 [200]: POST /brightness_rocker_up
+[Fri Apr 28 08:52:34 2023] [::1]:34444 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34460 [200]: POST /brightness_rocker_down
+[Fri Apr 28 08:52:34 2023] [::1]:34460 Closing
+[Fri Apr 28 08:52:34 2023] [::1]:34474 [200]: POST /update_packages
+[Fri Apr 28 08:52:34 2023] [::1]:34474 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52002 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52002 [200]: GET /
+[Fri Apr 28 08:52:45 2023] [::1]:52002 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52016 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52022 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52030 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52040 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52050 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52058 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52016 [200]: GET /src/FOIL-UI.css
+[Fri Apr 28 08:52:45 2023] [::1]:52022 [200]: GET /src/position-text.css
+[Fri Apr 28 08:52:45 2023] [::1]:52030 [200]: GET /src/UI-new.css
+[Fri Apr 28 08:52:45 2023] [::1]:52016 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52022 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52030 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52040 [200]: GET /src/FOIL-Bar.css
+[Fri Apr 28 08:52:45 2023] [::1]:52040 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52050 [200]: GET /src/FOIL-time.js
+[Fri Apr 28 08:52:45 2023] [::1]:52058 [200]: GET /src/hardware-control.js
+[Fri Apr 28 08:52:45 2023] [::1]:52050 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52058 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52072 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52072 [200]: GET /src/package-management.js
+[Fri Apr 28 08:52:45 2023] [::1]:52072 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52078 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52078 [404]: GET /src/background.css - No such file or directory
+[Fri Apr 28 08:52:45 2023] [::1]:52078 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52094 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52098 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52100 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52094 [200]: POST /volume_rocker_up
+[Fri Apr 28 08:52:45 2023] [::1]:52094 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52104 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52116 Accepted
+[Fri Apr 28 08:52:45 2023] [::1]:52098 [200]: POST /volume_rocker_down
+[Fri Apr 28 08:52:45 2023] [::1]:52098 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52100 [200]: POST /brightness_rocker_up
+[Fri Apr 28 08:52:45 2023] [::1]:52100 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52104 [200]: POST /brightness_rocker_down
+[Fri Apr 28 08:52:45 2023] [::1]:52104 Closing
+[Fri Apr 28 08:52:45 2023] [::1]:52116 [200]: POST /update_packages
+[Fri Apr 28 08:52:45 2023] [::1]:52116 Closing
+[Fri Apr 28 08:53:41 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:53:41 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 08:55:06 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 10:30:52 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 10:30:52 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 10:31:05 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 10:31:05 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 10:39:49 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 10:39:49 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 10:40:22 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 10:40:22 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 10:52:04 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 10:52:04 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:31:13 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:31:13 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:32:23 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:32:24 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:32:26 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:32:45 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:32:46 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:33:27 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:33:28 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:34:40 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:34:40 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:35:30 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:35:30 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:46:23 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:46:23 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:49:17 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 11:49:17 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:11:07 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:11:07 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:26:27 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:26:27 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:32:36 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:32:37 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:33:08 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:33:08 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:33:27 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:33:27 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:35:58 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:35:58 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:36:29 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:36:29 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:45:55 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Fri Apr 28 12:45:55 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Sun Apr 30 09:26:43 2023] PHP 8.2.5 Development Server (http://localhost:2000) started
+[Sun Apr 30 09:26:43 2023] Failed to listen on localhost:2000 (reason: Address already in use)

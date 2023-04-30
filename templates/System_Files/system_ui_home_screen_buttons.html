@@ -1,0 +1,18 @@
+<p align="center">
+
+<!-- When the user presses the apps button, it will proceed to go to the apps launcher-->
+<a href="{{ url_for('apps_screen') }}" class="osui-button">{{apps_button}}</a>
+
+<!-- When the user presses the settings button, then it will proceed to go to the settings view-->
+<a href="{{ url_for('settings_screen') }}" class="osui-button">{{settings_button}}</a>
+
+
+<!-- When the user presses the subjects button, then it will proceed to go to the subjects view -->
+<!-- <a href="{{ url_for('subjects_screen') }}" class="osui-button">{{subjects_button}}</a> -->
+<a href="http://localhost:4000/Subjects.html" class="osui-button">{{subjects_button}}</a>
+
+<!-- When the user presses the button it will launch the GNOME session of desktop mode.-->
+<button id="desktop_mode" class="osui-button">Desktop Mode</button>
+<script src="static/desktop-mode.js"></script>
+</p>
+</div>
