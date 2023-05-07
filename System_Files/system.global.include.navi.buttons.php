@@ -7,6 +7,7 @@ function naviButtons() {
                 print('<input type="submit" name="Shutdown" class="FOIL-button-regular-no-shadow" value="Shutdown" />');
                 print('<input type="submit" name="Restart" class="FOIL-button-regular-no-shadow" value="Restart" />');
                 print('<input type="submit" name="Sleep" class="FOIL-button-regular-no-shadow" value="Sleep" />');
+                print('<a href="./System_Files/upgrade.php" class="FOIL-button-regular-no-shadow">hello world</a>');
                 print('</form>');
         print('</div>');
 

@@ -1,5 +1,9 @@
 # CHANGELOG 
 
+# v1.3.2
+- Added a feature in the Home Screen View that will allow the ability 
+  to transition to the new OSUI. 
+
 # v1.3.1
 
 - Removed Node Modules
