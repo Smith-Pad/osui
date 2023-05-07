@@ -1,8 +1,0 @@
-[Unit]
-Description=Admin Interface
-
-[Service]
-ExecStart=/bin/bash /usr/sbin/admin-interface.sh
-
-[Install]
-WantedBy=multi-user.target

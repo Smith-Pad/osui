@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=OSUI
-Comment=OSUI
-Exec=chromium --kiosk http://localhost:3000
-TryExec=php -S http://localhost:3000
-Type=Application
-DesktopNames=OSUI
