@@ -1,5 +1,40 @@
 # CHANGELOG 
 
+# v1.3.2
+- Added a feature in the Home Screen View that will allow the ability 
+  to transition to the new OSUI. 
+
+# v1.3.1
+
+- Removed Node Modules
+
+- Added [chromium --kiosk localhost:3000 --no-sandbox] in [openbox/autostart]
+
+- Created shell script [INSTALL] to install OSUI Desktop Environment
+
+- Added [sbin/admin-interface.sh] directory
+
+- Added [systemd/admin-interface.service] directory
+
+- Added [xsessions/OSUI.desktop[] directory
+
+- Added the openbox config folder
+
+- Made the homescreen buttons aligned to the center
+
+- Made the homescreen align to the left
+
+- Added npm modules: `npm install xterm`
+
+- Used nwg-launchers command: `nwggrid` allowing users to find applications and open them with a 
+press of a button in the home-screen.
+
+> https://github.com/nwg-piotr/nwg-launchers
+
+- Added the same for the Shutdown Restart and Sleep, but for other functionality in the homescreen
+
+- Disabled the ability to view the applications menu in the OSUI interface via button press for now...
+
 # v1.3.0
 - Allow button padding to be set only in HTML syntax without wrapping in the src/config.css file
 
@@ -44,6 +79,6 @@
 
 
 
-# v.1.0.0
+# v1.0.0
 
 - Initial Release
