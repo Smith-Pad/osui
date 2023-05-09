@@ -6,11 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="static/FOIL-UI.css" type="text/css">
-        <link rel="stylesheet" href="static/position-text.css" type="text/css">
-        <link rel="stylesheet" href="static/UI-new.css" type="text/css">
-        <link rel="stylesheet" href="static/UI.css" type="text/css">
-        <link rel="stylesheet" href="static/FOIL-Bar.css" type="text/css">
+        {% include 'System_Files/include-ui.html' %}
 
 </head>
 
@@ -23,19 +19,16 @@
                 <div class="space10"></div>
 
 
-                <FOIL-font-size-60>
-                        <div id="time_service"></div>
-                </FOIL-font-size-60>
 
-
-                <script src="static/FOIL-time.js"></script>
-                <FOIL-font-size-40> Menu </FOIL-font-size-40>
+                {% include 'System_Files/system_ui_time_service.html' %}
 
 
                 {% include 'System_Files/system_ui_control_center.html' %}
-                <div style="text-align:center; margin-bottom: 90px;">
-                        {% include 'System_Files/system_ui_home_screen_buttons.html' %}
-                </div>
+
+
+                {% include 'System_Files/system_ui_home_screen_banner.html' %}
+                
+                {% include 'System_Files/system_ui_home_screen_buttons_grid.html' %}
         </div>
         </div>
 </body>
