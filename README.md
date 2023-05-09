@@ -119,5 +119,5 @@ In the osui directory, please run this script:
 
 
 <p align="left"> 
-How you are ready to debug and develop OSUI 
+Now you are ready to debug and develop OSUI 
 </p>
