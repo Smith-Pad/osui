@@ -25,3 +25,24 @@ to it's Smith-Pad's Interface.
 
 <h1 align="center">Getting Started</h1>
 <h2 align="center">What are the dependencies for running this thing?</h2>
+<p align="center">
+So what are the dependencies for running this thing? 
+</p>
+
+<p align="center">
+Well, the easier way to find out, is to run this script 
+</p>
+
+<p align="center">
+Which is provided in this repository called <code>dependency-install.sh</code> 
+</p>
+
+
+<p align="center">
+Since it uses lots and lots of dependencies for OSUI to work. 
+</p>
+
+
+<p align="center" style="background-color: rgb(64, 0, 153); color: white; font-size: 44px;":>
+Here is how you get started
+</p>
