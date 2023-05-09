@@ -33,6 +33,7 @@
 #
 #
 
+
 function check() {
         if cat /etc/os-release|grep openSUSE &> /dev/null; then 
 		package_manager_openSUSE
@@ -42,13 +43,39 @@ function check() {
         if cat /etc/os-release|grep Fedora &> /dev/null; then 
 		package_manager_Fedora
 		package_manager_Fedora_python_pip_package_manager
-                configure_Fedora
 	fi        
 
         if cat /etc/os-release|grep Manjaro &> /dev/null; then 
 		package_manager_Manjaro
 		package_manager_Manjaro_python_pip_package_manager
 	fi   
+
+        if cat /etc/os-release|grep Arch &> /dev/null; then 
+		package_manager_Arch
+		package_manager_Arch_python_pip_package_manager
+	fi   
+}
+
+
+##############################################################
+##		Arch Linux
+##############################################################
+
+
+function package_manager_Arch() {
+	sudo pacman -S install python3-pip --noconfirm
+	sudo pacman -S install php --noconfirm
+	sudo pacman -S python3  --noconfirm 
+        sudo pacman -S festival --noconfirm
+        sudo pacman -S portaudio --noconfirm    
+        sudo pacman -S python-pyaudio --noconfirm
+}
+function package_manager_Arch_python_pip_package_manager() {
+        pip3 install flask
+	pip3 install speechrecognition
+	pip3 install sh
+        pip3 install cefpython3
+        pip3 install pyaudio
 }
 
 
@@ -60,6 +87,9 @@ function check() {
 function package_manager_openSUSE() {
 	sudo zypper install python310-pip
 	sudo zypper install php8-cli
+        sudo zypper install festival
+        sudo zypper install portaudio
+        sudo zypper install python-pyaudio
 }
 function package_manager_openSUSE_python_pip_package_manager() {
 	pip3.10 install flask
@@ -77,19 +107,25 @@ function package_manager_Fedora() {
 	sudo dnf install python3-pip
 	sudo dnf install php
 	sudo dnf install kitty
+        sudo dnf install festival
+        sudo dnf install portaudio
+        sudo dnf install python-pyaudio
+        sudo dnf install alsa-lib alsa-utils
 }
+
 function package_manager_Fedora_python_pip_package_manager() {
         pip3 install flask
 	pip3 install speechrecognition
 	pip3 install sh
         pip3 install cefpython3
-}
-function configure_Fedora() {
-        sudo dnf install -y git ninja-build glibc-devel glibc-static libstdc++-static libX11-devel libXScrnSaver-devel libXtst-devel libXcursor-devel libXrandr-devel libXcomposite-devel libXdamage-devel libXt-devel mesa-libGL-devel mesa-libEGL-devel glib2-devel gobject-introspection-devel gtk3-devel
-        git clone --recurse-submodules https://github.com/Eloston/ungoogled-chromium.git
-        cd ungoogled-chromium
-        mkdir -p  build/download_cache
-}         
+        pip3 install bark
+        pip3 install numpy
+        pip3 install scipy
+        pip3 install tensorflow
+        pip3 install pyttsx3
+        pip3 install spacy 
+        python3 -m spacy download en_core_web_sm
+}    
 
 
 
@@ -100,7 +136,10 @@ function configure_Fedora() {
 function package_manager_Manjaro() {
 	sudo pacman -S install python3-pip --noconfirm
 	sudo pacman -S install php --noconfirm
-	sudo pacman -S python3  --noconfirm                
+	sudo pacman -S python3  --noconfirm 
+        sudo pacman -S festival --noconfirm       
+        sudo pacman -S portaudio --noconfirm  
+        sudo pacman -S python-pyaudio --noconfirm      
 }
 function package_manager_Manjaro_python_pip_package_manager() {
         pip3 install flask
