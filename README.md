@@ -42,7 +42,85 @@ Which is provided in this repository called <code>dependency-install.sh</code>
 Since it uses lots and lots of dependencies for OSUI to work. 
 </p>
 
+<h2 align="center">But wait... there are just a little manual stuff to do... which is pretty easy</h2>
 
-<p align="center" style="background-color: rgb(64, 0, 153); color: white; font-size: 44px;":>
-Here is how you get started
+<i> Step 1: </i>
+
+
+
+<p align="left"> 
+Here are the list of distributions based on the `dependency-install.sh` script. 
+to install `git` manually 
+</p>
+
+<p align="left"> 
+Because we have to <code> git </code> to make everything work right....
+</p>
+
+
+<li align="left">
+<code> sudo pacman -S git --noconfirm </code>
+</li>
+
+
+
+<li align="left">
+<code> sudo zypper install git </code>
+</li>
+
+
+<li align="left">
+<code> sudo dnf install git -y </code>
+</li>
+
+
+
+<i> Step 2: </i>
+
+
+
+<p align="left"> 
+Then we have to clone the repository: 
+</p>
+
+<code align="left"> 
+git clone https://github.com/smith-pad/osui
+</code>
+
+
+
+<i> Step 3: </i>
+
+
+
+<p align="left"> 
+Change the directory to OSUI 
+</p>
+
+<code align="left"> 
+cd osui
+</code>
+
+
+
+<i> Step 4: </i>
+
+
+
+<p align="left"> 
+In the osui directory, please run this script: 
+</p>
+
+<code align="left"> 
+sh dependency-install.sh
+</code>
+
+
+
+<i> Step 5: </i>
+
+
+
+<p align="left"> 
+How you are ready to debug and develop OSUI 
 </p>
