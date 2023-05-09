@@ -83,11 +83,10 @@ Because we have to <code> git </code> to make everything work right....
 Then we have to clone the repository: 
 </p>
 
-<code align="left"> 
-git clone https://github.com/smith-pad/osui
-</code>
 
-
+<li align="left">
+<code> git clone https://github.com/smith-pad/osui </code>
+</li>
 
 <i> Step 3: </i>
 
@@ -97,10 +96,9 @@ git clone https://github.com/smith-pad/osui
 Change the directory to OSUI 
 </p>
 
-<code align="left"> 
-cd osui
-</code>
-
+<li align="left">
+<code> cd osui</code>
+</li>
 
 
 <i> Step 4: </i>
@@ -111,10 +109,9 @@ cd osui
 In the osui directory, please run this script: 
 </p>
 
-<code align="left"> 
-sh dependency-install.sh
-</code>
-
+<li align="left">
+<code> sh dependency-install.sh</code>
+</li>
 
 
 <i> Step 5: </i>
