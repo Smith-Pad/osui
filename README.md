@@ -49,8 +49,8 @@ Since it uses lots and lots of dependencies for OSUI to work.
 
 
 <p align="left"> 
-Here are the list of distributions based on the `dependency-install.sh` script. 
-to install `git` manually 
+Here are the list of distributions based on the <code>dependency-install.sh</code> script. 
+to install <code>git</code> manually 
 </p>
 
 <p align="left"> 
