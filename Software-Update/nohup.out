@@ -324,3 +324,7 @@
 [Mon May  8 10:58:09 2023] Failed to listen on localhost:2000 (reason: Address already in use)
 [Mon May  8 15:24:50 2023] Failed to listen on localhost:2000 (reason: Address already in use)
 [Mon May  8 15:24:50 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Tue May  9 09:37:43 2023] PHP 8.2.6RC1 Development Server (http://localhost:2000) started
+[Tue May  9 09:37:43 2023] Failed to listen on localhost:2000 (reason: Address already in use)
+[Tue May  9 10:57:12 2023] PHP 8.2.6RC1 Development Server (http://localhost:2000) started
+[Tue May  9 10:57:12 2023] Failed to listen on localhost:2000 (reason: Address already in use)

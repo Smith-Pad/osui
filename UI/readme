@@ -19,3 +19,6 @@
         List of Files: 
       --
         |- global.scss
+        |- buttons.scss
+        |- bar.scss
+        |- status-bar.scss

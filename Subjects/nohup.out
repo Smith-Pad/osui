@@ -647,3 +647,184 @@
 [Mon May  8 10:58:09 2023] Failed to listen on localhost:4000 (reason: Address already in use)
 [Mon May  8 15:24:50 2023] Failed to listen on localhost:4000 (reason: Address already in use)
 [Mon May  8 15:24:50 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Tue May  9 09:37:43 2023] PHP 8.2.6RC1 Development Server (http://localhost:4000) started
+[Tue May  9 09:37:43 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Tue May  9 09:37:52 2023] [::1]:49536 Accepted
+[Tue May  9 09:37:52 2023] [::1]:49536 [200]: GET /Subjects.html
+[Tue May  9 09:37:52 2023] [::1]:49536 Closing
+[Tue May  9 09:37:52 2023] [::1]:49542 Accepted
+[Tue May  9 09:37:52 2023] [::1]:49544 Accepted
+[Tue May  9 09:37:52 2023] [::1]:49556 Accepted
+[Tue May  9 09:37:52 2023] [::1]:49562 Accepted
+[Tue May  9 09:37:52 2023] [::1]:49542 [200]: GET /static/UI-new.css
+[Tue May  9 09:37:52 2023] [::1]:49544 [200]: GET /src/UI.css
+[Tue May  9 09:37:52 2023] [::1]:49542 Closing
+[Tue May  9 09:37:52 2023] [::1]:49544 Closing
+[Tue May  9 09:37:52 2023] [::1]:49556 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Tue May  9 09:37:52 2023] [::1]:49556 Closing
+[Tue May  9 09:37:52 2023] [::1]:49562 [200]: GET /src/layouts.css
+[Tue May  9 09:37:52 2023] [::1]:49562 Closing
+[Tue May  9 09:37:52 2023] [::1]:49568 Accepted
+[Tue May  9 09:37:52 2023] [::1]:49568 [404]: GET /favicon.ico - No such file or directory
+[Tue May  9 09:37:52 2023] [::1]:49568 Closing
+[Tue May  9 09:37:53 2023] [::1]:49584 Accepted
+[Tue May  9 09:37:53 2023] [::1]:49584 [200]: GET /Subjects.html
+[Tue May  9 09:37:53 2023] [::1]:49584 Closing
+[Tue May  9 09:37:53 2023] [::1]:49596 Accepted
+[Tue May  9 09:37:53 2023] [::1]:49612 Accepted
+[Tue May  9 09:37:53 2023] [::1]:49624 Accepted
+[Tue May  9 09:37:53 2023] [::1]:49626 Accepted
+[Tue May  9 09:37:53 2023] [::1]:49596 [200]: GET /static/UI-new.css
+[Tue May  9 09:37:53 2023] [::1]:49612 [200]: GET /src/UI.css
+[Tue May  9 09:37:53 2023] [::1]:49596 Closing
+[Tue May  9 09:37:53 2023] [::1]:49612 Closing
+[Tue May  9 09:37:53 2023] [::1]:49624 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Tue May  9 09:37:53 2023] [::1]:49624 Closing
+[Tue May  9 09:37:53 2023] [::1]:49626 [200]: GET /src/layouts.css
+[Tue May  9 09:37:53 2023] [::1]:49626 Closing
+[Tue May  9 09:37:55 2023] [::1]:49630 Accepted
+[Tue May  9 09:37:55 2023] [::1]:49630 [200]: GET /Math/Math-Menu.html
+[Tue May  9 09:37:55 2023] [::1]:49630 Closing
+[Tue May  9 09:37:55 2023] [::1]:49634 Accepted
+[Tue May  9 09:37:55 2023] [::1]:49636 Accepted
+[Tue May  9 09:37:55 2023] [::1]:49638 Accepted
+[Tue May  9 09:37:55 2023] [::1]:49644 Accepted
+[Tue May  9 09:37:55 2023] [::1]:49634 [200]: GET /Math/index.css
+[Tue May  9 09:37:55 2023] [::1]:49636 [200]: GET /src/layouts.css
+[Tue May  9 09:37:55 2023] [::1]:49638 [200]: GET /src/position-text.css
+[Tue May  9 09:37:55 2023] [::1]:49634 Closing
+[Tue May  9 09:37:55 2023] [::1]:49636 Closing
+[Tue May  9 09:37:55 2023] [::1]:49638 Closing
+[Tue May  9 09:37:55 2023] [::1]:49644 [200]: GET /static/UI-new.css
+[Tue May  9 09:37:55 2023] [::1]:49644 Closing
+[Tue May  9 09:37:56 2023] [::1]:49646 Accepted
+[Tue May  9 09:37:56 2023] [::1]:49646 [200]: GET /Subjects.html
+[Tue May  9 09:37:56 2023] [::1]:49646 Closing
+[Tue May  9 09:37:56 2023] [::1]:49660 Accepted
+[Tue May  9 09:37:56 2023] [::1]:49670 Accepted
+[Tue May  9 09:37:56 2023] [::1]:49680 Accepted
+[Tue May  9 09:37:56 2023] [::1]:49686 Accepted
+[Tue May  9 09:37:56 2023] [::1]:49660 [200]: GET /static/UI-new.css
+[Tue May  9 09:37:56 2023] [::1]:49670 [200]: GET /src/UI.css
+[Tue May  9 09:37:56 2023] [::1]:49680 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Tue May  9 09:37:56 2023] [::1]:49660 Closing
+[Tue May  9 09:37:56 2023] [::1]:49680 Closing
+[Tue May  9 09:37:56 2023] [::1]:49670 Closing
+[Tue May  9 09:37:56 2023] [::1]:49686 [200]: GET /src/layouts.css
+[Tue May  9 09:37:56 2023] [::1]:49686 Closing
+[Tue May  9 09:37:57 2023] [::1]:49688 Accepted
+[Tue May  9 09:37:57 2023] [::1]:49688 [200]: GET /Math/Math-Menu.html
+[Tue May  9 09:37:57 2023] [::1]:49688 Closing
+[Tue May  9 09:37:57 2023] [::1]:49704 Accepted
+[Tue May  9 09:37:57 2023] [::1]:49706 Accepted
+[Tue May  9 09:37:57 2023] [::1]:49712 Accepted
+[Tue May  9 09:37:57 2023] [::1]:49726 Accepted
+[Tue May  9 09:37:57 2023] [::1]:49704 [200]: GET /Math/index.css
+[Tue May  9 09:37:57 2023] [::1]:49706 [200]: GET /src/layouts.css
+[Tue May  9 09:37:57 2023] [::1]:49712 [200]: GET /src/position-text.css
+[Tue May  9 09:37:57 2023] [::1]:49704 Closing
+[Tue May  9 09:37:57 2023] [::1]:49706 Closing
+[Tue May  9 09:37:57 2023] [::1]:49712 Closing
+[Tue May  9 09:37:57 2023] [::1]:49726 [200]: GET /static/UI-new.css
+[Tue May  9 09:37:57 2023] [::1]:49726 Closing
+[Tue May  9 09:37:59 2023] [::1]:49734 Accepted
+[Tue May  9 09:37:59 2023] [::1]:49734 [200]: GET /Math/Numbers/Whole%20Numbers/index.html
+[Tue May  9 09:37:59 2023] [::1]:49734 Closing
+[Tue May  9 09:37:59 2023] [::1]:49742 Accepted
+[Tue May  9 09:37:59 2023] [::1]:49758 Accepted
+[Tue May  9 09:37:59 2023] [::1]:49770 Accepted
+[Tue May  9 09:37:59 2023] [::1]:49778 Accepted
+[Tue May  9 09:37:59 2023] [::1]:49780 Accepted
+[Tue May  9 09:37:59 2023] [::1]:49790 Accepted
+[Tue May  9 09:37:59 2023] [::1]:49742 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Tue May  9 09:37:59 2023] [::1]:49758 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Tue May  9 09:37:59 2023] [::1]:49742 Closing
+[Tue May  9 09:37:59 2023] [::1]:49758 Closing
+[Tue May  9 09:37:59 2023] [::1]:49770 [200]: GET /static/UI-new.css
+[Tue May  9 09:37:59 2023] [::1]:49770 Closing
+[Tue May  9 09:37:59 2023] [::1]:49778 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Tue May  9 09:37:59 2023] [::1]:49778 Closing
+[Tue May  9 09:37:59 2023] [::1]:49780 [404]: GET /Math/Numbers/Whole%20Numbers/bar.senal - No such file or directory
+[Tue May  9 09:37:59 2023] [::1]:49780 Closing
+[Tue May  9 09:37:59 2023] [::1]:49790 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Tue May  9 09:37:59 2023] [::1]:49790 Closing
+[Tue May  9 09:37:59 2023] [::1]:49794 Accepted
+[Tue May  9 09:37:59 2023] [::1]:49794 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Tue May  9 09:37:59 2023] [::1]:49794 Closing
+[Tue May  9 09:38:01 2023] [::1]:55736 Accepted
+[Tue May  9 09:38:01 2023] [::1]:55736 [200]: GET /Math/Numbers/Whole%20Numbers/1.html
+[Tue May  9 09:38:01 2023] [::1]:55736 Closing
+[Tue May  9 09:38:01 2023] [::1]:55752 Accepted
+[Tue May  9 09:38:01 2023] [::1]:55758 Accepted
+[Tue May  9 09:38:01 2023] [::1]:55764 Accepted
+[Tue May  9 09:38:01 2023] [::1]:55766 Accepted
+[Tue May  9 09:38:01 2023] [::1]:55752 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Tue May  9 09:38:01 2023] [::1]:55758 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Tue May  9 09:38:01 2023] [::1]:55752 Closing
+[Tue May  9 09:38:01 2023] [::1]:55758 Closing
+[Tue May  9 09:38:01 2023] [::1]:55764 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Tue May  9 09:38:01 2023] [::1]:55764 Closing
+[Tue May  9 09:38:01 2023] [::1]:55766 [200]: GET /static/UI-new.css
+[Tue May  9 09:38:01 2023] [::1]:55766 Closing
+[Tue May  9 09:38:01 2023] [::1]:55774 Accepted
+[Tue May  9 09:38:01 2023] [::1]:55788 Accepted
+[Tue May  9 09:38:01 2023] [::1]:55774 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Tue May  9 09:38:01 2023] [::1]:55788 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Tue May  9 09:38:01 2023] [::1]:55774 Closing
+[Tue May  9 09:38:01 2023] [::1]:55788 Closing
+[Tue May  9 09:38:05 2023] [::1]:55796 Accepted
+[Tue May  9 09:38:05 2023] [::1]:55796 [200]: GET /Math/Numbers/Whole%20Numbers/index.html
+[Tue May  9 09:38:05 2023] [::1]:55796 Closing
+[Tue May  9 09:38:05 2023] [::1]:55800 Accepted
+[Tue May  9 09:38:05 2023] [::1]:55806 Accepted
+[Tue May  9 09:38:05 2023] [::1]:55808 Accepted
+[Tue May  9 09:38:05 2023] [::1]:55818 Accepted
+[Tue May  9 09:38:05 2023] [::1]:55824 Accepted
+[Tue May  9 09:38:05 2023] [::1]:55836 Accepted
+[Tue May  9 09:38:05 2023] [::1]:55800 [200]: GET /Math/Numbers/Whole%20Numbers/src/layouts.css
+[Tue May  9 09:38:05 2023] [::1]:55806 [200]: GET /Math/Numbers/Whole%20Numbers/src/position-text.css
+[Tue May  9 09:38:05 2023] [::1]:55808 [200]: GET /static/UI-new.css
+[Tue May  9 09:38:05 2023] [::1]:55800 Closing
+[Tue May  9 09:38:05 2023] [::1]:55806 Closing
+[Tue May  9 09:38:05 2023] [::1]:55808 Closing
+[Tue May  9 09:38:05 2023] [::1]:55818 [200]: GET /Math/Numbers/Whole%20Numbers/index.css
+[Tue May  9 09:38:05 2023] [::1]:55824 [404]: GET /Math/Numbers/Whole%20Numbers/bar.senal - No such file or directory
+[Tue May  9 09:38:05 2023] [::1]:55824 Closing
+[Tue May  9 09:38:05 2023] [::1]:55836 [200]: GET /Math/Numbers/Whole%20Numbers/background.css
+[Tue May  9 09:38:05 2023] [::1]:55818 Closing
+[Tue May  9 09:38:05 2023] [::1]:55836 Closing
+[Tue May  9 09:38:05 2023] [::1]:55844 Accepted
+[Tue May  9 09:38:05 2023] [::1]:55844 [200]: GET /Math/Numbers/Whole%20Numbers/transition.css
+[Tue May  9 09:38:05 2023] [::1]:55844 Closing
+[Tue May  9 09:38:08 2023] [::1]:55860 Accepted
+[Tue May  9 09:38:08 2023] [::1]:55860 [200]: GET /Math/Math-Menu.html
+[Tue May  9 09:38:08 2023] [::1]:55860 Closing
+[Tue May  9 09:38:08 2023] [::1]:55874 Accepted
+[Tue May  9 09:38:08 2023] [::1]:55876 Accepted
+[Tue May  9 09:38:08 2023] [::1]:55882 Accepted
+[Tue May  9 09:38:08 2023] [::1]:55888 Accepted
+[Tue May  9 09:38:08 2023] [::1]:55874 [200]: GET /Math/index.css
+[Tue May  9 09:38:08 2023] [::1]:55876 [200]: GET /src/layouts.css
+[Tue May  9 09:38:08 2023] [::1]:55882 [200]: GET /src/position-text.css
+[Tue May  9 09:38:08 2023] [::1]:55874 Closing
+[Tue May  9 09:38:08 2023] [::1]:55876 Closing
+[Tue May  9 09:38:08 2023] [::1]:55882 Closing
+[Tue May  9 09:38:08 2023] [::1]:55888 [200]: GET /static/UI-new.css
+[Tue May  9 09:38:08 2023] [::1]:55888 Closing
+[Tue May  9 09:38:13 2023] [::1]:51622 Accepted
+[Tue May  9 09:38:13 2023] [::1]:51622 [200]: GET /Subjects.html
+[Tue May  9 09:38:13 2023] [::1]:51622 Closing
+[Tue May  9 09:38:13 2023] [::1]:51628 Accepted
+[Tue May  9 09:38:13 2023] [::1]:51640 Accepted
+[Tue May  9 09:38:13 2023] [::1]:51648 Accepted
+[Tue May  9 09:38:13 2023] [::1]:51650 Accepted
+[Tue May  9 09:38:13 2023] [::1]:51628 [200]: GET /static/UI-new.css
+[Tue May  9 09:38:13 2023] [::1]:51640 [200]: GET /src/UI.css
+[Tue May  9 09:38:13 2023] [::1]:51648 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Tue May  9 09:38:13 2023] [::1]:51628 Closing
+[Tue May  9 09:38:13 2023] [::1]:51648 Closing
+[Tue May  9 09:38:13 2023] [::1]:51640 Closing
+[Tue May  9 09:38:13 2023] [::1]:51650 [200]: GET /src/layouts.css
+[Tue May  9 09:38:13 2023] [::1]:51650 Closing
+[Tue May  9 10:57:12 2023] PHP 8.2.6RC1 Development Server (http://localhost:4000) started
+[Tue May  9 10:57:12 2023] Failed to listen on localhost:4000 (reason: Address already in use)
