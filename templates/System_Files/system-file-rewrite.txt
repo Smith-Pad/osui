@@ -11,4 +11,17 @@ global          = Entire System
 
 home_screen     = In the Home Screen 
 
-settings_screen = In the settings_screen 
+settings_screen = In the settings_screen
+
+
+
+
+Parameters: 
+
+include = including something to OSUI 
+ui      = User Interface element
+
+
+For example in global: 
+
+system_ui_include_ui
