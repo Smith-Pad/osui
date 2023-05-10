@@ -104,13 +104,13 @@ function package_manager_openSUSE_python_pip_package_manager() {
 
 
 function package_manager_Fedora() {
-	sudo dnf install python3-pip
-	sudo dnf install php
-	sudo dnf install kitty
-        sudo dnf install festival
-        sudo dnf install portaudio
-        sudo dnf install python-pyaudio
-        sudo dnf install alsa-lib alsa-utils
+	sudo dnf install python3-pip -y
+	sudo dnf install php -y
+	sudo dnf install kitty -y
+        sudo dnf install festival -y
+        sudo dnf install portaudio -y
+        sudo dnf install python-pyaudio -y
+        sudo dnf install alsa-lib alsa-utils -y
 }
 
 function package_manager_Fedora_python_pip_package_manager() {
