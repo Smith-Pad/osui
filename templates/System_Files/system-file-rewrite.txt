@@ -1,0 +1,14 @@
+System File Rewrite 
+---------------------
+
+_ underscore is an alternative to . dot since flask doesn't like it for some reason...
+
+
+
+system          = System is the System 
+
+global          = Entire System
+
+home_screen     = In the Home Screen 
+
+settings_screen = In the settings_screen 
