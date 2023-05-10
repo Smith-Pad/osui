@@ -24,4 +24,4 @@ ui      = User Interface element
 
 For example in global: 
 
-system_ui_include_ui
+system_global_include_ui
