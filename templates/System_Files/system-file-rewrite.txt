@@ -25,3 +25,8 @@ ui      = User Interface element
 For example in global: 
 
 system_global_include_ui
+
+
+
+
+system_ui_home_screen_banner.html -> system.homescreen.ui.middlegrid.banner.html
