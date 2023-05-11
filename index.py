@@ -70,7 +70,7 @@ class SETTINGS_SCREEN_VIEW():
                                                                 about_system_button=about_system_button)
 SETTINGS_SCREEN_VIEW()
 
-
+        
 class SUBJECTS_SCREEN():
         @app.route('/subjects_screen', methods=['POST', 'GET'])
         def subjects_screen():
