@@ -2,8 +2,8 @@
 
 ## Functions
 
-## 1. Root Configuration -> rootConfig()
-## 2. User Configuration -> userConfig()
+## 1. xinitrc   configuration -> root -> /root/.config/autostart 
+## 2. xsessions configuration -> root -> /usr/share/xsessions/
 
 
 if [ ! -d "/root/.config/autostart" ]; then
@@ -20,3 +20,22 @@ Type=Application
 Exec=firefox --kiosk http://127.0.0.1:3000
 
 """ >> /root/.config/autostart/osui.desktop
+
+
+
+
+sudo su <<EOF
+
+
+echo '
+[Desktop Entry]
+Name=OSUI
+Comment=Operating System User Interface
+Exec=/usr/bin/osui-launch.sh 
+TryExec=/usr/bin/osui-launch.sh
+Type=Application
+X-LightDM-DesktopName=OSUI
+DesktopNames=OSUI
+' > /usr/share/xsessions/
+
+EOF
