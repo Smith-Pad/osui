@@ -30,6 +30,8 @@ Type=Application
 Exec=firefox --kiosk http://127.0.0.1:3000
 ' > /root/.config/autostart/osui.desktop
 
+cat /root/.config/autostart/osui-desktop
+
 EOF
 
 ################
@@ -51,6 +53,7 @@ X-LightDM-DesktopName=OSUI
 DesktopNames=OSUI
 ' > /usr/share/xsessions/osui-launch.desktop
 
+cat /usr/share/xsessions/osui-launch.desktop
 EOF
 
 
@@ -74,5 +77,7 @@ kwin_x11 --replace &
 
 firefox --kiosk 127.0.0.1:3000
 ' > /usr/bin/osui-launch.sh
+
+cat /usr/bin/osui-launch.sh
 
 EOF
