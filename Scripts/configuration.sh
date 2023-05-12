@@ -1,6 +1,9 @@
 ## configuration.sh
 
+## Functions
 
+## 1. Root Configuration -> rootConfig()
+## 2. User Configuration -> userConfig()
 
 
 if [ ! -d "/root/.config/autostart" ]; then
