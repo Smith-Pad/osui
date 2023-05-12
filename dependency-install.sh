@@ -63,9 +63,9 @@ function check() {
 
 
 function package_manager_Arch() {
-	sudo pacman -S install python3-pip --noconfirm
-	sudo pacman -S install php --noconfirm
-	sudo pacman -S python3  --noconfirm 
+	sudo pacman -S python-pip --noconfirm
+	sudo pacman -S php --noconfirm
+	sudo pacman -S python  --noconfirm 
         sudo pacman -S festival --noconfirm
         sudo pacman -S portaudio --noconfirm    
         sudo pacman -S python-pyaudio --noconfirm
