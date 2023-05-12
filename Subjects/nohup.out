@@ -897,3 +897,37 @@
 [Thu May 11 10:48:18 2023] Failed to listen on localhost:4000 (reason: Address already in use)
 [Fri May 12 03:33:25 2023] Failed to listen on localhost:4000 (reason: Address already in use)
 [Fri May 12 03:33:25 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Fri May 12 04:40:17 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Fri May 12 04:40:17 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Fri May 12 06:49:01 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Fri May 12 06:49:01 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Fri May 12 06:50:17 2023] [::1]:56458 Accepted
+[Fri May 12 06:50:17 2023] [::1]:56458 [200]: GET /Subjects.html
+[Fri May 12 06:50:17 2023] [::1]:56458 Closing
+[Fri May 12 06:50:17 2023] [::1]:56472 Accepted
+[Fri May 12 06:50:17 2023] [::1]:56472 [200]: GET /static/UI-new.css
+[Fri May 12 06:50:17 2023] [::1]:56478 Accepted
+[Fri May 12 06:50:17 2023] [::1]:56472 Closing
+[Fri May 12 06:50:17 2023] [::1]:56484 Accepted
+[Fri May 12 06:50:17 2023] [::1]:56488 Accepted
+[Fri May 12 06:50:17 2023] [::1]:56478 [200]: GET /src/UI.css
+[Fri May 12 06:50:17 2023] [::1]:56502 Accepted
+[Fri May 12 06:50:17 2023] [::1]:56484 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Fri May 12 06:50:17 2023] [::1]:56488 [200]: GET /src/layouts.css
+[Fri May 12 06:50:17 2023] [::1]:56478 Closing
+[Fri May 12 06:50:17 2023] [::1]:56502 [200]: GET /src/position-text.css
+[Fri May 12 06:50:17 2023] [::1]:56484 Closing
+[Fri May 12 06:50:17 2023] [::1]:56488 Closing
+[Fri May 12 06:50:17 2023] [::1]:56502 Closing
+[Fri May 12 06:50:17 2023] [::1]:56506 Accepted
+[Fri May 12 06:50:17 2023] [::1]:56506 [404]: GET /src/Custom_Tags.css - No such file or directory
+[Fri May 12 06:50:17 2023] [::1]:56506 Closing
+[Fri May 12 06:50:17 2023] [::1]:56508 Accepted
+[Fri May 12 06:50:17 2023] [::1]:56508 [404]: GET /favicon.ico - No such file or directory
+[Fri May 12 06:50:17 2023] [::1]:56508 Closing
+[Fri May 12 07:18:18 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Fri May 12 07:18:19 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Fri May 12 07:42:47 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Fri May 12 07:42:47 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Fri May 12 09:47:57 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Fri May 12 09:47:57 2023] Failed to listen on localhost:4000 (reason: Address already in use)
