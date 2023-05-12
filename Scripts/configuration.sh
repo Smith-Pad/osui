@@ -49,7 +49,7 @@ TryExec=/usr/bin/osui-launch.sh
 Type=Application
 X-LightDM-DesktopName=OSUI
 DesktopNames=OSUI
-' > /usr/share/xsessions/
+' > /usr/share/xsessions/osui-launch.desktop
 
 EOF
 
