@@ -69,6 +69,8 @@ function package_manager_Arch() {
         sudo pacman -S festival --noconfirm
         sudo pacman -S portaudio --noconfirm    
         sudo pacman -S python-pyaudio --noconfirm
+        sudo pacman -S xorg-server --noconfirm
+        sudo pacman -S xorg-xinit --noconfirm
 }
 function package_manager_Arch_python_pip_package_manager() {
         pip install flask
