@@ -44,13 +44,10 @@ sudo su <<EOF
 
 echo '
 [Desktop Entry]
-Name=OSUI
+Name=osui-launch
 Comment=Operating System User Interface
 Exec=/usr/bin/osui-launch.sh 
-TryExec=/usr/bin/osui-launch.sh
 Type=Application
-X-LightDM-DesktopName=OSUI
-DesktopNames=OSUI
 ' > /usr/share/xsessions/osui-launch.desktop
 
 cat /usr/share/xsessions/osui-launch.desktop
