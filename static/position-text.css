@@ -11,6 +11,12 @@
 	border: 3px solid /* ONLY ON DEBUG */ transparent;
 }
 
+.space4 {
+	text-align: left;
+	border: 2em solid /* ONLY ON DEBUG */ transparent;
+}
+
+
 .space10 {
 	text-align: left;
 	border: 10em solid /* ONLY ON DEBUG */ transparent;
