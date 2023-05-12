@@ -1,45 +1,77 @@
 .activate {
   position: fixed;
-  visibility: hidden; }
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 1;
+  z-index: 9999;
+  /* set a high value for z-index */ }
 
 .activate:target {
   visibility: visible;
   opacity: 1; }
 
-.bar {
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: center; }
-.osui-button {
-  border: none;
-  padding: 12px 24px;
-  font-size: 18px;
-  color: white;
-  margin-right: 20px;
-  background-color: #3b3b3b;
-  box-shadow: 0px 5px 0px #333333;
-  border-radius: 8px;
-  cursor: pointer;
+.controls {
+  margin: 2px auto;
+  padding: 200px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(39, 39, 39, 0.4);
+  background-position: right;
+  border-radius: 5px;
+  width: auto;
+  position: center;
+  color: white; }
+
+.controls .close {
+  position: absolute;
+  top: 20px;
+  background-color: red;
+  right: 30px;
+  font-size: 58px;
+  font-weight: 500;
   text-decoration: none;
+  color: red;
   transition-duration: 0.2s; }
 
-.osui-button:hover {
-  box-shadow: 0px 20px 0px #ffffff; }
+.controlsclose {
+  position: absolute;
+  top: 20px;
+  /*  */
+  right: 30px;
+  font-size: 58px;
+  font-weight: 500;
+  text-decoration: none;
+  color: red; }
 
-.osui-button:active {
-  box-shadow: 0px 70px 0px #08b34f; }
+.controls .content {
+  max-height: 30%;
+  width: 30%;
+  overflow: auto; }
+.osui-button {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1)), linear-gradient(to bottom, #2E0069, #4a00ac);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18); }
 
 .osui-button-small {
   border: none;
   padding: 9px 14px;
   font-size: 18px;
   color: white;
-  background-color: #3b3b3b;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   box-shadow: 0px 5px 0px #333333;
   border-radius: 8px;
   cursor: pointer;
@@ -47,6 +79,7 @@
   transition-duration: 0.2s; }
 
 .osui-button-small:hover {
+  background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0px 20px 0px #ffffff; }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -73,6 +106,19 @@ body {
   overflow-x: hidden;
   perspective: 1px;
   display: inline-flexbox; }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  border-radius: 10px; }
+
+.grid-item {
+  backdrop-filter: blur(10px);
+  background-color: rgba(49, 49, 49, 0.4);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 10px; }
 .status-bar {
   padding: 3px 16px;
   display: grid;

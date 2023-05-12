@@ -30,15 +30,16 @@
 }
 
 .controls {
-        margin: 2px auto;
-        padding: 20px;
-        background-color:rgb(82, 82, 82);
-        background-position:right; 
-        background-repeat: no-repeat, repeat;
-        border-radius: 5px;
-        width: auto;
-        position: center;
-        color: rgb(255, 255, 255);
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.4);
 
 }
 
@@ -65,89 +66,7 @@
 }
 
 .controls .content {
-        max-height: 30%;
-        width: 30%;
-        overflow: auto;
-}
-
-
-
-
-/* Button Features. */
-
-.button {
-        background-color: black;
-        padding: 10px 32px;
-        color: white;
-        border: none;
-        font-size: 16px;
-        text-decoration: none;
-
-        margin-right: 15px;
-
-}
-
-.button:hover {
-        background-color: rgb(9, 172, 0);
-        color: white;
-        font-size: 16px;
-        transition-duration: 0.2s;
-}
-
-.button:active {
-        background-color: orange;
-        color: white;
-        transition-duration: 0.2s;
-}
-
-
-/* Button colors */
-.button.red {
-        background-color: rgba(255, 0, 0, 0.359);
-}
-
-
-.button.yellow {
-        background-color: rgb(255, 174, 0);
-}
-
-
-.button.orange {
-        background-color: rgb(255, 98, 0);
-        color: white;
-
-}
-
-
-.button.white {
-        background-color: red;
-        color: white;
-
-}
-
-
-.button.curve {
-        border-radius: 100px;
-
-}
-
-
-.button.small {
-        padding: 7px 8px;
-        color: white;
-}
-
-
-
-.button.small.curve {
-        border-radius: 5px;
-        font-size: 16px;
-        position: center;
-}
-
-.button.large.curve {
-        border-radius: 5px;
-        font-size: 30px;
-        position: center;
-
+        display: absolute;
+        justify-content: center;
+        align-items: center;
 }
