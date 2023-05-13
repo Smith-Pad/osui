@@ -119,6 +119,18 @@ body {
   color: white;
   text-align: center;
   border-radius: 10px; }
+sidebar {
+  background-color: #000004;
+  margin-bottom: 100;
+  padding: 0;
+  width: 25%;
+  position: fixed;
+  animation-duration: 0.7s; }
+
+sidebar:hover {
+  background-color: #2b2927;
+  font-size: 20px;
+  color: black; }
 .status-bar {
   padding: 3px 16px;
   display: grid;
