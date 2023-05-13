@@ -41,6 +41,3 @@ Which is provided in this repository called <code>dependency-install.sh</code>
 <p align="center">
 Since it uses lots and lots of dependencies for OSUI to work. 
 </p>
-
-<h2 align="center">But wait... there are just a little manual stuff to do... which is pretty easy</h2>
-
