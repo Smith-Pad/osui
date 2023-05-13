@@ -3,4 +3,4 @@
 
 kwin_x11 --replace &
 
-firefox --kiosk 127.0.0.1:3000
+chromium --kiosk 127.0.0.1:3000 --no-sandbox
