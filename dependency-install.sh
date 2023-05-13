@@ -1,4 +1,4 @@
-## Dependency Install
+Dependency Install
 #
 #
 #
@@ -128,6 +128,7 @@ function package_manager_Fedora_python_pip_package_manager() {
         pip3 install tensorflow
         pip3 install pyttsx3
         pip3 install spacy 
+        pip3 install sqlite3
         python3 -m spacy download en_core_web_sm
 }    
 
