@@ -44,11 +44,3 @@ Since it uses lots and lots of dependencies for OSUI to work.
 
 <h2 align="center">But wait... there are just a little manual stuff to do... which is pretty easy</h2>
 
-<i> Step 1: </i>
-
-
-
-<p align="left"> 
-Here are the list of distributions based on the <code>dependency-install.sh</code> script. 
-to install <code>git</code> manually 
-</p>
