@@ -1207,3 +1207,5 @@
 [Sun May 14 18:33:05 2023] Failed to listen on localhost:4000 (reason: Address already in use)
 [Sun May 14 18:33:18 2023] Failed to listen on localhost:4000 (reason: Address already in use)
 [Sun May 14 18:33:19 2023] Failed to listen on localhost:4000 (reason: Address already in use)
+[Mon May 15 11:31:34 2023] PHP 8.1.18 Development Server (http://localhost:4000) started
+[Mon May 15 11:31:34 2023] Failed to listen on localhost:4000 (reason: Address already in use)
