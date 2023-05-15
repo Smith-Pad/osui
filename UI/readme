@@ -24,3 +24,4 @@
         |- status-bar.scss
         |- grid.scss
         |- sidebar.scss
+        |- bottom-navigation.scss

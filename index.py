@@ -36,21 +36,48 @@ class initOG():
 initOG()
 
 
-@app.route('/', methods=['POST', 'GET'])
-def home_screen():
-        apps_button = 'Apps'
-        settings_button = 'Settings'
-        subjects_button = 'Subjects'
+class HOME_SCREEN_VIEW():
+        @app.route('/', methods=['POST', 'GET'])
+        def home_screen():
+                apps_button = 'Apps'
+                settings_button = 'Settings'
+                subjects_button = 'Subjects'
 
-        return render_template('index.html', apps_button=apps_button,
-                                             settings_button=settings_button,
-                                             subjects_button=subjects_button,)
+                return render_template('index.html', apps_button=apps_button,
+                                                        settings_button=settings_button,
+                                                        subjects_button=subjects_button,)
+
+HOME_SCREEN_VIEW()
 
 
-@app.route('/settings', methods=['POST', 'GET'])
-def settings():
+class APPS_SCREEN_VIEW():
+        @app.route('/apps_screen', methods=['POST', 'GET'])
+        def apps_screen():
+                return render_template('apps-main.html')
 
-        return render_template('settings.html')
+APPS_SCREEN_VIEW()
+
+
+class SETTINGS_SCREEN_VIEW():
+        @app.route('/settings_screen', methods=['POST', 'GET'])
+        def settings_screen():
+
+                return render_template('settings.html')
+SETTINGS_SCREEN_VIEW()
+
+        
+class SUBJECTS_SCREEN():
+        @app.route('/subjects_screen', methods=['POST', 'GET'])
+        def subjects_screen():
+                return render_template('subjects-main.html')
+SUBJECTS_SCREEN()
+
+
+
+"""
+BACKEND STUFF
+
+"""
 
 
 
