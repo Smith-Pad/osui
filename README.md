@@ -23,8 +23,8 @@ to it's Smith-Pad's Interface.
 <li> Consistant UI that is on an operating system as soon as the user opens up the device</li>
 <li> Smith-Pad's offline lessons allows students to learn subjects anywhere </li>
 
-<h1 align="center">Getting Started</h1>
+<!-- <h1 align="center">Getting Started</h1>
 <h2 align="center">What are the dependencies for running this thing?</h2>
 <p align="center">
 So what are the dependencies for running this thing? 
-</p>
+</p> -->
