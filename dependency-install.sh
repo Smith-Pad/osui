@@ -80,6 +80,7 @@ function package_manager_Arch_python_pip_package_manager() {
 	pip install sh
         pip install cefpython3
         pip install pyaudio
+        pip install asyncio
 }
 
 
@@ -99,6 +100,7 @@ function package_manager_openSUSE_python_pip_package_manager() {
 	pip3.10 install flask
 	pip3.10 install speechrecognition
 	pip3.10 install sh
+        pip3.10 install asyncio
 }
 
 
@@ -130,6 +132,7 @@ function package_manager_Fedora_python_pip_package_manager() {
         pip3 install spacy 
         pip3 install sqlite3
         python3 -m spacy download en_core_web_sm
+        pip3 install asyncio
 }    
 
 
@@ -139,7 +142,7 @@ function package_manager_Fedora_python_pip_package_manager() {
 ##############################################################
 
 function package_manager_Manjaro() {
-	sudo pacman -S install python3-pip --noconfirm
+	sudo pacman -S install python-pip --noconfirm
 	sudo pacman -S install php --noconfirm
 	sudo pacman -S python3  --noconfirm 
         sudo pacman -S festival --noconfirm       
@@ -147,10 +150,10 @@ function package_manager_Manjaro() {
         sudo pacman -S python-pyaudio --noconfirm      
 }
 function package_manager_Manjaro_python_pip_package_manager() {
-        pip3 install flask
-	pip3 install speechrecognition
-	pip3 install sh
-        pip3 install cefpython3
+        pip install flask
+	pip install speechrecognition
+	pip install sh
+        pip install cefpython3
 }
 
 
