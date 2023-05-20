@@ -20,7 +20,7 @@ import speech_recognition as sr
 import sh
 import os
 import subprocess
-
+import asyncio
 
 
 app = Flask(__name__)
