@@ -1,6 +1,0 @@
-#+TITLE: Notes
-
-* Introduction
-Welcome to the notes documentation. These notes are used for documentating ideas into it
-
-*  
