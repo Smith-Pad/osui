@@ -18,7 +18,7 @@
         margin: 2px auto;
         padding: 200px;
 	backdrop-filter: blur(10px);
-	 background-color: rgba(39, 39, 39, 0.4);
+	background-color: rgba(39, 39, 39, 0.4);
         background-position:right; 
         border-radius: 5px;
         width: auto;
@@ -50,6 +50,48 @@
 }
 
 .controls .content {
+        max-height: 30%;
+        width: 30%;
+        overflow: auto;
+}
+
+
+.controls-no-blur {
+        margin: 2px auto;
+        padding: 200px;
+	backdrop-filter: blur(10px);
+	background-color: rgba(39, 39, 39, 0.4);
+        background-position:right; 
+        border-radius: 5px;
+        width: auto;
+        position: center;
+        color: rgb(255, 255, 255);
+
+}
+
+.controls-no-blur .close {
+        position: absolute;
+        top: 20px;
+		background-color: red;
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+        transition-duration: 0.2s;
+}
+ 
+.controls-no-blurclose {
+        position: absolute;
+        top: 20px;/*  */
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+}
+
+.controls-no-blur .content {
         max-height: 30%;
         width: 30%;
         overflow: auto;

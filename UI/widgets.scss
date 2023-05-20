@@ -1,0 +1,32 @@
+.widget-grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        margin: 20px;
+}
+
+
+
+
+.widget-left {
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        justify-content: space-between;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.5s;
+        width: 300px;
+}
+
+
+
+.widget-left:hover {
+        box-shadow: 0 0 20px rgb(255, 255, 255);
+        transform: scale(1.20);
+        width: 900px;
+        font-size: 30px;
+}
