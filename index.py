@@ -25,16 +25,16 @@ import asyncio
 
 app = Flask(__name__)
 
-class HOME_SCREEN_VIEW():
-        @app.route('/', methods=['POST', 'GET'])
-        def home_screen():
-                apps_button = 'Apps'
-                settings_button = 'Settings'
-                subjects_button = 'Subjects'
 
-                return render_template('index.html', apps_button=apps_button,
-                                                        settings_button=settings_button,
-                                                        subjects_button=subjects_button,)
+@app.route('/', methods=['POST', 'GET'])
+def home_screen():
+        apps_button = 'Apps'
+        settings_button = 'Settings'
+        subjects_button = 'Subjects'
+
+        return render_template('index.html', apps_button=apps_button,
+                                                settings_button=settings_button,
+                                                subjects_button=subjects_button,)
 
 
 
