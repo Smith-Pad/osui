@@ -25,17 +25,6 @@ import subprocess
 
 app = Flask(__name__)
 
-
-## So, since Smith-Pad in general was originally based on php, why 
-## since we are not entirely ditching php, so why not use it with 
-## integration with flask?....
-
-class initOG():
-        os.system('cd Subjects/ && nohup php -S localhost:4000 & ')                     ## Subjects Feature
-        os.system('cd Software-Update/ && nohup php -S localhost:2000 &')               ## Software Update Feature
-initOG()
-
-
 class HOME_SCREEN_VIEW():
         @app.route('/', methods=['POST', 'GET'])
         def home_screen():
@@ -46,31 +35,6 @@ class HOME_SCREEN_VIEW():
                 return render_template('index.html', apps_button=apps_button,
                                                         settings_button=settings_button,
                                                         subjects_button=subjects_button,)
-
-HOME_SCREEN_VIEW()
-
-
-class APPS_SCREEN_VIEW():
-        @app.route('/apps_screen', methods=['POST', 'GET'])
-        def apps_screen():
-                return render_template('apps-main.html')
-
-APPS_SCREEN_VIEW()
-
-
-class SETTINGS_SCREEN_VIEW():
-        @app.route('/settings_screen', methods=['POST', 'GET'])
-        def settings_screen():
-
-                return render_template('settings.html')
-SETTINGS_SCREEN_VIEW()
-
-        
-class SUBJECTS_SCREEN():
-        @app.route('/subjects_screen', methods=['POST', 'GET'])
-        def subjects_screen():
-                return render_template('subjects-main.html')
-SUBJECTS_SCREEN()
 
 
 
