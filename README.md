@@ -23,8 +23,15 @@ to it's Smith-Pad's Interface.
 <li> Consistant UI that is on an operating system as soon as the user opens up the device</li>
 <li> Smith-Pad's offline lessons allows students to learn subjects anywhere </li>
 
-<!-- <h1 align="center">Getting Started</h1>
-<h2 align="center">What are the dependencies for running this thing?</h2>
-<p align="center">
-So what are the dependencies for running this thing? 
-</p> -->
+<ul></ul>
+
+# How to run a Unix Socket?
+In order to run Unix Sockets, here is the first command you need to put.
+```shell
+## This netcat command allows the ability to create 
+nc -U <path/filename>.sock -l
+```
+
+
+# Credits 
+https://www.baeldung.com/linux/communicate-with-unix-sockets
