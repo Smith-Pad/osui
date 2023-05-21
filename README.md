@@ -25,6 +25,12 @@ to it's Smith-Pad's Interface.
 
 <ul></ul>
 
+# How to install Unix Sockets in Python? 
+
+```shell
+pip install flask-unixsocket
+```
+
 # How to run a Unix Socket?
 In order to run Unix Sockets, here is the first command you need to put.
 ```shell
