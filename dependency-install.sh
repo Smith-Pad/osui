@@ -82,6 +82,8 @@ function package_manager_Arch_python_pip_package_manager() {
         pip install cefpython3
         pip install pyaudio
         pip install asyncio
+        pip install flask-unixsocket
+        pip install flask-socketio
 }
 
 
@@ -102,6 +104,8 @@ function package_manager_openSUSE_python_pip_package_manager() {
 	pip3.10 install speechrecognition
 	pip3.10 install sh
         pip3.10 install asyncio
+        pip3.10 install flask-unixsocket
+        pip3.10 install flask-socketio
 }
 
 
@@ -134,6 +138,8 @@ function package_manager_Fedora_python_pip_package_manager() {
         pip3 install sqlite3
         python3 -m spacy download en_core_web_sm
         pip3 install asyncio
+        pip3 install flask-unixsocket
+        pip3 install flask-socketio
 }    
 
 
