@@ -42,10 +42,11 @@ class HOME_SCREEN_VIEW():
                 apps_button = 'Apps'
                 settings_button = 'Settings'
                 subjects_button = 'Subjects'
-
-                return render_template('index.html', apps_button=apps_button,
-                                                        settings_button=settings_button,
-                                                        subjects_button=subjects_button,)
+                
+                return render_template('index.html', apps_button=apps_button)
+                return render_template('index.html', settings_button=settings_button)
+                return render_template('index.html', subjects_button=subjects_button)
+                                                        
 
 HOME_SCREEN_VIEW()
 
