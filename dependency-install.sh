@@ -106,6 +106,7 @@ function package_manager_openSUSE_python_pip_package_manager() {
         pip3.10 install asyncio
         pip3.10 install flask-unixsocket
         pip3.10 install flask-socketio
+        pip3.10 install aiohttp
 }
 
 
@@ -140,6 +141,7 @@ function package_manager_Fedora_python_pip_package_manager() {
         pip3 install asyncio
         pip3 install flask-unixsocket
         pip3 install flask-socketio
+        pip3 install aiohttp
 }    
 
 
