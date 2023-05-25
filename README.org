@@ -1,0 +1,69 @@
+#+TITLE: Experiment-Flask Notes
+
+* Introduction
+
+Welcome to the documentation. This documentation is essentially
+notes for the experiment. 
+
+
+* index.py
+
+1. We have to import the modules
+
+   #+BEGIN_SRC python
+     from flask import Flask, render_template
+     import asyncio
+     import websockets
+     import subsockets
+     import os
+   #+END_SRC
+
+
+2. Then we need to initialize Flask. The ~app~ variable you can put
+   any variable that you want
+
+   #+BEGIN_SRC python
+     app = Flask(__name__)
+   #+END_SRC
+
+
+
+3. Then we need to initialize the route view. Now ~('/')~
+   #+BEGIN_SRC python
+    app.route('/') 
+   #+END_SRC
+
+
+4. Then we need to make a async def function for the main screen
+   #+BEGIN_SRC python
+     async def home_screen():
+   #+END_SRC
+
+
+5. Inside that function this is where we are going to put variables.
+
+   These variables in the backend will utilize with Linux to show
+   the battery percentage, and the wifi detailed information.
+   
+   #+BEGIN_SRC python
+     ## Variables
+     battery_percentage = "something something"
+     wifi_level         = "something something"
+   #+END_SRC
+
+
+
+
+6. Inside that function this is where we are going to put variables.
+
+   These variables has the benefit of dynamically changing button
+   text names for any use-case. For example like this. In the
+   lower controls like apps and power indicators, this will
+   dynamically change based on the actions in the backend.  
+   
+   #+BEGIN_SRC python
+     ## Variables
+     apps_indicator = "something something"
+     power_indicator = "something something"
+
+   #+END_SRC
