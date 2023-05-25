@@ -1,1 +1,1 @@
-rustc index.rs ./index
+rustc index.rs && ./index
