@@ -1,0 +1,1 @@
+rustc index.rs ./index
