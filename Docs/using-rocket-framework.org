@@ -11,7 +11,7 @@ These notes are used for experimenting with the Rocket Framework on Rust
 
 The ~paths = ["static"] is where you include the CSS and HTML files to 
 
-#+BEGIN_SRC toml
+#+BEGIN_SRC c
 [static]
 paths = ["static"]
 
@@ -43,3 +43,9 @@ fn rocket() -> _ {
 #+END_SRC
 
 
+* Step 3: Run the program
+
+#+BEGIN_SRC shell
+    cargo build
+    cargo run
+#+END_SRC
