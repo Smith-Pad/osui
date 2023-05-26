@@ -10,3 +10,13 @@
 				Dependencies: 
 
 				pip install asyncio
+
+
+
+				Importing the Modules: 
+
+
+				---------------------------------
+				import asyncio
+				import websockets
+				---------------------------------
