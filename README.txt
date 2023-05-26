@@ -7,6 +7,8 @@
                 ------------------
                 https://rustwasm.github.io/docs/wasm-bindgen/
 
+                https://github.com/actix/actix-web
+
 
                 Running and installing dependencies: 
                 ----------------------
