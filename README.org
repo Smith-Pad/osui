@@ -1,0 +1,12 @@
+#+TITLE: Steps
+
+1. Initialize the cargo
+   ~cargo init~
+
+2. Go into the Cargo.toml file
+
+
+3. ~cargo build~
+
+
+4. ~cargo run~
