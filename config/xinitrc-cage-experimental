@@ -1,4 +1,0 @@
-#!/bin/sh
-
-
-cage -d chromium --kiosk 127.0.0.1:3000
