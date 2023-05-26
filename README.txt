@@ -5,7 +5,7 @@
 
                 Rust Dependencies 
                 ------------------
-                
+                https://rustwasm.github.io/docs/wasm-bindgen/
 
 
                 Running and installing dependencies: 
