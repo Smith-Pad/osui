@@ -7,3 +7,9 @@
 #include <fcntl.h>
 #include <sys.stat.h>
 #include <immintrin.h>
+
+
+int main() 
+{
+    printf("hello OSUI");
+}
