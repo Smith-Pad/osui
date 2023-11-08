@@ -8,6 +8,7 @@
 #include <sys.stat.h>
 #include <immintrin.h>
 
+#define PORT 4000
 
 int main() 
 {
