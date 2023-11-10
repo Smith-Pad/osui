@@ -23,5 +23,3 @@ Here are the list of dependencies you need to install.
 ### gcc
 
 `sudo pacman -S gcc`
-
-# 
