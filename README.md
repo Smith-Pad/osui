@@ -16,4 +16,4 @@ easier way for UI changes...
 
 ### Home Screen: 
 
-Inside the home screen, this is where the user has the ability.
+Inside the home screen, 
