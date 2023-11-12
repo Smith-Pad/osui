@@ -16,4 +16,4 @@ easier way for UI changes...
 
 ### Home Screen: 
 
-Inside the home screen, 
+Inside the home screen
