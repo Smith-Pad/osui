@@ -8,7 +8,7 @@ easier way for UI changes...
 ## List of files
 
 - home-screen.html
-- setting-screen.html
+- settings-screen.html
 
 
 
