@@ -16,6 +16,4 @@ easier way for UI changes...
 
 ### Home Screen: 
 
-Inside the home screen, on the top of the interface, Smith-Pad has been moved
-to the the top middle of the interface. While trying to keep the interface
-as the original design blueprint. 
+Inside the home screen, this is where the user has the ability.
