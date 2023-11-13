@@ -9,6 +9,7 @@ easier way for UI changes...
 
 - home-screen.html
 - settings-screen.html
+- subjects-screen.html
 
 
 
