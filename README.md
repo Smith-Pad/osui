@@ -1,4 +1,4 @@
-# OSUI
+<img src="./osui-logo.png"></img>
 
 ## Introduction
 
