@@ -9,3 +9,8 @@
     padding: 16px 32px;
     transition-duration: 0.2s;
 }
+
+.global-bottom-bar-buttons:hover{
+    background-color: green;
+    color: white;
+}
