@@ -10,6 +10,10 @@ easier way for UI changes...
 - home-screen.html
 - settings-screen.html
 - subjects-screen.html
+- subjects-screen-financial-skills-screen.html
+- subjects-screen-independent-skills-screen.html
+- subjects-screen-math-screen.html
+- subjects-screen-reading-screen.html
 
 
 
