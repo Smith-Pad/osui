@@ -17,8 +17,3 @@ easier way for UI changes...
 
 
 
-## Overview
-
-### Home Screen: 
-
-Inside the home screen
