@@ -1,5 +1,5 @@
 body {
-    background-image: url('settings-screen-theme-default.svg');
+    background-image: url('subjects-screen-theme-default.svg');
     background-repeat: no-repeat;
 }
 
@@ -13,6 +13,7 @@ body {
     margin-top: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
 }
+
 
 
 .subject-screen-top-content {
