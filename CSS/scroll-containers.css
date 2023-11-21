@@ -25,12 +25,16 @@ section {
 .section-buttons-layout {
     background-color: red;
     padding: 16px 32px;
+    text-align: center;
 }
 
 
 .section-buttons {
-    background-color: yellow;
+    background-color: black;
     border-style: none;
     padding: 16px 32px;
-    
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
 }
