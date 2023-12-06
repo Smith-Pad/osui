@@ -24,11 +24,9 @@ Here are the list of dependencies you need to install.
 
 `sudo pacman -S gcc`
 
+## Setting up XORG Dependencies
 
-
-## Setting up XORG Dependencies:
-
-
+In this section, we are going to talk about installing x11 dependencies for OSUi
 
 ## Mockups for the Interface.
 
