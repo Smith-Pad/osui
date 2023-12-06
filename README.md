@@ -26,6 +26,10 @@ Here are the list of dependencies you need to install.
 
 
 
+## Setting up XORG Dependencies:
+
+
+
 ## Mockups for the Interface.
 
 For the mockups for the interface, please go to the  `mockup-html` branch.
