@@ -26,7 +26,13 @@ Here are the list of dependencies you need to install.
 
 ## Setting up XORG Dependencies
 
-In this section, we are going to talk about installing x11 dependencies for OSUi
+In this section, we are going to talk about installing x11 dependencies for OSUI. Here are the lists of them. 
+
+`sudo pacman -S xorg`
+
+`sudo pacman -S xorg-server`
+
+`sudo pacman -S xorg-xinit`
 
 ## Mockups for the Interface.
 
