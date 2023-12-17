@@ -9,6 +9,15 @@ sudo pacman -S xorg-xinit --noconfirm
 sudo pacman -S chromium --noconfirm
 sudo pacman -S polybar --noconfirm
 
+## Remove some dependencies of xfce4
+sudo pacman -Rcns xfce4-appfinder
+sudo pacman -Rcns xfdesktop
+sudo pacman -Rcns xfce4-power-manager
+sudo pacman -Rcns tumbler
+sudo pacman -Rcns thunar-volman
+sudo pacman -Rcns garcon
+sudo pacman -Rcns exo
+
 cd
 mkdir osui-mockup && cd osui-mockup
 git clone https://github.com/smith-pad/osui . 
