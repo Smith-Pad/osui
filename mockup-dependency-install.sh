@@ -6,7 +6,7 @@ sudo pacman -S xorg --noconfirm
 sudo pacman -S xorg-server --noconfirm
 sudo pacman -S xorg-xinit --noconfirm
 sudo pacman -S chromium --noconfirm
-
+sudo pacman -S polybar --noconfirm
 
 cd
 mkdir osui-mockup && cd osui-mockup
