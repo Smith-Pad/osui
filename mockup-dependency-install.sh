@@ -17,6 +17,6 @@ git checkout mockup-html
 cd $HOME
 touch .xinitrc
 echo """
-exec chromium --kiosk osui-mockup/home-screen.html
+
 
 """ >> .xinitrc
