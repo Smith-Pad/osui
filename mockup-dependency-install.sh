@@ -10,13 +10,13 @@ sudo pacman -S chromium --noconfirm
 sudo pacman -S polybar --noconfirm
 
 ## Remove some dependencies of xfce4
-sudo pacman -Rcns xfce4-appfinder
-sudo pacman -Rcns xfdesktop
-sudo pacman -Rcns xfce4-power-manager
-sudo pacman -Rcns tumbler
-sudo pacman -Rcns thunar-volman
-sudo pacman -Rcns garcon
-sudo pacman -Rcns exo
+sudo pacman -Rcns xfce4-appfinder --noconfirm
+sudo pacman -Rcns xfdesktop --noconfirm
+sudo pacman -Rcns xfce4-power-manager --noconfirm
+sudo pacman -Rcns tumbler --noconfirm
+sudo pacman -Rcns thunar-volman --noconfirm
+sudo pacman -Rcns garcon --noconfirm
+sudo pacman -Rcns exo --noconfirm
 
 cd
 mkdir osui-mockup && cd osui-mockup
