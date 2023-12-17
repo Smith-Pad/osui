@@ -17,6 +17,6 @@ git checkout mockup-html
 cd $HOME
 touch .xinitrc
 echo """
-
+exec xfwm4
 
 """ >> .xinitrc
