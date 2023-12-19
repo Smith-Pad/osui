@@ -26,7 +26,7 @@ sudo pacman -Rcns lxpanel --noconfirm
 cd $HOME
 touch .xinitrc
 echo """
-exec xfce4-session
+exec lxsession
 
 """ >> .xinitrc
 
