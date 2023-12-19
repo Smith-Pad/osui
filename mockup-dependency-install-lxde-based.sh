@@ -24,5 +24,4 @@ sudo pacman -Rcns lxpanel --noconfirm
 
 
 ## Re-create the osui-launch.desktop
-cd $HOME/.conifg/autostart
-touch osui-launch.desktop
+cd $HOME/.config/autostart
