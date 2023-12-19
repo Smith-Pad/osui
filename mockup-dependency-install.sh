@@ -30,3 +30,8 @@ echo """
 exec xfce4-session
 
 """ >> .xinitrc
+
+
+cd $HOME
+cd $HOME/.config
+mkdir autostart
