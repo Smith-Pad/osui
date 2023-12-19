@@ -21,3 +21,11 @@ sudo pacman -S lxde --noconfirm
 
 ## Then uninstall not really necessary LXDE dependencies
 sudo pacman -Rcns lxpanel --noconfirm
+
+## Install the .xinitrc config 
+cd $HOME
+touch .xinitrc
+echo """
+exec xfce4-session
+
+""" >> .xinitrc
