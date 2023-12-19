@@ -20,4 +20,4 @@ sudo pacman -Rcns xfce4 --noconfirm
 sudo pacman -S lxde --noconfirm
 
 ## Then uninstall not really necessary LXDE dependencies
-sudo pacman -Rcns lxpanel
+sudo pacman -Rcns lxpanel --noconfirm
