@@ -21,7 +21,3 @@ sudo pacman -S lxde --noconfirm
 
 ## Then uninstall not really necessary LXDE dependencies
 sudo pacman -Rcns lxpanel --noconfirm
-
-
-## Re-create the osui-launch.desktop
-cd $HOME/.config/autostart
