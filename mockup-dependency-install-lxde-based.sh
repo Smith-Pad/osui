@@ -29,3 +29,6 @@ echo """
 exec xfce4-session
 
 """ >> .xinitrc
+
+## cat out the .xinitrc file
+cat $HOME/.xinitrc
