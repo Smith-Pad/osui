@@ -12,23 +12,23 @@ rm -rf .xinitrc
 cd $HOME/.config
 rm -rf autostart/osui-launch.desktop
 
-## Remove the xfce4 dependencies if necessary
-sudo pacman -Rcns xfce4 --noconfirm
+# ## Remove the xfce4 dependencies if necessary
+# sudo pacman -Rcns xfce4 --noconfirm
 
 
-## Then install all of the LXDE dependencies
-sudo pacman -S lxde --noconfirm
+# ## Then install all of the LXDE dependencies
+# sudo pacman -S lxde --noconfirm
 
-## Then uninstall not really necessary LXDE dependencies
-sudo pacman -Rcns lxpanel --noconfirm
+# ## Then uninstall not really necessary LXDE dependencies
+# sudo pacman -Rcns lxpanel --noconfirm
 
-## Install the .xinitrc config 
-cd $HOME
-touch .xinitrc
-echo """
-exec lxsession
+# ## Install the .xinitrc config 
+# cd $HOME
+# touch .xinitrc
+# echo """
+# exec lxsession
 
-""" >> .xinitrc
+# """ >> .xinitrc
 
-## cat out the .xinitrc file
-cat $HOME/.xinitrc
+# ## cat out the .xinitrc file
+# cat $HOME/.xinitrc
