@@ -2,4 +2,3 @@
 @pcmanfm --desktop --profile LXDE
 @xscreensaver -no-splash
 @chromium --kiosk
-@sh /home/$USER/test.sh
