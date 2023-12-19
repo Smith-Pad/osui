@@ -14,3 +14,6 @@ rm -rf autostart/osui-launch.desktop
 
 ## Remove the xfce4 dependencies if necessary
 sudo pacman -Rcns xfce4 --noconfirm
+
+
+## Then install all of the LXDE dependencies
