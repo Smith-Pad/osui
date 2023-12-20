@@ -1,13 +1,14 @@
 body {
     background-color: black;
     font-family: 'BigBlueTermPlus Nerd Font Mono';
-}
+} 
 
-
+ 
 .settings-sidebar {
     height: 100%;
     width: 400px;
     background-color: rgb(32, 32, 32);
+    position: fixed;
 }
 
 
@@ -44,10 +45,60 @@ body {
 }
 
 .settings-main-content-container {
-    background-color: yellow;
-    margin-bottom: -20px;
+    margin-left: 400px;
+    padding: 16px 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;   
 }
 
-.settings-main-content {
-    background-color: red;
+
+.settings-main-content{
+    margin-top: 35px;
+}
+
+.settings-main-content-header-one {
+    font-size: 40px;
+}
+
+
+.settings-bar-activate {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.settings-bar-activate:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.bluetooth-bar {}
+
+.nfc-bar {}
+
+.audio-bar {}
+
+.theme-bar {}
+
+
+
+.bluetooth-bar-content {
+    margin-top: 40px;
+    margin-left: 200px;
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: -300px 500px 8000em 100px rgb(12, 20, 97);
+}
+
+.nfc-bar-content {
+    margin-top: -50px;
+    margin-left: 200px;
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: -300px 500px 8000em 100px rgb(97, 77, 12);
 }
