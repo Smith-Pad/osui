@@ -109,7 +109,7 @@ rgb(12, 77 12)
     margin-left: 200px;
     background-color: transparent;
     border-radius: 30px;
-    /* box-shadow: -300px 500px 8000em 100px rgb(12, 20, 97); */
+    box-shadow: -300px 500px 8000em 100px rgb(12, 20, 97);
 }
 
 .nfc-bar-content {
@@ -117,5 +117,5 @@ rgb(12, 77 12)
     margin-left: 200px;
     background-color: transparent;
     border-radius: 30px;
-    /* box-shadow: -300px 500px 8000em 100px rgb(97, 77, 12);. */
+    box-shadow: -300px 500px 8000em 100px rgb(97, 77, 12);.
 }
