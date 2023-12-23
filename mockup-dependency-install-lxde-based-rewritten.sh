@@ -7,12 +7,12 @@ function upgradePackages() {
     sudo pacman -Syyu --noconfirm
 }
 
-## Install the xorg dependencies 
-function getpackages_xorg() {
+## Install the packages
+function getPackages() {
     sudo pacman -S xorg-server --noconfirm
     sudo pacman -S xorg --noconfirm
 }
 
 
 upgradePackages
-getpackages_xorg
+getPackages
