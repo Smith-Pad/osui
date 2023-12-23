@@ -10,6 +10,7 @@ function upgradePackages() {
 ## Install the xorg dependencies 
 function getpackages_xorg() {
     sudo pacman -S xorg-server --noconfirm
+    sudo pacman -S xorg --noconfirm
 }
 
 
