@@ -11,6 +11,7 @@ function upgradePackages() {
 function getPackages() {
     sudo pacman -S xorg-server --noconfirm
     sudo pacman -S xorg --noconfirm
+    sudo pacman -S php --noconfirm
 }
 
 
