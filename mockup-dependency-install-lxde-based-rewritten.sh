@@ -12,6 +12,7 @@ function getPackages() {
     sudo pacman -S xorg-server --noconfirm
     sudo pacman -S xorg --noconfirm
     sudo pacman -S php --noconfirm
+    sudo pacman -S lxde --noconfirm
 }
 
 
