@@ -33,6 +33,21 @@ function getConfigure() {
 
     ## Now the systemd configuration is used in the user level.
 
+    cd $HOME/.config/systemd/user
+    echo """
+[Unit]
+Description=PHP Mockup Service 
+
+[Service]
+ExecStart=/usr/bin/sh /home/user/php-mockup-osui-service.sh
+
+[Install]
+WantedBy=default.target
+
+    """ >> php-mockup-osui-service
+
+
+    
 
 }   
 
