@@ -22,8 +22,17 @@ function getConfigure() {
     
     ## In this step, this is where .xinitrc is configured....
     echo """
-exec lxsession
+    exec lxsession
     """ >> .xinitrc
+
+    ## In this step, this is where systemd configuration needs 
+    ## to be configured. Particularly in this mockup script,
+    ## PHP is used to show the mockup version... this is 
+    ## also used to make sure the thing actually works...
+
+
+    ## Now the systemd configuration is used in the user level.
+
 
 }   
 
