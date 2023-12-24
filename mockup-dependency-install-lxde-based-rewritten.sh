@@ -14,6 +14,7 @@ function getPackages() {
     sudo pacman -S php --noconfirm
     sudo pacman -S lxde --noconfirm
     sudo pacman -S xorg-xinit --noconfirm
+    sudo pacman -S kwin --noconfirm
 }
 
 
