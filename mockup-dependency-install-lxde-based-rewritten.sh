@@ -17,6 +17,16 @@ function getPackages() {
     sudo pacman -S kwin --noconfirm
 }
 
+## Configure setup
+function getConfigure() {
+    
+    ## In this step, this is where .xinitrc is configured....
+    echo """
+exec lxsession
+    """ >> .xinitrc
+
+}   
 
 upgradePackages
 getPackages
+getConfigure
