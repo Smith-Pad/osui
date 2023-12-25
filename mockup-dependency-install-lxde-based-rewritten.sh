@@ -48,7 +48,7 @@ WantedBy=default.target
 
 
     ## In this step, another branch of OSUI is cloned to the
-    ## device user level called the mockup-html branch
+    ## device user level called the mockup-htmkki branch
 
     cd $HOME
     mkdir osui-mockup
@@ -62,7 +62,16 @@ WantedBy=default.target
     systemctl --user enable php-mockup-osui.service
 
 
-    
+    ## In this step, this is where the LXDE configuration starts
+    cd $HOME
+    cd .config
+    cd lxsession
+    cd LXDE
+    rm -rf autostart
+    echo """
+    @chromium --kiosk http://localhost:3000
+
+    """ >> autostart
 
 }   
 
