@@ -69,7 +69,7 @@ WantedBy=default.target
     cd LXDE
     rm -rf autostart
     echo """
-    @chromium --kiosk http://localhost:3000
+    @chromium --kiosk http://localhost:2000
 
     """ >> autostart
 
