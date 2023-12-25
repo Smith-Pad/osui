@@ -57,6 +57,9 @@ WantedBy=default.target
     git checkout mockup-html
 
 
+    ## In this step, this is where we enable the systemd --user
+    ## service files
+    systemctl --user enable php-mockup-osui.service
 
 
     
