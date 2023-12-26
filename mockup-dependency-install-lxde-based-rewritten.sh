@@ -21,7 +21,7 @@ function getPackages() {
 ## Configure setup
 function getConfigure() {
     
-    ## In this step, this is where .xinitrc is configured....
+    ## In this step, this is where .xinitrc is configured.... 
     echo """
     exec lxsession
     """ >> .xinitrc
@@ -58,6 +58,15 @@ WantedBy=default.target
     git checkout mockup-html
 
 
+    ## In this step, this is where the php-mockup-osui-service.sh 
+    ## script is created
+    cd $HOME
+    echo """
+    cd osui-mockup && php -S localhost:2000
+    """ >> php-mockup-osui-service.sh
+
+
+
     ## In this step, this is where we enable the systemd --user
     ## service files
     systemctl --user enable php-mockup-osui.service
@@ -73,7 +82,6 @@ WantedBy=default.target
     @chromium --kiosk http://localhost:2000
 
     """ >> autostart
-
 }   
 
 upgradePackages
