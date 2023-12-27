@@ -1,1 +1,1 @@
-exec xfce4-session
+exec lxsession
