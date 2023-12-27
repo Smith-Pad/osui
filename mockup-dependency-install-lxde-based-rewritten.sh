@@ -16,6 +16,7 @@ function getPackages() {
     sudo pacman -S xorg-xinit --noconfirm
     sudo pacman -S xorg-xrandr --noconfirm
     sudo pacman -S kwin --noconfirm
+    sudo pacman -S chromium --noconfirm
 }
 
 ## Configure setup
