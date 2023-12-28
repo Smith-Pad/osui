@@ -2,3 +2,15 @@
 ## This script is designed to uninstall all of the dependencies of the
 ## OSUI Mockup LXDE Version
 
+function uninstallPackages()  {
+    sudo pacman -Rcns xorg-server --noconfirm
+    sudo pacman -Rcns xorg --noconfirm
+    sudo pacman -Rcns php --noconfirm
+    sudo pacman -Rcns lxde --noconfirm
+    sudo pacman -Rcns xorg-xinit --noconfirm
+    sudo pacman -Rcns xorg-xrandr --noconfirm
+    sudo pacman -Rcns kwin --noconfirm
+    sudo pacman -Rcns chromium --noconfirm
+}
+
+uninstallPackages
