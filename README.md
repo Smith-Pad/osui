@@ -45,3 +45,9 @@ In this section, we are going to talk about installing x11 dependencies for OSUI
 For the mockups for the interface, please go to the  `mockup-html` branch.
 
 https://github.com/Smith-Pad/osui/tree/mockup-html
+
+
+
+## Scripts
+
+In this section, we are going to be talking about the scripts.
