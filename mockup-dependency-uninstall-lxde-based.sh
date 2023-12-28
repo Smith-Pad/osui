@@ -19,5 +19,14 @@ function disableDaemons() {
     systemctl --user disable php-mockup-osui.service
 }
 
+function disableConfigurations() {
+    ## This is where we remove the systemd --user configuration for it 
+    cd $HOME/.config/
+    cd systemd
+    cd user
+    rm -rf php-mockup-osui.service
+}
+
 uninstallPackages
 disableDaemons
+disableConfigurations
