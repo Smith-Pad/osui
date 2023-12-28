@@ -29,6 +29,13 @@ function disableConfigurations() {
     ## This is where we remove the .xinitrc configuration for it
     cd $HOME
     rm -rf .xinitrc 
+
+
+    ## This is where we remove the LXDE configuration for it
+    cd $HOME
+    cd .config
+    rm -rf lxsession
+    rm -rf lxpanel
 }
 
 uninstallPackages
