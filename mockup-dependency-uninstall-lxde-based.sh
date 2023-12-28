@@ -25,6 +25,10 @@ function disableConfigurations() {
     cd systemd
     cd user
     rm -rf php-mockup-osui.service
+
+    ## This is where we remove the .xinitrc configuration for it
+    cd $HOME
+    rm -rf .xinitrc 
 }
 
 uninstallPackages
