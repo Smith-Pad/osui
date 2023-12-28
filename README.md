@@ -38,10 +38,6 @@ In this section, we are going to talk about installing x11 dependencies for OSUI
 
 `sudo pacman -S xorg-xinit`
 
-`sudo pacman -S xfwm4`
-
-`sudo pacman -s xfce4`
-
 `sudo pacman -S polybar`
 
 ## Mockups for the Interface.
