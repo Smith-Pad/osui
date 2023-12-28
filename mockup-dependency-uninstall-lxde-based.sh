@@ -13,4 +13,11 @@ function uninstallPackages()  {
     sudo pacman -Rcns chromium --noconfirm
 }
 
+
+function disableDaemons() {
+    systemctl --user stop php-mockup-osui.service
+    systemctl --user disable php-mockup-osui.service
+}
+
 uninstallPackages
+disableDaemons
