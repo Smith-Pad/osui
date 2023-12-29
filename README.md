@@ -51,3 +51,15 @@ https://github.com/Smith-Pad/osui/tree/mockup-html
 ## Scripts
 
 In this section, we are going to be talking about the scripts.
+
+`dependency-install.sh`
+
+`mockup-dependency-install-lxde-rewritten-another.sh`
+
+`mockup-dependency-install-lxde-based-rewritten.sh`
+
+`mockup-dependency-install-lxde-based.sh`
+
+`mockup-dependency-install.sh`
+
+`mockup-dependency-uninstall-lxde-based.sh`
