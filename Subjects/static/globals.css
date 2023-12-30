@@ -6,29 +6,179 @@ body {
     overflow: hidden;
 }
 
+/**
+---------------------------------------------------------------------------
+                                TOP BAR
+
+---------------------------------------------------------------------------
+
+**/
+
+.subjects-top-bar {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px 12px;
+    height: 50px;
+    font-size: 50px;
+    border-radius: 16px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
+}
+
+
+/**
+---------------------------------------------------------------------------
+                                BOTTOM BAR
+
+---------------------------------------------------------------------------
+
+**/
+
 
 .subjects-bottom-bar {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.119);
     text-align: center;
     padding: 10px 32px;
     height: 50px;
     border-radius: 16px;
-    margin-top: 700px;
+    display: fixed;
+    margin-top: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
 }
 
 .subjects-bottom-bar-content {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
 }
 
-
-.subjects-bar-bottom-bar-group-left {
-    margin-left: -1470px; 
+.subjects-bottom-bar-content-left {
+    margin-top: 10px;
+    margin-left: -1200; 
+    text-align: center;
 }
 
-.subjects-bar-bottom-bar-group-middle {
-    margin-top: -40px;
-    margin-left: 20px; 
+.subjects-bottom-bar-content-middle {
+    margin-top: -23px;
+    margin-left: 20; 
+    text-align: center;
+}
+
+
+/**
+---------------------------------------------------------------------------
+                                MIDDLE BAR
+
+---------------------------------------------------------------------------
+
+**/
+
+
+.subjects-middle-bar {
+    overflow: scroll;
+    background-color: rgb(29, 29, 29);
+}
+
+
+.subjects-middle-bar-content {
+    margin-top: 50px;
+    padding: 16px 32px;
+    height: 500px;
+    color: white;
+}
+
+.subjects-middle-bar-subjects-menu-split{
+    margin-top: 200px;
+}
+
+.subjects-middle-bar-content-header-1{
+    font-size: 100px;
+}
+
+.subjects-middle-bar-content-header-2{
+    font-size: 85px;
+}
+
+.subjects-middle-bar-content-header-3{
+    font-size: 65px;
+}   
+
+.subjects-middle-bar-content-header-4{
+    font-size: 45px;
+}   
+
+.subjects-middle-bar-content-regular{
+    margin-top: 40px;
+    font-size: 20px;
+}   
+
+
+
+/**
+---------------------------------------------------------------------------
+                                BUTTONS
+
+---------------------------------------------------------------------------
+
+**/
+
+
+.subjects-button {
+    background-color: black;
+    text-decoration: none;
+    border-style: none;
+    margin-top: -20px;
+    color: white; 
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 16px 32px;
+    transition-duration: 0.2s;
+}
+
+.subjects-button:hover{
+    background-color: green;
+    color: white;
+}
+
+.subjects-back-button{
+    background-color: black;
+    text-decoration: none;
+    border-style: none;
+    margin-top: -20px;
+    color: white; 
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 6px 30px;
+    transition-duration: 0.2s;
+}
+
+.subjects-back-button:hover {
+    background-color: green;
+    padding: 16px 32px;
+}
+
+
+/**
+---------------------------------------------------------------------------
+                                WIDGET BUTTONS
+
+---------------------------------------------------------------------------
+
+**/
+
+.subjects-widgets-button {
+    background-color: rgba(255, 0, 0, 0.225);
+    text-decoration: none;
+    border-style: none;
+    margin-top: -20px;
+    color: white; 
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 16px 100px;
+    transition-duration: 0.2s;
+    height: 300px;
+}
+
+.subjects-widget-button:hover {
+    background-color: orange;
 }
