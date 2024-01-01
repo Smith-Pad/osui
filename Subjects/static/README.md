@@ -12,10 +12,14 @@ In this section, we are going to be talking about the Subjects UI Elements and t
 
 In this section, we are going to show how to create a widget buttons in the Subjects Interface.  
 
-The first thing to do is to include this div class. Of course you are able to include other colours/themes of `subjects-widget-button`.  But we can talk about this further in this documentation. 
+The first thing to do is to include this div class. Of course you are able to include other colours/themes of `subjects-widget-button-container`.  This is where this initializes a container for the widget buttons
 
 ```html
-<div class="subjects-widget-button">
+<div class="subjects-widget-button-container">
 ```
 
-The next thing to do is to include the text header. 
+The next thing to do is to include the the widget buttons. By Default, it is used without the colours or themes, which eventually, more documentation will be documentated about this. 
+
+```html
+<div class="subjects-widgets-button">
+```
