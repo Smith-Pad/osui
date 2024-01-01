@@ -8,8 +8,8 @@ body {
 
 /**
 ---------------------------------------------------------------------------
-                                TOP BAR
-
+TOP BAR
+Search: top bar
 ---------------------------------------------------------------------------
 
 **/
@@ -28,8 +28,8 @@ body {
 
 /**
 ---------------------------------------------------------------------------
-                                BOTTOM BAR
-
+BOTTOM BAR
+Search: bottom bar
 ---------------------------------------------------------------------------
 
 **/
@@ -67,8 +67,8 @@ body {
 
 /**
 ---------------------------------------------------------------------------
-                                MIDDLE BAR
-
+MIDDLE BAR
+Search: middle bar
 ---------------------------------------------------------------------------
 
 **/
@@ -116,8 +116,8 @@ body {
 
 /**
 ---------------------------------------------------------------------------
-                                BUTTONS
-
+BUTTONS
+Search: buttons
 ---------------------------------------------------------------------------
 
 **/
@@ -160,25 +160,47 @@ body {
 
 /**
 ---------------------------------------------------------------------------
-                                WIDGET BUTTONS
-
+WIDGET BUTTONS
+Search: widget buttons
 ---------------------------------------------------------------------------
 
 **/
 
+.subjects-widgets-button-container {display: flex; gap: 20px;}
+
 .subjects-widgets-button {
-    background-color: rgba(255, 0, 0, 0.225);
     text-decoration: none;
     border-style: none;
     margin-top: -20px;
+    width: 20px;    
     color: white; 
     font-size: 20px;
     border-radius: 10px;
-    padding: 16px 100px;
+    padding: 16px 200px;
     transition-duration: 0.2s;
     height: 300px;
 }
 
-.subjects-widget-button:hover {
+.subjects-widgets-button.color-1 {background-color: rgb(18, 255, 200); color:black;}
+.subjects-widgets-button.color-2 {background-color: rgb(208, 255, 18); color:black;}
+.subjects-widgets-button.color-3 {background-color: #a0d2eb; color:black;}
+.subjects-widgets-button.color-4 {background-color: #e5eaf5; color:black;}
+.subjects-widgets-button.color-5 {background-color: #8458B3; color:black;}
+.subjects-widgets-button.color-6 {background-color: #a28089; color:black;}
+
+.subjects-widgets-button:hover {
     background-color: orange;
+    color: black;   
 }
+
+
+/**
+---------------------------------------------------------------------------
+WIDGET BUTTONS/
+Search: widget buttons/text headers
+---------------------------------------------------------------------------
+
+**/
+
+.subjects-widgets-button-text-header-1{margin-bottom: 100px; margin-left: -180px; font-size: 40px;}
+.subjects-widgets-button-text-regular-1{width: 350px; margin-left: -180px;}
