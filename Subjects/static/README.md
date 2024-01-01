@@ -8,7 +8,7 @@ In this documentation this describes the syntax notes for each of the files insi
 
 In this section, we are going to be talking about the Subjects UI Elements and the use-cases for it. 
 
-##### Creating a widget buttons
+##### Creating a widget buttons in example:
 
 In this section, we are going to show how to create a widget buttons in the Subjects Interface.  
 
