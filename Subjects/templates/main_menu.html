@@ -1,7 +1,10 @@
 <link rel="stylesheet" href="static/globals.css" type="text/css">
+<link rel="stylesheet" href="static/media-queries.css" type="text/css">
 
 <div class="subjects-top-bar">
-    Subjects
+    <div class="subjects-top-bar-content">
+        Subjects
+    </div>
 </div>
 
 
@@ -18,7 +21,7 @@
         <div class="subjects-middle-bar-content-regular">
             <div class="subjects-widgets-button-container">
 
-                <div class="subjects-widgets-button color-2" onclick="location.href=''">
+                <div class="subjects-widgets-button color-2" onclick="window.location.href='{{ url_for('sample_lesson') }}';">
                     <div class="subjects-widgets-button-text-header-1">
                         Sample
                     </div>
