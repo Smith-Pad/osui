@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="static/globals.css" type="text/css">
 
 <style>
-
     body {
         background-color: rgb(4, 4, 4);
     }
@@ -86,7 +85,7 @@
         background-color: red;
     }
 
-    
+
 
     .subjects-lesson-ux-game-menu-header-title {
         font-size: 70px;
@@ -153,13 +152,13 @@
     .subjects-lesson-ux-introduction-view-header-title {
         font-size: 90px;
         margin-top: 100px;
-        display: sticky;
+            display: sticky;
         text-align: center;
     }
 
     .subjects-lesson-ux-introduction-view-regular-content-text-1 {
         width: 800px;
-        margin-left: 800px;
+        margin-left: 80px;
         font-size: 30px;
         text-align: center;
         margin-top: 100px;
@@ -177,10 +176,106 @@
 
     @media screen and (max-width: 1920px) and (max-height: 1080px) {
         body {
-            background-color: blue;
+            background-color: rgb(0, 0, 0);
             color: white;
         }
 
+        .subjects-lesson-ux-top-bar {
+            font-size: 70px;
+        }
+
+        .subjects-lesson-ux-middle-bar-content {
+            background-color: transparent;
+            font-size: 20px;
+        }
+
+        .subjects-lesson-ux-top-bar-content {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 50px 12px;
+            height: 50px;
+            font-size: 30px;
+            border-radius: 16px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .subjects-lesson-ux-introduction-view-header-title {
+            font-size: 20px;
+            margin-top: 100px;
+            display: sticky;
+            text-align: center;
+        }
+
+        .subjects-lesson-ux-middle-bar {
+            background-color: transparent;
+        }
+
+        .subjects-lesson-ux-bottom-bar {
+            background-color: rgb(34, 34, 34);
+            margin-top: 200px;
+        }
+
+        .subjects-lesson-ux-game-menu-header-title {
+            font-size: 70px;
+            margin-top: 100px;
+            display: sticky;
+            text-align: center;
+        }
+
+        .subjects-lesson-ux-game-menu-widget-button {
+            text-decoration: none;
+            border: none;
+            margin-top: -20px;
+            width: 20px;
+            color: white;
+            font-size: 20px;
+            border-radius: 10px;
+            padding: 16px 20px;
+            transition-duration: 0.2s;
+            height: 300px;
+        }
+
+        .subjects-lesson-ux-game-menu-widget-button.color-1 {
+            background-color: rgb(18, 255, 200);
+            color: black;
+        }
+
+        .subjects-lesson-ux-game-menu-widget-button.color-2 {
+            background-color: rgb(0, 95, 38);
+            color: white;
+        }
+
+        .subjects-lesson-ux-game-menu-widget-button.color-3 {
+            background-color: rgb(146, 4, 4);
+            color: white;
+        }
+
+        .subjects-lesson-ux-game-menu-widget-button-text-header-1 {
+            margin-bottom: 100px;
+            margin-left: -180px;
+            font-size: 130px;
+        }
+
+        .subjects-lesson-ux-introduction-view-regular-content-text-1 {
+            width: 800px;
+            margin-left: 430px;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 100px;
+            display: sticky;
+        }
+
+
+        .subjects-lesson-ux-game-menu-widget-button-text-regular-1 {
+            width: 350px;
+            margin-left: -180px;
+        }
+
+        .subjects-lesson-ux-game-menu-widget-button:hover {
+            background-color: orange;
+            color: black;
+        }
     }
 </style>
 
@@ -192,30 +287,34 @@
 
 
 
-<!-- This is where the middle content goes to-->    
+<!-- This is where the middle content goes to-->
 <div class="subjects-lesson-ux-middle-bar">
     <div class="subjects-lesson-ux-middle-bar-content">
-            <div class="subjects-lesson-ux-introduction-view-header-title">
-                Welcome to the Lesson. 
-            </div>
-            <div class="subjects-lesson-ux-introduction-view-regular-content-text-1">
-                This lesson is blah blah blah blah blah blah blah blah blah blah.
-                This lesson is blah blah blah blah blah blah blah blah blah blah.
-                This lesson is blah blah blah blah blah blah blah blah blah blah.
-                Are you ready? 
+        <div class="subjects-lesson-ux-introduction-view-header-title">
+            Welcome to the Lesson.
+        </div>
+
+        <!-- To edit this CSS inline, this is between the @media queries and before the @media queries-->
+        <!-- Just for reference...-->
+
+        <div class="subjects-lesson-ux-introduction-view-regular-content-text-1">
+            This lesson is blah blah blah blah blah blah blah blah blah blah.
+            This lesson is blah blah blah blah blah blah blah blah blah blah.
+            This lesson is blah blah blah blah blah blah blah blah blah blah.
+            Are you ready?
         </div>
     </div>
 </div>
 
 
 <!-- This is where other things go to -->
-<div class="subjects-bottom-bar">
-    <div class="subjects-bottom-bar-content">
-        <div class="subjects-bottom-bar-content-left">
+<div class="subjects-lesson-ux-bottom-bar">
+    <div class="subjects-lesson-ux-bottom-bar-content">
+        <div class="subjects-lesson-ux-bottom-bar-content-left">
             12:50
         </div>
-        <div class="subjects-bottom-bar-content-middle">
-            
+        <div class="subjects-lesson-ux-bottom-bar-content-middle">
+            hello world
         </div>
     </div>
 </div>
