@@ -32,6 +32,10 @@ def sample_lesson__introduction():
     return render_template('sample-lesson/introduction.html')
 
 
+@app.route('/sample_lesson__page1')
+def sample_lesson__page1():
+    return render_template('sample-lesson/01.html')
+
 
 
 if __name__ == '__main__':

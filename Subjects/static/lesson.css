@@ -1,18 +1,12 @@
-/**
-Lesson.css
-**/
-
-body{
-    background-color: rgb(4, 4, 4);
+body {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 
-/**
----------------------------------------------------------------------------
-UX LESSON TOP BAR 
-Search: ux/top bar
----------------------------------------------------------------------------
 
-**/
 
 .subjects-lesson-ux-top-bar {
     font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +16,6 @@ Search: ux/top bar
     font-size: 50px;
     border-radius: 16px;
     margin-top: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
 }
 
 
@@ -34,19 +27,12 @@ Search: ux/top bar
     font-size: 50px;
     border-radius: 16px;
     margin-top: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3);
 }
 
-/**
----------------------------------------------------------------------------
-UX LESSON MIDDLE BAR
-Search: ux/middle bar
----------------------------------------------------------------------------
-
-**/
 
 
-.subjects-lesson-ux-middle-bar{
+.subjects-lesson-ux-middle-bar {
     overflow: scroll;
     background-color: rgb(29, 29, 29);
     background-color: transparent;
@@ -60,15 +46,8 @@ Search: ux/middle bar
 }
 
 
-/**
----------------------------------------------------------------------------
-UX LESSON BOTTOM BAR
-Search: ux/bottom bar
----------------------------------------------------------------------------
 
-**/
-
-.subjects-lesson-ux-bottom-bar{
+.subjects-lesson-ux-bottom-bar {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(255, 255, 255, 0.119);
     text-align: center;
@@ -77,7 +56,7 @@ Search: ux/bottom bar
     border-radius: 16px;
     display: fixed;
     margin-top: 400px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -89,20 +68,12 @@ Search: ux/bottom bar
 }
 
 
-/**
----------------------------------------------------------------------------
-UX LESSON GLOBAL BUTTONS
-Search: ux/global buttons
----------------------------------------------------------------------------
-
-**/
-
-.subjects-lesson-ux-button{
+.subjects-lesson-ux-button {
     background-color: black;
     text-decoration: none;
     border-style: none;
     margin-top: -20px;
-    color: white; 
+    color: white;
     font-size: 20px;
     border-radius: 10px;
     padding: 16px 32px;
@@ -110,17 +81,10 @@ Search: ux/global buttons
 }
 
 
-.subjects-lesson-ux-small-button{
+.subjects-lesson-ux-small-button {
     background-color: red;
 }
 
-/**
----------------------------------------------------------------------------
-UX GAME MENU 
-Search: ux/game menu
----------------------------------------------------------------------------
-
-**/
 
 
 .subjects-lesson-ux-game-menu-header-title {
@@ -128,17 +92,21 @@ Search: ux/game menu
     margin-top: 100px;
     display: sticky;
     text-align: center;
-} 
+}
 
 
-.subjects-lesson-ux-game-menu-widget-button-container {display: flex; gap: 20px; margin-left: 760px;}
+.subjects-lesson-ux-game-menu-widget-button-container {
+    display: flex;
+    gap: 20px;
+    margin-left: 760px;
+}
 
 .subjects-lesson-ux-game-menu-widget-button {
     text-decoration: none;
-     border-style: none;
+    border-style: none;
     margin-top: -20px;
-    width: 20px;    
-    color: white; 
+    width: 20px;
+    color: white;
     font-size: 20px;
     border-radius: 10px;
     padding: 16px 200px;
@@ -146,46 +114,57 @@ Search: ux/game menu
     height: 300px;
 }
 
-.subjects-lesson-ux-game-menu-widget-button.color-1 {background-color: rgb(18, 255, 200); color:black;}
-.subjects-lesson-ux-game-menu-widget-button.color-2 {background-color: rgb(0, 95, 38); color: white;}
-.subjects-lesson-ux-game-menu-widget-button.color-3 {background-color: rgb(146, 4, 4);  color: white;}
+.subjects-lesson-ux-game-menu-widget-button.color-1 {
+    background-color: rgb(18, 255, 200);
+    color: black;
+}
 
+.subjects-lesson-ux-game-menu-widget-button.color-2 {
+    background-color: rgb(0, 95, 38);
+    color: white;
+}
 
-.subjects-lesson-ux-game-menu-widget-button-text-header-1{margin-bottom: 100px; margin-left: -180px; font-size: 40px;}
-.subjects-lesson-ux-game-menu-widget-button-text-regular-1{width: 350px; margin-left: -180px;}
-
-.subjects-lesson-ux-game-menu-widget-button:hover {
-    background-color: orange;
-    color: black;   
+.subjects-lesson-ux-game-menu-widget-button.color-3 {
+    background-color: rgb(146, 4, 4);
+    color: white;
 }
 
 
+.subjects-lesson-ux-game-menu-widget-button-text-header-1 {
+    margin-bottom: 100px;
+    margin-left: -180px;
+    font-size: 40px;
+}
 
-/**
----------------------------------------------------------------------------
-UX INTRODUCTION VIEW
-Search: ux/introduction view
----------------------------------------------------------------------------
+.subjects-lesson-ux-game-menu-widget-button-text-regular-1 {
+    width: 350px;
+    margin-left: -180px;
+}
 
-**/
+.subjects-lesson-ux-game-menu-widget-button:hover {
+    background-color: orange;
+    color: black;
+}
+
+
 
 
 .subjects-lesson-ux-introduction-view-header-title {
     font-size: 90px;
     margin-top: 100px;
-    display: sticky;
+        display: sticky;
     text-align: center;
-} 
+}
 
-.subjects-lesson-ux-introduction-view-regular-content-text-1{
+.subjects-lesson-ux-introduction-view-regular-content-text-1 {
     width: 800px;
-    margin-left: 800px;
+    margin-left: 80px;
     font-size: 30px;
     text-align: center;
     margin-top: 100px;
     display: sticky;
 }
 
-.subjects-lesson-ux-introduction-view-regular-content-inside-text-1-split{
+.subjects-lesson-ux-introduction-view-regular-content-inside-text-1-split {
     margin-top: 200px;
 }
