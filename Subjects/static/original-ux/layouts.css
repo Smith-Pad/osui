@@ -1,0 +1,112 @@
+/*
+Layouts.css 
+
+
+
+
+*/
+body{
+    background-color:black;
+}
+
+
+/* THIS ONE YOU CAN EDIT. */
+.layout1 {
+    /* change background color or a image url for the layout.
+
+    Note: for the next paragraph, you may need to make a another call to the layout class */
+    background-color: transparent;
+
+    color: white;
+    padding: 10em 1em;
+    position: relative;
+    z-index: 2;
+}
+/* Subclasses */
+.layout1.is-red{
+    background-color:rgb(153, 3, 3);
+}
+.layout1.is-orange{
+    background-color:rgb(194, 45, 0);
+}
+.layout1.is-green{
+    background-color:rgba(0, 128, 0, 0.589);
+}
+.layout1.is-pink{
+    background-color:rgb(133, 0, 93);
+}
+
+.q1 {
+    /* change background color or a image url for the layout.
+
+    Note: for the next paragraph, you may need to make a another call to the layout class */
+    background-color: black;
+
+    color: black;
+    padding: 30em 1em;
+    position: relative;
+    z-index: 2;
+}
+
+.l .layout2 {
+    /* change background color or a image url for the layout.
+
+    Note: for the next paragraph, you may need to make a another call to the layout class */
+    background-color: black;
+
+    padding: 10em 1em;
+    position: relative;
+    z-index: 2;
+}
+
+.layout3 {
+    /* change background color or a image url for the layout.
+
+    Note: for the next paragraph, you may need to make a another call to the layout class */
+    background-color: black;
+
+    color: white;
+    padding: 10em 1em;
+    position: relative;
+    z-index: 2;
+    text-shadow: ;
+
+}
+
+.layout4 {
+    /* change background color or a image url for the layout.
+
+    Note: for the next paragraph, you may need to make a another call to the layout class */
+    color: black;
+    background-color: black;
+
+
+    padding: 10em 1em;
+    position: relative;
+    z-index: 2;
+
+}
+
+
+/* Small Layouts */
+.small_layout0 {
+    background-color: black;
+
+    color: white;
+    padding: 3em 1em;
+    position: relative;
+    z-index: 2;
+    text-shadow: ;
+
+}
+
+.indicator {
+    background-color: black;
+
+    color: white;
+    padding: 3em 1em;
+    position: relative;
+    z-index: 2;
+    text-shadow: ;
+
+}
