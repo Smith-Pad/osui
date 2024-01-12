@@ -51,6 +51,7 @@ color:white;
 
 /* TODO: Possibly rename to a different syntax */ 
 
+/* This is the most default layout for the views... */
 .indicator.is-off{
 background-color:transparent;
 animation-name:indicatoranimate;
