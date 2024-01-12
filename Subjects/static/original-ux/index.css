@@ -49,12 +49,15 @@ color:white;
 }
 
 
+/* TODO: Possibly rename to a different syntax */ 
 
 .indicator.is-off{
 background-color:transparent;
 animation-name:indicatoranimate;
 animation-duration:2s;
 }
+
+
 
 .button{
   border-radius:9px;
