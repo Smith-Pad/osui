@@ -38,5 +38,20 @@ def sample_lesson__page1():
 
 
 
+@app.route('/sample_lesson_original_ux_port')
+def sample_lesson_original_ux_port():
+    return render_template('sample-lesson-original-ux-port/index.html')
+
+
+@app.route('/sample_lesson_original_ux_port__main_menu')
+def sample_lesson_original_ux_port__main_menu():
+    return render_template('sample-lesson-original-ux-port/game_menu.html')
+
+
+@app.route('/sample_lesson_original_ux_port__introduction')
+def sample_lesson_original_ux_port__introduction():
+    return render_template('sample-lesson-original-ux-port/introduction.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
