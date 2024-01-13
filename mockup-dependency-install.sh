@@ -17,21 +17,3 @@ sudo pacman -Rcns tumbler --noconfirm
 sudo pacman -Rcns thunar-volman --noconfirm
 sudo pacman -Rcns garcon --noconfirm
 sudo pacman -Rcns exo --noconfirm
-
-cd
-mkdir osui-mockup && cd osui-mockup
-git clone https://github.com/smith-pad/osui . 
-git checkout mockup-html
-
-
-cd $HOME
-touch .xinitrc
-echo """
-exec xfce4-session
-
-""" >> .xinitrc
-
-
-cd $HOME
-cd $HOME/.config
-mkdir autostart
