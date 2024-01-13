@@ -53,5 +53,10 @@ def sample_lesson_original_ux_port__introduction():
     return render_template('sample-lesson-original-ux-port/introduction.html')
 
 
+@app.route('/sample_lesson_original_ux_port__page1')
+def sample_lesson_original_ux_port__page1():
+    return render_template('sample-lesson-original-ux-port/01.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
