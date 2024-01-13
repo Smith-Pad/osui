@@ -6,3 +6,16 @@ WHY?
 -----------------
 The original UX of Smith-Pad Subjects honestly looks better, but needs a bit of 
 more changes
+
+
+
+Misc
+-----------------------------------
+
+
+  <h1 align="center">
+    <boxer>
+      <fontcolorRED>x</fontcolorRED> + 4 = 8
+    </boxer>
+  </h1>
+  <ul> </ul>
