@@ -26,6 +26,9 @@ cd $HOME/.config
 mkdir autostart
 cd autostart
 
+## Remove to prevent conflicts 
+rm -rf *
+
 ## This is where we create an autostart for polybar
 echo """
 [Desktop Entry]
