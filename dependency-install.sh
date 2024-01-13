@@ -9,6 +9,7 @@ sudo pacman -S xorg-server --noconfirm
 sudo pacman -S xorg-xinit --noconfirm
 sudo pacman -S chromium --noconfirm
 sudo pacman -S polybar --noconfirm
+sudo pacman -S python-flask --noconfirm
 
 ## Remove some dependencies of xfce4
 sudo pacman -Rcns xfce4-appfinder --noconfirm
