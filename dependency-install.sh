@@ -47,3 +47,14 @@ Name=brightnessctl-launch
 Exec=brightnessctl --set 100%
 
 """ >> brightessctl-launch.desktop
+
+
+
+## This is where we create an autostart for chromium
+echo """
+[Desktop Entry]
+Type=Application
+Name=chromium-launch
+Exec=chromium --kiosk http://127.0.0.1:5000
+
+""" >> chromium-launch.desktop
