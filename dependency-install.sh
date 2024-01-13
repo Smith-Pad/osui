@@ -25,3 +25,12 @@ sudo pacman -Rcns exo --noconfirm
 cd $HOME/.config
 mkdir autostart
 cd autostart
+
+## This is where we create an autostart for polybar
+echo """
+[Desktop Entry]
+Type=Application
+Name=polybar-launch
+Exec=polybar example
+
+""" >> polybar-launch.desktop
