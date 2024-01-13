@@ -13,9 +13,9 @@ Misc
 -----------------------------------
 
 
-  <h1 align="center">
-    <boxer>
-      <fontcolorRED>x</fontcolorRED> + 4 = 8
-    </boxer>
-  </h1>
-  <ul> </ul>
+<h1 align="center">
+<boxer>
+    <fontcolorRED>x</fontcolorRED> + 4 = 8
+</boxer>
+</h1>
+<ul> </ul>
