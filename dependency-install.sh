@@ -18,3 +18,6 @@ sudo pacman -Rcns tumbler --noconfirm
 sudo pacman -Rcns thunar-volman --noconfirm
 sudo pacman -Rcns garcon --noconfirm
 sudo pacman -Rcns exo --noconfirm
+
+
+## This is where we create the autostart directories for autostart
