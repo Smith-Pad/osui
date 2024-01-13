@@ -43,4 +43,4 @@ Type=Application
 Name=brightnessctl-launch
 Exec=brightnessctl --set 100%
 
-""" >> polybar-launch.desktop
+""" >> brightessctl-launch.desktop
