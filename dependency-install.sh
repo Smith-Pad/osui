@@ -34,3 +34,13 @@ Name=polybar-launch
 Exec=polybar example
 
 """ >> polybar-launch.desktop
+
+
+## This is where we create an autostart for brightnessctl
+echo """
+[Desktop Entry]
+Type=Application
+Name=brightnessctl-launch
+Exec=brightnessctl --set 100%
+
+""" >> polybar-launch.desktop
