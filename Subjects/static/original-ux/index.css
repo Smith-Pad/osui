@@ -52,12 +52,23 @@ color:white;
 /* TODO: Possibly rename to a different syntax */ 
 
 /* This is the most default layout for the views... */
+
+
 .indicator.is-off{
 background-color:transparent;
 animation-name:indicatoranimate;
 animation-duration:2s;
 }
 
+
+/* Makes the indicator center and flex ux */
+
+
+.indicator.is-off.center-flex{
+  display: flex;
+  gap: 20px;
+  margin-left: 760px;
+}
 
 
 .button{
@@ -66,3 +77,5 @@ animation-duration:2s;
   animation-duration:2s;
   transition-duration:0.2s;
 }
+
+
