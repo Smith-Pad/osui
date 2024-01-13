@@ -71,6 +71,13 @@ animation-duration:2s;
 }
 
 
+/* Makes the indicator center and center */
+.indicator.is-off.center-center{
+  gap: 20px;
+  text-align: center;
+}
+
+
 .button{
   border-radius:9px;
   animation-name:slidefour;
