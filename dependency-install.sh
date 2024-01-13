@@ -21,3 +21,4 @@ sudo pacman -Rcns exo --noconfirm
 
 
 ## This is where we create the autostart directories for autostart
+cd $HOME/.config
