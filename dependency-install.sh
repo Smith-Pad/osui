@@ -34,7 +34,7 @@ echo """
 [Desktop Entry]
 Type=Application
 Name=polybar-launch
-Exec=polybar example
+Exec=polybar
 
 """ >> polybar-launch.desktop
 
