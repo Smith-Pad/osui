@@ -25,7 +25,7 @@ Search: top bar
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
 }
 
-.subjects-top-bar-content {
+/* .subjects-top-bar-content {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 50px 12px;
@@ -34,7 +34,7 @@ Search: top bar
     border-radius: 16px;
     margin-top: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
-}
+} */
 
 
 /**
@@ -48,7 +48,7 @@ Search: bottom bar
 
 .subjects-bottom-bar {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(255, 255, 255, 0.119);
+    /* background-color: rgba(255, 255, 255, 0.119); */
     text-align: center;
     padding: 10px 32px;
     height: 50px;
@@ -58,10 +58,10 @@ Search: bottom bar
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
 }
 
-.subjects-bottom-bar-content {
+/* .subjects-bottom-bar-content {
     margin-top: 10px;
     font-size: 20px;
-}
+} */
 
 .subjects-bottom-bar-content-left {
     margin-top: 10px;
@@ -87,7 +87,7 @@ Search: middle bar
 
 .subjects-middle-bar {
     overflow: scroll;
-    background-color: rgb(29, 29, 29);
+    /* background-color: rgb(29, 29, 29); */
 }
 
 

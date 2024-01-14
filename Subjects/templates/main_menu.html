@@ -1,10 +1,30 @@
+<link rel="stylesheet" href="static/original-ux/UI.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/layouts.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/index.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/position-text.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/background.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+
+
 <link rel="stylesheet" href="static/globals.css" type="text/css">
 <link rel="stylesheet" href="static/media-queries.css" type="text/css">
 
+
+
+<style>
+    @import './background.css';
+  
+    body {
+      overflow: none;
+  
+      color: white;
+      background: var(--main-color);
+    }
+  </style>
+
+
+
 <div class="subjects-top-bar">
-    <div class="subjects-top-bar-content">
         Subjects
-    </div>
 </div>
 
 
@@ -27,17 +47,6 @@
                     </div>
                     <div class="subjects-widgets-button-text-regular-1">
                         This sample is an sample. 
-                    </div>
-                </div>
-
-
-                <div class="subjects-widgets-button color-2" onclick="window.location.href='{{ url_for('sample_lesson_original_ux_port') }}';">
-                    <div class="subjects-widgets-button-text-header-1">
-                        Sample [Original UX Port]
-                    </div>
-                    <div class="subjects-widgets-button-text-regular-1">
-                        This sample uses the old UX which is ported from the original 
-                        system
                     </div>
                 </div>
 
