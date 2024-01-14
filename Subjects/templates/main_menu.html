@@ -11,98 +11,95 @@
 
 
 <style>
-    @import './background.css';
-  
-    body {
-      overflow: none;
-  
-      color: white;
-      background: var(--main-color);
-    }
-  </style>
+        @import './background.css';
 
+        body {
+                overflow: none;
 
-
+                color: white;
+                background: var(--main-color);
+        }
+</style>
 
 
 <div class="indicator is-off">
-    <h1>Subjects</h1>
+        <h1>Subjects</h1>
 </div>
 
 
 
 <!-- This is where the middle content goes to-->
 <div class="subjects-middle-bar">
-    <div class="subjects-middle-bar-content">
+        <div class="subjects-middle-bar-content">
 
 
-        <div class="subjects-middle-bar-content-header-4">
-            Independent Skills
-        </div>
+                <div class="subjects-middle-bar-content-header-4">
+                        Independent Skills
+                </div>
 
-        <div class="subjects-middle-bar-content-regular">
-            <div class="subjects-widgets-button-container">
+                <div class="subjects-middle-bar-content-regular">
+                        <div class="subjects-widgets-button-container">
 
-                <div class="subjects-widgets-button color-2" onclick="window.location.href='{{ url_for('sample_lesson') }}';">
-                    <div class="subjects-widgets-button-text-header-1">
-                        Sample
-                    </div>
-                    <div class="subjects-widgets-button-text-regular-1">
-                        This sample is an sample. 
-                    </div>
+                                <div class="subjects-widgets-button color-2" onclick="window.location.href='{{ url_for('sample_lesson') }}';">
+                                        <div class="subjects-widgets-button-text-header-1">
+                                                Sample
+                                        </div>
+                                        <div class="subjects-widgets-button-text-regular-1">
+                                                This sample is an sample.
+                                        </div>
+                                </div>
+
+
+                                <div class="subjects-widgets-button color-2" onclick="window.location.href='{{ url_for('sample_lesson_original_ux_port') }}';">
+                                        <div class="subjects-widgets-button-text-header-1">
+                                                Sample [Original UX Port]
+                                        </div>
+                                        <div class="subjects-widgets-button-text-regular-1">
+                                                This sample uses the old UX which is ported from the original
+                                                system
+                                        </div>
+                                </div>
+
+                        </div>
+
+                </div>
+
+                <div class="subjects-middle-bar-subjects-menu-split"></div>
+
+
+                <div class="subjects-middle-bar-content-header-4">
+                        Academic Skills
+                </div>
+
+                <div class="subjects-middle-bar-content-regular">
+
                 </div>
 
 
-                <div class="subjects-widgets-button color-2" onclick="window.location.href='{{ url_for('sample_lesson_original_ux_port') }}';">
-                    <div class="subjects-widgets-button-text-header-1">
-                        Sample [Original UX Port]
-                    </div>
-                    <div class="subjects-widgets-button-text-regular-1">
-                        This sample uses the old UX which is ported from the original 
-                        system
-                    </div>
+                <div class="subjects-middle-bar-subjects-menu-split"></div>
+
+
+                <div class="subjects-middle-bar-content-header-4">
+                        Financial Skills
                 </div>
 
-            </div>
+                <div class="subjects-middle-bar-content-regular">
+
+                </div>
+
+
+                <div class="subjects-middle-bar-subjects-menu-split"></div>
+
+
+                <div class="subjects-middle-bar-content-header-4">
+                        Work Skills
+                </div>
+
+                <div class="subjects-middle-bar-content-regular">
+
+                </div>
+
+
 
         </div>
-
-        <div class="subjects-middle-bar-subjects-menu-split"></div>
-
-
-        <div class="subjects-middle-bar-content-header-4">
-            Academic Skills
-        </div>
-
-        <div class="subjects-middle-bar-content-regular">
-
-        </div>
-
-
-        <div class="subjects-middle-bar-subjects-menu-split"></div>
-
-
-        <div class="subjects-middle-bar-content-header-4">
-            Financial Skills
-        </div>
-
-        <div class="subjects-middle-bar-content-regular">
-
-        </div>
-
-
-        <div class="subjects-middle-bar-subjects-menu-split"></div>
-
-
-        <div class="subjects-middle-bar-content-header-4">
-            Work Skills
-        </div>
-
-        <div class="subjects-middle-bar-content-regular">
-
-        </div>
-
-
-
-    </div>
 </div>
