@@ -55,7 +55,7 @@ echo """
 [Desktop Entry]
 Type=Application
 Name=chromium-launch
-Exec=chromium --kiosk http://127.0.0.1:5000
+Exec=chromium --kiosk --hide-scrollbars http://127.0.0.1:5000
 
 """ >> chromium-launch.desktop
 
