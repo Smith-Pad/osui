@@ -28,36 +28,6 @@ body {
 }
 
 
-/*
-
-  _   _ __  __  _____               ____                
- | | | |\ \/ / |_   _|___   _ __   | __ )   __ _  _ __  
- | | | | \  /    | | / _ \ | '_ \  |  _ \  / _` || '__| 
- | |_| | /  \    | || (_) || |_) | | |_) || (_| || |    
-  \___/ /_/\_\   |_| \___/ | .__/  |____/  \__,_||_|    
-   ____               _    |_|         _                
-  / ___| ___   _ __  | |_  ___  _ __  | |_              
- | |    / _ \ | '_ \ | __|/ _ \| '_ \ | __|             
- | |___| (_) || | | || |_|  __/| | | || |_              
-  \____|\___/ |_| |_| \__|\___||_| |_| \__|             
-                                                        
-
-
-*/
-
-
-.subjects-lesson-ux-top-bar-content {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 50px 12px;
-    height: 50px;
-    font-size: 50px;
-    border-radius: 16px;
-    margin-top: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3);
-}
-
-
 
 
 /*
@@ -76,31 +46,6 @@ body {
     overflow: scroll;
     background-color: rgb(29, 29, 29);
     background-color: transparent;
-}
-
-
-/*
-
-  _   _ __  __    __  __  _      _      _  _           ____                
- | | | |\ \/ /   |  \/  |(_)  __| |  __| || |  ___    | __ )   __ _  _ __  
- | | | | \  /    | |\/| || | / _` | / _` || | / _ \   |  _ \  / _` || '__| 
- | |_| | /  \    | |  | || || (_| || (_| || ||  __/   | |_) || (_| || |    
-  \___/ /_/\_\   |_|  |_||_| \__,_| \__,_||_| \___|   |____/  \__,_||_|    
-   ____               _                _                                   
-  / ___| ___   _ __  | |_  ___  _ __  | |_                                 
- | |    / _ \ | '_ \ | __|/ _ \| '_ \ | __|                                
- | |___| (_) || | | || |_|  __/| | | || |_                                 
-  \____|\___/ |_| |_| \__|\___||_| |_| \__|                                
-                                                                           
-
-
-*/
-
-
-.subjects-lesson-ux-middle-bar-content {
-    margin-top: 50px;
-    padding: 16px 32px;
-    color: white;
 }
 
 
@@ -128,43 +73,6 @@ body {
     display: fixed;
     margin-top: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}
-
-
-
-
-/*
-  _   _ __  __    ____          _    _                        ____                
- | | | |\ \/ /   | __ )   ___  | |_ | |_  ___   _ __ ___     | __ )   __ _  _ __  
- | | | | \  /    |  _ \  / _ \ | __|| __|/ _ \ | '_ ` _ \    |  _ \  / _` || '__| 
- | |_| | /  \    | |_) || (_) || |_ | |_| (_) || | | | | |   | |_) || (_| || |    
-  \___/ /_/\_\   |____/  \___/  \__| \__|\___/ |_| |_| |_|   |____/  \__,_||_|    
-   ____               _                _                                          
-  / ___| ___   _ __  | |_  ___  _ __  | |_                                        
- | |    / _ \ | '_ \ | __|/ _ \| '_ \ | __|                                       
- | |___| (_) || | | || |_|  __/| | | || |_                                        
-  \____|\___/ |_| |_| \__|\___||_| |_| \__|                                       
-                                                                                  
-*/
-
-
-
-.subjects-lesson-ux-bottom-bar-content {
-    margin-top: 10px;
-}
-
-.subjects-lesson-ux-bottom-bar-content-left {
-    margin-top: 10px;
-    margin-left: -1200; 
-    text-align: center;
-    font-size: 60px;
-}
-
-.subjects-lesson-ux-bottom-bar-content-middle {
-    margin-top: -67px;
-    margin-left: 20; 
-    text-align: center;
-    font-size: 60px;
 }
 
 
