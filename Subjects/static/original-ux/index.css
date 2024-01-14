@@ -4,10 +4,9 @@
 
 
 body,html{ 
-animation-name:top;
-animation-duration:2s;
-color:white;
-
+	animation-name:top;
+	animation-duration:2s;
+	color:white;
 }
 
 
@@ -17,26 +16,25 @@ color:white;
 
 
 .bar {
- overflow: hidden;
- background-color: transparent;
- position: fixed;
- margin-top: 700px;
- top: 0;
- width: 100%;
-
+	overflow: hidden;
+	background-color: transparent;
+	position: fixed;
+	margin-top: 700px;
+	top: 0;
+	width: 100%;
 }
 
 
 .bar a {
- float: left;
- display: block;
- color: #f2f2f2;
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
- animation-name:slidethree;
- animation-duration:3s;
- transition-duration: 0.2s;
+	float: left;
+	display: block; 
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	animation-name:slidethree;
+	animation-duration:3s;
+	transition-duration: 0.2s;
 }
 
 
@@ -55,9 +53,9 @@ color:white;
 
 
 .indicator.is-off{
-background-color:transparent;
-animation-name:indicatoranimate;
-animation-duration:2s;
+	background-color:transparent;
+	animation-name:indicatoranimate;
+	animation-duration:2s;
 }
 
 
@@ -65,24 +63,24 @@ animation-duration:2s;
 
 
 .indicator.is-off.center-flex{
-  display: flex;
-  gap: 20px;
-  margin-left: 760px;
+	display: flex;
+	gap: 20px;
+ 	margin-left: 760px;
 }
 
 
 /* Makes the indicator center and center */
 .indicator.is-off.center-center{
-  gap: 20px;
-  text-align: center;
+	gap: 20px;
+	text-align: center;
 }
 
 
 .button{
-  border-radius:9px;
-  animation-name:slidefour;
-  animation-duration:2s;
-  transition-duration:0.2s;
+ 	border-radius:9px;
+	animation-name:slidefour;
+	animation-duration:2s;
+	transition-duration:0.2s;
 }
 
 
