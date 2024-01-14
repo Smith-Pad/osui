@@ -60,5 +60,22 @@ Exec=chromium --kiosk http://127.0.0.1:5000
 """ >> chromium-launch.desktop
 
 
+
+## This is where we create an autostart for initializing flask for subjects feature
+echo """
+[Desktop Entry]
+Type=Application
+Name=python-flask-subjects-launch
+Exec=cd $HOME && cd osui && cd Subjects && python3 index.py
+
+""" >> python-flask-subjects-launch.desktop
+
+
+## Then clone the repo to the user home directory
+cd $HOME
+rm -rf osui
+git clone https://github.com/smith-pad/osui
+
+
 ## reboot the device
 sudo reboot
