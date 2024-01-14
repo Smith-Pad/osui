@@ -66,10 +66,17 @@ echo """
 [Desktop Entry]
 Type=Application
 Name=python-flask-subjects-launch
-Exec=cd $HOME && cd osui && cd Subjects && python3 index.py
+Exec=sh launch-subjects-flask.sh
 
 """ >> python-flask-subjects-launch.desktop
 
+
+## Create a script to initialize flask maybe that will work???
+cd $HOME 
+echo """
+cd osui/Subjects && python3 index.py
+
+""" >> launch-subjects-flask.sh
 
 ## Then clone the repo to the user home directory
 cd $HOME
