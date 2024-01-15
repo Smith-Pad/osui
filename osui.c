@@ -7,6 +7,8 @@
 #include <fcntl.h>
 #include <sys/stat.h>
 
+
+// This is where we are able to define the port to run osui.c
 #define PORT 4000
 
 
@@ -15,6 +17,8 @@
 #ifndef __APPLE__
 #include <immintrin.h>
 #endif
+
+
 
 int main() 
 {
