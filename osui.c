@@ -47,6 +47,11 @@ int main()
 	int address_length = sizeof(address);
 
 
+	// This is where we can able to call the buffer size and the response size
+	char callBuffer[BUFFER_SIZE] = {0};
+	char callResponse[BUFFER_SIZE] = {0};
+
+
 	
     printf("hello OSUI");
 }
