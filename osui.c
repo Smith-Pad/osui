@@ -23,5 +23,13 @@
 
 int main() 
 {
+	// This is where we create a server file socket descriptor. Basically, a file
+	// socket descriptor allows the ability, to create a socket for a particular 
+	// use case. (INT variable)	
+	
+	int server_file_socket_descriptor;
+
+
+	
     printf("hello OSUI");
 }
