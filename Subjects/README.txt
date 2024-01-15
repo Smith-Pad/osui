@@ -17,4 +17,6 @@ for Subjects in OSUI and Smith-Pad in general.
 CSS UX Files 
 ----------------------------------------------------------------
 In this section, we are going to be talking about the list of UX
-files, particularly the CSS Files
+files, particularly the CSS Files, which it is located in the
+static folder. Perfect documentation for reorganizing static files
+you know...
