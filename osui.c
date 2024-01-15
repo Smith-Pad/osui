@@ -39,6 +39,10 @@ int main()
 	struct sockaddr_in address;
 
 
+	// This is where we are able to set the address length of the socket address struct
+	int address_length = sizeof(address);
+
+
 	
     printf("hello OSUI");
 }
