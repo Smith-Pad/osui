@@ -51,3 +51,11 @@ you know...
 		-----------------------------------------------------------
 		So this file allows the ability allows the ability to add buttons
 		to the UX
+
+
+
+|
+|-----	subjects-bottom-bar.css 
+		-----------------------------------------------------------
+		So this file allows the ability allows the ability add content
+		to the bottom of the UX. 
