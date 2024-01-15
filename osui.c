@@ -34,6 +34,11 @@ int main()
 	int new_socket;
 
 
+
+	// This is where we are able to create and initialize the socket address struct
+	struct sockaddr_in address;
+
+
 	
     printf("hello OSUI");
 }
