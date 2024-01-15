@@ -78,6 +78,15 @@ int main()
 	address.sin_port = htons(PORT);
 
 
+	// Make an if statement where if the binding socket fails to communicate 
+	// then it will fail. 
+	if (bind(server_file_socket_descriptor, (struct sockaddr *)&address, sizeof(address)) < 0) {
+		perror("Bind failed brah");
+		exit(EXIT_FAILURE);
+	}
+
+	
+
 	
     printf("hello OSUI");
 }
