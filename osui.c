@@ -61,6 +61,23 @@ int main()
 	}
 
 
+
+	// This is where this solves the memory leak issue when using ^C manually
+	int memory_opt = 10;
+
+	if (setsockopt(server_file_socket_descriptor, SOL_SOCKET, SO_REUSEADDR, &memory_opt, sizeof(memory_opt)) < 0) {
+		perror("Memory Leak issue failed brah");
+		exit(EXIT_FAILURE);
+	}
+
+
+	// This is where we initialize the address system, as well as initializing
+	// the port call. Which is followed by the port definition.
+	address.sin_family = AF_INET;
+	address.sin_addr.s_addr = INADDR_ANY;
+	address.sin_port = htons(PORT);
+
+
 	
     printf("hello OSUI");
 }
