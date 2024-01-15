@@ -13,6 +13,10 @@
 #define PORT 4000
 
 
+// This is where we are able to define the socket buffer performance 
+#define BUFFER_SIZE 99999																	// This is where you adjust the performance size
+
+
 // This conditional statement ensures that osui.c is being complied on an 
 // Apple plaform, if if is on another OS, that is a different issue. 
 #ifndef __APPLE__
