@@ -45,6 +45,7 @@ body {
 .subjects-lesson-ux-middle-bar {
     overflow: scroll;
     background-color: rgb(29, 29, 29);
+    height: 69px;
     background-color: transparent;
 }
 
