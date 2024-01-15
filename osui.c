@@ -48,7 +48,7 @@ int main()
 
 
 	// This is where we can able to call the buffer size and the response size
-	char callBuffer[BUFFER_SIZE] = {0};
+	char call [BUFFER_SIZE] = {0};
 	char callResponse[BUFFER_SIZE] = {0};
 
 
@@ -92,26 +92,6 @@ int main()
 		perror("Listening Model failed brah");
 		exit(EXIT_FAILURE);
 	}
-
-
-	// While this is running, display the UX and the backend functions
-	while(1) {
-
-		// Make an if statement if the acception fails, then it should fail	
-		if ((new_socket = accept(server_file_socket_descriptor, (struct sockaddr *)&address, (socklen_t *)&address_length)) < 0) {
-			perror("Acception failed brah");
-			exit(EXIT_FAILURE);
-		}
-
-
-		// This is where it reads the socket
-		read(new_socket, callBuffer, BUFFER_SIZE);
-
-		
-		
-	}
-
-	
 
 	
     printf("hello OSUI");
