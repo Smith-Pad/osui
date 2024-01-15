@@ -52,6 +52,15 @@ int main()
 	char callResponse[BUFFER_SIZE] = {0};
 
 
+	// Make an if statement where if the server file descriptor fails to communicate, 
+	// then make it fail
+
+	if ((server_file_socket_descriptor = socket(AF_INET, SOCK_STREAM, 0)) == 0) {
+		perror("Socket creation failed brah");
+		exit(EXIT_FAILURE);
+	}
+
+
 	
     printf("hello OSUI");
 }
