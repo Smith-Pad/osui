@@ -11,7 +11,7 @@
 
 
 // This conditional statement ensures that osui.c is being complied on an 
-// Apple Platform
+// Apple plaform, if if is on another OS, that is a different issue. 
 #ifndef __APPLE__
 #include <immintrin.h>
 #endif
