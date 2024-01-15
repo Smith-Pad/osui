@@ -102,6 +102,11 @@ int main()
 			perror("Acception failed brah");
 			exit(EXIT_FAILURE);
 		}
+
+
+		// This is where it reads the socket
+		read(new_socket, callBuffer, BUFFER_SIZE);
+
 		
 		
 	}
