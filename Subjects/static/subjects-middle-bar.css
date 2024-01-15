@@ -1,0 +1,46 @@
+/**
+---------------------------------------------------------------------------
+MIDDLE BAR
+Search: middle bar
+---------------------------------------------------------------------------
+
+**/
+
+
+.subjects-middle-bar {
+    overflow: scroll;
+    /* background-color: rgb(29, 29, 29); */
+}
+
+
+.subjects-middle-bar-content {
+    margin-top: 50px;
+    padding: 16px 32px;
+    height: 800px;
+    color: white;
+}
+
+.subjects-middle-bar-subjects-menu-split{
+    margin-top: 200px;
+}
+
+.subjects-middle-bar-content-header-1{
+    font-size: 100px;
+}
+
+.subjects-middle-bar-content-header-2{
+    font-size: 85px;
+}
+
+.subjects-middle-bar-content-header-3{
+    font-size: 65px;
+}   
+
+.subjects-middle-bar-content-header-4{
+    font-size: 45px;
+}   
+
+.subjects-middle-bar-content-regular{
+    margin-top: 40px;
+    font-size: 20px;
+}   
