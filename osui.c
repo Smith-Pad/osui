@@ -85,6 +85,14 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 
+
+	// Make an if statement where if the listening model fails to communicate
+	// then it will fail. 
+	if (listen(server_file_socket_descriptor, 3) < 0) {
+		perror("Listening Model failed brah");
+		exit(EXIT_FAILURE);
+	}
+
 	
 
 	
