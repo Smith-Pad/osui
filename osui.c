@@ -29,6 +29,10 @@ int main()
 	
 	int server_file_socket_descriptor;
 
+	// This is where we initialize the create a new socket, which allows the ability
+	// to create socket upon compliation. Essentially, create and assign a new socket.
+	int new_socket;
+
 
 	
     printf("hello OSUI");
