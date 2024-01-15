@@ -24,37 +24,3 @@ Search: top bar
     margin-top: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
 }
-
-/**
----------------------------------------------------------------------------
-BOTTOM BAR
-Search: bottom bar
----------------------------------------------------------------------------
-
-**/
-
-
-.subjects-bottom-bar {
-    font-family: Arial, Helvetica, sans-serif;
-    /* background-color: rgba(255, 255, 255, 0.119); */
-    text-align: center;
-    padding: 10px 32px;
-    height: 50px;
-    border-radius: 16px;
-    display: fixed;
-    margin-top: 400px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 40px rgba(0, 0, 0, 0.3); 
-}
-
-
-.subjects-bottom-bar-content-left {
-    margin-top: 10px;
-    margin-left: -1200; 
-    text-align: center;
-}
-
-.subjects-bottom-bar-content-middle {
-    margin-top: -23px;
-    margin-left: 20; 
-    text-align: center;
-}
