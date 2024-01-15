@@ -93,6 +93,20 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 
+
+	// While this is running, display the UX and the backend functions
+	while(1) {
+
+		// Make an if statement if the acception fails, then it should fail	
+		if ((new_socket = accept(server_file_socket_descriptor, (struct sockaddr *)&address, (socklen_t *)&address_length)) < 0) {
+			perror("Acception failed brah");
+			exit(EXIT_FAILURE);
+		}
+		
+	}
+
+	
+
 	
     printf("hello OSUI");
 }
