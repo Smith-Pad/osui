@@ -14,7 +14,7 @@
 
 
 // This is where we are able to define the socket buffer performance 
-#define BUFFER_SIZE 99999																	// This is where you adjust the performance size
+#define BUFFER_SIZE 99999																	
 
 
 // This conditional statement ensures that osui.c is being complied on an 
@@ -23,6 +23,22 @@
 #include <immintrin.h>
 #endif
 
+
+// This is where the home screen route takes place 
+void homeScreen(char *callResponse) {
+    strcpy(callResponse, "HTTP/1.1 200 OK\n");
+    strcat(callResponse, "Content-Type: text/html\n\n");
+    strcat(callResponse, "Home Screen");
+	strcat(callResponse, "<a href=\"/lnk\">hello world</a>");
+}
+
+
+// This is where the settings screen route takes place
+void settingsScreen(char *callResponse) {
+    strcpy(callResponse, "HTTP/1.1 200 OK\n");
+    strcat(callResponse, "Content-Type: text/html\n\n");
+    strcat(callResponse, "Settings Screen");
+}
 
 
 int main() 
@@ -118,7 +134,30 @@ int main()
 		// This is where it prints out the buffer, just to make sure if it works
 		printf("%s\n", callBuffer);
 
+
+		/**********************************************************************************
+		 * 	This is where the routing takes place. 
+		 **********************************************************************************/
+
+
+		if (strstr(callBuffer, "GET /home_screen") != NULL) {
+			homeScreen(callResponse);
+		}
+
+		if (strstr(callBuffer, "GET /settings_screen") != NULL) {
+			settingsScreen(callResponse);
+		}
+
+
+		// This is where osui.c sends the new_socket data, the response data, and the length
+		// of the response data. 
+		send(new_socket, callResponse, strlen(callResponse), 0);
+		
+		// This is where we close the new socket from listening. Later on, maybe having an 
+		// implementation, of making the socket run all the time, but maybe later on...
+		close(new_socket);
 	}
+
 	close(server_file_socket_descriptor);
     printf("hello OSUI");
 }
