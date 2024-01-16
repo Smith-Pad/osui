@@ -29,7 +29,7 @@ void homeScreen(char *callResponse) {
     strcpy(callResponse, "HTTP/1.1 200 OK\n");
     strcat(callResponse, "Content-Type: text/html\n\n");
     strcat(callResponse, "Home Screen");
-	strcat(callResponse, "<a href=\"/lnk\">hello world</a>");
+	strcat(callResponse, "<a href=\"/settings_screen\">hello world</a>");
 }
 
 
@@ -139,13 +139,16 @@ int main()
 		 * 	This is where the routing takes place. 
 		 **********************************************************************************/
 
-
-		if (strstr(callBuffer, "GET /home_screen") != NULL) {
-			homeScreen(callResponse);
-		}
-
+		// This is where it routes to the settings screen
 		if (strstr(callBuffer, "GET /settings_screen") != NULL) {
 			settingsScreen(callResponse);
+		}
+		
+
+		// If there are no routes used in process, it will display the Home Screen UX by
+		// default. 
+		else {
+			homeScreen(callResponse);
 		}
 
 
