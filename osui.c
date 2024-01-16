@@ -48,7 +48,7 @@ int main()
 
 
 	// This is where we can able to call the buffer size and the response size
-	char call [BUFFER_SIZE] = {0};
+	char callBuffer [BUFFER_SIZE] = {0};
 	char callResponse[BUFFER_SIZE] = {0};
 
 
@@ -102,11 +102,23 @@ int main()
 			perror("Acception failed brah");
 			exit(EXIT_FAILURE);
 		}
+
+
+		// If the listening model fails, then it will fail
+		if (listen(server_file_socket_descriptor, 3) < 0) {
+			perror("Listening failed brah");
+			exit(EXIT_FAILURE);
+		}
 		
+
+		// This is where we are able to read the socket
+		read(new_socket, callBuffer, BUFFER_SIZE);	
+
+
+		// This is where it prints out the buffer, just to make sure if it works
+		printf("%s\n", callBuffer);
+
 	}
-
-	
-
-	
+	close(server_file_socket_descriptor);
     printf("hello OSUI");
 }
