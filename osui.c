@@ -23,11 +23,16 @@
 #include <immintrin.h>
 #endif
 
-
-// This is where the home screen route takes place 
+// This is where the home screen route takes placze
 void homeScreen(char *callResponse) {
     strcpy(callResponse, "HTTP/1.1 200 OK\n");
     strcat(callResponse, "Content-Type: text/html\n\n");
+	strcat(callResponse, "<style>");
+	strcat(callResponse, "body {");
+	strcat(callResponse, "background-color: black;");
+	strcat(callResponse, "color: white;");
+	strcat(callResponse, "}");
+	strcat(callResponse, "</style>");
     strcat(callResponse, "Home Screen");
 	strcat(callResponse, "<a href=\"/settings_screen\">hello world</a>");
 }
@@ -64,7 +69,7 @@ int main()
 
 
 	// This is where we can able to call the buffer size and the response size
-	char callBuffer [BUFFER_SIZE] = {0};
+	char callBuffer[BUFFER_SIZE] = {0};
 	char callResponse[BUFFER_SIZE] = {0};
 
 
