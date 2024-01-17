@@ -59,3 +59,11 @@ you know...
 		-----------------------------------------------------------
 		So this file allows the ability allows the ability add content
 		to the bottom of the UX. 
+
+
+
+|
+|-----	subjects-top-bar.css 
+		-----------------------------------------------------------
+		So this file allows the ability allows the ability add content
+		to the top of the UX. 
