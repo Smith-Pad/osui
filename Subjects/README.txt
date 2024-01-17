@@ -66,4 +66,5 @@ you know...
 |-----	subjects-top-bar.css 
 		-----------------------------------------------------------
 		So this file allows the ability allows the ability add content
-		to the top of the UX. 
+		to the top of the UX. For this one, this one is rarely used 
+		upon succession of the [indicator is-top] component
