@@ -23,6 +23,13 @@ function desktopEnvironment() {
 }
 
 
+## Install the display manager for xfce4 for the development environment
+function displayManager() {
+    sudo pacman -S lightdm --noconfirm
+    sudo systemctl enable lightdm
+    suod systemctl start lightdm
+}
+
 ## Reboot the system 
 sudo reboot
 
@@ -30,3 +37,4 @@ sudo reboot
 updatePackages
 editors
 desktopEnvironment
+displayManager
