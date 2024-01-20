@@ -32,6 +32,10 @@ sudo systemctl enable sddm
 sudo systemctl start sddm
 
 
+## Install the archiso package
+sudo pacman -S archiso --noconfirm
+
+
 
 ## Reboot the system 
 sudo reboot
