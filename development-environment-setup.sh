@@ -23,6 +23,9 @@ function desktopEnvironment() {
 }
 
 
+## Reboot the system 
+sudo reboot
+
 
 updatePackages
 editors
