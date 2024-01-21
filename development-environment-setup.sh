@@ -36,6 +36,9 @@ sudo systemctl start sddm
 sudo pacman -S archiso --noconfirm
 
 
+## Install the openssh package 
+sudo pacman -S openssh --noconfirm
+
 
 ## Reboot the system 
 sudo reboot
