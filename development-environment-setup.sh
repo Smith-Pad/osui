@@ -40,5 +40,10 @@ sudo pacman -S archiso --noconfirm
 sudo pacman -S openssh --noconfirm
 
 
+## Enable the openssh systemd daemons 
+sudo systemctl enable sshd
+sudo systemctl start sshd
+
+
 ## Reboot the system 
 sudo reboot
