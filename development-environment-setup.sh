@@ -7,6 +7,7 @@
 
 sudo pacman -Syyu --noconfirm
 
+sleep 10
 
 
 ## Install the editors
@@ -14,12 +15,14 @@ sudo pacman -S vim --noconfirm
 sudo pacman -S nano --noconfirm
 sudo pacman -S micro --noconfirm
 
+sleep 10
 
 
 ## Install the desktop environment xfce4 for the development environment
 
 sudo pacman -S xfce4 --noconfirm 
 
+sleep 10 
 
 
 ## Install the display manager for xfce4 for the development environment
@@ -32,18 +35,26 @@ sudo systemctl enable sddm
 sudo systemctl start sddm
 
 
+sleep 10 
+
 ## Install the archiso package
 sudo pacman -S archiso --noconfirm
 
+
+sleep 10 
 
 ## Install the openssh package 
 sudo pacman -S openssh --noconfirm
 
 
+sleep 10 
+
 ## Enable the openssh systemd daemons 
 sudo systemctl enable sshd
 sudo systemctl start sshd
 
+
+sleep 10
 
 ## Reboot the system 
 sudo reboot
