@@ -50,6 +50,10 @@ sudo pacman -S chromium --noconfirm
 sudo pacman -S openssh --noconfirm
 
 
+## Install the python-flask package 
+sudo pacman -S python-flask --noconfirm
+
+
 
 
 ## Enable the openssh systemd daemons 
