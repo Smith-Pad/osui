@@ -41,6 +41,11 @@ sleep 10
 sudo pacman -S archiso --noconfirm
 
 
+## Install browsers 
+sudo pacman -S firefox --noconfirm
+sudo pacman -S chromium --noconfirm
+
+
 sleep 10 
 
 ## Install the openssh package 
