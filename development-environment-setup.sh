@@ -55,7 +55,7 @@ sudo pacman -S python-flask --noconfirm
 
 
 ## Install the discord package
-
+sudo pacman -S discord --noconfirm
 
 
 
