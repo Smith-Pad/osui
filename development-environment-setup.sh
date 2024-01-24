@@ -54,6 +54,9 @@ sudo pacman -S openssh --noconfirm
 sudo pacman -S python-flask --noconfirm
 
 
+## Install the discord package
+
+
 
 
 ## Enable the openssh systemd daemons 
