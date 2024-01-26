@@ -1,0 +1,162 @@
+<link rel="stylesheet" href="static/original-ux/UI.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/layouts.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/index.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/position-text.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/background.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/lesson.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/globals.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+<style>
+  body {
+    overflow: none;
+    /* Turns off Scrolling :hidden */
+    color: white;
+    background: #37474F;
+    background: var(--main-color-19);
+  }
+
+  /* Custom */
+  boxer {
+    padding: 16px 32px;
+    background-color: white;
+    color: black;
+
+  }
+</style>
+
+<div class="bar">
+  <a href="/sample_lesson_original_ux_port__introduction" class="button small button is-red button-no-animate-mode">Back&#8656;</a>
+  <a href="#" class="button small button is-red button-no-animate-mode">Next &rArr;</a>
+  <a href="#" class="button" onClick="Calculator=window.open( '../../../../../Smith-Pad/APPS/calculator.html','Calculator', 'width=600,height=1000'); return false;">Launch Calculator</a>
+
+</div>
+<div class="space-10"></div>
+<!-- <div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div> -->
+
+<div class="indicator is-off button-no-animate-mode">
+  <fontsize70>?</fontsize70>
+  <ul></ul>
+  <h1>????? </h1>
+  <ul></ul>
+
+  <ul></ul>
+
+  <script>
+    let system;
+
+    let square_1_move_X = 20;                                                                   
+    let square_1_move_Y = 20;
+
+    let square_1_move_resize_X = 200;
+    let square_1_move_resize_Y = 90;
+
+
+
+    let square_2_move_X = 20;
+    let square_2_move_Y = 200;
+
+    let square_2_move_resize_X = 200;
+    let square_2_move_resize_Y = 90;
+
+
+    function setup() {
+        createCanvas(2000, 400);
+        background(220);
+    }
+    
+    // Creating the shapes 
+    function draw() {
+
+      background(100);
+      
+      
+      rect(square_1_move_X , square_1_move_Y, square_1_move_resize_X, square_1_move_resize_Y);
+      rect(square_2_move_X , square_2_move_Y, square_2_move_resize_X, square_2_move_resize_Y);
+
+    /****************************************************************
+     * Make an if statement that is used for many use-cases. For 
+     * example, if the user moves the box to 15 pixels to the right,
+     * it will do an action, if the user moves the box back 15 pixels
+     * to the left, it will do an action. 
+     * 
+     ****************************************************************/
+
+      if (keyIsPressed) {
+
+        // If the key is simulated with the right arrow, then move 
+        // 20 spaces. 
+        if (keyCode == RIGHT_ARROW) {
+          square_1_move_X +=20;
+        }
+
+        // If the key is simulated with the left arrow, then move 
+        // 20 spaces. 
+
+        if (keyCode == LEFT_ARROW) {
+          square_1_move_X -=20;
+        }
+
+
+        // If the key is simulated with the top arrow, then move 
+        // 20 spaces.
+        if (keyCode == UP_ARROW) {
+          square_1_move_Y -=20;
+        }
+
+
+        // If the key is simulated with the bottom arrow, then move 
+        // 20 spaces.
+        if (keyCode == DOWN_ARROW) {
+          square_1_move_Y +=20;
+        }
+
+
+      /****************************************************************
+       * Make an if statement that is used for many use-cases. For 
+       * example, if the user moves the box to 15 pixels to the right,
+       * it will do an action, if the user moves the box back 15 pixels
+       * to the left, it will do an action. This is just an example 
+       * of many use cases it can be used. This is a perfect use case 
+       * for capturing the student's learning performance when doing 
+       * these interactive lessons. Thanks to the abilities of Python
+       * flask. 
+       * 
+       ****************************************************************/
+
+        // Make an if statement, if the user moves the box to the right, then it will 
+        // do an action. 
+
+        if(square_1_move_X >= 15) {
+          
+        }
+
+        // Make an if statement, if the user moves the box to the left, then it will
+        // do an action.
+
+        if(square_1_move_X <= 0) {
+          
+        }
+
+      }
+    }
+
+  </script>
+</div>
