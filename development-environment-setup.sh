@@ -58,6 +58,10 @@ sudo pacman -S python-flask --noconfirm
 sudo pacman -S discord --noconfirm
 
 
+## Install the python-mediapipe package
+sudo pacman -S python-mediapipe --noconfirm
+
+
 
 ## Enable the openssh systemd daemons 
 sudo systemctl enable sshd
