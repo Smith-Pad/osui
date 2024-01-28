@@ -68,5 +68,12 @@ sudo systemctl start sshd
 
 
 
+## Create i3 configurations
+
+## 
+
+
+
+
 ## Reboot the system 
 sudo reboot
