@@ -56,6 +56,9 @@ sudo pacman -S openssh --noconfirm
 sudo pacman -S python-flask --noconfirm
 
 
+## Install the rofi package 
+sudo pacman -S rofi --noconfirm
+
 
 
 ## Enable the openssh systemd daemons 
