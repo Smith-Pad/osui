@@ -63,6 +63,11 @@ def sample_lesson_original_ux_port__page2():
     return render_template('sample-lesson-original-ux-port/02.html')
 
 
+@app.route('/sample_lesson_original_ux_port__page3')
+def sample_lesson_original_ux_port__page3():
+    return render_template('sample-lesson-original-ux-port/03.html')
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
