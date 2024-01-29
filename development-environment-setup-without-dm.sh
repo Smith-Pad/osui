@@ -67,6 +67,8 @@ cd $HOME
 rm -rf python-mediapipe
 
 
+## Install the python-opencv package
+sudo pacman -S python-opencv --noconfirm
 
 ## Install the arandr package
 sudo pacman -S arandr --noconfirm
