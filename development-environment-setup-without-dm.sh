@@ -61,6 +61,12 @@ cd python-mediapipe
 makepkg -si --noconfirm
 
 
+## Remove the python-mediapipe repository after the git repository is downloaded
+## and installed 
+cd $HOME
+rm -rf python-mediapipe
+
+
 
 ## Install the arandr package
 sudo pacman -S arandr --noconfirm
