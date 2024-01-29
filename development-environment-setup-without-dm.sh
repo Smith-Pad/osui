@@ -82,6 +82,10 @@ sudo pacman -S github-cli --noconfirm
 sudo pacman -S xclip --noconfirm
 
 
+## Install the xdotool package
+sudo pacman -S xdotool --noconfirm
+
+
 
 ## Enable the openssh systemd daemons 
 sudo systemctl enable sshd
