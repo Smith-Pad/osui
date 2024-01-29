@@ -61,7 +61,10 @@ sudo pacman -S rofi --noconfirm
 
 
 ## Install the python-mediapipe package
-sudo pacman -S python-mediapipe --noconfirm
+cd $HOME
+git clone https://aur.archlinux.org/python-mediapipe
+cd python-mediapipe
+makepkg -si --noconfirm
 
 
 ## Install the arandr package
