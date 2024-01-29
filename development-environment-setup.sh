@@ -62,6 +62,10 @@ sudo pacman -S discord --noconfirm
 sudo pacman -S python-mediapipe --noconfirm
 
 
+## Install the arandr package
+sudo pacman -S arandr --noconfirm
+
+
 
 ## Enable the openssh systemd daemons 
 sudo systemctl enable sshd
