@@ -85,6 +85,10 @@ sudo pacman -S arandr --noconfirm
 sudo pacman -S github-cli --noconfirm
 
 
+## Install the xclip package
+sudo pacman -S xclip --noconfirm
+
+
 ## Enable the openssh systemd daemons 
 sudo systemctl enable sshd
 sudo systemctl start sshd
