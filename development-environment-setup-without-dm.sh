@@ -62,6 +62,10 @@ sudo pacman -S python-mediapipe --noconfirm
 sudo pacman -S arandr --noconfirm
 
 
+## Install the github-cli package 
+sudo pacman -S github-cli --noconfirm
+
+
 
 ## Enable the openssh systemd daemons 
 sudo systemctl enable sshd
