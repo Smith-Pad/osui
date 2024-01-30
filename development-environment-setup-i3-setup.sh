@@ -93,6 +93,13 @@ sudo pacman -S xclip --noconfirm
 sudo pacman -S xdotool --noconfirm
 
 
+## Install the google-chrome package
+cd $HOME
+git clone https://aur.archlinux.org/google-chrome
+cd google-chrome
+makepkg -si --noconfirm
+
+
 ## Enable the openssh systemd daemons 
 sudo systemctl enable sshd
 sudo systemctl start sshd
