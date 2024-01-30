@@ -93,6 +93,10 @@ cd google-chrome
 makepkg -si --noconfirm
 
 
+## Install the pavucontrol package
+sudo pacman -S pavucontrol --noconfirm
+
+
 
 ## Enable the openssh systemd daemons 
 sudo systemctl enable sshd
