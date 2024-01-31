@@ -71,7 +71,7 @@ void homeScreen(char *callResponse) {
 
 
 	// Set the Homescreen UX Top Header Shadows 
-	#define HOMESCREEN_TOP_HEADER_SHADOW_LEVEL "0.4px 5.7px 2.2px rgba(0, 0, 0, 0.076), 0.9px 13.6px 5.3px rgba(0, 0, 0, 0.109), 1.8px 25.7px 10px rgba(0, 0, 0, 0.135), 3.1px 45.8px 17.9px rgba(0, 0, 0, 0.161), 5.8px 85.6px 33.4px rgba(0, 0, 0, 0.194), 14px 205px 80px rgba(0, 0, 0, 0.27)"
+	// #define HOMESCREEN_TOP_HEADER_SHADOW_LEVEL "0.4px 5.7px 2.2px rgba(0, 0, 0, 0.076), 0.9px 13.6px 5.3px rgba(0, 0, 0, 0.109), 1.8px 25.7px 10px rgba(0, 0, 0, 0.135), 3.1px 45.8px 17.9px rgba(0, 0, 0, 0.161), 5.8px 85.6px 33.4px rgba(0, 0, 0, 0.194), 14px 205px 80px rgba(0, 0, 0, 0.27)"
 
 
 	
@@ -109,7 +109,6 @@ void homeScreen(char *callResponse) {
 	strcat(callResponse, "color:" HOMESCREEN_TOP_HEADER_TEXT_COLOR ";");
 	strcat(callResponse, "text-align:" HOMESCREEN_TOP_HEADER_TEXT_ALIGN ";");
 	strcat(callResponse, "padding:" HOMESCREEN_TOP_HEADER_PADDING ";");
-	strcat(callResponse, "box-shadow:" HOMESCREEN_TOP_HEADER_SHADOW_LEVEL ";");
 	strcat(callResponse, "}");
 
 	strcat(callResponse, "</style>");
