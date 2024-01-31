@@ -18,23 +18,113 @@
 
 
 // This conditional statement ensures that osui.c is being complied on an 
-// Apple plaform, if if is on another OS, that is a different issue. 
+// Apple plaform, if if is on another OS, that is a different issue, 
 #ifndef __APPLE__
 #include <immintrin.h>
 #endif
 
-// This is where the home screen route takes placze
+
+
+
+// This is where the home screen route takes place
 void homeScreen(char *callResponse) {
-    strcpy(callResponse, "HTTP/1.1 200 OK\n");
+
+	// Set the Global UX Background
+	#define HOMESCREEN_BACKGROUND_COLOR "gray"				
+
+	// Set the Global UX Text Color		
+	#define HOMESCREEN_TEXT_COLOR "white"			
+
+
+	// Set the Global UX Font Face
+	#define HOMESCREEN_TEXT_FACE "sans-serif"
+
+
+
+
+	// Set the Homescreen UX Button Color				
+	#define HOMESCREEN_BUTTON_COLOR "F5DBCB"			
+
+	// Set the Homescreen UX Button Text Color			
+	#define HOMESCREEN_BUTTON_TEXT_COLOR "black"		
+
+	// Set the Homescreen UX Button Padding		
+	#define HOMESCREEN_BUTTON_PADDING "16px 32px"
+
+	// Set the Homescreen UX Button Radius			
+	#define HOMESCREEN_BUTTON_RADIUS "10px"							
+	
+
+	// Set the Homescreen UX Top Header Color 
+	#define HOMESCREEN_TOP_HEADER_COLOR "F5DBCB"
+
+	// Set the Homescreen UX Top Header Text Color	
+	#define HOMESCREEN_TOP_HEADER_TEXT_COLOR "black"
+
+
+	// Set the Homescreen UX Top Header Padding
+	#define HOMESCREEN_TOP_HEADER_PADDING "16px 32px"
+
+
+	// Set the Homescreen UX Top Header Text Align Position
+	#define HOMESCREEN_TOP_HEADER_TEXT_ALIGN "center"
+
+
+	// Set the Homescreen UX Top Header Shadows 
+	#define HOMESCREEN_TOP_HEADER_SHADOW_LEVEL "0.4px 5.7px 2.2px rgba(0, 0, 0, 0.076), 0.9px 13.6px 5.3px rgba(0, 0, 0, 0.109), 1.8px 25.7px 10px rgba(0, 0, 0, 0.135), 3.1px 45.8px 17.9px rgba(0, 0, 0, 0.161), 5.8px 85.6px 33.4px rgba(0, 0, 0, 0.194), 14px 205px 80px rgba(0, 0, 0, 0.27)"
+
+
+	
+	strcpy(callResponse, "HTTP/1.1 200 OK\n");
     strcat(callResponse, "Content-Type: text/html\n\n");
 	strcat(callResponse, "<style>");
 	strcat(callResponse, "body {");
-	strcat(callResponse, "background-color: black;");
-	strcat(callResponse, "color: white;");
+	strcat(callResponse, "background-color:" HOMESCREEN_BACKGROUND_COLOR ";");
+	strcat(callResponse, "color:" HOMESCREEN_TEXT_COLOR ";");
+	strcat(callResponse, "font-family:" HOMESCREEN_TEXT_FACE ";");
 	strcat(callResponse, "}");
+
+
+	strcat(callResponse, ".button-in-middle-space {");
+	strcat(callResponse, "text-align: left;");
+	strcat(callResponse, "border: 200px solid transparent;");
+	strcat(callResponse, "}");
+
+
+	strcat(callResponse, ".widget-button-in-middle-container {");
+	strcat(callResponse, "text-align: left;");
+	strcat(callResponse, "border: 200px solid transparent;");
+	strcat(callResponse, "}");
+
+	strcat(callResponse, ".button {");
+	strcat(callResponse, "background-color:" HOMESCREEN_BUTTON_COLOR ";");
+	strcat(callResponse, "color:" HOMESCREEN_BUTTON_TEXT_COLOR ";");
+	strcat(callResponse, "padding:" HOMESCREEN_BUTTON_PADDING ";");
+	strcat(callResponse, "border-radius:" HOMESCREEN_BUTTON_RADIUS ";");
+	strcat(callResponse, "text-decoration: " "none" ";");
+	strcat(callResponse, "}");
+
+	strcat(callResponse, ".global-top-header {");
+	strcat(callResponse, "background-color:" HOMESCREEN_TOP_HEADER_COLOR ";");
+	strcat(callResponse, "color:" HOMESCREEN_TOP_HEADER_TEXT_COLOR ";");
+	strcat(callResponse, "text-align:" HOMESCREEN_TOP_HEADER_TEXT_ALIGN ";");
+	strcat(callResponse, "padding:" HOMESCREEN_TOP_HEADER_PADDING ";");
+	strcat(callResponse, "box-shadow:" HOMESCREEN_TOP_HEADER_SHADOW_LEVEL ";");
+	strcat(callResponse, "}");
+
 	strcat(callResponse, "</style>");
-    strcat(callResponse, "Home Screen");
-	strcat(callResponse, "<a href=\"/settings_screen\">hello world</a>");
+
+
+	// TODO: REMOVE THIS SECTION EVENTUALLY. DO IT LATER. 
+	strcat(callResponse, "<div class=\"global-top-header\">");
+	strcat(callResponse, "<h1> Smith-Pad </h1>");
+	strcat(callResponse, "</div>");
+
+	strcat(callResponse, "<div class=\"button-in-middle-space\"></div>");
+
+	strcat(callResponse, "<a href=\"/settings_screen\" class=\"button\">hello world</a>");
+	strcat(callResponse, "<a href=\"/settings_screen\" class=\"button\">hello world</a>");
+	strcat(callResponse, "<a href=\"/settings_screen\" class=\"button\">hello world</a>");
 }
 
 
