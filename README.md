@@ -24,29 +24,21 @@ Here are the list of dependencies you need to install.
 
 `sudo pacman -S gcc`
 
-## Setting up Wayland Dependencies
-
-This section will be documentated later on...
-
-## Setting up XORG Dependencies
-
-In this section, we are going to talk about installing x11 dependencies for OSUI. Here are the lists of them. 
-
-`sudo pacman -S xorg`
-
-`sudo pacman -S xorg-server`
-
-`sudo pacman -S xorg-xinit`
+### polybar
 
 `sudo pacman -S polybar`
+
+### xfwm4
+
+`sudo pacman -S xfwm4`
+
+
 
 ## Mockups for the Interface.
 
 For the mockups for the interface, please go to the  `mockup-html` branch.
 
 https://github.com/Smith-Pad/osui/tree/mockup-html
-
-
 
 ## Scripts
 
