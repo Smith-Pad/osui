@@ -117,7 +117,6 @@ void homeScreen(char *callResponse) {
     strcat(callResponse, "<center>");
     strcat(callResponse, "<a href=\"settings_screen\" class=\"button\">Settings</a>");
     strcat(callResponse, "<a href=\"\" class=\"button\">Apps</a>");
-    strcat(callResponse, "<a href=\"\" class=\"button\">Schedule Display</a>");
     strcat(callResponse, "</center>");
     strcat(callResponse, "</div>");
 
