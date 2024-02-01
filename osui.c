@@ -70,60 +70,9 @@ void homeScreen(char *callResponse) {
 	#define HOMESCREEN_TOP_HEADER_TEXT_ALIGN "center"
 
 
-	// Set the Homescreen UX Top Header Shadows 
-	// #define HOMESCREEN_TOP_HEADER_SHADOW_LEVEL "0.4px 5.7px 2.2px rgba(0, 0, 0, 0.076), 0.9px 13.6px 5.3px rgba(0, 0, 0, 0.109), 1.8px 25.7px 10px rgba(0, 0, 0, 0.135), 3.1px 45.8px 17.9px rgba(0, 0, 0, 0.161), 5.8px 85.6px 33.4px rgba(0, 0, 0, 0.194), 14px 205px 80px rgba(0, 0, 0, 0.27)"
-
-
 	
 	strcpy(callResponse, "HTTP/1.1 200 OK\n");
     strcat(callResponse, "Content-Type: text/html\n\n");
-	strcat(callResponse, "<style>");
-	strcat(callResponse, "body {");
-	strcat(callResponse, "background-color:" HOMESCREEN_BACKGROUND_COLOR ";");
-	strcat(callResponse, "color:" HOMESCREEN_TEXT_COLOR ";");
-	strcat(callResponse, "font-family:" HOMESCREEN_TEXT_FACE ";");
-	strcat(callResponse, "}");
-
-
-	strcat(callResponse, ".button-in-middle-space {");
-	strcat(callResponse, "text-align: left;");
-	strcat(callResponse, "border: 200px solid transparent;");
-	strcat(callResponse, "}");
-
-
-	strcat(callResponse, ".widget-button-in-middle-container {");
-	strcat(callResponse, "text-align: left;");
-	strcat(callResponse, "border: 200px solid transparent;");
-	strcat(callResponse, "}");
-
-	strcat(callResponse, ".button {");
-	strcat(callResponse, "background-color:" HOMESCREEN_BUTTON_COLOR ";");
-	strcat(callResponse, "color:" HOMESCREEN_BUTTON_TEXT_COLOR ";");
-	strcat(callResponse, "padding:" HOMESCREEN_BUTTON_PADDING ";");
-	strcat(callResponse, "border-radius:" HOMESCREEN_BUTTON_RADIUS ";");
-	strcat(callResponse, "text-decoration: " "none" ";");
-	strcat(callResponse, "}");
-
-	strcat(callResponse, ".global-top-header {");
-	strcat(callResponse, "background-color:" HOMESCREEN_TOP_HEADER_COLOR ";");
-	strcat(callResponse, "color:" HOMESCREEN_TOP_HEADER_TEXT_COLOR ";");
-	strcat(callResponse, "text-align:" HOMESCREEN_TOP_HEADER_TEXT_ALIGN ";");
-	strcat(callResponse, "padding:" HOMESCREEN_TOP_HEADER_PADDING ";");
-	strcat(callResponse, "}");
-
-	strcat(callResponse, "</style>");
-
-
-	// TODO: REMOVE THIS SECTION EVENTUALLY. DO IT LATER. 
-	strcat(callResponse, "<div class=\"global-top-header\">");
-	strcat(callResponse, "<h1> Smith-Pad </h1>");
-	strcat(callResponse, "</div>");
-
-	strcat(callResponse, "<div class=\"button-in-middle-space\"></div>");
-
-	strcat(callResponse, "<a href=\"/settings_screen\" class=\"button\">hello world</a>");
-	strcat(callResponse, "<a href=\"/settings_screen\" class=\"button\">hello world</a>");
-	strcat(callResponse, "<a href=\"/settings_screen\" class=\"button\">hello world</a>");
 }
 
 
