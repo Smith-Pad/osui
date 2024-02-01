@@ -127,7 +127,92 @@ void homeScreen(char *callResponse) {
 void settingsScreen(char *callResponse) {
     strcpy(callResponse, "HTTP/1.1 200 OK\n");
     strcat(callResponse, "Content-Type: text/html\n\n");
-    strcat(callResponse, "Settings Screen");
+
+    strcat(callResponse, "<style>");
+    strcat(callResponse, "body  {");
+    strcat(callResponse, "  background-color: rgb(49, 49, 49);");
+    strcat(callResponse, "  font-family: sans-serif;");
+    strcat(callResponse, "}");
+
+
+    strcat(callResponse, ".button  {");
+    strcat(callResponse, "  font-size: 27px;");
+    strcat(callResponse, "  background-color: rgb(49, 49, 49);");
+    strcat(callResponse, "  padding: 16px 32px;");
+    strcat(callResponse, "  margin: 27px;");
+    strcat(callResponse, "  border-radius: 20px;");
+    strcat(callResponse, "  text-decoration: none;");
+    strcat(callResponse, "}");
+
+
+    strcat(callResponse, ".settings-screen-main-screen  {");
+    strcat(callResponse, "  background-color: white;");
+    strcat(callResponse, "  color: black;");
+    strcat(callResponse, "  padding: 100px 1px;");
+    strcat(callResponse, "  border-radius: 20px;");
+    strcat(callResponse, "  animation-name: home_screen_main_screen_animation;");
+    strcat(callResponse, "  animation-duration: 1s;");
+    // strcat(callResponse, "   resize: vertical;");
+    // strcat(callResponse, "   overflow: auto;");
+    strcat(callResponse, "}");
+
+
+    
+    strcat(callResponse, ".window-blinds-effect {");
+    strcat(callResponse, "resize: vertical;");
+    strcat(callResponse, "overflow: auto;");
+    strcat(callResponse, "}");
+
+    // Home Screen Secondary Screen
+
+    strcat(callResponse, ".settings-screen-secondary-screen {");
+    strcat(callResponse, "background-color: transparent;");
+    strcat(callResponse, "color: black;");
+    strcat(callResponse, "padding: 88px 1px;");
+    strcat(callResponse, "border-radius: 0px;");
+    strcat(callResponse, "overflow: none;");
+    strcat(callResponse, "animation-name: home_screen_main_secondary_screen_animation;");
+    strcat(callResponse, "animation-duration: 1s;");
+    strcat(callResponse, "}");
+
+
+    // Buttons
+    strcat(callResponse, ".button {");
+    strcat(callResponse, "font-size: 18px;");
+    strcat(callResponse, "background-color: black;");
+    strcat(callResponse, "padding: 16px 32px;");
+    strcat(callResponse, "margin: 27px;");
+    strcat(callResponse, "border-radius: 20px;");
+    strcat(callResponse, "border: none;");
+    strcat(callResponse, "text-decoration: none;");
+    strcat(callResponse, "color: white;");
+    strcat(callResponse, "transition-duration: 0.2s;");
+    strcat(callResponse, "display: inline-block;");
+    strcat(callResponse, "}");
+
+
+    strcat(callResponse, ".button:hover {");
+    strcat(callResponse, "background-color: rgb(170, 111, 0);");
+    strcat(callResponse, "}");
+
+
+
+    strcat(callResponse, "</style>");
+
+    strcat(callResponse, "");
+
+
+    strcat(callResponse, "<div class=\"settings-screen-main-screen\">");
+    strcat(callResponse, "<div class=\"window-blinds-effect\">");
+    strcat(callResponse, "<center> <h1> Settings </h1></center>");
+    strcat(callResponse, "</div>");
+    strcat(callResponse, "</div>");
+
+
+    strcat(callResponse, "<div class=\"settings-screen-secondary-screen\">");
+    strcat(callResponse, "<center>");
+    strcat(callResponse, "</center>");
+    strcat(callResponse, "</div>");
 }
 
 
