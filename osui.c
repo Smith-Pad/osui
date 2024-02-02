@@ -152,8 +152,6 @@ void settingsScreen(char *callResponse) {
     strcat(callResponse, "  border-radius: 20px;");
     strcat(callResponse, "  animation-name: home_screen_main_screen_animation;");
     strcat(callResponse, "  animation-duration: 1s;");
-    // strcat(callResponse, "   resize: vertical;");
-    // strcat(callResponse, "   overflow: auto;");
     strcat(callResponse, "}");
 
 
