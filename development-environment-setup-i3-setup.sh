@@ -104,6 +104,10 @@ makepkg -si --noconfirm
 sudo pacman -S pavucontrol --noconfirm
 
 
+## Install the obs-studio package
+sudo pacman -S obs-studio --noconfirm
+
+
 ## Enable the openssh systemd daemons 
 sudo systemctl enable sshd
 sudo systemctl start sshd
