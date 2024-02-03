@@ -108,6 +108,10 @@ sudo pacman -S pavucontrol --noconfirm
 sudo pacman -S obs-studio --noconfirm
 
 
+## Install the linux-headers package
+sudo pacman -S linux-headers --noconfirm
+
+
 ## Enable the openssh systemd daemons 
 sudo systemctl enable sshd
 sudo systemctl start sshd
