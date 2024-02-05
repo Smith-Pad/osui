@@ -10,3 +10,7 @@ which was started for a short while before Smith-Pad started.
 
 ## Views
 In this section, we are going to talking about the views for the mockup
+
+### home-screen.html
+
+### settings.html
