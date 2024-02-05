@@ -5,3 +5,8 @@ easier way for UI changes...
 
 This particular version of OSUI Mockup HTML is ported from the FOIL-Home project
 which was started for a short while before Smith-Pad started. 
+
+
+
+## Views
+In this section, we are going to talking about the views for the mockup
