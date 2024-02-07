@@ -33,6 +33,8 @@ sudo systemctl stop sddm
 sudo systemctl disable sddm
 
 
+## Uninstall the chromium package
+sudo pacman -Rcns chromium --noconfirm
 
 ## Reboot the device 
 sudo reboot
