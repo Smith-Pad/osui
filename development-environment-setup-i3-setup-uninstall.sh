@@ -25,5 +25,14 @@ sudo pacman -Rcns micro --noconfirm
 sudo pacman -Rcns i3 --noconfirm 
 
 
+## Uninstall the sddm package 
+sudo pacman -Rcns sddm --noconfirm
+
+## Uninstall the sddm systemd service 
+sudo systemctl stop sddm
+sudo systemctl disable sddm
+
+
+
 ## Reboot the device 
 sudo reboot
