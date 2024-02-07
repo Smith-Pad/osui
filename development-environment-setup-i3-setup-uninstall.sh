@@ -23,3 +23,7 @@ sudo pacman -Rcns micro --noconfirm
 
 ## Uninstall the desktop environment i3
 sudo pacman -Rcns i3 --noconfirm 
+
+
+## Reboot the device 
+sudo reboot
