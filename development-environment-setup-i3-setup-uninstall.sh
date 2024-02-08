@@ -36,5 +36,9 @@ sudo systemctl disable sddm
 ## Uninstall the chromium package
 sudo pacman -Rcns chromium --noconfirm
 
+
+## Uninstall the xorg-package 
+sudo pacman -Rcns xorg --noconfirm
+
 ## Reboot the device 
 sudo reboot
