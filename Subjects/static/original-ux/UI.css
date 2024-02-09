@@ -7,7 +7,7 @@
   A FOIL UI Based Framework for the Smith Pad                            */
  body {
      font-family: Arial, Helvetica, sans-serif;
-     margin: 0;
+     margin: 40;
      overflow-y: auto;
      overflow-x: hidden;
      -webkit-perspective: 1px;
