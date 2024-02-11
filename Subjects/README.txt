@@ -11,7 +11,7 @@ In this section, we are going to be talking about dependencies
 for Subjects in OSUI and Smith-Pad in general. 
 
 - python-flask
-- pygame
+- three.js
 
 
 
