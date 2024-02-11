@@ -69,5 +69,42 @@ def sample_lesson_original_ux_port__page3():
 
 
 
+
+
+
+
+
+
+@app.route('/lesson__coverletter')
+def lesson__coverletter():
+    return render_template('cover-letter/index.html')
+
+@app.route('/lesson__coverletter__main_menu')
+def lesson__coverletter__main_menu():
+    return render_template('cover-letter/game_menu.html')
+
+
+@app.route('/lesson__coverletter__introduction')
+def lesson__coverletter__introduction():
+    return render_template('cover-letter/introduction.html')
+
+
+@app.route('/lesson__coverletter__page1')
+def lesson__coverletter__page1():
+    return render_template('cover-letter/01.html')
+
+
+@app.route('/lesson__coverletter__page2')
+def lesson__coverletter__page2():
+    return render_template('cover-letter/02.html')
+
+
+@app.route('/lesson__coverletter__page3')
+def lesson__coverletter__page3():
+    return render_template('cover-letter/03.html')
+
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
