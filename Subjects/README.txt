@@ -2,7 +2,9 @@ Subjects
 ----------------------------------------------------------------
 
 Subjects is a feature in Smith-Pad allowing user to interact with
-tactile learning based lessons in Smith-Pad. 
+tactile learning based lessons in Smith-Pad. Tactile learning in
+the classroom is the most important thing to get students to get
+engaged in learning in the school environment
 
 
 Dependencies
