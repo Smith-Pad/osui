@@ -96,7 +96,7 @@ def lesson__coverletter__introduction():
 
 @app.route('/lesson__coverletter__page1')
 def lesson__coverletter__page1():
-    return render_template('cover-letter/01.html', page_1_blur_reveal_content=page_1_blur_reveal_content)
+    return render_template('cover-letter/01.html')
 
 
 @app.route('/lesson__coverletter__page2')
