@@ -81,17 +81,22 @@ def lesson__coverletter():
 
 @app.route('/lesson__coverletter__main_menu')
 def lesson__coverletter__main_menu():
-    return render_template('cover-letter/game_menu.html')
+    game_menu_header_title = 'Cover Letter'
+    return render_template('cover-letter/game_menu.html', game_menu_header_title=game_menu_header_title)
 
 
 @app.route('/lesson__coverletter__introduction')
 def lesson__coverletter__introduction():
-    return render_template('cover-letter/introduction.html')
+    introduction_header_title = 'Welcome to this lesson'
+    introduction_description  = 'Description Here'
+    introduction_confirmation = 'Ready to do this'
+
+    return render_template('cover-letter/introduction.html', introduction_header_title=introduction_header_title, introduction_description=introduction_description, introduction_confirmation=introduction_confirmation)
 
 
 @app.route('/lesson__coverletter__page1')
 def lesson__coverletter__page1():
-    return render_template('cover-letter/01.html')
+    return render_template('cover-letter/01.html', page_1_blur_reveal_content=page_1_blur_reveal_content)
 
 
 @app.route('/lesson__coverletter__page2')
