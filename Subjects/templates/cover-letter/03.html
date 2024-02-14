@@ -1,0 +1,117 @@
+<!-- 
+    Pliot II 
+    ----------------------------------------------------
+    Pop Quiz Confirmation
+
+    This file is used for the Pliot II allowing the user to confirm to do the pop quiz. 
+    If the user touches yes, it will go through the quiz, the user user touches no, 
+    then it will go back to the lesson again. 
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="" type="text/css">
+        <style>
+                body {
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        min-height: 100vh;
+                        background-color: #2a1a1a;
+                        font-family: Arial, sans-serif;
+                        color: #fff;
+                }
+
+                .splash-screen {
+                        text-align: center;
+                        animation-name: splashscreen;
+                        animation-duration: 2s;
+                }
+
+                .logo {
+                        font-size: 4rem;
+                        font-weight: bold;
+                        /* letter-spacing: 5px; */
+                        margin-bottom: 1rem;
+                        animation-name: logoanimate;
+                        animation-duration: 2s;
+                }
+
+                .tagline {
+                        font-size: 2.5rem;
+                        opacity: 0.7;
+                        transition-duration: 2s;
+                }
+
+                .tagline:hover {
+                        font-size: 5rem;
+                        opacity: 0.7;
+                }
+
+                .button-layout {
+                    padding: 16px 32px;
+                }
+
+
+                .button {
+                        background-color: black;
+                        padding: 16px 43px;
+                        border: none;
+                        color: white;
+                        font-size: 18px;
+                        text-decoration: none;
+                        margin: 20px;
+                }
+                
+
+
+                @keyframes splashscreen {
+                        from {
+                                padding: 100px;
+                                transform: scale(20);
+                        }
+
+                        to {
+                        }
+                }
+
+
+                @keyframes logoanimate {
+                        from {
+                                transform: scale(-2);
+                                opacity: 1;
+                                color: #fff;
+                                margin-top: 200px;
+                        }
+
+                        to {
+                                transform: scale(1);
+                                opacity: 1;
+                                color: #fff;
+                                box-shadow: 0 0 8px rgba(0, 0, 0, 0, 0.3);
+                        }
+                }
+        </style>
+        <title>Splash Screen</title>
+</head>
+
+<body>
+        <div class="splash-screen">
+                <div class="logo">?</div>
+                <div class="tagline">Are you ready for the interactive pop quiz?</div>
+                <div class="button-layout"><button class="button">Yes</button> <button class="button" onclick="window.location.href='{{ url_for('lesson__coverletter__introduction') }}';" >No</button></div>
+
+        </div>
+</body>
+
+</html>

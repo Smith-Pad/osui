@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="static/original-ux/UI.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/layouts.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/index.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/position-text.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/original-ux/background.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/lesson.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+<link rel="stylesheet" href="static/globals.css" media="screen and (min-width: 1080px) and (max-height: 1920px)">
+
+<style>
+        body {
+                overflow: none;
+                /* Turns off Scrolling :hidden */
+                color: white;
+                background: #37474F;
+                background: var(--main-color-16);
+        }
+
+        /* Custom */
+        boxer {
+                padding: 16px 32px;
+                background-color: white;
+                color: black;
+
+        }
+
+        .blur-object {
+                filter: blur(20px);
+                background-color: transparent;
+                padding: 16px 32px;
+                text-align: center;
+                transition: filter 1s, transform 1s, background-color 1s;
+        }
+
+        .blur-object:hover {
+                filter: blur(0px);
+                transform: scale(7.5); 
+                background-color: rgb(67, 67, 67);
+        }
+
+
+        .blur-object-content {
+                font-size: 4px;
+                text-align: center;
+        }
+
+        .blur-object-content-text-wrap {
+                width: 140px; 
+                border: 1px solid #000000;
+                word-break: keep-all;
+        }
+
+        .blur-object-button {
+                padding: 10px 12px; 
+                text-align: center;
+                background-color: rgb(62, 62, 62);
+                color: #fff; 
+                font-size: 3px; 
+                text-decoration: none;
+                border: none;
+                border-radius: 5px; 
+                transition-duration: 0.2s;
+        }
+        
+        .blur-object-button:hover {
+                background-color: rgba(255, 0, 0, 0.464);
+                font-size: 20px;
+        }
+
+</style>
+
+<div class="bar">
+        <a href="/lesson__coverletter__main_menu" class="button small button is-red button-no-animate-mode">Back&#8656;</a>
+        <a href="/lesson__coverletter__page1" class="button small button is-red button-no-animate-mode">Next &rArr;</a>
+        <a href="#" class="button"onClick="Calculator=window.open( '../../../../../Smith-Pad/APPS/calculator.html','Calculator', 'width=600,height=1000'); return false;">Launch Calculator</a>
+
+</div>
+<div class="space"></div>
+<div class="space"></div>
+
+<div class="indicator is-off">
+        <fontsize100>
+                <p align="center">What is a Cover Letter </p>
+        </fontsize100>
+
+        <fontsize20>
+                <p align="center">
+                        Hover to reveal what is a cover letter
+                </p>
+        </fontsize20>
+
+
+        <p align="center">
+        <div class="blur-object">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="orange">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-12h2v6h-2zm0 4h2v2h-2z" />
+                </svg>
+                <div class="blur-object-content">
+                        <div class="space-3"></div>
+                        Hey there! Imagine a cover letter as your special skills letter.
+                        <ul></ul>
+                        You know how everyone has something  they're really good at? 
+                        <ul></ul>
+                        Well, a cover letter is like your letter to tell people about those 
+                        special things you can do.
+                        <ul></ul>
+                        Are you ready to do this?
+                        <ul></ul>
+                        <button class="blur-object-button" onclick="location.href='/lesson__coverletter__page2'">Yes</button>
+                        <button class="blur-object-button">No</button>
+                </div>
+        </div>
+
+        </p>
+</div>
+
+</div>
