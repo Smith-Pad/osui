@@ -1,0 +1,468 @@
+    /* RELEASE DATE: 1 June 2018 14:50 EST TIME GMT */
+    /* Adjusted Date: 16 December 2018 12:33 EST TIME; */
+    
+    
+    .clock{
+        position: absolute;
+       /* Left command must be 50 % */
+        /* left: 50%; */
+        top: 140px;
+        margin-left: 760px;
+        margin-top: 50px;
+        width: 400px;
+        height: 400px;
+       
+        border-radius: 50%;
+       }
+       
+       .clock:after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        margin-top: 188px;
+        margin-left: 190px;
+        border-radius: 50%;
+        border: 2px solid #000;
+       }
+       
+       .clock .clock--arrow {
+        width: 1px;
+        height: 1px;
+        position: relative;
+        top: 200px;
+        left: 200px;
+        opacity: 0;
+        -webkit-transition: opacity, -webkit-transform 0.5s ease;
+        transition: opacity, transform 0.5s ease;
+       }
+       
+       .clock .clock--arrow[data-value] {
+        opacity: 1;
+       }
+       
+       .clock .clock--arrow[data-value="0"] {
+        -webkit-transition: none;
+        transition: none;
+       }
+       
+       .clock .clock__seconds:before {
+        position: absolute;
+        content: '';
+        margin-top: -180px;
+        height: 180px;
+        width: 2px;
+        background-color: yellow;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+       }
+       
+       .clock .clock__minutes:before {
+        position: absolute;
+        content: '';
+        margin-top: -180px;
+        height: 180px;
+        width: 2px;
+        background-color: white;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+       }
+       
+       .clock .clock__hours:before {
+        position: absolute;
+        content: '';
+        margin-top: -100px;
+        height: 100px;
+        width: 4px;
+        background-color: white;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+       }
+       
+       
+       /* 
+         
+       */
+       
+       </style>
+       
+       
+       
+       
+       
+       <style> 
+       
+       <h1> </h1>
+       /* 
+       
+       CLOCK ALGORITHM FOR THE WHOLE CLOCK 
+       
+       
+       
+       */  
+       .clock .clock--arrow[data-value="60"] {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+       }
+       
+       .clock .clock--arrow[data-value="59"] {
+        -webkit-transform: rotate(354deg);
+        -ms-transform: rotate(354deg);
+        transform: rotate(354deg);
+       }
+       
+       .clock .clock--arrow[data-value="58"] {
+        -webkit-transform: rotate(348deg);
+        -ms-transform: rotate(348deg);
+        transform: rotate(348deg);
+       }
+       
+       .clock .clock--arrow[data-value="57"] {
+        -webkit-transform: rotate(342deg);
+        -ms-transform: rotate(342deg);
+        transform: rotate(342deg);
+       }
+       
+       .clock .clock--arrow[data-value="56"] {
+        -webkit-transform: rotate(336deg);
+        -ms-transform: rotate(336deg);
+        transform: rotate(336deg);
+       }
+       
+       .clock .clock--arrow[data-value="55"] {
+        -webkit-transform: rotate(330deg);
+        -ms-transform: rotate(330deg);
+        transform: rotate(330deg);
+       }
+       
+       .clock .clock--arrow[data-value="54"] {
+        -webkit-transform: rotate(324deg);
+        -ms-transform: rotate(324deg);
+        transform: rotate(324deg);
+       }
+       
+       .clock .clock--arrow[data-value="53"] {
+        -webkit-transform: rotate(318deg);
+        -ms-transform: rotate(318deg);
+        transform: rotate(318deg);
+       }
+       
+       .clock .clock--arrow[data-value="52"] {
+        -webkit-transform: rotate(312deg);
+        -ms-transform: rotate(312deg);
+        transform: rotate(312deg);
+       }
+       
+       .clock .clock--arrow[data-value="51"] {
+        -webkit-transform: rotate(306deg);
+        -ms-transform: rotate(306deg);
+        transform: rotate(306deg);
+       }
+       
+       .clock .clock--arrow[data-value="50"] {
+        -webkit-transform: rotate(300deg);
+        -ms-transform: rotate(300deg);
+        transform: rotate(300deg);
+       }
+       
+       .clock .clock--arrow[data-value="49"] {
+        -webkit-transform: rotate(294deg);
+        -ms-transform: rotate(294deg);
+        transform: rotate(294deg);
+       }
+       
+       .clock .clock--arrow[data-value="48"] {
+        -webkit-transform: rotate(288deg);
+        -ms-transform: rotate(288deg);
+        transform: rotate(288deg);
+       }
+       
+       .clock .clock--arrow[data-value="47"] {
+        -webkit-transform: rotate(282deg);
+        -ms-transform: rotate(282deg);
+        transform: rotate(282deg);
+       }
+       
+       .clock .clock--arrow[data-value="46"] {
+        -webkit-transform: rotate(276deg);
+        -ms-transform: rotate(276deg);
+        transform: rotate(276deg);
+       }
+       
+       .clock .clock--arrow[data-value="45"] {
+        -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        transform: rotate(270deg);
+       }
+       
+       .clock .clock--arrow[data-value="44"] {
+        -webkit-transform: rotate(264deg);
+        -ms-transform: rotate(264deg);
+        transform: rotate(264deg);
+       }
+       
+       .clock .clock--arrow[data-value="43"] {
+        -webkit-transform: rotate(258deg);
+        -ms-transform: rotate(258deg);
+        transform: rotate(258deg);
+       }
+       
+       .clock .clock--arrow[data-value="42"] {
+        -webkit-transform: rotate(252deg);
+        -ms-transform: rotate(252deg);
+        transform: rotate(252deg);
+       }
+       
+       .clock .clock--arrow[data-value="41"] {
+        -webkit-transform: rotate(246deg);
+        -ms-transform: rotate(246deg);
+        transform: rotate(246deg);
+       }
+       
+       .clock .clock--arrow[data-value="40"] {
+        -webkit-transform: rotate(240deg);
+        -ms-transform: rotate(240deg);
+        transform: rotate(240deg);
+       }
+       
+       .clock .clock--arrow[data-value="39"] {
+        -webkit-transform: rotate(234deg);
+        -ms-transform: rotate(234deg);
+        transform: rotate(234deg);
+       }
+       
+       .clock .clock--arrow[data-value="38"] {
+        -webkit-transform: rotate(228deg);
+        -ms-transform: rotate(228deg);
+        transform: rotate(228deg);
+       }
+       
+       .clock .clock--arrow[data-value="37"] {
+        -webkit-transform: rotate(222deg);
+        -ms-transform: rotate(222deg);
+        transform: rotate(222deg);
+       }
+       
+       .clock .clock--arrow[data-value="36"] {
+        -webkit-transform: rotate(216deg);
+        -ms-transform: rotate(216deg);
+        transform: rotate(216deg);
+       }
+       
+       .clock .clock--arrow[data-value="35"] {
+        -webkit-transform: rotate(210deg);
+        -ms-transform: rotate(210deg);
+        transform: rotate(210deg);
+       }
+       
+       .clock .clock--arrow[data-value="34"] {
+        -webkit-transform: rotate(204deg);
+        -ms-transform: rotate(204deg);
+        transform: rotate(204deg);
+       }
+       
+       .clock .clock--arrow[data-value="33"] {
+        -webkit-transform: rotate(198deg);
+        -ms-transform: rotate(198deg);
+        transform: rotate(198deg);
+       }
+       
+       .clock .clock--arrow[data-value="32"] {
+        -webkit-transform: rotate(192deg);
+        -ms-transform: rotate(192deg);
+        transform: rotate(192deg);
+       }
+       
+       .clock .clock--arrow[data-value="31"] {
+        -webkit-transform: rotate(186deg);
+        -ms-transform: rotate(186deg);
+        transform: rotate(186deg);
+       }
+       
+       .clock .clock--arrow[data-value="30"] {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+       }
+       
+       .clock .clock--arrow[data-value="29"] {
+        -webkit-transform: rotate(174deg);
+        -ms-transform: rotate(174deg);
+        transform: rotate(174deg);
+       }
+       
+       .clock .clock--arrow[data-value="28"] {
+        -webkit-transform: rotate(168deg);
+        -ms-transform: rotate(168deg);
+        transform: rotate(168deg);
+       }
+       
+       .clock .clock--arrow[data-value="27"] {
+        -webkit-transform: rotate(162deg);
+        -ms-transform: rotate(162deg);
+        transform: rotate(162deg);
+       }
+       
+       .clock .clock--arrow[data-value="26"] {
+        -webkit-transform: rotate(156deg);
+        -ms-transform: rotate(156deg);
+        transform: rotate(156deg);
+       }
+       
+       .clock .clock--arrow[data-value="25"] {
+        -webkit-transform: rotate(150deg);
+        -ms-transform: rotate(150deg);
+        transform: rotate(150deg);
+       }
+       
+       .clock .clock--arrow[data-value="24"] {
+        -webkit-transform: rotate(144deg);
+        -ms-transform: rotate(144deg);
+        transform: rotate(144deg);
+       }
+       
+       .clock .clock--arrow[data-value="23"] {
+        -webkit-transform: rotate(138deg);
+        -ms-transform: rotate(138deg);
+        transform: rotate(138deg);
+       }
+       
+       .clock .clock--arrow[data-value="22"] {
+        -webkit-transform: rotate(132deg);
+        -ms-transform: rotate(132deg);
+        transform: rotate(132deg);
+       }
+       
+       .clock .clock--arrow[data-value="21"] {
+        -webkit-transform: rotate(126deg);
+        -ms-transform: rotate(126deg);
+        transform: rotate(126deg);
+       }
+       
+       .clock .clock--arrow[data-value="20"] {
+        -webkit-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        transform: rotate(120deg);
+       }
+       
+       .clock .clock--arrow[data-value="19"] {
+        -webkit-transform: rotate(114deg);
+        -ms-transform: rotate(114deg);
+        transform: rotate(114deg);
+       }
+       
+       .clock .clock--arrow[data-value="18"] {
+        -webkit-transform: rotate(108deg);
+        -ms-transform: rotate(108deg);
+        transform: rotate(108deg);
+       }
+       
+       .clock .clock--arrow[data-value="17"] {
+        -webkit-transform: rotate(102deg);
+        -ms-transform: rotate(102deg);
+        transform: rotate(102deg);
+       }
+       
+       .clock .clock--arrow[data-value="16"] {
+        -webkit-transform: rotate(96deg);
+        -ms-transform: rotate(96deg);
+        transform: rotate(96deg);
+       }
+       
+       .clock .clock--arrow[data-value="15"] {
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+       }
+       
+       .clock .clock--arrow[data-value="14"] {
+        -webkit-transform: rotate(84deg);
+        -ms-transform: rotate(84deg);
+        transform: rotate(84deg);
+       }
+       
+       .clock .clock--arrow[data-value="13"] {
+        -webkit-transform: rotate(78deg);
+        -ms-transform: rotate(78deg);
+        transform: rotate(78deg);
+       }
+       
+       .clock .clock--arrow[data-value="12"] {
+        -webkit-transform: rotate(72deg);
+        -ms-transform: rotate(72deg);
+        transform: rotate(72deg);
+       }
+       
+       .clock .clock--arrow[data-value="11"] {
+        -webkit-transform: rotate(66deg);
+        -ms-transform: rotate(66deg);
+        transform: rotate(66deg);
+       }
+       
+       .clock .clock--arrow[data-value="10"] {
+        -webkit-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        transform: rotate(60deg);
+       }
+       
+       .clock .clock--arrow[data-value="9"] {
+        -webkit-transform: rotate(54deg);
+        -ms-transform: rotate(54deg);
+        transform: rotate(54deg);
+       }
+       
+       .clock .clock--arrow[data-value="8"] {
+        -webkit-transform: rotate(48deg);
+        -ms-transform: rotate(48deg);
+        transform: rotate(48deg);
+       }
+       
+       .clock .clock--arrow[data-value="7"] {
+        -webkit-transform: rotate(42deg);
+        -ms-transform: rotate(42deg);
+        transform: rotate(42deg);
+       }
+       
+       .clock .clock--arrow[data-value="6"] {
+        -webkit-transform: rotate(36deg);
+        -ms-transform: rotate(36deg);
+        transform: rotate(36deg);
+       }
+       
+       .clock .clock--arrow[data-value="5"] {
+        -webkit-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        transform: rotate(30deg);
+       }
+       
+       .clock .clock--arrow[data-value="4"] {
+        -webkit-transform: rotate(24deg);
+        -ms-transform: rotate(24deg);
+        transform: rotate(24deg);
+       }
+       
+       .clock .clock--arrow[data-value="3"] {
+        -webkit-transform: rotate(18deg);
+        -ms-transform: rotate(18deg);
+        transform: rotate(18deg);
+       }
+       
+       .clock .clock--arrow[data-value="2"] {
+        -webkit-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        transform: rotate(12deg);
+       }
+       
+       .clock .clock--arrow[data-value="1"] {
+        -webkit-transform: rotate(6deg);
+        -ms-transform: rotate(6deg);
+        transform: rotate(6deg);
+       }
+       
+       .clock .clock--arrow[data-value="0"] {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+       }
