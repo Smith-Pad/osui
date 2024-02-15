@@ -98,7 +98,9 @@ def lesson__coverletter__introduction():
 @app.route('/lesson__coverletter__page1')
 def lesson__coverletter__page1():
     page_1_blur_effect_content = "Hey there! Imagine a cover letter as your special skills letter. You know how everyone has something they're really good at? Well, a cover letter is like your letter to tell people about those special things you can do. Are you ready to do this?"
-    return render_template('cover-letter/01.html', page_1_blur_effect_content=page_1_blur_effect_content)
+    page_1_blur_effect_confirmation_yes = "Yes"                                                             
+    page_1_blur_effect_confirmation_no  = "No"                                                              
+    return render_template('cover-letter/01.html', page_1_blur_effect_content=page_1_blur_effect_content,  page_1_blur_effect_confirmation_yes=page_1_blur_effect_confirmation_yes, page_1_blur_effect_confirmation_no=page_1_blur_effect_confirmation_no)   
 
 
 @app.route('/lesson__coverletter__page2')
