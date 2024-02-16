@@ -17,6 +17,7 @@
        <div class='home-screen-middle-clock'>
 
         <div id="senalClock"></div>
+        
 
         <script type="text/javascript">
             function GetClock() {
@@ -32,7 +33,26 @@
             GetClock();
             setInterval(GetClock, 1000);
         </script>    
-       </div>
+        
+        <div style='font-size: 40px;'>
+        <script>
+            var day = new Date();
+            var hr = day.getHours();
+            if (hr >= 0 && hr < 12) {
+            document.write("Good Morning!");
+            } else if (hr == 12) {
+            document.write("Good Noon!");
+            } else if (hr >= 12 && hr <= 17) {
+            document.write("Good Afternoon!");
+            } else {
+            document.write("Good Evening!");
+            }
+            document.write("");
+        </script>  
+
+        </div> 
+    
+    </div>
     </div>
 </div>
 
