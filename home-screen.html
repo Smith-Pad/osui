@@ -12,6 +12,30 @@
 </div>
 
 
+<div class='home-screen-middle'>
+    <div class='home-screen-middle-content'>
+       <div class='home-screen-middle-clock'>
+
+        <div id="senalClock"></div>
+
+        <script type="text/javascript">
+            function GetClock() {
+                var d = new Date();
+                var senalhour = d.getHours(),
+                    senalmin = d.getMinutes();
+                if (senalmin <= 9) senalmin = "0" + senalmin
+    
+                var senal_clock_text = "" + senalhour + ":" + senalmin + "";
+                document.getElementById('senalClock').innerHTML = senal_clock_text;
+            }
+    
+            GetClock();
+            setInterval(GetClock, 1000);
+        </script>    
+       </div>
+    </div>
+</div>
+
 
 <div class='global-bottom-bar'>
     <div class='global-bottom-bar-content'>
@@ -19,7 +43,7 @@
             <button class='global-bottom-bar-buttons'>Apps</button>
         </div>
         <div class='global-bar-bottom-bar-group-middle'>
-            <button class='global-bottom-bar-buttons' onclick="location.href='settings-screen.html'">Settings</button>
+            <button class='global-bottom-bar-buttons' onclicks="location.href='settings-screen.html'">Settings</button>
             <button class='global-bottom-bar-buttons' onclick="location.href='http://127.0.0.1:5000'">Subjects</button>
         </div>
     </div>
