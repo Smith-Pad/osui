@@ -9,5 +9,11 @@ function updatePackages()
 }
 
 
+function installPackages()
+{
+	sudo zypper install git-core
+} 
+
+
 
 updatePackages
