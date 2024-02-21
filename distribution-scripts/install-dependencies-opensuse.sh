@@ -9,6 +9,13 @@ function updatePackages()
 }
 
 
+function uninstallPackages() 
+{
+	
+}
+
+
+
 function installPackages()
 {
 	sudo zypper install git-core
@@ -18,4 +25,5 @@ function installPackages()
 
 
 updatePackages
+uninstallPackages
 installPackages
