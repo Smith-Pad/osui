@@ -11,7 +11,7 @@ function updatePackages()
 
 function uninstallPackages() 
 {
-	
+	sudo zypper remove xfce4-appfinder 	
 }
 
 
