@@ -5,7 +5,7 @@
 
 function updatePackages() 
 {
-	sudo zypper update && sudo zypper upgrade
+	sudo zypper upgrade
 }
 
 
