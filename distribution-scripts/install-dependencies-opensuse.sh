@@ -13,6 +13,7 @@ function uninstallPackages()
 {
 	sudo zypper remove xfce4-appfinder 	
 	sudo zypper remove xfce4-appfinder-lang
+	sudo zypper remove xfdesktop
 }
 
 
