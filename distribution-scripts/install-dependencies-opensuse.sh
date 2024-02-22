@@ -36,3 +36,11 @@ cd autostart
 
 rm -rf *
 
+
+echo """
+[Desktop Entry]
+Type=Application
+Name=polybar-launch
+Exec=polybar
+
+""" >> polybar-launch.desktop
