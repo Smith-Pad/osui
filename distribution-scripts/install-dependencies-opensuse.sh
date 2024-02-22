@@ -14,7 +14,7 @@ sudo zypper remove xfce4-appfinder-lang
 sudo zypper remove xfdesktop
 sudo zypper remove xfce4-panel
 sudo zypper remove xfce4-power-mamager
-
+sudo zypper remove tumbler
 
 
 sudo zypper install git-core
