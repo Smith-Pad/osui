@@ -13,6 +13,7 @@ sudo zypper remove xfce4-appfinder
 sudo zypper remove xfce4-appfinder-lang
 sudo zypper remove xfdesktop
 sudo zypper remove xfce4-panel
+sudo zypper remove xfce4-power-mamager
 
 
 
@@ -20,4 +21,3 @@ sudo zypper install git-core
 sudo zypper install xorg-scripts
 sudo zypper install chromium
 sudo zypper install polybar
-
