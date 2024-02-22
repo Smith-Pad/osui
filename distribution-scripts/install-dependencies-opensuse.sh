@@ -17,6 +17,8 @@ sudo zypper remove xfce4-power-mamager
 sudo zypper remove tumbler
 sudo zypper remove thunar-volman
 sudo zypper remove garcon
+sudo zypper remove exo
+
 
 
 sudo zypper install git-core
