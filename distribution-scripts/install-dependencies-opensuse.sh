@@ -27,3 +27,8 @@ sudo zypper install xorg-scripts
 sudo zypper install chromium
 sudo zypper install polybar
 
+
+
+cd $HOME/.config
+mkdir autostart
+cd autostart
