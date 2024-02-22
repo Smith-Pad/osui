@@ -15,9 +15,11 @@ sudo zypper remove xfdesktop
 sudo zypper remove xfce4-panel
 sudo zypper remove xfce4-power-mamager
 sudo zypper remove tumbler
+sudo zypper remove thunar-volman
 
 
 sudo zypper install git-core
 sudo zypper install xorg-scripts
 sudo zypper install chromium
 sudo zypper install polybar
+
