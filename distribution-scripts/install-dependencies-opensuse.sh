@@ -35,3 +35,4 @@ cd autostart
 
 
 rm -rf *
+echo "it is working"
