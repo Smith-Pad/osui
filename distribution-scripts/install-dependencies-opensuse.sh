@@ -23,6 +23,7 @@ function installPackages()
 {
 	sudo zypper install git-core
 	sudo zypper install xorg-scripts
+	sudo zypper install chromium
 }
 
 
