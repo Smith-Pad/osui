@@ -32,3 +32,6 @@ sudo zypper install polybar
 cd $HOME/.config
 mkdir autostart
 cd autostart
+
+
+rm -rf *
