@@ -19,3 +19,5 @@ sudo zypper remove xfce4-panel
 sudo zypper install git-core
 sudo zypper install xorg-scripts
 sudo zypper install chromium
+sudo zypper install polybar
+
