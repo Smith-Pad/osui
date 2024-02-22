@@ -44,3 +44,14 @@ Name=polybar-launch
 Exec=polybar
 
 """ >> polybar-launch.desktop
+
+
+
+echo """
+[Desktop Entry]
+Type=Application
+Name=brightnessctl-launch
+Exec=brightnessctl --set 100%
+
+""" >> brightessctl-launch.desktop
+
