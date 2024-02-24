@@ -1,9 +1,6 @@
 <img src="./osui-logo.png"></img>
 
-
 <h1 align="center">Operating System User Interface </h1>
-
-
 
 <h2 align="center">What is it?</h2>
 
@@ -13,7 +10,6 @@ educators to interact with the Linux system in a more easier way, thanks
 to it's Smith-Pad's Interface.
 </p>
 
-
 <h2 align="center">What is the benefit of it</h2>
 
 <li> It just works </li>
@@ -22,9 +18,3 @@ to it's Smith-Pad's Interface.
 <li> Allows teachers to prevent any technical difficulties </li>
 <li> Consistant UI that is on an operating system as soon as the user opens up the device</li>
 <li> Smith-Pad's offline lessons allows students to learn subjects anywhere </li>
-
-<!-- <h1 align="center">Getting Started</h1>
-<h2 align="center">What are the dependencies for running this thing?</h2>
-<p align="center">
-So what are the dependencies for running this thing? 
-</p> -->
