@@ -32,7 +32,9 @@ Here are the list of dependencies you need to install.
 
 `sudo pacman -S xfwm4`
 
+## python-flask
 
+`sudo pacman -S python-flask`
 
 ## Mockups for the Interface.
 
