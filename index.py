@@ -30,6 +30,13 @@ def index():
     return render_template('index.html')
 
 
+## Apps Section
+
+## Clock Mode
+@app.route("/APPS_clockmode")
+def APPS_clockmode():
+    return render_template('APPS/Clock-Mode/index.html')
+
 ## Settings-Screen
 @app.route("/settings_screen")
 def settings_screen():
