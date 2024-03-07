@@ -72,6 +72,7 @@ function package_manager_Arch() {
         sudo pacman -S xorg-server --noconfirm
         sudo pacman -S xorg-xinit --noconfirm
         sudo pacman -S wayland --noconfirm
+        sudo pacman -S python-flask --noconfirm
 }
 # function package_manager_Arch_python_pip_package_manager() {
 #         pip install flask
