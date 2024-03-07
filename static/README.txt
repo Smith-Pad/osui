@@ -7,3 +7,6 @@ where documentating the system files are organized at.
 - Buttons 
     - buttons.css
 
+- FOIL-Bar
+    - foil-bar.css
+
