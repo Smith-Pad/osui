@@ -52,7 +52,7 @@ function check() {
 
         if cat /etc/os-release|grep Arch &> /dev/null; then 
 		package_manager_Arch
-		package_manager_Arch_python_pip_package_manager
+		# package_manager_Arch_python_pip_package_manager
 	fi   
 }
 
@@ -73,14 +73,14 @@ function package_manager_Arch() {
         sudo pacman -S xorg-xinit --noconfirm
         sudo pacman -S wayland --noconfirm
 }
-function package_manager_Arch_python_pip_package_manager() {
-        pip install flask
-	pip install speechrecognition
-	pip install sh
-        pip install cefpython3
-        pip install pyaudio
-        pip install asyncio
-}
+# function package_manager_Arch_python_pip_package_manager() {
+#         pip install flask
+# 	pip install speechrecognition
+# 	pip install sh
+#         pip install cefpython3
+#         pip install pyaudio
+#         pip install asyncio
+# }
 
 
 ##############################################################
