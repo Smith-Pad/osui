@@ -4,7 +4,7 @@ Subjects
 Subjects is a feature in Smith-Pad allowing user to interact with
 tactile learning based lessons in Smith-Pad. Tactile learning in
 the classroom is the most important thing to get students to get
-engaged in learning in the school environment. 
+engaged in learning in the school environment.
 
 
 Dependencies
@@ -73,3 +73,13 @@ you know...
 		So this file allows the ability allows the ability add content
 		to the top of the UX. For this one, this one is rarely used 
 		upon succession of the [indicator is-top] component.
+
+
+
+
+
+
+TODO: 
+
+- work on the organizing into System_Files
+- maybe symlinking them too?
