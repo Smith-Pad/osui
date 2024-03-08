@@ -14,7 +14,7 @@
 from flask import Flask, redirect,url_for,render_template
 import os
 import json
-import subprocess
+import subprocess   
 
 
 app  = Flask(__name__)
@@ -41,7 +41,8 @@ def APPS_clockmode():
 ## Settings-Screen
 @app.route("/settings_screen")
 def settings_screen():
-    return render_template('settings.html')
+    wifi_name_device = subprocess.check_output("sh scripting/testing-script.sh", shell=True, text=True)
+    return render_template('settings.html', wifi_name_device=wifi_name_device)
 
 
 
