@@ -17,3 +17,4 @@
 
 
         buttons.scss
+        bar.scss
