@@ -1,0 +1,16 @@
+.bottom-navigation {
+    bottom: 0;
+    padding: 3px 16px;
+    left: 0;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-navigation-content {
+    flex: 1;
+}
