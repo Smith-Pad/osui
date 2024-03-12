@@ -16,5 +16,11 @@
 
 
 
-        buttons.scss
         bar.scss
+        bottom-navigation.scss
+        buttons.scss
+        global.scss
+        grid.scss
+        status-bar.scss
+        user-profile.scss
+        widgets.scss
