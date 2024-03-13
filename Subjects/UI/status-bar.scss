@@ -1,0 +1,41 @@
+.status-bar {
+	padding: 3px 16px;
+	display: grid;
+	grid-template-columns: repeat(2, 10fr) repeat(3, 1fr);
+	align-items: center;
+	transition-duration: 0.5s;
+
+}
+
+
+
+.status-bar-button {
+	background-color: #1b1b1b;
+	text-decoration: none;
+	color: white;
+	border-style: none;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow:  20px 20px 60px #1d1d1d, -20px -20px 60px #363636;
+	margin-right: 100px;
+}
+
+.status-bar-button:hover {
+	transition-duration: 0.5s;
+	background-color: green;
+}
+
+.status-bar-left-column {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.status-bar-right-column {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.status-item {
+	font-size: 16px;
+	margin-right: 10px;
+}
