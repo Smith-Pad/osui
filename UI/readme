@@ -26,3 +26,4 @@
         |- sidebar.scss
         |- bottom-navigation.scss
         |- user-profile.scss
+        |- clock-mode.scss 
