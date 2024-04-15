@@ -5,17 +5,17 @@
 <h2 align="center">What is it?</h2>
 
 <p align="center">
-OSUI is a desktop environment for Linux, allowing students, teachers and 
-educators to interact with the Linux system in a more easier way, thanks
-to it's Smith-Pad's Interface.
+OSUI is the core user interface for the Smith-Pad ecosystem, enpowering teachers, paraprofessionals
+and students to use a simple, elegant approach to interfacing with the UI.
 </p>
 
 <h2 align="center">What is the benefit of it</h2>
 
-<li> It just works </li>
-<li> No technical difficulties </li>
-<li> Allow students to get work done </li>
-<li> Allows teachers to prevent any technical difficulties </li>
+
+<center><li> It just works </li></center>
+<center><li> No technical difficulties </li></center>
+<center> <li> Allow students to get work done </li></center>
+<center><li> Allows teachers to prevent any technical difficulties </li> </center>
 
 <h2 align="center">Dependency Install</h2>
 
@@ -23,5 +23,3 @@ to it's Smith-Pad's Interface.
 In this section, we are going to be talking about installation 
 of dependencies to make OSUI run properly
 </p>
-
-
