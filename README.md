@@ -19,12 +19,11 @@ to it's Smith-Pad's Interface.
 <li> Consistant UI that is on an operating system as soon as the user opens up the device</li>
 <li> Smith-Pad's offline lessons allows students to learn subjects anywhere </li>
 
-
 <h2 align="center">Dependency Install</h2>
 
 <p align="center">
 In this section, we are going to be talking about installation 
-of dependencies to make OSUI run propably 
+of dependencies to make OSUI run properly
 </p>
 
 
