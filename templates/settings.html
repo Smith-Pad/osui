@@ -5,51 +5,378 @@
 
 <!-- Make sure you use System_Files/system.<name>.ui.include.<blah blah> -->
 
+<style>
+    .wifi {
+        margin: 2px auto;
+        padding: 200px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(39, 39, 39, 0.4);
+        background-position: right;
+        border-radius: 5px;
+        width: auto;
+        position: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .wifi .close {
+        position: absolute;
+        top: 20px;
+        background-color: red;
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+        transition-duration: 0.2s;
+    }
+
+    .wificlose {
+        position: absolute;
+        top: 20px;
+        /*  */
+        right: 840px;
+        font-size: 200px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+    }
+
+    .wifi .content {
+        max-height: 30%;
+        width: 30%;
+        overflow: auto;
+    }
+
+
+    .wifi-no-blur {
+        margin: 2px auto;
+        padding: 200px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(39, 39, 39, 0.4);
+        background-position: right;
+        border-radius: 5px;
+        width: auto;
+        position: center;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .wifi-no-blur .close {
+        position: absolute;
+        top: 20px;
+        background-color: red;
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+        transition-duration: 0.2s;
+    }
+
+    .wifi-no-blurclose {
+        position: absolute;
+        top: 20px;
+        /*  */
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+    }
+
+    .wifi-no-blur .content {
+        max-height: 30%;
+        width: 30%;
+        overflow: auto;
+    }
+</style>
+
+
+
+
+<style>
+    .bluetooth {
+        margin: 2px auto;
+        padding: 200px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 22, 57, 0.4);
+        background-position: right;
+        border-radius: 5px;
+        width: auto;
+        position: center;
+        color: rgb(255, 255, 255);
+      }
+
+    .bluetooth .close {
+        position: absolute;
+        top: 20px;
+        background-color: red;
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+        transition-duration: 0.2s;
+    }
+
+    .bluetoothclose {
+        position: absolute;
+        top: 20px;
+        /*  */
+        right: 840px;
+        font-size: 200px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+    }
+
+    .bluetooth .content {
+        max-height: 30%;
+        width: 30%;
+        overflow: auto;
+    }
+
+
+    .bluetooth-no-blur {
+        margin: 2px auto;
+        padding: 200px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(39, 39, 39, 0.4);
+        background-position: right;
+        border-radius: 5px;
+        width: auto;
+        position: center;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .bluetooth-no-blur .close {
+        position: absolute;
+        top: 20px;
+        background-color: red;
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+        transition-duration: 0.2s;
+    }
+
+    .bluetooth-no-blurclose {
+        position: absolute;
+        top: 20px;
+        /*  */
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+    }
+
+    .bluetooth-no-blur .content {
+        max-height: 30%;
+        width: 30%;
+        overflow: auto;
+    }
+</style>
+
+
+
+
+<style>
+    .ttymode {
+        margin: 2px auto;
+        padding: 200px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 22, 57, 0.4);
+        background-position: right;
+        border-radius: 5px;
+        width: auto;
+        position: center;
+        color: rgb(255, 255, 255);
+      }
+
+    .ttymode .close {
+        position: absolute;
+        top: 20px;
+        background-color: red;
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+        transition-duration: 0.2s;
+    }
+
+    .ttymodeclose {
+        position: absolute;
+        top: 20px;
+        /*  */
+        right: 840px;
+        font-size: 200px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+    }
+
+    .ttymode .content {
+        max-height: 30%;
+        width: 30%;
+        overflow: auto;
+    }
+
+
+    .ttymode-no-blur {
+        margin: 2px auto;
+        padding: 200px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(39, 39, 39, 0.4);
+        background-position: right;
+        border-radius: 5px;
+        width: auto;
+        position: center;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .ttymode-no-blur .close {
+        position: absolute;
+        top: 20px;
+        background-color: red;
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+        transition-duration: 0.2s;
+    }
+
+    .ttymode-no-blurclose {
+        position: absolute;
+        top: 20px;
+        /*  */
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+    }
+
+    .ttymode-no-blur .content {
+        max-height: 30%;
+        width: 30%;
+        overflow: auto;
+    }
+</style>
+
+
 
 
 
 <!-- Bottom Navigation -->
 
 <div class="bottom-navigation">
-        <div class="bottom-navigation-content">
-                <a href="#" class="FOIL-button-regular-no-shadow">WiFi</a>
-                <a href="#" class="FOIL-button-regular-no-shadow">Bluetooth</a>
-                <a href="#" class="FOIL-button-regular-no-shadow">TTY Mode</a>
-                <a href="/" class="FOIL-button-regular-no-shadow">Back</a>
-        </div>
+    <div class="bottom-navigation-content">
+        <a href="#wifi" class="FOIL-button-regular-no-shadow">WiFi</a>
+        <a href="#bluetooth" class="FOIL-button-regular-no-shadow">Bluetooth</a>
+        <a href="#ttymode" class="FOIL-button-regular-no-shadow">TTY Mode</a>
+        <a href="/" class="FOIL-button-regular-no-shadow">Back</a>
+    </div>
 </div>
 
 <div class="widget-grid">
-        <div class="widget-left">
-                <div class="widget-left-inner-content">
-                        <center>
-                                <h4>WI-FI Detail:</h4> 
-                        </center>
-                        <center>
-                                <h6>{{wifi_name_device}}</h6> 
-                        </center>
-                </div>
+    <div class="widget-left">
+        <div class="widget-left-inner-content">
+            <center>
+                <h4>WI-FI Detail:</h4>
+            </center>
+            <center>
+                <h6>{{wifi_name_device}}</h6>
+            </center>
         </div>
-        <div class="widget-left">
-                <div class="widget-left-inner-content">
-                        <center>
-                                <h4>Bluetooth Detail:</h4> 
-                        </center>
-                        <center>
-                                <h6> {{bluetooth_name_device}}</h6>
-                        </center>
-                </div>               
+    </div>
+    <div class="widget-left">
+        <div class="widget-left-inner-content">
+            <center>
+                <h4>Bluetooth Detail:</h4>
+            </center>
+            <center>
+                <h6> {{bluetooth_name_device}}</h6>
+            </center>
         </div>
-        <div class="widget-left">
-                <div class="widget-left-inner-content">
-                        <center>
-                                <h4>Other Info:</h4> 
-                        </center>
-                        <center>
-                                <h2> Battery {{battery_name_device}}</h2>
-                        </center>
-                </div>
+    </div>
+    <div class="widget-left">
+        <div class="widget-left-inner-content">
+            <center>
+                <h4>Other Info:</h4>
+            </center>
+            <center>
+                <h2> Battery {{battery_name_device}}</h2>
+            </center>
         </div>
+    </div>
 </div>
 
 </content>
+
+
+
+<div id="wifi" class="activate">
+    <div class="wifi" style="text-align: center;">
+        <h1>wifi </h1>
+
+        <a class="wificlose" href="#">&times;</a>
+        <div class="grid-container">
+            <div class="grid-item">
+                
+            </div>
+
+            <div class="grid-item">
+                <h4> Power</h4>
+                <button class="osui-button">On</button>
+                <button class="osui-button">Off</button>
+            </div>
+
+            <div class="grid-item">
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="bluetooth" class="activate">
+    <div class="bluetooth" style="text-align: center;">
+        <h1>bluetooth </h1>
+
+        <a class="bluetoothclose" href="#">&times;</a>
+        <div class="grid-container">
+            <div class="grid-item">
+                
+            </div>
+
+            <div class="grid-item">
+                <h4> Power</h4>
+                <button class="osui-button">On</button>
+                <button class="osui-button">Off</button>
+            </div>
+
+            <div class="grid-item">
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<div id="ttymode" class="activate">
+    <div class="ttymode" style="text-align: center;">
+        <a class="ttymodeclose" href="#">&times;</a>
+        This feature is not available
+
+    </div>
+</div>
