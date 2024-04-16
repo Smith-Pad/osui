@@ -23,6 +23,10 @@ and students to use a simple, elegant approach to interfacing with the UI.
 <h2 align="center">Clock Mode</h2>
 <img src="./documentation-src/clock-mode.png">
 
+
+<h2 align="center">Settings</h2>
+<img src="./documentation-src/settings-screen.png">
+
 <h2 align="center">Dependency Install</h2>
 
 <p align="center">
