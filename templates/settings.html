@@ -271,6 +271,91 @@
 
 
 
+<style>
+    .softwareupdate {
+        margin: 2px auto;
+        padding: 200px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 22, 57, 0.4);
+        background-position: right;
+        border-radius: 5px;
+        width: auto;
+        position: center;
+        color: rgb(255, 255, 255);
+      }
+
+    .softwareupdate .close {
+        position: absolute;
+        top: 20px;
+        background-color: red;
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+        transition-duration: 0.2s;
+    }
+
+    .softwareupdateclose {
+        position: absolute;
+        top: 20px;
+        /*  */
+        right: 840px;
+        font-size: 200px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+    }
+
+    .softwareupdate .content {
+        max-height: 30%;
+        width: 30%;
+        overflow: auto;
+    }
+
+
+    .softwareupdate-no-blur {
+        margin: 2px auto;
+        padding: 200px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(39, 39, 39, 0.4);
+        background-position: right;
+        border-radius: 5px;
+        width: auto;
+        position: center;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .softwareupdate-no-blur .close {
+        position: absolute;
+        top: 20px;
+        background-color: red;
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+        transition-duration: 0.2s;
+    }
+
+    .softwareupdate-no-blurclose {
+        position: absolute;
+        top: 20px;
+        /*  */
+        right: 30px;
+        font-size: 58px;
+        font-weight: 500;
+        text-decoration: none;
+        color: red;
+    }
+
+    .softwareupdate-no-blur .content {
+        max-height: 30%;
+        width: 30%;
+        overflow: auto;
+    }
+</style>
 
 
 <!-- Bottom Navigation -->
@@ -280,6 +365,7 @@
         <a href="#wifi" class="FOIL-button-regular-no-shadow">WiFi</a>
         <a href="#bluetooth" class="FOIL-button-regular-no-shadow">Bluetooth</a>
         <a href="#ttymode" class="FOIL-button-regular-no-shadow">TTY Mode</a>
+        <a href="#softwareupdate" class="FOIL-button-regular-no-shadow">Software Update</a>
         <a href="/" class="FOIL-button-regular-no-shadow">Back</a>
     </div>
 </div>
@@ -378,5 +464,15 @@
         <a class="ttymodeclose" href="#">&times;</a>
         This feature is not available
 
+    </div>
+</div>
+
+
+<div id="softwareupdate" class="activate">
+    <div class="softwareupdate" style="text-align: center;">
+        <a class="softwareupdateclose" href="#">&times;</a>
+        <h1>Software Update</h1>
+        <button class="osui-button">Check for Updates</button>
+        <button class="osui-button">Revert Update</button>
     </div>
 </div>
