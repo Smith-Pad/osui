@@ -1,0 +1,5 @@
+@lxpanel --profile LXDE
+@pcmanfm --desktop --profile LXDE
+@xscreensaver -no-splash
+@chromium --kiosk http://localhost:2000/home-screen.html
+@xrandr --size 1920x1080
