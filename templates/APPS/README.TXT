@@ -1,5 +1,0 @@
-APPS
------
-
-
-Clock-Mode
