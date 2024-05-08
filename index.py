@@ -11,7 +11,7 @@
 """
 
 
-from flask import Flask, redirect,url_for,render_template
+from flask import Flask, redirect,url_for,render_template, jsonify
 import os
 import json
 import subprocess   
@@ -46,6 +46,31 @@ def settings_screen():
     battery_name_device = subprocess.check_output("sh scripting/battery-info.sh", shell=True, text=True)
     return render_template('settings.html', wifi_name_device=wifi_name_device, bluetooth_name_device=bluetooth_name_device, battery_name_device=battery_name_device)
 
+
+'''
+@docs
+-------
+
+In these statements, these statements allows the ability to dynamically
+control the audio volume of the device using UX. 
+
+'''
+
+@app.route('/volume_rocker_up', methods=['POST'])
+def volume_rocker_up():
+    print("Volume up action triggered")
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ +10%')
+    return jsonify({"message": "Volume up action triggered"})
+
+@app.route('/volume_rocker_down', methods=['POST'])
+def volume_rocker_down():
+    print("Volume down action triggered")
+    return jsonify({"message": "Volume down action triggered"})
+
+@app.route('/volume_rocker_mute_unmute', methods=['POST'])
+def volume_rocker_mute_unmute():
+    print("Mute/Unmute action triggered")
+    return jsonify({"message": "Mute/Unmute action triggered"})
 
 
 if __name__ == '__main__':
