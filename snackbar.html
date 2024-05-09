@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #generalnotify {
+            display: none;
+            background-color: rgb(24, 24, 24);
+            margin-bottom: 80px;
+            font-family: sans-serif;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        #generalNotifyIcon {
+            position: absolute;
+            left: 50%;
+            /* Adjust this value according to your layout */
+            transform: translateX(-50%);
+        }
+
+        #generalnotify.show {
+            display: block;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+    </style>
+
+
+
+    <style>
+        @-webkit-keyframes fadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fadeout {
+            from {
+                bottom: 30px;
+                opacity: 1;
+            }
+
+            to {
+                bottom: 0;
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeout {
+            from {
+                bottom: 30px;
+                opacity: 1;
+            }
+
+            to {
+                bottom: 0;
+                opacity: 0;
+            }
+        }
+    </style>
+
+    <button onclick="generalNotify()">Show Snackbar</button>
+
+    <div id="generalnotify">
+        <div id="generalNotifyIcon">
+            <img src="wanring.png" alt="Notification Icon" width="50" height="50">
+             hello worlds
+        </div>
+    </div>
+
+    <script>
+
+        /**
+         * snackbar.js
+         *
+         * Small popup notification for any use case. 
+         *
+         *
+         *
+         */
+
+
+        /**
+         *
+         * @doc 
+         * ------
+         *
+         *
+         *  In this function, this allow the ability to show general notification, basically
+         *  and info icon and some content in the bar
+         */
+
+        function generalNotify() {
+            var x = document.getElementById("generalnotify");
+            x.className = "show";
+            setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+        }
+
+
+        /**
+         *
+         * @doc 
+         * ------
+         *
+         *
+         *  In this function, this allow the ability to show warning notification, basically
+         *  the warning icon and some content in the bar
+         */
+
+
+        function warningNotify() {
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            setTimeout(function () { x.className = x.className.replace("show", ""); }, 6000);
+        }
+
+
+
+    </script>
+
+    </body>
+
+</html>
