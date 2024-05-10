@@ -96,7 +96,8 @@
   background-color: transparent;
   align-items: center;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  gap: 50px; }
 
 .bottom-navigation-content {
   flex: 1; }
@@ -148,7 +149,7 @@ body {
   overflow-x: hidden;
   -webkit-perspective: 1px;
   perspective: 1px;
-  background: #1a1a1a;
+  background: #444444;
   color: white; }
 
 body {
