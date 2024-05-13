@@ -65,6 +65,7 @@ def volume_rocker_up():
 @app.route('/volume_rocker_down', methods=['POST'])
 def volume_rocker_down():
     print("Volume down action triggered")
+    os.system('pactl set-sink-volume @DEFAULT_SINK@ -10%')
     return jsonify({"message": "Volume down action triggered"})
 
 @app.route('/volume_rocker_mute_unmute', methods=['POST'])
