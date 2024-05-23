@@ -1,4 +1,4 @@
-"""
+29~29~"""
  ██████      ███████     ██    ██     ██                                                           
 ██    ██     ██          ██    ██     ██                                                           
 ██    ██     ███████     ██    ██     ██                                                           
@@ -39,10 +39,20 @@ def APPS_clockmode():
     return render_template('APPS/Clock-Mode/index.html')
 
 ## Settings-Screen
+
+
+
 @app.route("/settings_screen")
 def settings_screen():
+
+    ## This allows the ability to show the wifi name
     wifi_name_device = subprocess.check_output("sh scripting/testing-script.sh", shell=True, text=True)
+
+    ## This allows the ability to show the bluetooth device name that is connected to
     bluetooth_name_device = subprocess.check_output("sh scripting/bluetooth-name.sh", shell=True, text=True)
+
+
+    ## This allows the ability to show the battery info. TODO: Not available on Linux yet...
     battery_name_device = subprocess.check_output("sh scripting/battery-info.sh", shell=True, text=True)
     return render_template('settings.html', wifi_name_device=wifi_name_device, bluetooth_name_device=bluetooth_name_device, battery_name_device=battery_name_device)
 
