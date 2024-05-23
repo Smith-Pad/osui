@@ -9,23 +9,3 @@ body {
 	background: rgb(68, 68, 68);
 	color: white;
 }
-
-// OSUI Classic Component
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	margin: 0;
-	overflow-y: auto;
-	overflow-x: hidden;
-	-webkit-perspective: 1px;
-	perspective: 1px
-}
-
-// FOIL UI Component
-body {
-        height: 100vh;
-        margin: 0;
-        overflow-y: auto;
-        overflow-x: hidden;
-        perspective: 1px;
-        display: inline-flexbox;
-}
