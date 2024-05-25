@@ -26,3 +26,7 @@ In this documentation, we are going to be talking about how to install the depen
 `sudo pacman -S xorg-xinit --noconfirm`
 
 `sudo pacman -S wayland --noconfirm`
+
+
+
+
