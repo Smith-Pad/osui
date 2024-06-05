@@ -572,3 +572,5 @@
 [Mon May 27 18:42:31 2024] PHP 8.3.7 Development Server (http://localhost:2000) started
 [Mon May 27 18:42:31 2024] Failed to listen on localhost:2000 (reason: Address already in use)
 [Mon May 27 18:43:51 2024] Failed to listen on localhost:2000 (reason: Address already in use)
+[Wed Jun  5 18:40:20 2024] PHP 8.3.6 Development Server (http://localhost:2000) started
+[Wed Jun  5 18:40:20 2024] Failed to listen on localhost:2000 (reason: Address already in use)
