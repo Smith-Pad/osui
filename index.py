@@ -21,24 +21,23 @@ app  = Flask(__name__)
 
 
 class initOG():
-        os.system('cd Subjects/ && nohup php -S localhost:4000 & ')                     ## Subjects Feature
-        os.system('cd Software-Update/ && nohup php -S localhost:2000 &')               ## Software Update Feature
-initOG()
+        os.system('cd Subjects/ && nohup php -S localhost:4000 & ')                     
+        os.system('cd Software-Update/ && nohup php -S localhost:2000 &')              
 
-## Home-Screen
+
 @app.route("/")
 def index():
     return render_template('index.html')
 
 
-## Apps Section
 
-## Clock Mode
+
+
 @app.route("/APPS_clockmode")
 def APPS_clockmode():
     return render_template('APPS/Clock-Mode/index.html')
 
-## Settings-Screen
+
 
 
 
