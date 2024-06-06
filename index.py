@@ -20,9 +20,9 @@ import subprocess
 app  = Flask(__name__)
 
 
-class initOG():
-        os.system('cd Subjects/ && nohup php -S localhost:4000 & ')                     
-        os.system('cd Software-Update/ && nohup php -S localhost:2000 &')              
+# class initOG():
+#         os.system('cd Subjects/ && nohup php -S localhost:4000 & ')                     
+#         os.system('cd Software-Update/ && nohup php -S localhost:2000 &')              
 
 
 @app.route("/")
