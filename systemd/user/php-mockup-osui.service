@@ -1,8 +1,0 @@
-[Unit]
-Description=PHP Mockup Service 
-
-[Service]
-ExecStart=/usr/bin/sh /home/user/php-mockup-osui-service.sh
-
-[Install]
-WantedBy=default.target
