@@ -1,98 +1,102 @@
 .activate {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	visibility: hidden;
-	opacity: 1;
-	z-index: 9999; /* set a high value for z-index */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 1;
+    z-index: 9999;
+    /* set a high value for z-index */
+    zoom: 300%;
 }
 
 .activate:target {
-        visibility: visible;
-        opacity: 1; 
+    visibility: visible;
+    opacity: 1;
 }
 
 .controls {
-        margin: 2px auto;
-        padding: 200px;
-	backdrop-filter: blur(10px);
-	background-color: rgba(39, 39, 39, 0.4);
-        background-position:right; 
-        border-radius: 5px;
-        width: auto;
-        position: center;
-        color: rgb(255, 255, 255);
+    margin: 2px auto;
+    padding: 200px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(39, 39, 39, 0.4);
+    background-position: right;
+    border-radius: 5px;
+    width: auto;
+    position: center;
+    color: rgb(255, 255, 255);
 
 }
 
 .controls .close {
-        position: absolute;
-        top: 20px;
-		background-color: red;
-        right: 30px;
-        font-size: 58px;
-        font-weight: 500;
-        text-decoration: none;
-        color: red;
-        transition-duration: 0.2s;
+    position: absolute;
+    top: 20px;
+    background-color: red;
+    right: 30px;
+    font-size: 58px;
+    font-weight: 500;
+    text-decoration: none;
+    color: red;
+    transition-duration: 0.2s;
 }
- 
+
 .controlsclose {
-        position: absolute;
-        top: 20px;/*  */
-        right: 30px;
-        font-size: 58px;
-        font-weight: 500;
-        text-decoration: none;
-        color: red;
+    position: absolute;
+    top: 20px;
+    /*  */
+    right: 30px;
+    font-size: 58px;
+    font-weight: 500;
+    text-decoration: none;
+    color: red;
 }
 
 .controls .content {
-        max-height: 30%;
-        width: 30%;
-        overflow: auto;
+    max-height: 30%;
+    width: 30%;
+    overflow: auto;
 }
 
 
 .controls-no-blur {
-        margin: 2px auto;
-        padding: 200px;
-	backdrop-filter: blur(10px);
-	background-color: rgba(39, 39, 39, 0.4);
-        background-position:right; 
-        border-radius: 5px;
-        width: auto;
-        position: center;
-        color: rgb(255, 255, 255);
+    margin: 2px auto;
+    padding: 200px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(39, 39, 39, 0.4);
+    background-position: right;
+    border-radius: 5px;
+    width: auto;
+    position: center;
+    color: rgb(255, 255, 255);
 
 }
 
 .controls-no-blur .close {
-        position: absolute;
-        top: 20px;
-		background-color: red;
-        right: 30px;
-        font-size: 58px;
-        font-weight: 500;
-        text-decoration: none;
-        color: red;
-        transition-duration: 0.2s;
+    position: absolute;
+    top: 20px;
+    background-color: red;
+    right: 30px;
+    font-size: 58px;
+    font-weight: 500;
+    text-decoration: none;
+    color: red;
+    transition-duration: 0.2s;
 }
- 
+
 .controls-no-blurclose {
-        position: absolute;
-        top: 20px;/*  */
-        right: 30px;
-        font-size: 58px;
-        font-weight: 500;
-        text-decoration: none;
-        color: red;
+    position: absolute;
+    top: 20px;
+    /*  */
+    right: 30px;
+    font-size: 58px;
+    font-weight: 500;
+    text-decoration: none;
+    color: red;
 }
 
 .controls-no-blur .content {
-        max-height: 30%;
-        width: 30%;
-        overflow: auto;
+    max-height: 30%;
+    width: 30%;
+    overflow: auto;
 }
