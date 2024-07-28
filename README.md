@@ -6,8 +6,9 @@
 <h2 align="center">What is it?</h2>
 
 <p align="center">
-OSUI is the core user interface for the Smith-Pad ecosystem, enpowering teachers, paraprofessionals
-and students to use a simple, elegant approach to interfacing with the UI.
+Experience the simplicity and elegance of OSUI,  designed for the 
+Smith-Pad ecosystem, empowering educators and students with seamless, 
+intuitive interaction.
 </p>
 
 
