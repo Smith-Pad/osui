@@ -10,10 +10,3 @@ Experience the simplicity and elegance of OSUI,  designed for the
 Smith-Pad ecosystem, empowering educators and students with seamless, 
 intuitive interaction.
 </p>
-
-
-## Note:
-
-Please see the experiment-flask branch
-
-https://github.com/Smith-Pad/osui/tree/experiment-flask
