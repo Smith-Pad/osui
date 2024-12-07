@@ -1,0 +1,23 @@
+/*	------------------
+ *	position-text.css
+ *	------------------
+ *
+ * 	Senal's redesigned version of the original position-text.css
+ *	but more efficient. 
+ */
+
+.space {
+	text-align: left;
+	border: 3px solid /* ONLY ON DEBUG */ transparent;
+}
+
+.space4 {
+	text-align: left;
+	border: 2em solid /* ONLY ON DEBUG */ transparent;
+}
+
+
+.space10 {
+	text-align: left;
+	border: 10em solid /* ONLY ON DEBUG */ transparent;
+}

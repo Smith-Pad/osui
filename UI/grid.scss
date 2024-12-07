@@ -1,0 +1,17 @@
+.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        border-radius: 10px;
+        zoom: 300%;
+}
+
+.grid-item {
+        backdrop-filter: blur(10px);
+        background-color: rgba(49, 49, 49, 0.4);
+        padding: 20px;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        zoom: 300%;
+}
