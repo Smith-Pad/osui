@@ -8,11 +8,3 @@
 OSUI is the core user interface for the Smith-Pad ecosystem, enpowering teachers, paraprofessionals
 and students to use a simple, elegant approach to interfacing with the UI.
 </p>
-
-<h2 align="center">What is the benefit of it</h2>
-
-
-<center><li> It just works </li></center>
-<center><li> No technical difficulties </li></center>
-<center> <li> Allow students to get work done </li></center>
-<center><li> Allows teachers to prevent any technical difficulties </li> </center>
