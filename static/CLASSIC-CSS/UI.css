@@ -1,0 +1,505 @@
+ /*
+  ____              _  _    _          ____             _ 
+ / ___|  _ __ ___  (_)| |_ | |__      |  _ \  __ _   __| |
+ \___ \ | '_ ` _ \ | || __|| '_ \     | |_) |/ _` | / _` |
+  ___) || | | | | || || |_ | | | |    |  __/| (_| || (_| |
+ |____/ |_| |_| |_||_| \__||_| |_|    |_|    \__,_| \__,_| UI 
+  A FOIL UI Based Framework for the Smith Pad                            */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+       margin: 0;
+       overflow-y: auto;
+       overflow-x: hidden;
+       -webkit-perspective: 1px;
+       perspective: 1px
+ 
+}
+*{
+    user-select: none;
+} 
+/*********************************
+        Font-Sizes
+**********************************/
+fontsize10{font-size:10;}
+fontsize20{font-size:20;}
+fontsize30{font-size:30;}
+fontsize40{font-size:40;}
+fontsize50{font-size:50;}
+fontsize60{font-size:60;}
+fontsize70{font-size:70;}
+fontsize80{font-size:80;}
+fontsize90{font-size:90;}
+fontsize100{font-size:100;}
+fontsize200{font-size:200;}
+fontsize300{font-size:300;}
+fontsize400{font-size:400;}
+fontsize500{font-size:500;}
+fontsize600{font-size:600;}
+fontsize700{font-size:700;}
+fontsize800{font-size:800;}
+fontsize900{font-size:900;}
+fontsize1000{font-size:1000;}
+
+/********************************
+        Font-COLOR
+********************************/
+fontcolorRED{color:red;}
+fontcolorORANGE{color:orange;}
+fontcolorYELLOW{color:yellow;}
+fontcolorBLUE{color:blue;}
+fontcolorWHITE{color:white;}
+fontcolorBLACK{color:black;}
+
+
+/*********************************************/
+
+/*********************************************/
+
+
+
+
+
+
+
+/* Keyframes */
+@keyframes layouts {
+    from {
+        padding:30em 1em;
+    }
+
+    to {
+       padding:auto;
+    }
+}
+
+@keyframes foil-buttons-effect{
+    from {
+        
+        font-size:500%;
+
+    }
+}
+@keyframes foil-buttons-no-animate-effect {
+    from {
+        padding:100px 100px;
+    
+
+    }
+}
+
+
+/********************************************
+                
+        Classes for Layouts 
+
+/*******************************************/
+
+  .layout{
+      background-color:rgb(95, 95, 95);
+      color:white;
+      padding: 10em 1em;
+      position:relative;
+      z-index:2;
+
+       animation-name:layouts;
+       animation-duration: 2s;
+     
+     
+  }
+
+ 
+  
+  /* No Animation */
+  .get-no-layout-indicator-side-round{
+      background-color:rgb(95, 95, 95);
+      color:white;
+      padding:1px 1em;
+      border-radius:10px;
+
+  }
+
+
+  /* With Animations */
+  .layout.side-round{  
+      border-radius:10px;
+      height:10vh;
+
+  }
+
+   .layout.side-round.indicator {
+       height: 10vh;
+
+   }
+
+   .layout.indicator-side-round {
+       padding: 1px 1em;
+       border-radius: 10px;
+   }
+/********************************************
+    Subclasses for Layouts
+Contents of Subclasses {
+
+- Regular Layout Subclasses 
+- Layout Side Round Subclasses
+- Layout Side Round Indicator
+- Layout Indicator Side Round
+}
+/*******************************************/
+
+
+
+
+
+
+  /********************************************              
+              Regular Layout Subclasses
+  /*******************************************/
+  
+ .layout.color-is-red {
+     background-color: rgb(179, 0, 0);
+ }
+
+ .layout.color-is-orange {
+     background-color: rgb(230, 84, 0);
+ }
+
+ .layout.color-is-blue {
+     background-color: rgb(4, 95, 170);
+ }
+
+ .layout.color-is-green {
+     background-color: rgb(0, 156, 0);
+ }
+
+  /********************************************             
+           Layout Side Round Subclasses
+  /*******************************************/
+
+  .layout.side-round.color-is-red {
+      background-color: rgb(179, 0, 0);
+  }
+
+  .layout.side-round.color-is-orange {
+      background-color: rgb(230, 84, 0);
+  }
+
+  .layout.side-round.color-is-blue {
+      background-color: rgb(4, 95, 170);
+  }
+
+  .layout.side-round.color-is-green {
+      background-color: rgb(0, 156, 0);
+  }
+ 
+
+  /********************************************  
+     Layout Side Round Indicator Subclasses
+  /*******************************************/
+
+
+ .layout.side-round.indicator.color-is-red {
+     background-color: rgb(179, 0, 0);
+ }
+
+ .layout.side-round.indicator.color-is-orange {
+     background-color: rgb(230, 84, 0);
+ }
+
+ .layout.side-round.indicator.color-is-blue {
+     background-color: rgb(4, 95, 170);
+ }
+
+ .layout.side-round.indicator.color-is-green {
+     background-color: rgb(0, 156, 0);
+ }
+
+ 
+/********************************************  
+  Layout Indicator Side Round Subclasses
+/*******************************************/
+
+ .layout.indicator-side-round.color-is-red {
+     background-color: rgb(179, 0, 0);
+ }
+
+ .layout.indicator-side-round.color-is-orange {
+     background-color: rgb(230, 84, 0);
+ }
+
+ .layout.indicator-side-round.color-is-blue {
+     background-color: rgb(4, 95, 170);
+ }
+
+ .layout.indicator-side-round.color-is-green {
+     background-color: rgb(0, 156, 0);
+ }
+
+  
+
+/********************************************             
+  Change Color to prevent Screen Burn-IN   
+ /*******************************************/
+
+.layout.animate-sunset-theme{
+/*background: linear-gradient(190deg, #341801, #9f3b02, #963600, #bf4500, #e15100, #000000, #000000, #000000);*/
+background: linear-gradient(190deg, #030000, #160200, #290300, #3d0400, #500600, #640700, #770900, #8b0a00, #9f0c00, #b20d00);
+background-size: 1600% 1600%;
+
+-webkit-animation: Sunset-Theme 17s ease infinite;
+-moz-animation: Sunset-Theme 17s ease infinite;
+animation: Sunset-Theme 17s ease infinite;
+}
+
+
+
+
+/****************************************
+
+        Keyframes List 
+****************************************/
+@-webkit-keyframes Sunset-Theme {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@-moz-keyframes Sunset-Theme {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@keyframes Sunset-Theme { 
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+
+
+
+
+
+  
+  .button{
+    background-color:black;
+     padding:16px 43px;
+     border:none;
+     color:white;
+     font-size:18px;
+     text-decoration:none;
+     animation-name:foil-buttons-effect;
+     animation-duration:2s;
+     margin:20px;
+
+  }
+
+
+
+.button-no-animate-small {
+    padding: 4px 2px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+.button-no-animate-small:hover{
+    background-color:green;
+    color:white;
+    transition-duration:0.2s;
+}
+.button-no-animate-small:active{
+    background-color:orange;
+    color:black;
+    transition-duration:0.2s
+}
+  .button-no-animate-mode {
+      background-color: black;
+      padding: 16px 43px;
+      border: none;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      animation-name: foil-buttons-padding-up-effect;
+      animation-duration: 2s;
+      margin: 20px;
+
+  }
+
+/* Button No Animate Mode Substitutes*/
+
+.button-no-animate-mode.is-red {
+    background-color:red;
+    color:white;
+}
+.button-no-animate-mode.is-red:hover{
+    background-color:green;
+    color:white;
+    transition-duration:0.2s;
+
+}
+.button-no-animate-mode.is-red:active{
+    background-color:orange;
+    color:black;
+    transition-duration:0.2s;
+
+}
+.button-no-animate-mode.is-yellow {
+    background-color:yellow;
+    color:white;
+}
+.button-no-animate-mode.is-yellow:hover{
+    background-color:green;
+    color:white;
+    transition-duration:0.2s;
+
+}
+.button-no-animate-mode.is-yellow:active{
+    background-color:green;
+    color:white;
+    transition-duration:0.2s;
+
+}
+
+.button-no-animate-mode.is-orange {
+    background-color:rgb(230, 84, 0);
+    color:white;
+}
+.button-no-animate-mode.is-orange:hover{
+    background-color:green;
+    color:white;
+    transition-duration:0.2s;
+
+}
+.button-no-animate-mode.is-orange:active{
+    background-color:orange;
+    color:white;
+    transition-duration:0.2s;
+
+   
+}
+
+.button-no-animate-mode.is-pink {
+    background-color:rgb(187, 0, 146);
+    color:white;
+    transition-duration:0.2s;
+
+}
+.button-no-animate-mode.is-pink:hover{
+    background-color:green;
+    color:white;
+    transition-duration:0.2s;
+
+}
+.button-no-aniamte-mode.is-pink:active{
+    background-color:orange;
+    color:black;
+    transition-duration:0.2s;
+
+}
+
+
+/* Default Animated Button Substitutes */
+
+  .button.is-red{
+      background-color:red;
+      color:white;
+  }
+  .button.is-red:hover{
+      background-color:green;
+      color:white;
+      transition-duration:0.2s;
+
+  }
+  .button.is-red:hover{
+      background-color:orange;
+      color:black;
+      transition-duration:0.2s;
+
+      
+  }
+  .button.is-yellow{
+    background-color:yellow;
+    color:white;
+  }
+  .button.yellow:hover{
+      background-color:green;
+      color:white;
+      transition-duration:0.2s;
+
+
+  }
+  .button.yellow:active{
+      background-color:orange;
+      color:black;
+      transition-duration:0.2s;
+
+  }
+  .button.is-orange{
+    background-color:rgb(230, 84, 0);
+    color:white;
+  }
+  .button.is-orange:hover{
+      background-color:green;
+      color:white;
+      transition-duration:0.2s;
+
+  }
+  .button.is-orange:active{
+      background-color: orange;
+      color:black;
+      transition-duration:0.2s;
+
+  }
+  .button.is-pink{
+      background-color:rgb(187, 0, 146);
+      color:white;
+  }
+  .button.is-pink:hover{
+      background-color:green;
+      transition-duration:0.2s;
+  }
+  .button.is-pink:active{
+      background-color:orange;
+      color:black;
+      transition-duration:0.2s;
+
+  }
+  .button.small{
+      padding:4px 2px;
+      
+  }  
+  .button.small:hover{
+      background-color:green;
+      color:white;
+      transition-duration:0.2s;
+  }
+  .button.small:active{
+      background-color:orange;
+      color:black;
+      transition-duration:0.2s;
+      font-size:40px;
+  }
+  button:hover{
+      background-color:rgb(1, 179, 1);
+      color:black;
+      transition-duration:0.2s;
+
+
+  }
+/* Table */
+  table,
+  td {
+      width: 82em;
+      height: 32em;
+
+  }
+
+  th {
+      font-size: 30px;
+  }
+
+  thead {
+      border-radius: 40px;
+  }
+
+  tfoot {
+      background-color: #333;
+      color: #fff;
+  }
