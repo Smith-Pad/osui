@@ -31,5 +31,23 @@ def index():
         return render_template('index.html')
 
 
+
+@app.route("/schedule_display")
+def schedule_display():
+        return render_template('APPS/Schedule-Display/index.html')
+
+
+
+@app.route("/math_operations")
+def math_operations():
+        return render_template('APPS/Math-Operations/index.html')
+
+
+
+@app.route("/clock_mode")
+def clock_mode():
+        return render_template('APPS/Clock-Mode/index.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True, port=3000)
