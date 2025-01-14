@@ -1,6 +1,6 @@
 /********************************************************************************
  * desktop-mode.js
- * Desktop Mode allows the user to experience the GNOME Shell. klsjldfkjk 
+ * Desktop Mode allows the user to experience the GNOME Shell. 
  * 
  ********************************************************************************/
 
