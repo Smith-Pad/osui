@@ -21,7 +21,6 @@ body {
                                                                         perspective: 1px;
                                                                         background: #363636;
                                                                         color: white;
-                                                                        zoom: 50%;
 }
 
 
@@ -84,7 +83,7 @@ body {
                                                                         cursor: pointer;
                                                                         text-decoration:none;
                                                                         transition-duration: 0.2s;
-                                                                }
+}
 
 /**
 * @doc
