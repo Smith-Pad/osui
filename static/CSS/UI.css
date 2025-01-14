@@ -287,8 +287,7 @@ body {
 
 .FOIL-button-regular-no-shadow {
                                                                         border-radius: 10px;
-                                                                        margin-right: 100px;
-                                                                        padding: 15px 85px 15px 85px;
+                                                                        padding: 10px 20px;
                                                                         background-color: #3b3b3b;
                                                                         box-shadow:  20px 20px 60px #1d1d1d, -20px -20px 60px #363636;
 }
@@ -316,6 +315,47 @@ body {
                                                                         overflow: none;
                                                                         transition-duration: 0.5s;
                                                                         transform-origin: center center;
+}
+
+/*****************************************************************************************************
+ *                                     CLASSIC UI COMPONENTS
+ *****************************************************************************************************/
+
+
+.layout {
+                                                                        background-color: rgb(34, 34, 34);
+                                                                        color: white;
+                                                                        padding: 10em 1em;
+                                                                        position: relative;
+                                                                        z-index: 2;
+                                                                        animation-name: layouts;
+                                                                        animation-duration: 2s;
+}
+
+
+
+
+.get-no-layout-indicator-side-round {
+                                                                        background-color: rgb(95, 95, 95);
+                                                                        color: white;
+                                                                        padding: 10px 1em;
+                                                                        border-radius: 10px;
+}
+
+
+/* With Animations */
+.layout.side-round {
+                                                                        border-radius: 10px;
+                                                                        height: 10vh;
+}
+
+.layout.side-round.indicator {
+                                                                        height: 10vh;
+}
+
+.layout.indicator-side-round {
+                                                                        padding: 1px 1em;
+                                                                        border-radius: 10px;
 }
 
 
