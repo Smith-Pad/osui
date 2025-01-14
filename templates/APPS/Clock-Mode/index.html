@@ -1,46 +1,135 @@
-<link rel="stylesheet" href="static/CSS/FOIL-UI.css" type="text/css">
-<link rel="stylesheet" href="static/CSS/UI.css" type="text/css">
-<link rel="stylesheet" href="static/CSS/position-text.css" type="text/css">
-<link rel="stylesheet" href="static/CSS/index.css" type="text/css">
+<!DOCTYPE html>
+<html lang="en">
 
-
-<div class="bar">
-        <a href="/" class="button-no-animate-mode">.</a>
-</div>
-
-
-<style>
-        .time {
-                background-color: rgba(20, 20, 20, 0.111);
-                border-radius: 30px;
-                color: white;
-                text-align: center;
-                font-size: 300px;
-                margin-top: -37px;
-                transition-duration: 0.9;
-                font-weight: 20;
-                zoom: 200%;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Clock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        /* General Styling */
+        body {
+            background: radial-gradient(circle, rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 50%, rgba(44, 83, 100, 1) 100%);
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+            overflow: hidden;
         }
-</style>
 
-<div class="space"></div>
+        /* Button */
+        .bar {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
 
+        .button-no-animate-mode {
+            font-size: 30px;
+            color: #fff;
+            text-decoration: none;
+            background: linear-gradient(145deg, #1c3b47, #182f37);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6), -5px -5px 15px rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
 
+        .button-no-animate-mode:hover {
+            box-shadow: 5px 5px 25px rgba(0, 255, 255, 0.6), -5px -5px 25px rgba(0, 255, 255, 0.6);
+            transform: scale(1.1);
+        }
 
-<div class="time">
+        /* Clock Container */
+        .time {
+            position: relative;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            text-align: center;
+            font-size: 5vw;
+            font-weight: bold;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.3), inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+                0 0 15px rgba(0, 255, 255, 0.4);
+            backdrop-filter: blur(15px);
+            animation: fadeInSlide 2s ease-out;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        /* Glow Animation */
+        @keyframes fadeInSlide {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Time Glow Animation */
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+            }
+
+            50% {
+                box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+            }
+
+            100% {
+                box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+            }
+        }
+
+        .time {
+            animation: pulse 3s infinite;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .time {
+                font-size: 8vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bar">
+        <a href="/" class="button-no-animate-mode" aria-label="Go to homepage">.</a>
+    </div>
+
+    <!-- Digital Clock -->
+    <div class="time" role="timer" aria-live="polite">
         <div id="senalClock"></div>
         <script type="text/javascript">
-                function GetClock() {
-                        var d = new Date();
-                        var senalhour = d.getHours(),
-                                senalmin = d.getMinutes();
-                        if (senalmin <= 9) senalmin = "0" + senalmin
+            function GetClock() {
+                const d = new Date();
+                let hours = d.getHours();
+                let minutes = d.getMinutes();
+                if (minutes < 10) minutes = "0" + minutes;
 
-                        var senal_clock_text = "" + senalhour + ":" + senalmin + "";
-                        document.getElementById('senalClock').innerHTML = senal_clock_text;
-                }
+                const clockText = `${hours}:${minutes}`;
+                document.getElementById('senalClock').textContent = clockText;
+            }
 
-                GetClock();
-                setInterval(GetClock, 1000);
+            GetClock();
+            setInterval(GetClock, 1000);
         </script>
-</div>
+    </div>
+</body>
+
+</html>
