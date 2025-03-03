@@ -2,10 +2,10 @@
 
 
 if [ "$(uname -a|grep Darwin)" ]; then
-    pmset -g batt | grep -o "\d*%"
+        pmset -g batt | grep -o "\d*%"
 fi
 
 
 if [ "$(uname -a|grep Linux)" ]; then
-    echo ""
+        echo ""
 fi

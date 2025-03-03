@@ -2,9 +2,9 @@
 
 
 if [ "$(uname -a|grep Darwin)" ]; then
-    echo "FEATURE NOT AVAILABLE"
+        echo "FEATURE NOT AVAILABLE"
 fi
 
 if [ "$(uname -a|grep Linux)" ]; then
-    echo ""
+        echo ""
 fi
