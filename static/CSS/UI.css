@@ -295,7 +295,7 @@ body {
 .FOIL-button-regular-no-shadow:hover {
                                                                         border-radius: 10px;
                                                                         margin-right: 100px;
-                                                                        padding: 15px 85px 15px 85px;
+                                                                        /* padding: 15px 85px 15px 85px; */
                                                                         background: rgb(247, 149, 2);
                                                                         color: rgb(0, 0, 0);
                                                                         font-size: 16px;
@@ -304,7 +304,7 @@ body {
 
 
 .FOIL-button-regular-no-shadow:active {
-                                                                        padding: 50px 50px 500px 50px;
+                                                                        /* padding: 50px 50px 500px 50px; */
                                                                         border-radius: 20px;
                                                                         transition-duration: 1s;
 }
