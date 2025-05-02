@@ -14,3 +14,7 @@ Schedule-Display
 Math-Operations
                 Allows the ability to show Math operations that can be used as references
                 
+
+
+Settings
+                
