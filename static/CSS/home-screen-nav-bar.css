@@ -6,7 +6,7 @@
     height: 120px;
     background: rgba(53, 53, 53, 0.198);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     backdrop-filter: blur(15px);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -23,16 +23,18 @@
     align-items: center;
     color: #ffffff;
     text-decoration: none;
-    padding: 12px 0;
+    padding: 8px 0;
     transition: all 0.3s ease;
-    width: 120px;
+    width: 60px;
 }
 
 .nav-item:hover {
-    transform: scale(1.1);
+    transform: scale(2);
     color: #00a8ff;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 168, 255, 0.3);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-icon {
