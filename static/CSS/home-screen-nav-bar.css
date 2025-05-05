@@ -1,4 +1,9 @@
-.nav-bar {
+/**
+Home Screen Nav Bar
+**/
+
+
+.home-screen-nav-bar {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -17,7 +22,7 @@
     border-style: none;
 }
 
-.nav-item {
+.home-screen-nav-bar-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +33,7 @@
     width: 60px;
 }
 
-.nav-item:hover {
+.home-screen-nav-bar-item:hover {
     transform: scale(2);
     color: #00a8ff;
     background: rgba(255, 255, 255, 0.15);
@@ -37,18 +42,18 @@
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-icon {
+.home-screen-nav-bar-item-icon {
     font-size: 32px;
     margin-bottom: 8px;
 }
 
-.nav-label {
+.home-screen-nav-bar-item-label {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.5px;
 }
 
-.nav-item.active {
+.home-screen-nav-bar-item.active {
     color: #00a8ff;
     background: rgba(0, 168, 255, 0.1);
     border-radius: 15px;
@@ -69,7 +74,7 @@
     }
 }
 
-.nav-item.active .nav-icon {
+.home-screen-nav-bar-item.active .home-screen-nav-bar-item-icon {
     animation: pulse 2s infinite;
     text-shadow: 0 0 10px rgba(0, 168, 255, 0.5);
 }
