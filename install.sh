@@ -67,6 +67,16 @@ sudo pacman -S \
     pacman -S chromium --noconfirm
 
 
+
+
+
+    ## Go to the config directory
+    cd config
+
+    ## Copy the xinitrc file to the root directory
+    cp xinitrc ~/.xinitrc
+
+
 echo """
 #################################################################
 #              /!\ IT IS BEST TO REBOOT YOUR SYSTEM
