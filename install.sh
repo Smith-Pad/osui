@@ -68,6 +68,22 @@ sudo pacman -S \
 
 
 
+    pacman -S plasma \
+    plasma-desktop \
+    plasma-nm \
+    plasma-pa \
+    plasma-workspace \
+    sddm \
+    sddm-kcm \
+    kde-gtk-config \
+    kdeplasma-addons \
+    kscreen \
+    kwin \
+    powerdevil \
+    systemsettings \
+    --noconfirm
+
+
 
 
     ## Go to the config directory
