@@ -86,8 +86,7 @@ sudo pacman -S \
 
 
     pacman -S python-pip --noconfirm
-
-
+    pacman -S python-flask --noconfirm
 
     ## Go to the config directory
     cd config
