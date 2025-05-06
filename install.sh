@@ -85,6 +85,9 @@ sudo pacman -S \
 
 
 
+    pacman -S python-pip --noconfirm
+
+
 
     ## Go to the config directory
     cd config
