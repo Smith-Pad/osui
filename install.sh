@@ -63,6 +63,10 @@ sudo pacman -S \
     xorg-xwud \
     --noconfirm
 
+
+    pacman -S chromium --noconfirm
+
+
 echo """
 #################################################################
 #              /!\ IT IS BEST TO REBOOT YOUR SYSTEM
