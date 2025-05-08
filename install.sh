@@ -88,6 +88,10 @@ sudo pacman -S \
     pacman -S python-pip --noconfirm
     pacman -S python-flask --noconfirm
 
+
+    pacman -S php --noconfirm
+
+    
     pacman -S playerctl --noconfirm
 
     ## Go to the config directory
