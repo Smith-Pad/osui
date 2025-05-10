@@ -26,4 +26,4 @@ and students to use a simple, elegant approach to interfacing with the UI.
 # TODO:
 
 - Make ClockMode Function in main.c [Done]
-- Make Math Operations Function in main.c [IN PROGRESS]
+- Make Math Operations Function in main.c [TESTING]
