@@ -11,13 +11,13 @@
 """
 
 
-from flask import Flask, redirect,url_for,render_template, jsonify
+from flask import Flask, redirect, url_for, render_template, jsonify
 import os
 import json
 import subprocess   
 
 
-app  = Flask(__name__)
+app = Flask(__name__)
 
 
 # class initOG():
@@ -50,4 +50,4 @@ def clock_mode():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3000)
+        app.run(debug=True, port=3002)
