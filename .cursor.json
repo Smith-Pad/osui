@@ -1,0 +1,59 @@
+{
+        "rules": {
+                "python": {
+                        "formatter": "black",
+                        "linter": "flake8",
+                        "maxLineLength": 88,
+                        "indentSize": 8,
+                        "organizeImports": true
+                },
+                "html": {
+                        "formatter": "prettier",
+                        "indentSize": 8,
+                        "maxLineLength": 100
+                },
+                "javascript": {
+                        "formatter": "prettier",
+                        "linter": "eslint",
+                        "indentSize": 8,
+                        "maxLineLength": 100
+                },
+                "css": {
+                        "formatter": "prettier",
+                        "indentSize": 8,
+                        "maxLineLength": 100
+                },
+                "general": {
+                        "trimTrailingWhitespace": true,
+                        "insertFinalNewline": true,
+                        "endOfLine": "lf"
+                },
+                "ignore": [
+                        "**/node_modules/**",
+                        "**/__pycache__/**",
+                        "**/.git/**",
+                        "**/static/dist/**",
+                        "**/static/node_modules/**"
+                ]
+        },
+        "search": {
+                "exclude": [
+                        "**/node_modules/**",
+                        "**/__pycache__/**",
+                        "**/.git/**",
+                        "**/static/dist/**",
+                        "**/static/node_modules/**"
+                ]
+        },
+        "editor": {
+                "tabSize": 8,
+                "insertSpaces": true,
+                "detectIndentation": true,
+                "trimTrailingWhitespace": true,
+                "insertFinalNewline": true,
+                "rulers": [
+                        88,
+                        100
+                ]
+        }
+}
