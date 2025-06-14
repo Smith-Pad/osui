@@ -1,23 +1,13 @@
-<img src="./osui-logo.png"></img>
-
-<h1 align="center">Operating System User Interface </h1>
+<h1 align="center">
+  <img src="./osui-logo.png" alt="osui-logo" width="200px" />
+  <br />
+  Operating System User Interface
+</h1>
 
 <h2 align="center">What is it?</h2>
 
 <p align="center">
-OSUI is the core user interface for the Smith-Pad ecosystem, enpowering teachers, paraprofessionals
-and students to use a simple, elegant approach to interfacing with the UI.
+  OSUI (Operating System User Interface), is a user interface for the Smith-Pad ecosystem. It's designed for teachers, paraprofessionals, and students with IDD.
 </p>
 
-
-<img src="./documentation-src/home.png">
-
-
-
-
-# What's New
-
-- Dynamic File Editing (header.h)
-    - This allows more easier maintainability for the source code of OSUI. (Releasing Soon...)
-
-- Brand New OSUI 2.0 (Releasing Soon)
+<img src="./documentation-src/home.png" alt="home" width="100%" />
