@@ -48,7 +48,7 @@
         "editor": {
                 "tabSize": 8,
                 "insertSpaces": true,
-                "detectIndentation": true,
+                "detectIndentation": false,
                 "trimTrailingWhitespace": true,
                 "insertFinalNewline": true,
                 "rulers": [
