@@ -47,33 +47,33 @@ sudo pacman -S xorg-xlsatoms --noconfirm
 sudo pacman -S xorg-xlsclients --noconfirm
 sudo pacman -S xorg-xlsfonts --noconfirm
 sudo pacman -S xorg-xmessage --noconfirm
-sudo pacman -S xorg-xmodmap
-sudo pacman -S xorg-xpr
-sudo pacman -S xorg-xprop
-sudo pacman -S xorg-xrandr
-sudo pacman -S xorg-xrdb
-sudo pacman -S xorg-xrefresh
-sudo pacman -S xorg-xset
-sudo pacman -S xorg-xsetroot
-sudo pacman -S xorg-xsm
-sudo pacman -S xorg-xterm
-sudo pacman -S xorg-xwd
-sudo pacman -S xorg-xwininfo
-sudo pacman -S xorg-xwud
-sudo pacman -S chromium
-sudo pacman -S plasma
-sudo pacman -S plasma-desktop
-sudo pacman -S plasma-nm
-sudo pacman -S plasma-pa
-sudo pacman -S plasma-workspace
-sudo pacman -S sddm
-sudo pacman -S sddm-kcm
-sudo pacman -S kde-gtk-config
-sudo pacmam -S kdeplasma-addons
-sudo pacman -S kscreen
-sudo pacman -S kwin
-sudo pacman -S powerdevil
-sudo pacman -S systemsettings
+sudo pacman -S xorg-xmodmap --noconfirm
+sudo pacman -S xorg-xpr --noconfirm
+sudo pacman -S xorg-xprop --noconfirm
+sudo pacman -S xorg-xrandr --noconfirm
+sudo pacman -S xorg-xrdb --noconfirm
+sudo pacman -S xorg-xrefresh --noconfirm
+sudo pacman -S xorg-xset --noconfirm
+sudo pacman -S xorg-xsetroot --noconfirm
+sudo pacman -S xorg-xsm --noconfirm
+sudo pacman -S xorg-xterm --noconfirm
+sudo pacman -S xorg-xwd --noconfirm
+sudo pacman -S xorg-xwininfo --noconfirm
+sudo pacman -S xorg-xwud --noconfirm
+sudo pacman -S chromium --noconfirm
+sudo pacman -S plasma --noconfirm
+sudo pacman -S plasma-desktop --noconfirm
+sudo pacman -S plasma-nm --noconfirm
+sudo pacman -S plasma-pa --noconfirm
+sudo pacman -S plasma-workspace --noconfirm
+sudo pacman -S sddm --noconfirm
+sudo pacman -S sddm-kcm --noconfirm
+sudo pacman -S kde-gtk-config --noconfirm
+sudo pacmam -S kdeplasma-addons --noconfirm
+sudo pacman -S kscreen --noconfirm
+sudo pacman -S kwin --noconfirm
+sudo pacman -S powerdevil --noconfirm
+sudo pacman -S systemsettings --noconfirm
 sudo pacman -S python-pip --noconfirm
 sudo pacman -S python-flask --noconfirm
 sudo pacman -S php --noconfirm
