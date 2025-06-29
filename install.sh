@@ -1,7 +1,7 @@
 ################################################################################
 ##
 ##                      OSUI INSTALLATION SCRIPT
-##
+##                             (Redone)
 ##
 ##
 ################################################################################
@@ -84,6 +84,10 @@ cd config
 
 ## Copy the xinitrc file to the root directory
 cp xinitrc ~/.xinitrc
+
+
+## Create "cache" file called CURRENT-1.9.txt
+cd /root && touch CURRENT-1.9.txt
 
 
 echo """
