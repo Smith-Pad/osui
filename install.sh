@@ -90,6 +90,13 @@ cp xinitrc ~/.xinitrc
 cd /root && touch CURRENT-1.9.txt
 
 
+## Make an if statement for the CURRENT-1.9.txt file
+if [ -f CURRENT-1.9.txt ]; then
+    echo "CURRENT-1.9.txt file exists"
+else
+    echo "CURRENT-1.9.txt file does not exist"
+fi
+
 echo """
 #################################################################
 #              /!\ IT IS BEST TO REBOOT YOUR SYSTEM
