@@ -1,0 +1,26 @@
+/**
+Settings container box
+
+This is the container box for the thing
+
+
+**/
+
+
+
+#container {
+        margin-top: 20px;
+        padding: 10px;
+        min-height: 200px;
+        position: relative;
+        padding-top: 10vh;
+}
+
+.box {
+        flex-grow: 1;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        margin-left: 10px;
+        overflow: auto;
+}
