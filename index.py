@@ -49,5 +49,21 @@ def clock_mode():
         return render_template('APPS/Clock-Mode/index.html')
 
 
+@app.route("/settings")
+def settings():
+        return render_template('APPS/Settings/index.html')
+
+
+@app.route("/settings_system")
+def settings_system():
+        return render_template('APPS/Settings/system.html')
+
+
+
+@app.route("/settings_about")
+def settings_about():
+        return render_template('APPS/Settings/about.html')
+
+
 if __name__ == '__main__':
         app.run(debug=True, port=3002)
