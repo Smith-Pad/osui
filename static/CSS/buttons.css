@@ -1,20 +1,27 @@
 .button {
-    font-size: 17px;
-    padding: 16px 32px;
-    margin: 20px;
-    color: #e0e0e0;
-    background: rgba(20, 20, 20, 0.95);
-    border: 1px solid #333333;
-    backdrop-filter: blur(90px);
-    -webkit-backdrop-filter: blur(8px);
-    transition: all 0.3s ease;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        font-size: 17px;
+        padding: 16px 32px;
+        margin: 20px;
+        color: #ffffff;
+        background: rgba(53, 53, 53, 0.2);
+        border: none;
+        border-radius: 30px;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .button:hover {
-    background: #1a1a1a;
-    transform: translateY(-1px);
-    color: #ffffff;
-    border-color: #444444;
+        background: rgba(83, 83, 83, 0.3);
+        transform: scale(1.05);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.button:active {
+        background: rgba(103, 103, 103, 0.4);
+        transform: scale(0.95);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
