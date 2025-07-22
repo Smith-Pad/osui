@@ -2,4 +2,6 @@
   <img src="./osui-logo.png" />
 </h1>
 
-OSUI (Operating System User Interface), is a user interface for the Smith-Pad ecosystem. It's designed for teachers, paraprofessionals, and students with IDD.
+OSUI stands for Operating System User Interface. It is a core of the Smith-Pad ecosystem,
+offering a refined and accessible interface experience for para-professionals, teachers,
+and studnets with intellectual and developmental disabilities (IDD).
