@@ -1,0 +1,72 @@
+## install--smith-pad-os-packages.sh
+
+## This script allows the ability to install required packages on
+## Smith-Pad-OS
+
+sudo pacman -Syyu --noconfirm                                                   ## Make sure all packages are completely updated
+sudo pacman -Rcns xorg-xinit --noconfirm                                           
+sudo pacman -Rcns xorg-server --noconfirm
+sudo pacman -Rcns xorg-xinit --noconfirm
+sudo pacman -Rcns xorg-xrandr --noconfirm
+sudo pacman -Rcns xorg-xsetroot --noconfirm
+sudo pacman -Rcns xorg-xset --noconfirm
+sudo pacman -Rcns xorg-xrdb --noconfirm
+sudo pacman -Rcns xorg-xprop --noconfirm
+sudo pacman -Rcns xorg-xev --noconfirm
+sudo pacman -Rcns xorg-xinput --noconfirm
+sudo pacman -Rcns xorg-xkill --noconfirm
+sudo pacman -Rcns xorg-xlsclients --noconfirm
+sudo pacman -Rcns xorg-xlsatoms --noconfirm
+sudo pacman -Rcns xorg-xlsfonts --noconfirm
+sudo pacman -Rcns xorg-xmessage --noconfirm
+sudo pacman -Rcns xorg-xrefresh --noconfirm
+sudo pacman -Rcns xorg-xvinfo --noconfirm
+sudo pacman -Rcns xorg-xwininfo --noconfirm
+sudo pacman -Rcns xorg-xwud --noconfirm
+sudo pacman -Rcns xorg-xgamma --noconfirm
+sudo pacman -Rcns xorg-xhost --noconfirm
+sudo pacman -Rcns xorg-xauth --noconfirm
+sudo pacman -Rcns xorg-xclipboard --noconfirm
+sudo pacman -Rcns xorg-xcursorgen --noconfirm
+sudo pacman -Rcns xorg-xdpyinfo --noconfirm
+sudo pacman -Rcns xorg-xdriinfo --noconfirm
+sudo pacman -Rcns xorg-xedit --noconfirm
+sudo pacman -Rcns xorg-xeyes --noconfirm
+sudo pacman -Rcns xorg-xfontsel --noconfirm
+sudo pacman -Rcns xorg-xfs --noconfirm
+sudo pacman -Rcns xorg-xfsinfo --noconfirm
+sudo pacman -Rcns xorg-xgc --noconfirm
+sudo pacman -Rcns xorg-xkbevd --noconfirm
+sudo pacman -Rcns xorg-xkbutils --noconfirm
+sudo pacman -Rcns xorg-xkill --noconfirm
+sudo pacman -Rcns xorg-xlsatoms --noconfirm
+sudo pacman -Rcns xorg-xlsclients --noconfirm
+sudo pacman -Rcns xorg-xlsfonts --noconfirm
+sudo pacman -Rcns xorg-xmessage --noconfirm
+sudo pacman -Rcns xorg-xmodmap --noconfirm
+sudo pacman -Rcns xorg-xpr --noconfirm
+sudo pacman -Rcns xorg-xprop --noconfirm
+sudo pacman -Rcns xorg-xrandr --noconfirm
+sudo pacman -Rcns xorg-xrdb --noconfirm
+sudo pacman -Rcns xorg-xrefresh --noconfirm
+sudo pacman -Rcns xorg-xset --noconfirm
+sudo pacman -Rcns xorg-xsetroot --noconfirm
+sudo pacman -Rcns xorg-xsm --noconfirm
+sudo pacman -Rcns xorg-xterm --noconfirm
+sudo pacman -Rcns xorg-xwd --noconfirm
+sudo pacman -Rcns xorg-xwininfo --noconfirm
+sudo pacman -Rcns xorg-xwud --noconfirm
+sudo pacman -Rcns chromium --noconfirm
+sudo pacman -Rcns sddm --noconfirm
+sudo pacman -Rcns sddm-kcm --noconfirm
+sudo pacman -Rcns kde-gtk-config --noconfirm
+sudo pacman -Rcns kdeplasma-addons --noconfirm
+sudo pacman -Rcns kscreen --noconfirm
+sudo pacman -Rcns kwin --noconfirm
+sudo pacman -Rcns powerdevil --noconfirm
+sudo pacman -Rcns systemsettings --noconfirm
+sudo pacman -Rcns python-pip --noconfirm
+sudo pacman -Rcns python-flask --noconfirm
+sudo pacman -Rcns php --noconfirm
+sudo pacman -Rcns playerctl --noconfirm
+sudo pacman -Rcns electron --noconfirm

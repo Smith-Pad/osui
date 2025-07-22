@@ -69,3 +69,4 @@ sudo pacman -S python-pip --noconfirm
 sudo pacman -S python-flask --noconfirm
 sudo pacman -S php --noconfirm
 sudo pacman -S playerctl --noconfirm
+sudo pacman -S electron --noconfirm

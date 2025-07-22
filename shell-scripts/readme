@@ -7,3 +7,4 @@ shell scripts for: Smith-Pad's OSUI
 
 
 - install--smith-pad-os-packages.sh
+- uninstall-smith-pad-os-packages.sh
