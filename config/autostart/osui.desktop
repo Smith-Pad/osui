@@ -1,4 +1,0 @@
-[Desktop Entry]
-Name=osui-desktop
-Type=Application
-Exec=firefox --kiosk http://127.0.0.1:3000

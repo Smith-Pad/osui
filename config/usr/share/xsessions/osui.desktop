@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=OSUI
-Comment=Operating System User Interface
-Exec=/usr/bin/osui-launch.sh 
-TryExec=/usr/bin/osui-launch.sh
-Type=Application
-X-LightDM-DesktopName=OSUI
-DesktopNames=OSUI
