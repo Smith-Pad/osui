@@ -70,3 +70,4 @@ sudo pacman -Rcns python-flask --noconfirm
 sudo pacman -Rcns php --noconfirm
 sudo pacman -Rcns playerctl --noconfirm
 sudo pacman -Rcns electron --noconfirm
+sudo pacman -Rcns npm --noconfirm
