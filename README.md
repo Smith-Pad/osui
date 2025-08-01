@@ -17,3 +17,4 @@ and students with intellectual and developmental disabilities (IDD).
 
 ## Running Dockerfiles
 
+In this section, we are going to be talking about how to run dockerfiles
