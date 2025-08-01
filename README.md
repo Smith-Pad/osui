@@ -12,3 +12,8 @@
 OSUI stands for Operating System User Interface. It is a core of the Smith-Pad ecosystem,
 offering a refined and accessible interface experience for para-professionals, teachers,
 and students with intellectual and developmental disabilities (IDD).
+
+
+
+## Running Dockerfiles
+
