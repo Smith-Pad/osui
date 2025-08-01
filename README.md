@@ -6,3 +6,12 @@
 
 
 ## File Structure
+
+```shell
+|
+|
+|
+|--- docker-files
+|--- osui
+|--- shell-scripts
+```
