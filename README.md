@@ -4,6 +4,9 @@
 
 # OSUI 2.0 Coming Soon
 
+## OSUI 2.0 based on? 
+
+- Electron
 
 
 OSUI stands for Operating System User Interface. It is a core of the Smith-Pad ecosystem,
