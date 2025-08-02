@@ -14,7 +14,7 @@
 |
 |
 |
-|--- air-con-ui ## egui based UI for Smith-Pad Portable Crates
+|--- air-con-ui ## not sure based on
 |--- docker-files
 |--- osui       ## Electron Based (Main) May rename folder to osui-electron if necessary
 |--- shell-scripts
