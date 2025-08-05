@@ -13,17 +13,16 @@
 
 import React, { useState, useEffect } from 'react';
 
-import Scroll from './Scroll.jsx'
 
-function App() {
+
+function Scroll() {
 
         return (
                 <>
-                        <h1>OSUI</h1>
-                        <Scroll />
+                        <h1>Scroll</h1>
                 </>
         );
 
 }
 
-export default App;
+export default Scroll;
