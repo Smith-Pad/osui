@@ -19,3 +19,10 @@
 |--- osui       ## Electron Based (Main) May rename folder to osui-electron if necessary
 |--- shell-scripts
 ```
+
+
+
+# UI UX
+
+## Global Navigation Bar Vari-1
+<img src="./senal-ui-global-navigation-bar.png">
