@@ -19,7 +19,7 @@ function Scroll() {
 
         return (
                 <>
-                        <h1>Scroll</h1>
+                        
                 </>
         );
 
