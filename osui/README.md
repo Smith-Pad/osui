@@ -8,7 +8,7 @@ students with intellectual and developmental disabilities (IDD).
 - Includes AI-powered interface features
 
 
-# Partnering with Microsoft and Smith-Pad
+
 
 
 ## 📦 Project Structure
