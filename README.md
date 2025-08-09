@@ -1,5 +1,8 @@
 # OSUI Beta
 
+
+<center> <img src="./01.png" width="600px"> </center>
+
 ## What the OSUI beta is based on?
 
 - Electron
