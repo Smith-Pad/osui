@@ -1,0 +1,60 @@
+/**
+ * System Navigation Bar CSS
+ * Styles for the bottom navigation bar component
+ */
+
+.senalui-global-navigation-bar-vari-1 {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 64px;
+        background: rgba(24, 24, 28, 0.92);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 32px;
+        border-top: 1.5px solid rgba(255, 255, 255, 0.13);
+        box-shadow: 0 -2px 16px 0 rgba(0,0,0,0.18);
+        z-index: 1000;
+        backdrop-filter: blur(8px);
+}
+
+.senalui-global-navigation-bar-vari-1-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        padding: 10px 20px;
+        border-radius: 14px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        background: transparent;
+        position: relative;
+}
+
+.senalui-global-navigation-bar-vari-1-item:hover,
+.senalui-global-navigation-bar-vari-1-item:focus {
+        background: rgba(255,255,255,0.08);
+        box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+        transform: translateY(-1px);
+}
+
+.senalui-global-navigation-bar-vari-1-item:active {
+        transform: translateY(0);
+        background: rgba(255,255,255,0.12);
+}
+
+.senalui-global-navigation-bar-vari-1-item-label {
+        color: #fff;
+        font-size: 1.08rem;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        user-select: none;
+        transition: color 0.2s;
+        position: relative;
+}
+
+.senalui-global-navigation-bar-vari-1-item:active .senalui-global-navigation-bar-vari-1-item-label {
+        color: #a3d3ff;
+}

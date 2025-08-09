@@ -1,0 +1,14 @@
+/**
+ * System Warning Icon Flash CSS
+ * Styles for the warning icon flash animation
+ */
+
+@import url('./animations.css');
+
+.senalui.global-statusbar.container-item.warning .senalui.global-statusbar.container-icon {
+        stroke: #ffa500;
+}
+
+.senalui.global-statusbar.container-item.warning-flash .senalui.global-statusbar.container-icon {
+        animation: warning-icon-flash 0.8s infinite;
+}

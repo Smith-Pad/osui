@@ -1,0 +1,12 @@
+/**
+ * System Notification Icon Flash CSS
+ * Styles for the notification icon flash animation
+ */
+
+@import url('./animations.css');
+
+.senalui.global-statusbar.container-item.notification-flash {
+        background: rgba(255, 0, 0, 0.2);
+        border: 1px solid rgba(255, 0, 0, 0.5);
+        animation: notification-flash 1s infinite;
+}

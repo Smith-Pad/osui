@@ -1,0 +1,18 @@
+/**
+ * System Warning Icon On CSS
+ * Styles for the warning icon in normal state
+ */
+
+.senalui.global-statusbar.container-item.warning .senalui.global-statusbar.container-icon {
+        width: 18px;
+        height: 18px;
+        stroke: #ffa500;
+        stroke-width: 4;
+        fill: none;
+}
+
+.senalui.global-statusbar.container-item.warning {
+        background: rgba(255, 165, 0, 0.1);
+        border: 1px solid rgba(255, 165, 0, 0.3);
+        border-radius: 6px;
+}

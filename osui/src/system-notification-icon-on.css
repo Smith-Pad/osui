@@ -1,0 +1,21 @@
+/**
+ * System Notification Icon On CSS
+ * Styles for the notification icon in normal state
+ */
+
+@import url('./animations.css');
+
+.senalui.global-statusbar.container-item.notification .senalui.global-statusbar.container-icon {
+        width: 18px;
+        height: 18px;
+        stroke: #ff0000;
+        stroke-width: 4;
+        fill: none;
+        background-color: white;
+}
+
+.senalui.global-statusbar.container-item.notification {
+        background: rgba(255, 0, 0, 0.1);
+        border: 1px solid rgba(255, 0, 0, 0.3);
+        border-radius: 6px;
+}

@@ -1,0 +1,119 @@
+/**
+ * System Status Bar CSS
+ * Styles for the top status bar component
+ */
+
+.senalui.global-statusbar.vari-1 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 4%;
+        background-color: black;
+}
+
+.senalui.global-statusbar.vari-1.background.color.red {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(255, 0, 0);
+        width: 100%;
+        height: 4%;
+}
+
+.senalui.global-statusbar.vari-1.background.color.yellow {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(155, 111, 16);
+        width: 100%;
+        height: 4%;
+}
+
+.senalui.global-statusbar.vari-1.left-header-text.vari-1 {
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: none;
+        transition: all 0.3s ease;
+}
+
+.senalui.global-statusbar.vari-1.middle-header-text.vari-1 {
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: none;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.senalui.global-statusbar.left-container {
+        position: absolute;
+        left: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        z-index: 10;
+}
+
+.senalui.global-statusbar.right-container {
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        z-index: 10;
+}
+
+.senalui.global-statusbar.container-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        color: #ccc;
+        background: transparent;
+}
+
+.senalui.global-statusbar.container-item:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        transform: translateY(-1px);
+}
+
+.senalui.global-statusbar.container-item:active {
+        transform: translateY(0);
+        background: rgba(255, 255, 255, 0.15);
+}
+
+/* Time Display */
+.senalui.global-statusbar.container-item.time-display {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        min-width: 60px;
+        justify-content: center;
+}
+
+.senalui.global-statusbar.time-text {
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        font-family: 'Courier New', monospace;
+        letter-spacing: 1px;
+}
