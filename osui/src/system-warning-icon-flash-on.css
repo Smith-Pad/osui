@@ -1,14 +1,33 @@
 /**
- * System Warning Icon Flash CSS
- * Styles for the warning icon flash animation
+ * System Warning Icon Flash On CSS
+ * Styles for the warning icon in flash (blinking) state
  */
 
-@import url('./animations.css');
+@keyframes warning-blink {
+        0% {
+                opacity: 1;
+        }
 
-.senalui.global-statusbar.container-item.warning .senalui.global-statusbar.container-icon {
-        stroke: #ffa500;
+        50% {
+                opacity: 0;
+        }
+
+        100% {
+                opacity: 1;
+        }
 }
 
-.senalui.global-statusbar.container-item.warning-flash .senalui.global-statusbar.container-icon {
-        animation: warning-icon-flash 0.8s infinite;
+.senalui.global-statusbar.container-item.warning .senalui.global-statusbar.container-icon {
+        width: 18px;
+        height: 18px;
+        stroke: #ffa600;
+        stroke-width: 4;
+        fill: none;
+        animation: warning-blink 1s steps(1, end) infinite;
+}
+
+.senalui.global-statusbar.container-item.warning {
+        background: rgba(255, 165, 0, 0.1);
+        border: 1px solid rgba(255, 165, 0, 0.3);
+        border-radius: 6px;
 }

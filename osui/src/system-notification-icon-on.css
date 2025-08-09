@@ -8,10 +8,9 @@
 .senalui.global-statusbar.container-item.notification .senalui.global-statusbar.container-icon {
         width: 18px;
         height: 18px;
-        stroke: #ff0000;
+        stroke: #ffffff;
         stroke-width: 4;
         fill: none;
-        background-color: white;
 }
 
 .senalui.global-statusbar.container-item.notification {

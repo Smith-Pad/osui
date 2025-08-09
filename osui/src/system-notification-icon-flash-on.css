@@ -9,4 +9,20 @@
         background: rgba(255, 0, 0, 0.2);
         border: 1px solid rgba(255, 0, 0, 0.5);
         animation: notification-flash 1s infinite;
+        border-radius: 6px;
+}
+
+
+@keyframes notification-flash {
+
+        0%,
+        100% {
+                background: rgba(255, 0, 0, 0.2);
+                border-color: rgba(255, 0, 0, 0.5);
+        }
+
+        50% {
+                background: rgba(255, 0, 0, 0.4);
+                border-color: rgba(255, 0, 0, 0.8);
+        }
 }

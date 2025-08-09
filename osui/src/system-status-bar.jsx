@@ -16,6 +16,7 @@ import { Button } from "@fluentui/react";
 import '@src/system-status-bar.css';
 import SystemWarningIconOn from '@src/system-warning-icon-on.jsx';
 import SystemNotificationIconOn from '@src/system-notification-icon-on.jsx';
+import SystemNotificationIconFlashOn from '@src/system-notification-icon-flash-on.jsx';
 
 function SystemStatusBar() {
         const [notificationCount, setNotificationCount] = useState(0);
@@ -46,8 +47,7 @@ function SystemStatusBar() {
                                 
                                 {/* Left Container with Warning and Notification */}
                                 <div className="senalui global-statusbar left-container">
-                                        <SystemWarningIconOn />
-                                        <SystemNotificationIconOn />
+                                        
                                 </div>
                                 
                                 {/* Right Container with Time */}

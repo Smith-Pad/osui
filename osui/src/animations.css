@@ -3,7 +3,7 @@
  * All animation keyframes and animation-related styles
  */
 
-@keyframes warning-flash {
+/* @keyframes warning-flash {
         0%, 100% {
                 background: rgb(128, 89, 0);
                 border-color: rgb(0, 0, 0);
@@ -23,17 +23,6 @@
         }
 }
 
-@keyframes notification-flash {
-        0%, 100% {
-                background: rgba(255, 0, 0, 0.2);
-                border-color: rgba(255, 0, 0, 0.5);
-        }
-        50% {
-                background: rgba(255, 0, 0, 0.4);
-                border-color: rgba(255, 0, 0, 0.8);
-        }
-}
-
 @keyframes notification-icon-flash {
         0%, 100% {
                 stroke: #ff0000;
@@ -41,4 +30,4 @@
         50% {
                 stroke: #ff6666;
         }
-}
+} */
