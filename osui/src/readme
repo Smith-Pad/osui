@@ -1,6 +1,5 @@
-++++
 CSS
-++++
+
 
 
 - system-navigation-bar.css
@@ -11,9 +10,9 @@ CSS
 - system-warning-icon-on.css
 
 
-++++
+
 JSX
-++++
+
 
 
 - system-navigation-bar.jsx
