@@ -4,7 +4,7 @@
  */
 
 
- @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
 
 body {
         margin: 0;
@@ -18,4 +18,152 @@ body {
         -moz-user-select: none;
         -ms-user-select: none;
         font-family: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: black;
+}
+
+
+.main-content-vari-1 {
+        position: fixed;
+        top: 4vh;
+        left: 0;
+        right: 0;
+        background-color: transparent;
+}
+
+.good-morning-text {
+        color: white;
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: 'Lexend', sans-serif;
+        text-align: center;
+        letter-spacing: 0.1em;
+}
+
+/* Utility classes for positioning elements anywhere in the container */
+.position-absolute {
+        position: absolute;
+}
+
+.position-relative {
+        position: relative;
+}
+
+.position-fixed {
+        position: fixed;
+}
+
+/* Common positioning utilities */
+.top-0 {
+        top: 0;
+}
+
+.top-25 {
+        top: 25%;
+}
+
+.top-50 {
+        top: 50%;
+}
+
+.top-75 {
+        top: 75%;
+}
+
+.top-100 {
+        top: 100%;
+}
+
+.left-0 {
+        left: 0;
+}
+
+.left-25 {
+        left: 25%;
+}
+
+.left-50 {
+        left: 50%;
+}
+
+.left-75 {
+        left: 75%;
+}
+
+.left-100 {
+        left: 100%;
+}
+
+.right-0 {
+        right: 0;
+}
+
+.right-25 {
+        right: 25%;
+}
+
+.right-50 {
+        right: 50%;
+}
+
+.right-75 {
+        right: 75%;
+}
+
+.right-100 {
+        right: 100%;
+}
+
+.bottom-0 {
+        bottom: 0;
+}
+
+.bottom-25 {
+        bottom: 25%;
+}
+
+.bottom-50 {
+        bottom: 50%;
+}
+
+.bottom-75 {
+        bottom: 75%;
+}
+
+.bottom-100 {
+        bottom: 100%;
+}
+
+/* Transform utilities for centering */
+.transform-center {
+        transform: translate(-50%, -50%);
+}
+
+.transform-center-x {
+        transform: translateX(-50%);
+}
+
+.transform-center-y {
+        transform: translateY(-50%);
+}
+
+/* Basic text styling for positioned elements */
+.position-absolute {
+        color: white;
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 8px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+@keyframes waveMove {
+        0% {
+                background-position-x: 0, center;
+        }
+
+        100% {
+                background-position-x: 100vw, center;
+        }
 }

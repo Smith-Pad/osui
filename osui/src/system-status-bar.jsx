@@ -47,7 +47,10 @@ function SystemStatusBar() {
                                 
                                 {/* Left Container with Warning and Notification */}
                                 <div className="senalui global-statusbar left-container">
-                                        
+                                        <SystemWarningIconOn />
+                                        <SystemWarningIconOn />
+                                        <SystemWarningIconOn />
+                                        <SystemWarningIconOn />
                                 </div>
                                 
                                 {/* Right Container with Time */}
