@@ -10,9 +10,9 @@
 
 ## File Structure
 
-```shell
-
-```
+### osui-electron-common
+### osui-electron-laptop [Pending]
+### osui-electron-tablet [Pending]
 
 
 
