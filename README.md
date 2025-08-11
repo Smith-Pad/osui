@@ -7,20 +7,11 @@
 
 - Electron
         - [https://www.electronjs.org/]
-- Iced
-        - [https://github.com/iced-rs/iced]
-
 
 ## File Structure
 
 ```shell
-|
-|
-|
-|--- air-con-ui ## Iced Based
-|--- docker-files
-|--- osui       ## Electron Based (Main) May rename folder to osui-electron if necessary
-|--- shell-scripts
+
 ```
 
 
