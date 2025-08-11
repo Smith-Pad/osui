@@ -13,24 +13,3 @@
 ### osui-electron-common
 ### osui-electron-laptop [Pending]
 ### osui-electron-tablet [Pending]
-
-
-
-# UI UX
-
-## Global Navigation Bar Vari-1
-<img src="./senal-ui-global-navigation-bar.png">
-
-
-### Home Icon
-Takes the user to the main home screen.
-
-### Audio Icon
-Makes a popup of elements: 
-
-- Audio Volume
-- Media Currently Playing
-
-
-### Notification Icon
-This allows the ability to see notifications 
