@@ -39,3 +39,7 @@ Makes a popup of elements:
 
 - Audio Volume
 - Media Currently Playing
+
+
+### Notification Icon
+This allows the ability to see notifications 
