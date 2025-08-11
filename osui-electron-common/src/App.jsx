@@ -7,6 +7,15 @@
 
 //  Operating System User Interface. 
 
+
+// This layer is the home screen layer.
+
+// Inside this layer, this is the homescreen containing home screen components
+
+
+// On middle of the home screen layer, there is a day greeter, such as Good Morning, 
+// Good Afternoon, and Good Evening.
+
 import React from 'react';
 import SystemNavigationBar from '@src/system-navigation-bar.jsx';
 import SystemStatusBar from './system-status-bar.jsx';
@@ -78,6 +87,8 @@ function App() {
                                 <button style={regularButton}>Subjects</button>
                                 <button style={regularButton}>Apps</button>
                         </div>
+
+                        <SubjectsZeroLayer />
 
                         <SystemNavigationBar />
                 </>
