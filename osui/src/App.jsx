@@ -9,39 +9,75 @@
 
 import React from 'react';
 import SystemNavigationBar from '@src/system-navigation-bar.jsx';
-import SystemStatusBar from '@src/system-status-bar.jsx';
+import SystemStatusBar from './system-status-bar.jsx';
 import '@src/App.css';
-import '@src/system-status-bar.css';
+import './system-status-bar.css';
 import '@src/system-navigation-bar.css';
 import '@src/animations.css';
+
+
+
+// this is the greeting style style
+const greetingStyle  = {
+        position: "fixed",
+        top: "30%",
+        left: "50%",
+        transform: "translate(-50%, -50%)",
+        color: "white",
+        fontFamily: "'Lexend', sans-serif",
+        fontSize: "1.5rem",
+        fontWeight: 500,
+        padding: "8px",
+        textShadow: "1px 1px 2px rgba(0,0,0,0.5)",
+        zIndex: 10
+};
+
+
+const HOME_SCREEN_BUTTON_STYLE_CONTAINER = {
+        position: "fixed", 
+        top: "40%", 
+        left: "50%", 
+        transform: "translate(-50%, -50%)", 
+        color: "white", 
+        fontFamily: "'Lexend', sans-serif", 
+        fontSize: "1.5rem", 
+        fontWeight: 500, 
+        padding: "8px", 
+        textShadow: "1px 1px 2px rgba(0,0,0,0.5)", 
+        zIndex: 10
+}
+
+
+// this is the regular button option
+const regularButton = {
+        backgroundColor: 'rgb(96, 96, 96)', 
+        color: 'white', 
+        border: 'none', 
+        padding: '10px 20px', 
+        borderRadius: '5px', 
+        cursor: 'pointer', 
+        marginRight: '10px'
+}
+
 
 function App() {
         return (
                 <>
                         <SystemStatusBar />
-                        <div
-                                style={{
-                                        position: "fixed",
-                                        top: "30%",
-                                        left: "50%",
-                                        transform: "translate(-50%, -50%)",
-                                        color: "white",
-                                        fontFamily: "'Lexend', sans-serif",
-                                        fontSize: "1.5rem",
-                                        fontWeight: 500,
-                                        padding: "8px",
-                                        textShadow: "1px 1px 2px rgba(0,0,0,0.5)",
-                                        zIndex: 10
-                                }}
-                        >
+
+
+
+                        <div style={greetingStyle}>
                                 Good Morning
                                 <ul></ul>
                         </div>
 
 
-                        <div style={{ position: "fixed", top: "40%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontFamily: "'Lexend', sans-serif", fontSize: "1.5rem", fontWeight: 500, padding: "8px", textShadow: "1px 1px 2px rgba(0,0,0,0.5)", zIndex: 10 }}>
-                                <button style={{ backgroundColor: 'rgb(96, 96, 96)', color: 'white', border: 'none', padding: '10px 20px', borderRadius: '5px', cursor: 'pointer', marginRight: '10px' }}>Subjects</button>
+                        <div style={HOME_SCREEN_BUTTON_STYLE_CONTAINER}>
+                                <button style={regularButton}>Subjects</button>
+                                <button style={regularButton}>Apps</button>
                         </div>
+
                         <SystemNavigationBar />
                 </>
         );
