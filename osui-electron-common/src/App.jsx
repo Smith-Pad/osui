@@ -30,8 +30,18 @@ import '@src/animations.css';
 
 
 
-// this is the greeting style style
-const greetingStyle  = {
+// Here, we create a constant variable called HOME_SCREEN_GREETING_STYLE_CONTAINER
+// in this constant variable container, this allows the greeting text to be stored
+// and displayed
+
+
+// With the power of if statements, if the time is from 12:00 am to 6:00 am, it should 
+// be called "good early morning", if the time is from 6:00 am to 11:00 am, it should
+// be called "Good Morning", if the time is from 12:00 pm to 5:00 pm, it should 
+// be called "Good Afternoon". And from 5:00 pm to 11:00 pm, it should 
+// be called "Good Evening"
+
+const HOME_SCREEN_GREETING_STYLE_CONTAINER  = {
         position: "fixed",
         top: "30%",
         left: "50%",
@@ -80,7 +90,7 @@ function App() {
 
 
 
-                        <div style={greetingStyle}>
+                        <div style={HOME_SCREEN_GREETING_STYLE_CONTAINER}>
                                 Good Morning
                                 <ul></ul>
                         </div>
