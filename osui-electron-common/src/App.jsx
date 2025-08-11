@@ -16,6 +16,9 @@
 // On middle of the home screen layer, there is a day greeter, such as Good Morning, 
 // Good Afternoon, and Good Evening.
 
+// The other elements on the middle of the home screen layer, there are two buttons,
+// which is the Subjects Layer button and the Apps Button
+
 import React from 'react';
 import SystemNavigationBar from '@src/system-navigation-bar.jsx';
 import SystemStatusBar from './system-status-bar.jsx';
