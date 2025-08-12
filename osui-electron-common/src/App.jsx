@@ -56,6 +56,10 @@ const HOME_SCREEN_GREETING_STYLE_CONTAINER  = {
 };
 
 
+// Here, we create a constant variable called HOME_SCREEN_BUTTON_STYLE_CONTAINER
+// which is a container that goes underneath the HOME_SCREEN_GREETING_STYLE_CONTAINER
+// const variable.
+
 const HOME_SCREEN_BUTTON_STYLE_CONTAINER = {
         position: "fixed", 
         top: "40%", 
