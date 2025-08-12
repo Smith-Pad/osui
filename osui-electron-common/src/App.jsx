@@ -28,6 +28,7 @@ import '@src/App.css';
 import './system-status-bar.css';
 import '@src/system-navigation-bar.css';
 import '@src/animations.css';
+import { Button } from '@fluentui/react-components';
 
 
 
@@ -106,7 +107,7 @@ function App() {
                                 <button style={button}>Apps</button>
                         </div>
 
-                        <SubjectsZeroLayer />
+                        <AppsZeroLayer />
 
                         <SystemNavigationBar />
                 </>
