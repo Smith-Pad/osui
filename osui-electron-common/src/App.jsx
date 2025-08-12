@@ -23,6 +23,7 @@ import React from 'react';
 import SystemNavigationBar from '@src/system-navigation-bar.jsx';
 import SystemStatusBar from './system-status-bar.jsx';
 import SubjectsZeroLayer from "./system-subjects-zero-Layer.jsx";
+import AppsZeroLayer from "./system-apps-zero-layer.jsx";
 import '@src/App.css';
 import './system-status-bar.css';
 import '@src/system-navigation-bar.css';
@@ -76,7 +77,7 @@ const HOME_SCREEN_BUTTON_STYLE_CONTAINER = {
 
 
 // this is the regular button option
-const regularButton = {
+const button = {
         backgroundColor: 'rgb(96, 96, 96)', 
         color: 'white', 
         border: 'none', 
@@ -101,8 +102,8 @@ function App() {
 
 
                         <div style={HOME_SCREEN_BUTTON_STYLE_CONTAINER}>
-                                <button style={regularButton}>Subjects</button>
-                                <button style={regularButton}>Apps</button>
+                                <button style={button}>Subjects</button>
+                                <button style={button}>Apps</button>
                         </div>
 
                         <SubjectsZeroLayer />
