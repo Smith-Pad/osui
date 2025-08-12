@@ -28,7 +28,8 @@ import '@src/App.css';
 import './system-status-bar.css';
 import '@src/system-navigation-bar.css';
 import '@src/animations.css';
-import { Button } from '@fluentui/react-components';
+import { Button } from "@fluentui/react";
+import { CompoundButton } from "@fluentui/react";
 
 
 
@@ -103,8 +104,8 @@ function App() {
 
 
                         <div style={HOME_SCREEN_BUTTON_STYLE_CONTAINER}>
-                                <button style={button}>Subjects</button>
-                                <button style={button}>Apps</button>
+                                <button>Subjects</button>
+                                <button>Apps</button>
                         </div>
 
                         <AppsZeroLayer />
