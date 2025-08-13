@@ -22,7 +22,7 @@
 import React from 'react';
 import SystemNavigationBar from '@src/system-navigation-bar.jsx';
 import SystemStatusBar from './system-status-bar.jsx';
-import SubjectsZeroLayer from "./system-subjects-zero-Layer.jsx";
+import SubjectsZeroLayer from "./system-subjects-zero-layer.jsx";
 import AppsZeroLayer from "./system-apps-zero-layer.jsx";
 import '@src/App.css';
 import './system-status-bar.css';
