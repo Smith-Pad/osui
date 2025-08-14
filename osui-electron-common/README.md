@@ -5,7 +5,6 @@ offering a refined and accessible interface experience for para-professionals, t
 students with intellectual and developmental disabilities (IDD).
 
 - Designed specifically for Smith-Pad-OS
-- Includes AI-powered interface features
 
 
 
