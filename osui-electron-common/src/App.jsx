@@ -22,8 +22,8 @@
 import React from 'react';
 import SystemNavigationBar from '@src/system-navigation-bar.jsx';
 import SystemStatusBar from './system-status-bar.jsx';
-import SubjectsZeroLayer from "./system-subjects-zero-layer.jsx";
-import AppsZeroLayer from "./system-apps-zero-layer.jsx";
+import SubjectsLayer from "./system-subjects-layer.jsx";
+import AppsLayer from "./system-apps-layer.jsx";
 import '@src/App.css';
 import './system-status-bar.css';
 import '@src/system-navigation-bar.css';
@@ -104,11 +104,11 @@ function App() {
 
 
                         <div style={HOME_SCREEN_BUTTON_STYLE_CONTAINER}>
-                                <button>Subjects</button>
-                                <button>Apps</button>
+                                <button class="MenuButton">Subjects</button>
+                                <button class="MenuButton">Apps</button>
                         </div>
 
-                        <AppsZeroLayer />
+                        <AppsLayer />
 
                         <SystemNavigationBar />
                 </>
