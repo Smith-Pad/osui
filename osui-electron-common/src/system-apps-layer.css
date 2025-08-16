@@ -5,3 +5,8 @@
  */
 
 
+.system-layer-apps-indicator {
+        text-align: center;
+        margin-bottom: 10rem;
+        animation: fadeInUp 0.8s ease-out
+}
