@@ -1,4 +1,4 @@
-// Subjects Zero Layer v.1.0
+// Subjects Layer
 
 
 // This layer allows individual to realize with a subjects menu
