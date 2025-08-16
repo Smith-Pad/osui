@@ -32,9 +32,6 @@ export default function FullScreenPopup() {
 
 
                                         <div
-                                                style={{
-                                                        backgroundColor: "rgb(255, 255, 255)",
-                                                }}
 
 
                                         >
